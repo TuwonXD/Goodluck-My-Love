@@ -27,23 +27,19 @@ function Index() {
             PNLE Review · Made with love
           </p>
           <h1 className="font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">
-            Study calm.
+            To Pass and
             <br />
-            <span className="text-primary">Pass with confidence.</span>
+            <span className="text-primary">Top the Board Exams</span>
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground">
-            No dashboards. No noise. Just clean question banks, honest feedback,
-            and a rationale after every answer. Whenever you're ready, mahal —
-            pick a subject and begin.
+            Hope this helps and mareach mo ang goal mo na maging RN. Goodluck, my love. 💗
           </p>
         </section>
 
         <section>
           <div className="mb-4 flex items-baseline justify-between">
             <h2 className="font-display text-xl font-semibold">Subjects</h2>
-            <span className="text-xs text-muted-foreground">
-              {subjects.length} areas
-            </span>
+            <span className="text-xs text-muted-foreground">{subjects.length} areas</span>
           </div>
           <ul className="space-y-3">
             {subjects.map((s) => {
@@ -60,9 +56,7 @@ function Index() {
                     </span>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-baseline gap-2">
-                        <h3 className="truncate font-display text-base font-semibold">
-                          {s.name}
-                        </h3>
+                        <h3 className="truncate font-display text-base font-semibold">{s.name}</h3>
                         <span className="shrink-0 text-[11px] uppercase tracking-wider text-muted-foreground">
                           {s.short}
                         </span>
@@ -80,7 +74,7 @@ function Index() {
         </section>
 
         <footer className="mt-16 text-center text-xs text-muted-foreground">
-          Good luck, future RN. You've got this. 💗
+          HIII LOVEEE!! MWA MWA MWA
         </footer>
       </main>
     </div>
