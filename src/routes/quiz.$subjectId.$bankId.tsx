@@ -173,11 +173,18 @@ function QuizPage() {
               <div className="mt-6 rounded-2xl border border-primary/25 bg-primary/5 p-5">
                 <div className="mb-1.5 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
                   <Sparkles className="h-3.5 w-3.5" />
-                  Rationale
+                  {selected === q.answer ? "Correct" : "Not quite"}
                 </div>
                 <p className="text-[15px] leading-relaxed text-foreground/90">
-                  {q.rationale}
+                  {selected === q.answer
+                    ? "Nice — you got it."
+                    : `The correct answer is ${String.fromCharCode(65 + q.answer)}. ${q.choices[q.answer]}`}
                 </p>
+                {q.rationale && (
+                  <p className="mt-3 text-[14px] leading-relaxed text-muted-foreground">
+                    {q.rationale}
+                  </p>
+                )}
                 <button
                   onClick={next}
                   className="mt-5 inline-flex w-full items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:opacity-90 sm:w-auto"
