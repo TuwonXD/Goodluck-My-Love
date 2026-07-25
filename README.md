@@ -1,4 +1,4 @@
-# 🩺 PNLE Reviewer
+# 🩺 Goodluck, Lovie - A PNLE Reviewer
 
 A web-based **Philippine Nurse Licensure Examination (PNLE) Reviewer** built to help nursing students prepare for the board exam through interactive practice quizzes, detailed rationales, and organized test banks.
 
