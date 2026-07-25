@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, ListChecks } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
-import { findSubject } from "@/lib/quiz-data";
+import { findSubject, type TestBank } from "@/lib/quiz-data";
 
 export const Route = createFileRoute("/subject/$subjectId")({
   loader: ({ params }) => {
@@ -54,7 +54,7 @@ function SubjectPage() {
 
         <h2 className="mb-3 font-display text-lg font-semibold">Test banks</h2>
         <ul className="space-y-3">
-          {subject.banks.map((b) => (
+          {subject.banks.map((b: TestBank) => (
             <li key={b.id}>
               <Link
                 to="/quiz/$subjectId/$bankId"

@@ -113,7 +113,7 @@ function QuizPage() {
             </header>
 
             <ul className="space-y-2.5">
-              {q.choices.map((c, i) => {
+              {q.choices.map((c: string, i: number) => {
                 const isSelected = selected === i;
                 const isAnswer = q.answer === i;
                 let state = "idle";
