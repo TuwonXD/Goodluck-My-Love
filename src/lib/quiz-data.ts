@@ -12323,1126 +12323,1320 @@ export const subjects: Subject[] = [
     description: "Public health, epidemiology, family and population-focused care.",
     banks: [
       {
-        id: "chn-test-ii-community-health-nursing-and-car",
-        title: "TEST II - Community Health Nursing and Care of the",
-        description: "44 questions from the PNLE reviewer.",
+        id: "community-health-nursing-and-care-of-the-mother-and-child",
+        title: "COMMUNITY HEALTH NURSING AND CARE OF THE MOTHER AND CHILD",
+        description: "100 questions from the PNLE reviewer.",
         questions: [
           {
             id: "q1",
             question:
-              "Mother and Child 1. May arrives at the health care clinic and tells the nurse that her last menstrual period was 9 weeks ago. She also tells the nurse that a home pregnancy test was positive but she began to have mild cramps and is now having moderate vaginal bleeding. During the physical examination of the client, the nurse notes that May has a dilated cervix. The nurse determines that May is experiencing which type of abortion?",
-            choices: ["Inevitable", "Incomplete", "Threatened", "Septic"],
+              "Situation 1: Nurse Minette is an independent Nurse Practitioner following-up referred clients in their respective homes. Here she handles a case of postpartal mother and family focusing on home care. Nurse Minette needs to schedule a first home visit to OB client Leah. When is a first home-care visit typically made?",
+            choices: [
+              "Within 4 days after discharge",
+              "Within 24 hours after discharge",
+              "Within 1 hour after discharge",
+              "Within 1 week of discharge",
+            ],
             answer: 0,
             rationale:
-              "Inevitable An inevitable abortion is termination of pregnancy that cannot be prevented. Moderate to severe bleeding with mild cramping and cervical dilation would be noted in this type of abortion.",
+              "The first postpartum home visit is generally scheduled within 4 days after discharge, allowing enough time for the family to settle in while still catching early complications in the mother and newborn.",
           },
           {
             id: "q2",
             question:
-              "Nurse Reese is reviewing the record of a pregnant client for her first prenatal visit. Which of the following data, if noted on the client’s record, would alert the nurse that the client is at risk for a spontaneous abortion?",
+              "Leah is developing constipation from being on bed rest. What measures would you suggest she take to help prevent this?",
             choices: [
-              "Age 36 years",
-              "History of syphilis",
-              "History of genital herpes",
-              "History of diabetes mellitus",
+              "Eat more frequent small meals instead of three large ones daily",
+              "Walk for at least half an hour daily to stimulate peristalsis",
+              "Drink more milk, increased calcium intake prevents constipation",
+              "Drink eight full glasses of fluid such as water daily",
             ],
             answer: 1,
             rationale:
-              "History of syphilis Maternal infections such as syphilis, toxoplasmosis, and rubella are causes of spontaneous abortion.",
+              "Ambulation and activity stimulate intestinal peristalsis, directly counteracting the sluggish bowel motility caused by bed rest.",
           },
           {
             id: "q3",
             question:
-              "Nurse Hazel is preparing to care for a client who is newly admitted to the hospital with a possible diagnosis of ectopic pregnancy. Nurse Hazel develops a plan of care for the client and determines that which of the following nursing actions is the priority?",
+              "If you were Minette, which of the following actions would alert you that a new mother is entering a postpartal taking-hold phase?",
             choices: [
-              "Monitoring weight",
-              "Assessing for edema",
-              "Monitoring apical pulse",
-              "Monitoring temperature",
+              "She urges the baby to stay awake so that she can breast-feed him",
+              "She tells you she was in a lot of pain all during labor",
+              "She says that she has not selected a name for the baby yet",
+              "She sleeps as if exhausted from the effort of labor",
             ],
-            answer: 2,
+            answer: 0,
             rationale:
-              "Monitoring apical pulse Nursing care for the client with a possible ectopic pregnancy is focused on preventing or identifying hypovolemic shock and controlling pain. An elevated pulse rate is an indicator of shock.",
+              "The taking-hold phase is marked by the mother actively engaging in infant care tasks, such as initiating feeding, in contrast to the passive, self-focused, and exhausted behaviors of the earlier taking-in phase.",
           },
           {
             id: "q4",
             question:
-              "Nurse Oliver is teaching a diabetic pregnant client about nutrition and insulin needs during pregnancy. The nurse determines that the client understands dietary and insulin needs if the client states that the second half of pregnancy requires:",
+              "At the 6-week postpartum visit, what should this postpartal mother's fundic height be?",
             choices: [
-              "Decreased caloric intake",
-              "Increased caloric intake",
-              "Decreased Insulin",
-              "Increase Insulin",
+              "Inverted and palpable at the cervix",
+              "Six fingerbreadths below the umbilicus",
+              "No longer palpable on her abdomen",
+              "One centimeter above the symphysis pubis",
             ],
-            answer: 1,
+            answer: 2,
             rationale:
-              "Increased caloric intake Glucose crosses the placenta, but insulin does not. High fetal demands for glucose, combined with the insulin resistance caused by hormonal changes in the last half of pregnancy can result in elevation of maternal blood glucose levels. This increases the mother’s demand for insulin and is referred to as the diabetogenic effect of pregnancy.",
+              "By 6 weeks postpartum, uterine involution is complete and the uterus has returned to its pre-pregnancy size, making the fundus no longer palpable abdominally.",
           },
           {
             id: "q5",
             question:
-              "Nurse Michelle is assessing a 24 year old client with a diagnosis of hydatidiform mole. She is aware that one of the following is unassociated with this condition? 74",
-            choices: [
-              "Excessive fetal activity.",
-              "Larger than normal uterus for gestational age.",
-              "Vaginal bleeding",
-              "Elevated levels of human chorionic gonadotropin.",
-            ],
-            answer: 0,
+              "This postpartal mother wants to lose the weight she gained in pregnancy, so she is reluctant to increase her caloric intake for breast-feeding. By how much should a lactating mother increase her caloric intake during the first 6 months after birth?",
+            choices: ["350 kcal/day", "500 kcal/day", "200 kcal/day", "1,000 kcal/day"],
+            answer: 1,
             rationale:
-              "Excessive fetal activity. The most common signs and symptoms of hydatidiform mole includes elevated levels of human chorionic gonadotropin, vaginal bleeding, larger than normal uterus for gestational age, failure to detect fetal heart activity even with sensitive instruments, excessive nausea and vomiting, and early development of pregnancy-induced hypertension. Fetal activity would not be noted.",
+              "Lactating mothers require an additional 500 kcal/day during the first 6 months to support adequate milk production while still allowing for gradual postpartum weight loss.",
           },
           {
             id: "q6",
             question:
-              "A pregnant client is receiving magnesium sulfate for severe pregnancy induced hypertension (PIH). The clinical findings that would warrant use of the antidote , calcium gluconate is:",
-            choices: [
-              "Urinary output 90 cc in 2 hours.",
-              "Absent patellar reflexes.",
-              "Rapid respiratory rate above 40/min.",
-              "Rapid rise in blood pressure.",
-            ],
-            answer: 1,
+              "Situation 2: As the CPES is applicable for all professional nurses, the professional growth and development of Nurses with specialties shall be addressed by a Specialty Certification Council. Which of the following serves as the legal basis and statutory authority for the Board of Nursing to promulgate measures to effect the creation of a Specialty Certification Council and professional development programs for this group of nurse-professionals?",
+            choices: ["R.A. 7610", "R.A. 223", "R.A. 9173", "R.A. 7164"],
+            answer: 3,
             rationale:
-              "Absent patellar reflexes Absence of patellar reflexes is an indicator of hypermagnesemia, which requires administration of calcium gluconate.",
+              "R.A. 7164, the Philippine Nursing Law, provides the statutory authority under which the Board of Nursing may promulgate rules such as the creation of a Nursing Specialty Certification Council.",
           },
           {
             id: "q7",
             question:
-              "During vaginal examination of Janah who is in labor, the presenting part is at station plus two. Nurse, correctly interprets it as:",
+              'By force of law, therefore, the PRC-Board of Nursing released Resolution No. 14 Series entitled: "Adoption of a Nursing Specialty Certification Program and Creation of Nursing Specialty Certification Council." This rule-making power is called:',
             choices: [
-              "Presenting part is 2 cm above the plane of the ischial spines.",
-              "Biparietal diameter is at the level of the ischial spines.",
-              "Presenting part in 2 cm below the plane of the ischial spines.",
-              "Biparietal diameter is 2 cm above the ischial spines.",
+              "Quasi-Judicial Power",
+              "Regulatory Power",
+              "Quasi/Legislative Power",
+              "Executive/Promulgation Power",
             ],
             answer: 2,
             rationale:
-              "Presenting part in 2 cm below the plane of the ischial spines. Fetus at station plus two indicates that the presenting part is 2 cm below the plane of the ischial spines.",
+              "The Board's authority to issue resolutions and rules that have the force of law, such as this one, is an exercise of its quasi-legislative power.",
           },
           {
             id: "q8",
             question:
-              "A pregnant client is receiving oxytocin (Pitocin) for induction of labor. A condition that warrant the nurse in-charge to discontinue I.V. infusion of Pitocin is:",
+              "Under the PRC-Board of Nursing Resolution promulgating the adoption of a Nursing Specialty Certification Program and Council, which two (2) of the following serve as the strongest justification for its enforcement? (a) Advances made in science and technology have provided the climate for specialization in almost all aspects of human endeavor; (b) As a necessary consequence, there has emerged a new concept known as globalization which seeks to remove barriers in trade, industry and services imposed by national laws of countries worldwide; (c) Awareness of this development should impel the nursing sector to prepare our people in the services sector to meet the above challenges; (d) Current trends of specialization in nursing practice recognized by the International Council of Nurses (ICN), of which the Philippines is a member, for the benefit of the Filipino in terms of deepening and refining nursing practice and enhancing the quality of nursing care.",
             choices: [
-              "Contractions every 1 ½ minutes lasting 70-80 seconds.",
-              "Maternal temperature 101.2",
-              "Early decelerations in the fetal heart rate.",
-              "Fetal heart rate baseline 140-160 bpm.",
+              "b & c are strong justification",
+              "a & b are strong justification",
+              "a & c are strong justification",
+              "a & d are strong justification",
             ],
-            answer: 0,
+            answer: 3,
             rationale:
-              "Contractions every 1 ½ minutes lasting 70-80 seconds. Contractions every 1 ½ minutes lasting 70-80 seconds, is indicative of 9. 10. 11. 12. 13. 14. 15. hyperstimulation of the uterus, which could result in injury to the mother and the fetus if Pitocin is not discontinued.",
+              "The rise of specialization driven by advances in science and technology (a), together with recognition of specialization trends by the ICN for the benefit of Filipino nurses (d), form the strongest justifications for the resolution.",
           },
           {
             id: "q9",
             question:
-              "Calcium gluconate is being administered to a client with pregnancy induced hypertension (PIH). A nursing action that must be initiated as the plan of care throughout injection of the drug is:",
-            choices: ["Ventilator assistance", "CVP readings", "EKG tracings", "Continuous CPR"],
-            answer: 2,
+              "Which of the following is NOT a correct statement as regards Specialty Certification?",
+            choices: [
+              "The Board of Nursing intended to create the Nursing Specialty Certification Program as a means of perpetuating the creation of an elite force of Filipino Nurse Professionals",
+              "The Board of Nursing shall oversee the administration of the NSCP through the various Nursing Specialty Boards which will eventually be created",
+              "The Board of Nursing at the time exercised their powers under R.A. 7164 in order to adopt the creation of the Nursing Specialty Certification Council and Program",
+              "The Board of Nursing consulted nursing leaders of national nursing associations and other concerned nursing groups which later decided to ask a special group of nurses for the program of nursing specialty certification",
+            ],
+            answer: 0,
             rationale:
-              "EKG tracings A potential side effect of calcium gluconate administration is cardiac arrest. Continuous monitoring of cardiac activity (EKG) throught administration of calcium gluconate is an essential part of care.",
+              "The Nursing Specialty Certification Program was intended to recognize and support advanced clinical competence, not to create an 'elite force' of nurses, making this the incorrect statement.",
           },
           {
             id: "q10",
             question:
-              "A trial for vaginal delivery after an earlier caesarean, would likely to be given to a gravida, who had: 75",
+              "The NSCC was created for the purpose of implementing the Nursing Specialty policy under the direct supervision and stewardship of the Board of Nursing. Who shall comprise the NSCC?",
             choices: [
-              "First low transverse cesarean was for active herpes type 2 infections; vaginal culture at 39 weeks pregnancy was positive.",
-              "First and second caesareans were for cephalopelvic disproportion.",
-              "First caesarean through a classic incision as a result of severe fetal distress.",
-              "First low transverse caesarean was for breech position. Fetus in this pregnancy is in a vertex presentation.",
+              "A Chairperson who is the current President of the APO, a member from the Academe, and the last member coming from the Regulatory Board",
+              "The Chairperson and members of the Regulatory Board ipso facto act as the CPE Council",
+              "A Chairperson chosen from among the Regulatory Board Members, a Vice Chairperson appointed by the BON at-large, two other members also chosen at-large, and one representing the consumer group",
+              "A Chairperson who is the President of the Association from the Academe, a member from the Regulatory Board, and the last member coming from the APO",
             ],
-            answer: 3,
+            answer: 1,
             rationale:
-              "First low transverse caesarean was for breech position. Fetus in this pregnancy is in a vertex presentation. This type of client has no obstetrical indication for a caesarean section as she did with her first caesarean delivery.",
+              "By design, the Chairperson and members of the Board of Nursing (the Regulatory Board) themselves serve, ipso facto, as the body overseeing the CPE and specialty certification functions.",
           },
           {
             id: "q11",
             question:
-              "Nurse Ryan is aware that the best initial approach when trying to take a crying toddler’s temperature is:",
+              "Situation 3: Nurse Anna is a new BSN graduate who has just passed her Licensure Examination for Nurses in the Philippines. She has been hired as a new Community Health Nurse in one of the Rural Health Units in their city. Which of the following is the primary focus of community health nursing practice?",
             choices: [
-              "Talk to the mother first and then to the toddler.",
-              "Bring extra help so it can be done quickly.",
-              "Encourage the mother to hold the child.",
-              "Ignore the crying and screaming.",
+              "Cure of illnesses",
+              "Prevention of illness",
+              "Rehabilitation back to health",
+              "Promotion of health",
             ],
-            answer: 0,
+            answer: 3,
             rationale:
-              "Talk to the mother first and then to the toddler. When dealing with a crying toddler, the best approach is to talk to the mother and ignore the toddler first. This approach helps the toddler get used to the nurse before she attempts any procedures. It also gives the toddler an opportunity to see that the mother trusts the nurse.",
+              "Community health nursing is primarily oriented toward health promotion, aiming to keep individuals, families, and communities well rather than focusing mainly on curing existing illness.",
           },
           {
             id: "q12",
             question:
-              "Baby Tina a 3 month old infant just had a cleft lip and palate repair. What should the nurse do to prevent trauma to operative site?",
+              "In community health nursing, which of the following is our unit of service as nurses?",
             choices: [
-              "Avoid touching the suture line, even when cleaning.",
-              "Place the baby in prone position.",
-              "Give the baby a pacifier.",
-              "Place the infant’s arms in soft elbow restraints.",
+              "The Community",
+              "The Extended Members of every family",
+              "The individual members of the Barangay",
+              "The Family",
             ],
             answer: 3,
             rationale:
-              "Place the infant’s arms in soft elbow restraints. Soft restraints from the upper arm to the wrist prevent the infant from touching her lip but allow him to hold a favorite item such as a blanket. Because they could damage the operative site, such as objects as pacifiers, suction catheters, and small spoons shouldn’t be placed in a baby’s mouth after cleft repair. A baby in a prone position may rub her face on the sheets and traumatize the operative site. The suture line should be cleaned gently to prevent infection, which could interfere with healing and damage the cosmetic appearance of the repair.",
+              "The family is considered the basic unit of service in community health nursing practice.",
           },
           {
             id: "q13",
             question:
-              "Which action should nurse Marian include in the care plan for a 2 month old with heart failure?",
+              "A very important part of the Community Health Nursing Assessment Process includes:",
             choices: [
-              "Feed the infant when he cries.",
-              "Allow the infant to rest before feeding.",
-              "Bathe the infant and administer medications before feeding.",
-              "Weigh and bathe the infant before feeding.",
+              "The application of professional judgment in estimating importance of facts to family and community",
+              "Evaluation structures and qualifications of health center team",
+              "Coordination with other sectors in relation to health concerns",
+              "Carrying out nursing procedures as per plan of action",
             ],
-            answer: 1,
+            answer: 0,
             rationale:
-              "Allow the infant to rest before feeding. Because feeding requires so much energy, an infant with heart failure should rest before feeding.",
+              "Assessment relies on the nurse's professional judgment to interpret and weigh the significance of gathered facts about the family and community.",
           },
           {
             id: "q14",
             question:
-              "Nurse Hazel is teaching a mother who plans to discontinue breast feeding after 5 months. The nurse should advise her to include which foods in her infant’s diet?",
-            choices: [
-              "Skim milk and baby food.",
-              "Whole milk and baby food.",
-              "Iron-rich formula only.",
-              "Iron-rich formula and baby food.",
-            ],
-            answer: 2,
+              "In community health nursing it is important to take into account the family health with an equally important need to perform ocular inspection of the areas/activities, which are powerful elements of:",
+            choices: ["evaluation", "assessment", "implementation", "planning"],
+            answer: 1,
             rationale:
-              "Iron-rich formula only. The infants at age 5 months should receive iron-rich formula and that they shouldn’t receive solid food, even baby food until age 6 months.",
+              "Direct ocular inspection of the home and community environment is a data-gathering activity that forms part of the assessment phase.",
           },
           {
             id: "q15",
             question:
-              "Mommy Linda is playing with her infant, who is sitting securely alone on the floor of the clinic. The mother hides a toy behind her back and the infant looks for it. The nurse is aware that estimated age of the infant would be:",
-            choices: ["6 months", "4 months", "8 months", "10 months"],
-            answer: 3,
+              "The initial step in the planning process in order to engage in any nursing project or parties at the community level involves:",
+            choices: ["goal-setting", "monitoring", "evaluation of data", "provision of data"],
+            answer: 0,
             rationale:
-              "10 months A 10 month old infant can sit alone and understands object permanence, so he would look for the hidden toy. At age 4 to 6 85 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. months, infants can’t sit securely alone. At age 8 months, infants can sit securely alone but cannot understand the permanence of objects.",
+              "Planning begins with setting clear goals that will direct the rest of the project or intervention.",
           },
           {
             id: "q16",
             question:
-              "Which of the following is the most prominent feature of public health nursing?",
+              "Situation 4: Please continue responding as a professional nurse in these other health situations. Transmission of HIV from an infected individual to another person occurs:",
             choices: [
-              "It involves providing home care to sick people who are not confined in the hospital.",
-              "Services are provided free of charge to people within the catchments area.",
-              "The public health nurse functions as part of a team providing a public health nursing services.",
-              "Public health nursing focuses on preventive, not curative, services.",
+              "Most frequently in nurses with needlesticks",
+              "Only if there is a large viral load in the blood",
+              "Most commonly as a result of sexual contact",
+              "In all infants born to women with HIV infection",
             ],
-            answer: 3,
+            answer: 2,
             rationale:
-              "Public health nursing focuses on preventive, not curative, services. The catchments area in PHN consists of a residential community, many of whom are well individuals who have greater need for preventive rather than curative services.",
+              "Worldwide, sexual contact remains the most common route of HIV transmission.",
           },
           {
             id: "q17",
             question:
-              "When the nurse determines whether resources were maximized in implementing Ligtas Tigdas, she is evaluating",
-            choices: ["Effectiveness", "Efficiency", "Adequacy", "Appropriateness"],
-            answer: 1,
+              "The medical record of a client reveals a condition in which the fetus cannot pass through the maternal pelvis. The nurse interprets this as:",
+            choices: [
+              "Contracted pelvis",
+              "Maternal disproportion",
+              "Cervical insufficiency",
+              "Fetopelvic disproportion",
+            ],
+            answer: 3,
             rationale:
-              "Efficiency Efficiency is determining whether the goals were attained at the least possible cost.",
+              "Fetopelvic disproportion describes a mismatch between fetal size/position and the maternal pelvis that prevents normal passage through the birth canal.",
           },
           {
             id: "q18",
             question:
-              "Vangie is a new B.S.N. graduate. She wants to become a Public Health Nurse. Where should she apply?",
+              "The nurse would anticipate a cesarean birth for a client who has which infection present at the onset of labor?",
             choices: [
-              "Department of Health",
-              "Provincial Health Office",
-              "Regional Health Office",
-              "Rural Health Unit",
-            ],
-            answer: 3,
-            rationale:
-              "Rural Health Unit R.A. 7160 devolved basic health services to local government units (LGU’s ). The public health nurse is an employee of the LGU.",
-          },
-          {
-            id: "q19",
-            question: "Tony is aware the Chairman of the Municipal Health Board is:",
-            choices: [
-              "Mayor",
-              "Municipal Health Officer",
-              "Public Health Nurse",
-              "Any qualified physician",
+              "Herpes simplex virus",
+              "Human papilloma virus",
+              "Hepatitis",
+              "Toxoplasmosis",
             ],
             answer: 0,
             rationale:
-              "Mayor The local executive serves as the chairman of the Municipal Health Board.",
+              "An active genital herpes simplex virus infection at the onset of labor is an indication for cesarean birth to prevent transmission to the newborn during vaginal delivery.",
+          },
+          {
+            id: "q19",
+            question:
+              "After a vaginal examination, the nurse determines that the client's fetus is in an occiput posterior position. The nurse would anticipate that the client will have:",
+            choices: [
+              "A precipitous birth",
+              "Intense back pain",
+              "Frequent leg cramps",
+              "Nausea and vomiting",
+            ],
+            answer: 1,
+            rationale:
+              "An occiput posterior fetal position commonly causes intense back labor pain due to the pressure of the fetal head against the mother's sacrum.",
           },
           {
             id: "q20",
             question:
-              "Myra is the public health nurse in a municipality with a total population of about 20,000. There are 3 rural health midwives among the RHU personnel. How many more midwife items will the RHU need?",
-            choices: ["1", "2", "3", "The RHU does not need any more midwife item."],
-            answer: 0,
+              "The rationale for using a prostaglandin gel for a client prior to the induction of labor is to:",
+            choices: [
+              "Soften and efface the cervix",
+              "Numb cervical pain receptors",
+              "Prevent cervical lacerations",
+              "Stimulate uterine contractions",
+            ],
+            answer: 3,
             rationale:
-              "1 Each rural health midwife is given a population assignment of about 5,000.",
+              "Prostaglandin gel is applied before induction to help ripen the cervix and can also promote early uterine activity, preparing the uterus for the induction process.",
           },
           {
             id: "q21",
             question:
-              "According to Freeman and Heinrich, community health nursing is a developmental service. Which of the following best illustrates this statement?",
+              "Situation 5: Nurse Lorena is a Family Planning and Infertility Nurse Specialist currently attending to family planning clients and infertile couples. Dina, 17 years old, asks you how a tubal ligation prevents pregnancy. Which would be the best answer?",
             choices: [
-              "The community health nurse continuously develops himself personally and professionally.",
-              "Health education and community organizing are necessary in providing community health services.",
-              "Community health nursing is intended primarily for health promotion and prevention and treatment of disease.",
-              "The goal of community health nursing is to provide nursing services to people in their own places of residence.",
+              "Prostaglandins released from the cut fallopian tubes can kill sperm",
+              "Sperm cannot enter the uterus, because the cervical entrance is blocked",
+              "Sperm can no longer reach the ova, because the fallopian tubes are blocked",
+              "The ovary no longer releases ova, as there is nowhere for them to go",
             ],
-            answer: 1,
+            answer: 2,
             rationale:
-              "Health education and community organizing are necessary in providing community health services. Rationale: The community health nurse develops the health capability of people through health education and community organizing activities. Answer: (B) Measles Presidential Proclamation No. 4 is on the Ligtas Tigdas Program.",
+              "Tubal ligation works by cutting or blocking the fallopian tubes, preventing sperm from ever reaching the ova for fertilization.",
           },
           {
             id: "q22",
             question:
-              "Nurse Tina is aware that the disease declared through Presidential Proclamation No. 4 as a target for eradication in the Philippines is?",
-            choices: ["Poliomyelitis", "Measles", "Rabies", "Neonatal tetanus"],
-            answer: 3,
+              "The Dators are a couple undergoing testing for infertility. Infertility is said to exist when:",
+            choices: [
+              "A woman has no uterus",
+              "A woman has no children",
+              "A couple has been trying to conceive for 1 year",
+              "A couple has wanted a child for 6 months",
+            ],
+            answer: 2,
             rationale:
-              "Core group formation In core group formation, the nurse is able to transfer the technology of community organizing to the potential or informal community leaders through a training program.",
+              "Infertility is clinically defined as the inability to conceive after 1 year of regular, unprotected intercourse.",
           },
           {
             id: "q23",
             question:
-              "May knows that the step in community organizing that involves training of potential leaders in the community is:",
+              "Another client named Lilia is diagnosed as having endometriosis. This condition interferes with fertility because:",
             choices: [
-              "Integration",
-              "Community organization",
-              "Community study",
-              "Core group formation",
+              "Endometrial implants can block the fallopian tubes",
+              "The uterine cervix becomes inflamed and swollen",
+              "Ovaries stop producing adequate estrogen",
+              "Pressure on the pituitary leads to decreased FSH levels",
             ],
-            answer: 3,
+            answer: 0,
             rationale:
-              "To maximize the community’s resources in dealing with health problems. Community organizing is a developmental service, with the goal of developing the people’s self-reliance in dealing with community health problems. A, B and C are objectives of contributory objectives to this goal.",
+              "Endometrial tissue implants outside the uterus can cause scarring and adhesions that block or distort the fallopian tubes, interfering with fertility.",
           },
           {
             id: "q24",
             question:
-              "Hypoxia is a common complication of laryngotracheobronchitis. Nurse Oliver should frequently assess a child with laryngotracheobronchitis for:",
-            choices: ["Drooling", "Muffled voice", "Restlessness", "Low-grade fever"],
-            answer: 1,
+              "Lilia is scheduled to have a hysterosalpingogram. Which of the following instructions would you give her regarding this procedure?",
+            choices: [
+              "She will not be able to conceive for 3 months after the procedure",
+              "The sonogram of the uterus will reveal any tumors present",
+              "Many women experience mild bleeding as an after effect",
+              "She may feel some cramping when the dye is inserted",
+            ],
+            answer: 2,
             rationale:
-              "Walk one step ahead, with the child’s hand on the nurse’s elbow. This procedure is generally recommended to follow in guiding a person who is blind.",
+              "Mild vaginal bleeding or spotting is a common, expected after-effect following a hysterosalpingogram and should be included in patient teaching.",
           },
           {
             id: "q25",
             question:
-              "When assessing a newborn diagnosed with ductus arteriosus, Nurse Olivia should expect that the child most likely would have an:",
+              "Lilia's cousin, knowing Nurse Lorena's specialization, asks what artificial insemination by donor entails. Which would be your best answer if you were Nurse Lorena?",
             choices: [
-              "Loud, machinery-like murmur.",
-              "Bluish color to the lips.",
-              "Decreased BP reading in the upper extremities",
-              "Increased BP reading in the upper extremities.",
+              "Donor sperm are introduced vaginally into the uterus or cervix",
+              "Donor sperm are injected intra-abdominally into each ovary",
+              "Artificial sperm are injected vaginally to test tubal patency",
+              "The husband's sperm is administered intravenously weekly",
             ],
-            answer: 2,
+            answer: 0,
             rationale:
-              "More oxygen, and the newborn’s metabolic rate increases. When cold, the infant requires more oxygen and there is an increase in metabolic rate. Non-shievering thermogenesis is a complex process that increases the metabolic rate and rate of oxygen consumption, therefore, the newborn increase heat production.",
+              "Artificial insemination by donor involves introducing donor sperm into the uterus or cervix, typically via intrauterine or intracervical insemination.",
           },
           {
             id: "q26",
             question:
-              "In a mothers’ class, Nurse Lhynnete discussed childhood diseases such as chicken pox. Which of the following statements about chicken pox is correct?",
+              "Situation 6: There are other important basic knowledge areas in the performance of our task as Community Health Nurse in relation to immunization. The correct temperature to store vaccines in a refrigerator is:",
             choices: [
-              "The older one gets, the more susceptible he becomes to the complications of chicken pox.",
-              "A single attack of chicken pox will prevent future episodes, including conditions such as shingles.",
-              "To prevent an outbreak in the community, quarantine may be imposed by health authorities.",
-              "Chicken pox vaccine is best given when there is an impending outbreak in the community. 78",
+              "between -4°C and +8°C",
+              "between 2°C and +8°C",
+              "between -8°C and 0°C",
+              "between -8°C and +8°C",
             ],
-            answer: 3,
+            answer: 1,
             rationale:
-              "Consult a physician who may give them rubella immunoglobulin. Rubella vaccine is made up of attenuated German measles viruses. This is contraindicated in pregnancy. Immune globulin, a specific prophylactic against German measles, may be given to pregnant women.",
+              "The standard cold chain storage temperature for vaccines in a refrigerator is 2°C to 8°C.",
           },
           {
             id: "q27",
             question:
-              "Myrna a public health nurse knows that to determine possible sources of sexually transmitted infections, the BEST method that may be undertaken is:",
-            choices: [
-              "Contact tracing",
-              "Community survey",
-              "Mass screening tests",
-              "Interview of suspects",
-            ],
-            answer: 3,
+              "Which of the following vaccines is not given by intramuscular (IM) injection?",
+            choices: ["Measles vaccine", "DPT", "Hepa B vaccine", "DPT"],
+            answer: 0,
             rationale:
-              "Leptospirosis Leptospirosis is transmitted through contact with the skin or mucous membrane with water or moist soil contaminated with urine of infected animals, like rats.",
+              "Measles vaccine is given subcutaneously, unlike DPT and Hepatitis B vaccines, which are given intramuscularly.",
           },
           {
             id: "q28",
-            question:
-              "Angel was diagnosed as having Dengue fever. You will say that there is slow capillary refill when the color of the nailbed that you pressed does not return within how many seconds?",
-            choices: ["3 seconds", "6 seconds", "9 seconds", "10 seconds"],
-            answer: 1,
-            rationale:
-              "Severe dehydration The order of priority in the management of severe dehydration is as follows: intravenous fluid therapy, referral to a facility where IV fluids can be initiated within 30 minutes, Oresol or nasogastric tube. When the foregoing measures are not possible or effective, then urgent referral to the hospital is done.",
+            question: "This vaccine's content is derived from recombinant technology:",
+            choices: ["Measles", "Tetanus toxoids", "Hepatitis B vaccine", "DPT"],
+            answer: 2,
+            rationale: "The Hepatitis B vaccine is produced using recombinant DNA technology.",
           },
           {
             id: "q29",
             question:
-              "Myrna a public health nurse will conduct outreach immunization in a barangay Masay with a population of about 1500. The estimated number of infants in the barangay would be:",
-            choices: ["45 infants", "50 infants", "55 infants", "65 infants"],
-            answer: 0,
+              'This is the vaccine needed before a child reaches one (1) year in order for him/her to qualify as a "fully immunized child".',
+            choices: ["DPT", "Measles", "Hepatitis B", "BCG"],
+            answer: 1,
             rationale:
-              "DPT DPT is sensitive to freezing. The appropriate storage temperature of DPT is 2 to 8° C only. OPV and measles vaccine are highly sensitive to heat and require freezing. MMR is not an immunization in the Expanded Program on Immunization.",
+              "The measles vaccine, given at 9 months, must be received before a child's first birthday for full immunization status.",
           },
           {
             id: "q30",
             question:
-              "Several clients is newly admitted and diagnosed with leprosy. Which of the following clients should be classified as a case of multibacillary leprosy?",
+              "Which of the following doses of tetanus toxoid is given to the mother to protect her infant from neonatal tetanus and likewise provide 10 years of protection for the mother?",
             choices: [
-              "3 skin lesions, negative slit skin smear",
-              "3 skin lesions, positive slit skin smear",
-              "5 skin lesions, negative slit skin smear",
-              "5 skin lesions, positive slit skin smear",
+              "Tetanus toxoid 3",
+              "Tetanus toxoid 2",
+              "Tetanus toxoid 1",
+              "Tetanus toxoid 4",
             ],
-            answer: 2,
+            answer: 3,
             rationale:
-              "Thickened painful nerves The lesion of leprosy is not macular. It is characterized by a change in skin color (either reddish or whitish) and loss of sensation, sweating and hair growth over the lesion. Inability to close the eyelids (lagophthalmos) and sinking of the nosebridge are late symptoms.",
+              "Per the DOH tetanus toxoid immunization schedule, TT4 provides 10 years of protection to the mother while also protecting the newborn from neonatal tetanus.",
           },
           {
             id: "q31",
             question:
-              "Susie brought her 4 years old daughter to the RHU because of cough and colds. Following the IMCI assessment guide, which of the following is a danger sign that indicates the need for urgent referral to a hospital?",
+              "Situation 7: Records contain comprehensive descriptions of a patient's health conditions and needs, and serve as evidence of every nurse's accountability in the care-giving process. This special form is used when the patient is admitted to the unit. The nurse completes information in this record including basic personal data, current illness, previous health history, family health history, emotional profile, environmental history, and physical assessment together with a nursing diagnosis on admission. What do you call this record?",
             choices: [
-              "Inability to drink",
-              "High grade fever",
-              "Signs of severe dehydration",
-              "Cough for more than 30 days",
+              "Nursing Kardex",
+              "Nursing Health History and Assessment Worksheet",
+              "Medicine and Treatment Record",
+              "Discharge Summary",
             ],
-            answer: 0,
+            answer: 1,
             rationale:
-              "Refer the child urgently to a hospital for confinement. “Baggy pants” is a sign of severe marasmus. The best management is urgent referral to a hospital.",
+              "The Nursing Health History and Assessment Worksheet is completed on admission and captures comprehensive baseline data about the patient.",
           },
           {
             id: "q32",
             question:
-              "Jimmy a 2-year old child revealed “baggy pants”. As a nurse, using the IMCI guidelines, how will you manage Jimmy?",
+              "These are sheets/forms which provide an efficient and time-saving way to record information that must be obtained repeatedly at regular and/or short intervals of time, such as vital signs, intake and output, treatment, postoperative care, postpartum care, and diabetic regimen. What is this?",
             choices: [
-              "Refer the child urgently to a hospital for confinement.",
-              "Coordinate with the social worker to enroll the child in a feeding program.",
-              "Make a teaching plan for the mother, focusing on menu planning for her child.",
-              "Assess and treat the child for health problems like infections and intestinal parasitism.",
+              "Nursing Kardex",
+              "Graphic Flow sheets",
+              "Discharge Summary",
+              "Medicine and Treatment Record",
             ],
-            answer: 3,
+            answer: 1,
             rationale:
-              "Let the child rest for 10 minutes then continue giving Oresol more slowly. If the child vomits persistently, that is, he vomits everything that he takes in, he has to be referred urgently to a hospital. Otherwise, vomiting is managed by letting the child rest for 10 minutes and then continuing with Oresol administration. Teach the mother to give Oresol more slowly.",
+              "Graphic flow sheets are designed for efficiently recording repeated measurements and observations over time.",
           },
           {
             id: "q33",
             question:
-              "Gina is using Oresol in the management of diarrhea of her 3-year old child. She asked you what to do if her child vomits. As a nurse you will tell her to:",
+              "These records show all medications and treatments provided on a repeated basis. What do you call this record?",
             choices: [
-              "Bring the child to the nearest hospital for further assessment.",
-              "Bring the child to the health center for intravenous fluid therapy.",
-              "Bring the child to the health center for assessment by the physician.",
-              "Let the child rest for 10 minutes then continue giving Oresol more slowly.",
+              "Nursing Health History and Assessment Worksheet",
+              "Discharge Summary",
+              "Nursing Kardex",
+              "Medicine and Treatment Record",
             ],
-            answer: 1,
+            answer: 3,
             rationale:
-              "Some dehydration Using the assessment guidelines of IMCI, a child (2 months to 5 years old) with diarrhea is classified as having SOME DEHYDRATION if he shows 2 or more of the following signs: restless or irritable, sunken eyes, the skin goes back slow after a skin pinch.",
+              "The Medicine and Treatment Record documents all medications and treatments given to the patient over time.",
           },
           {
             id: "q34",
             question:
-              "Nikki a 5-month old infant was brought by his mother to the health center because of diarrhea for 4 to 5 times a day. Her skin goes back slowly after a skin pinch and her eyes are sunken. Using the IMCI guidelines, you will classify this infant in which category?",
+              "This flip-over card is usually kept in a portable file at the Nurses' Station. It has 2 parts: the activity and treatment section and a nursing care plan section, carrying demographic data, primary medical diagnosis, current physician orders, nursing care plan, nursing orders, scheduled tests, safety precautions, and daily living activity factors, and is used during shift reports or bedside/walking rounds. What record is this?",
             choices: [
-              "No signs of dehydration",
-              "Some dehydration",
-              "Severe dehydration",
-              "The data is insufficient.",
+              "Discharge Summary",
+              "Medicine and Treatment Record",
+              "Nursing Health History and Assessment Worksheet",
+              "Nursing Kardex",
             ],
-            answer: 2,
+            answer: 3,
             rationale:
-              "Normal In IMCI, a respiratory rate of 50/minute or more is fast breathing for an infant aged 2 to 12 months.",
+              "The Nursing Kardex is the flip-over card system kept at the nurses' station summarizing key patient care information for quick reference during rounds and reports.",
           },
           {
             id: "q35",
             question:
-              "Chris a 4-month old infant was brought by her mother to the health center because of cough. His respiratory rate is 42/minute. Using the Integrated Management of Child Illness (IMCI) guidelines of assessment, his breathing is considered as:",
-            choices: ["Fast", "Slow", "Normal", "Insignificant"],
+              "Most nurses regard this as the conventional recording of the date, time, and mode by which the patient leaves a healthcare unit, but it importantly includes discharge planning that starts soon after admission and reflects multidisciplinary collaboration for comprehensive care. What do you call this?",
+            choices: [
+              "Discharge Summary",
+              "Nursing Kardex",
+              "Medicine and Treatment Record",
+              "Nursing Health History and Assessment Worksheet",
+            ],
             answer: 0,
             rationale:
-              "1 year The baby will have passive natural immunity by placental transfer of antibodies. The mother will have active artificial immunity lasting for about 10 years. 5 doses will give the mother lifetime protection.",
+              "The Discharge Summary documents the circumstances of a patient's departure from a healthcare facility and reflects the discharge planning process undertaken throughout the stay.",
           },
           {
             id: "q36",
             question:
-              "When teaching parents of a neonate the proper position for the neonate’s sleep, the nurse Patricia stresses the importance of placing the neonate on his back to reduce the risk of which of the following?",
+              "Situation 8: As Filipino Professional Nurses we must be knowledgeable about the Code of Ethics for Filipino Nurses and practice these by heart. Which of the following is TRUE about the Code of Ethics of Filipino Nurses?",
             choices: [
-              "Aspiration",
-              "Sudden infant death syndrome (SIDS)",
-              "Suffocation",
-              "Gastroesophageal reflux (GER)",
+              "The Philippine Nurses Association, being the accredited professional organization, was given the privilege to formulate a Code of Ethics which the Board of Nursing promulgated",
+              "The Code of Nurses was first formulated in 1982, published in the Proceedings of the Third Annual Convention of the PNA House of Delegates",
+              "The present code utilized the Code of Good Governance for the Professions in the Philippines",
+              "Certificate of Registration of registered nurses may be revoked or suspended for violations of any provisions of the Code of Ethics",
             ],
             answer: 2,
             rationale:
-              "Decreased temperature Temperature instability, especially when it results in a low temperature in the neonate, may be a sign of infection. The neonate’s color often changes with an infection process but generally becomes ashen or mottled. The neonate with an infection will usually show a decrease in activity level or lethargy.",
+              "The current Code of Ethics for Filipino Nurses was developed based on the Code of Good Governance for the Professions in the Philippines.",
           },
           {
             id: "q37",
             question:
-              "Which finding might be seen in baby James a neonate suspected of having an infection?",
+              "Based on the Code of Ethics for Filipino Nurses, what is regarded as the hallmark of nursing responsibility and accountability?",
             choices: [
-              "Flushed cheeks",
-              "Increased temperature",
-              "Decreased temperature",
-              "Increased activity level",
+              "Human rights of clients, regardless of creed and gender",
+              "The privilege of being a registered professional nurse",
+              "Health, being a fundamental right of every individual",
+              "Accurate documentation of actions and outcomes",
             ],
-            answer: 3,
+            answer: 2,
             rationale:
-              "Polycythemia probably due to chronic fetal hypoxia The small-for-gestation neonate is at risk for developing polycythemia during the transitional period in an attempt to decrease hypoxia. The neonates are also at increased risk for developing hypoglycemia and hypothermia due to decreased glycogen stores.",
+              "The Code of Ethics identifies health as a fundamental human right, and the nurse's responsibility and accountability to uphold that right is considered its hallmark.",
           },
           {
             id: "q38",
             question:
-              "Marjorie has just given birth at 42 weeks’ gestation. When the nurse assessing the neonate, which physical finding is expected?",
+              "Which of the following nurse behaviors is regarded as a violation of the Code of Ethics of Filipino Nurses?",
             choices: [
-              "A sleepy, lethargic baby",
-              "Lanugo covering the body",
-              "Desquamation of the epidermis",
-              "Vernix caseosa covering the body 81",
+              "A nurse withholding harmful information from the family members of a patient",
+              "A nurse declining a commission sent by a doctor for her referral",
+              "A nurse endorsing a person running for congress",
+              "Nurse reviewers and/or nurse review center managers who pay a considerable amount of cash for reviewees who memorize items from the licensure exams and submit these after the examination",
             ],
-            answer: 2,
+            answer: 0,
             rationale:
-              "Respiratory depression Magnesium sulfate crosses the placenta and adverse neonatal effects are respiratory depression, hypotonia, and bradycardia. The serum blood sugar isn’t affected by magnesium sulfate. The neonate would be floppy, not jittery.",
+              "Withholding relevant health information from a patient's family violates the nurse's duty of honest communication and full disclosure under the Code of Ethics.",
           },
           {
             id: "q39",
             question:
-              "After reviewing the Myrna’s maternal history of magnesium sulfate during labor, which condition would nurse Richard anticipate as a potential problem in the neonate?",
-            choices: ["Hypoglycemia", "Jitteriness", "Respiratory depression", "Tachycardia"],
-            answer: 2,
+              "A nurse should be cognizant that professional programs for specialty certification by the Board of Nursing are accredited through the:",
+            choices: [
+              "Professional Regulation Commission",
+              "Nursing Specialty Certification Council",
+              "Association of Deans of Philippine Colleges of Nursing",
+              "Philippine Nurses Association",
+            ],
+            answer: 1,
             rationale:
-              "Respiratory rate 40 to 60 breaths/minute A respiratory rate 40 to 60 breaths/minute is normal for a neonate during the transitional period. Nasal flaring, respiratory rate more than 60 breaths/minute, and audible grunting are signs of respiratory distress.",
+              "The Nursing Specialty Certification Council is the body responsible for accrediting specialty certification programs.",
           },
           {
             id: "q40",
             question:
-              "Nurse John is knowledgeable that usually individual twins will grow appropriately and at the same rate as singletons until how many weeks?",
-            choices: ["16 to 18 weeks", "18 to 22 weeks", "30 to 32 weeks", "38 to 40 weeks"],
-            answer: 0,
+              "Mr. Santos, R.N. works in a nursing home, and he knows that one of his duties is to be an advocate for his patients. Mr. Santos knows a primary duty of an advocate is to:",
+            choices: [
+              "Act as the patient's legal representative",
+              "Complete all nursing responsibilities on time",
+              "Safeguard the well being of every patient",
+              "Maintain the patient's right to privacy",
+            ],
+            answer: 2,
             rationale:
-              "conjoined twins 88. 89. 90. 91. 92. The type of placenta that develops in monozygotic twins depends on the time at which cleavage of the ovum occurs. Cleavage in conjoined twins occurs more than 13 days after fertilization. Cleavage that occurs less than 3 day after fertilization results in diamniotic dicchorionic twins. Cleavage that occurs between days 3 and 8 results in diamniotic monochorionic twins. Cleavage that occurs between days 8 to 13 result in monoamniotic monochorionic twins.",
+              "The primary duty of a patient advocate is to safeguard the overall well-being of the patient.",
           },
           {
             id: "q41",
             question:
-              "Nurse Arnold knows that the following changes in respiratory functioning during pregnancy is considered normal:",
+              "Situation 9: Nurse Joanna works as an OB-Gyne Nurse and attends to several high-risk pregnancies, particularly women with preexisting or newly acquired illnesses. Bernadette is a 22-year old woman. Which condition would make her more prone than others to developing a Candida infection during pregnancy?",
             choices: [
-              "Increased tidal volume",
-              "Increased expiratory volume 82",
-              "Decreased inspiratory capacity",
-              "Decreased oxygen consumption",
+              "Her husband plays golf 6 days a week",
+              "She was over 35 when she became pregnant",
+              "She usually drinks tomato juice for breakfast",
+              "She has developed gestational diabetes",
             ],
-            answer: 0,
+            answer: 3,
             rationale:
-              "Diet Clients with gestational diabetes are usually managed by diet alone to control their glucose intolerance. Oral hypoglycemic drugs are contraindicated in pregnancy. Long-acting insulin usually isn’t needed for blood glucose control in the client with gestational diabetes.",
+              "Elevated glucose levels associated with gestational diabetes create an environment favorable to Candida overgrowth, increasing the risk of infection.",
           },
           {
             id: "q42",
             question:
-              "Marlyn is screened for tuberculosis during her first prenatal visit. An intradermal injection of purified protein derivative (PPD) of the tuberculin bacilli is given. She is considered to have a positive test for which of the following results?",
+              "Bernadette develops a deep-vein thrombosis following an auto accident and is prescribed heparin sub-Q. What should Joanna educate her about in regard to this?",
             choices: [
-              "An indurated wheal under 10 mm in diameter appears in 6 to 12 hours.",
-              "An indurated wheal over 10 mm in diameter appears in 48 to 72 hours.",
-              "A flat circumcised area under 10 mm in diameter appears in 6 to 12 hours.",
-              "A flat circumcised area over 10 mm in diameter appears in 48 to 72 hours.",
+              "Some infants will be born with allergic symptoms to heparin",
+              "Her infant will be born with scattered petechiae on his trunk",
+              "Heparin can cause darkened skin in newborns",
+              "Heparin does not cross the placenta and so does not affect a fetus",
             ],
-            answer: 2,
+            answer: 3,
             rationale:
-              "Pyelonephritis Rationale The symptoms indicate acute pyelonephritis, a serious condition in a pregnant client. UTI symptoms include dysuria, urgency, frequency, and suprapubic tenderness. Asymptomatic bacteriuria doesn’t cause symptoms. Bacterial vaginosis causes milky white vaginal discharge but no systemic symptoms. Answer: (B) Rh-positive fetal blood crosses into maternal blood, stimulating maternal antibodies. Rh isoimmunization occurs when Rhpositive fetal blood cells cross into the maternal circulation and stimulate maternal antibody production. In subsequent pregnancies with Rhpositive fetuses, maternal antibodies may cross back into the fetal circulation and destroy the fetal blood cells.",
+              "Heparin is a large molecule that does not cross the placenta, making it a safer anticoagulant choice during pregnancy since it does not directly affect the fetus.",
           },
           {
             id: "q43",
             question:
-              "Dianne, 24 year-old is 27 weeks’ pregnant arrives at her physician’s office with complaints of fever, nausea, vomiting, malaise, unilateral 83 flank pain, and costovertebral angle tenderness. Which of the following diagnoses is most likely?",
+              "The cousin of Bernadette with sickle-cell anemia alerted Joanna that she may need further instruction on prenatal care. Which statement signifies this fact?",
             choices: [
-              "Asymptomatic bacteriuria",
-              "Bacterial vaginosis",
-              "Pyelonephritis",
-              "Urinary tract infection (UTI)",
+              "I've stopped jogging so I don't risk becoming dehydrated",
+              "I take an iron pill every day to help grow new red blood cells",
+              "I am careful to drink at least eight glasses of fluid every day",
+              "I understand why folic acid is important for red cell formation",
             ],
-            answer: 2,
+            answer: 1,
             rationale:
-              "Supine position The supine position causes compression of the client's aorta and inferior vena cava by the fetus. This, in turn, inhibits maternal circulation, leading to maternal hypotension and, ultimately, fetal hypoxia. The other positions promote comfort and aid labor progress. For instance, the lateral, or side-lying, position improves maternal and fetal circulation, enhances comfort, increases maternal relaxation, reduces muscle tension, and eliminates pressure points. The squatting position promotes comfort by taking advantage of gravity. The standing position also takes advantage of gravity and aligns the fetus with the pelvic angle.",
+              "Routine iron supplementation is not automatically indicated in sickle cell anemia unless iron deficiency is confirmed, so this statement suggests a misunderstanding requiring further teaching.",
           },
           {
             id: "q44",
             question:
-              "Rh isoimmunization in a pregnant client develops during which of the following conditions?",
+              "Bernadette routinely takes acetylsalicylic acid (aspirin) for arthritis. Why should she limit or discontinue this toward the end of pregnancy?",
             choices: [
-              "Rh-positive maternal blood crosses into fetal blood, stimulating fetal antibodies.",
-              "Rh-positive fetal blood crosses into maternal blood, stimulating maternal antibodies.",
-              "Rh-negative fetal blood crosses into maternal blood, stimulating maternal antibodies.",
-              "Rh-negative maternal blood crosses into fetal blood, stimulating fetal antibodies.",
-            ],
-            answer: 1,
-            rationale:
-              "Irritability and poor sucking. Neonates of heroin-addicted mothers are physically dependent on the drug and experience withdrawal when the drug is no longer supplied. Signs of heroin withdrawal include irritability, poor sucking, and restlessness. Lethargy isn't associated with neonatal heroin addiction. A flattened nose, small eyes, and thin lips are seen in infants with fetal alcohol syndrome. Heroin use during pregnancy hasn't been linked to specific congenital anomalies.",
-          },
-        ],
-      },
-      {
-        id: "chn-test-ii-community-health-nursing-and-car-2",
-        title: "TEST II - Community Health Nursing and Care of",
-        description: "44 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "the Mother and Child 1. May arrives at the health care clinic and tells the nurse that her last menstrual period was 9 weeks ago. She also tells the nurse that a home pregnancy test was positive but she began to have mild cramps and is now having moderate vaginal bleeding. During the physical examination of the client, the nurse notes that May has a dilated cervix. The nurse determines that May is experiencing which type of abortion?",
-            choices: ["Inevitable", "Incomplete", "Threatened", "Septic"],
-            answer: 0,
-            rationale:
-              "Inevitable An inevitable abortion is termination of pregnancy that cannot be prevented. Moderate to severe bleeding with mild cramping and cervical dilation would be noted in this type of abortion.",
-          },
-          {
-            id: "q2",
-            question:
-              "Nurse Reese is reviewing the record of a pregnant client for her first prenatal visit. Which of the following data, if noted on the client’s record, would alert the nurse that the client is at risk for a spontaneous abortion?",
-            choices: [
-              "Age 36 years",
-              "History of syphilis",
-              "History of genital herpes",
-              "History of diabetes mellitus",
-            ],
-            answer: 1,
-            rationale:
-              "History of syphilis Maternal infections such as syphilis, toxoplasmosis, and rubella are causes of spontaneous abortion.",
-          },
-          {
-            id: "q3",
-            question:
-              "Nurse Hazel is preparing to care for a client who is newly admitted to the hospital with a possible diagnosis of ectopic pregnancy. Nurse Hazel develops a plan of care for the client and determines that which of the following nursing actions is the priority?",
-            choices: [
-              "Monitoring weight",
-              "Assessing for edema",
-              "Monitoring apical pulse",
-              "Monitoring temperature",
-            ],
-            answer: 2,
-            rationale:
-              "Monitoring apical pulse Nursing care for the client with a possible ectopic pregnancy is focused on preventing or identifying hypovolemic shock and controlling pain. An elevated pulse rate is an indicator of shock.",
-          },
-          {
-            id: "q4",
-            question:
-              "Nurse Oliver is teaching a diabetic pregnant client about nutrition and insulin needs during pregnancy. The nurse determines that the client understands dietary and insulin needs if the client states that the second half of pregnancy requires:",
-            choices: [
-              "Decreased caloric intake",
-              "Increased caloric intake",
-              "Decreased Insulin",
-              "Increase Insulin",
-            ],
-            answer: 1,
-            rationale:
-              "Increased caloric intake Glucose crosses the placenta, but insulin does not. High fetal demands for glucose, combined with the insulin resistance caused by hormonal changes in the last half of pregnancy can result in elevation of maternal blood glucose levels. This increases the mother’s demand for insulin and is referred to as the diabetogenic effect of pregnancy.",
-          },
-          {
-            id: "q5",
-            question:
-              "Nurse Michelle is assessing a 24 year old client with a diagnosis of hydatidiform mole. She is aware that one of the following is unassociated with this condition?",
-            choices: [
-              "Excessive fetal activity.",
-              "Larger than normal uterus for gestational age.",
-              "Vaginal bleeding",
-              "Elevated levels of human chorionic gonadotropin.",
-            ],
-            answer: 0,
-            rationale:
-              "Excessive fetal activity. The most common signs and symptoms of hydatidiform mole includes elevated levels of human chorionic gonadotropin, vaginal bleeding, larger than normal uterus for gestational age, failure to detect fetal heart activity even with sensitive instruments, excessive nausea and vomiting, and early development of pregnancy-induced hypertension. Fetal activity would not be noted.",
-          },
-          {
-            id: "q6",
-            question:
-              "A pregnant client is receiving magnesium sulfate for severe pregnancy induced hypertension (PIH). The clinical findings that would warrant use of the antidote , calcium gluconate is:",
-            choices: [
-              "Urinary output 90 cc in 2 hours.",
-              "Absent patellar reflexes.",
-              "Rapid respiratory rate above 40/min.",
-              "Rapid rise in blood pressure.",
-            ],
-            answer: 1,
-            rationale:
-              "Absent patellar reflexes Absence of patellar reflexes is an indicator of hypermagnesemia, which requires administration of calcium gluconate.",
-          },
-          {
-            id: "q7",
-            question:
-              "During vaginal examination of Janah who is in labor, the presenting part is at station plus two. Nurse, correctly interprets it as:",
-            choices: [
-              "Presenting part is 2 cm above the plane of the ischial spines.",
-              "Biparietal diameter is at the level of the ischial spines.",
-              "Presenting part in 2 cm below the plane of the ischial spines.",
-              "Biparietal diameter is 2 cm above the ischial spines.",
-            ],
-            answer: 2,
-            rationale:
-              "Presenting part in 2 cm below the plane of the ischial spines. Fetus at station plus two indicates that the presenting part is 2 cm below the plane of the ischial spines.",
-          },
-          {
-            id: "q8",
-            question:
-              "A pregnant client is receiving oxytocin (Pitocin) for induction of labor. A condition that warrant the nurse in-charge to discontinue I.V. infusion of Pitocin is:",
-            choices: [
-              "Contractions every 1 ½ minutes lasting 70-80 seconds.",
-              "Maternal temperature 101.2",
-              "Early decelerations in the fetal heart rate.",
-              "Fetal heart rate baseline 140-160 bpm.",
-            ],
-            answer: 0,
-            rationale:
-              "Contractions every 1 ½ minutes lasting 70-80 seconds. Contractions every 1 ½ minutes lasting 70-80 seconds, is indicative of hyperstimulation of the uterus, which could 9. 10. 11. 12. 13. 14. 15. result in injury to the mother and the fetus if Pitocin is not discontinued.",
-          },
-          {
-            id: "q9",
-            question:
-              "Calcium gluconate is being administered to a client with pregnancy induced hypertension (PIH). A nursing action that must be initiated as the plan of care throughout injection of the drug is:",
-            choices: ["Ventilator assistance", "CVP readings", "EKG tracings", "Continuous CPR"],
-            answer: 2,
-            rationale:
-              "EKG tracings A potential side effect of calcium gluconate administration is cardiac arrest. Continuous monitoring of cardiac activity (EKG) throught administration of calcium gluconate is an essential part of care.",
-          },
-          {
-            id: "q10",
-            question:
-              "A trial for vaginal delivery after an earlier caesarean, would likely to be given to a gravida, who had:",
-            choices: [
-              "First low transverse cesarean was for active herpes type 2 infections; vaginal culture at 39 weeks pregnancy was positive.",
-              "First and second caesareans were for cephalopelvic disproportion.",
-              "First caesarean through a classic incision as a result of severe fetal distress.",
-              "First low transverse caesarean was for breech position. Fetus in this pregnancy is in a vertex presentation.",
+              "Aspirin can lead to deep vein thrombosis following birth",
+              "Newborns develop a red rash from salicylate toxicity",
+              "Newborns develop withdrawal headaches from salicylates",
+              "Salicylates can lead to increased maternal bleeding at childbirth",
             ],
             answer: 3,
             rationale:
-              "First low transverse caesarean was for breech position. Fetus in this pregnancy is in a vertex presentation. This type of client has no obstetrical indication for a caesarean section as she did with her first caesarean delivery.",
+              "Aspirin's antiplatelet effect can increase the risk of maternal bleeding during childbirth, so it should be limited or discontinued near term.",
           },
           {
-            id: "q11",
+            id: "q45",
             question:
-              "Nurse Ryan is aware that the best initial approach when trying to take a crying toddler’s temperature is:",
+              "Bernadette received a laceration on her leg from her automotive accident. Why are lacerations of the lower extremities potentially more serious in pregnant women than others?",
             choices: [
-              "Talk to the mother first and then to the toddler.",
-              "Bring extra help so it can be done quickly.",
-              "Encourage the mother to hold the child.",
-              "Ignore the crying and screaming.",
-            ],
-            answer: 0,
-            rationale:
-              "Talk to the mother first and then to the toddler. When dealing with a crying toddler, the best approach is to talk to the mother and ignore the toddler first. This approach helps the toddler get used to the nurse before she attempts any procedures. It also gives the toddler an opportunity to see that the mother trusts the nurse.",
-          },
-          {
-            id: "q12",
-            question:
-              "Baby Tina a 3 month old infant just had a cleft lip and palate repair. What should the nurse do to prevent trauma to operative site?",
-            choices: [
-              "Avoid touching the suture line, even when cleaning.",
-              "Place the baby in prone position.",
-              "Give the baby a pacifier.",
-              "Place the infant’s arms in soft elbow restraints.",
-            ],
-            answer: 3,
-            rationale:
-              "Place the infant’s arms in soft elbow restraints. Soft restraints from the upper arm to the wrist prevent the infant from touching her lip but allow him to hold a favorite item such as a blanket. Because they could damage the operative site, such as objects as pacifiers, suction catheters, and small spoons shouldn’t be placed in a baby’s mouth after cleft repair. A baby in a prone position may rub her face on the sheets and traumatize the operative site. The suture line should be cleaned gently to prevent infection, which could interfere with healing and damage the cosmetic appearance of the repair.",
-          },
-          {
-            id: "q13",
-            question:
-              "Which action should nurse Marian include in the care plan for a 2 month old with heart failure?",
-            choices: [
-              "Feed the infant when he cries.",
-              "Allow the infant to rest before feeding.",
-              "Bathe the infant and administer medications before feeding.",
-              "Weigh and bathe the infant before feeding.",
+              "Lacerations can provoke allergic responses because of gonadotropic hormone",
+              "Increased bleeding can occur from uterine pressure on leg veins",
+              "A woman is less able to keep the laceration clean because of her fatigue",
+              "Healing is limited during pregnancy, so these will not heal until after birth",
             ],
             answer: 1,
             rationale:
-              "Allow the infant to rest before feeding. Because feeding requires so much energy, an infant with heart failure should rest before feeding.",
+              "The enlarging uterus compresses the pelvic and leg veins, increasing venous pressure in the lower extremities and the risk of increased bleeding from leg lacerations.",
           },
           {
-            id: "q14",
+            id: "q46",
             question:
-              "Nurse Hazel is teaching a mother who plans to discontinue breast feeding after 5 months. The nurse should advise her to include which foods in her infant’s diet?",
+              "Situation 10: Still in your self-managed Child Health Nursing Clinic, you encounter these cases pertaining to the care of children with pulmonary affections. Josie brought her 3-month old child to your clinic because of cough and colds. Which of the following is your primary action?",
             choices: [
-              "Skim milk and baby food.",
-              "Whole milk and baby food.",
-              "Iron-rich formula only.",
-              "Iron-rich formula and baby food.",
-            ],
-            answer: 2,
-            rationale:
-              "Iron-rich formula only. The infants at age 5 months should receive iron-rich formula and that they shouldn’t receive solid food, even baby food until age 6 months.",
-          },
-          {
-            id: "q15",
-            question:
-              "Mommy Linda is playing with her infant, who is sitting securely alone on the floor of the clinic. The mother hides a toy behind her back and the 274 infant looks for it. The nurse is aware that estimated age of the infant would be:",
-            choices: ["6 months", "4 months", "8 months", "10 months"],
-            answer: 3,
-            rationale:
-              "10 months A 10 month old infant can sit alone and understands object permanence, so he would look for the hidden toy. At age 4 to 6 months, infants can’t sit securely alone. At age 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 284 8 months, infants can sit securely alone but cannot understand the permanence of objects.",
-          },
-          {
-            id: "q16",
-            question:
-              "Which of the following is the most prominent feature of public health nursing?",
-            choices: [
-              "It involves providing home care to sick people who are not confined in the hospital.",
-              "Services are provided free of charge to people within the catchments area.",
-              "The public health nurse functions as part of a team providing a public health nursing services.",
-              "Public health nursing focuses on preventive, not curative, services.",
-            ],
-            answer: 3,
-            rationale:
-              "Public health nursing focuses on preventive, not curative, services. The catchments area in PHN consists of a residential community, many of whom are well individuals who have greater need for preventive rather than curative services.",
-          },
-          {
-            id: "q17",
-            question:
-              "When the nurse determines whether resources were maximized in implementing Ligtas Tigdas, she is evaluating",
-            choices: ["Effectiveness", "Efficiency", "Adequacy", "Appropriateness"],
-            answer: 1,
-            rationale:
-              "Efficiency Efficiency is determining whether the goals were attained at the least possible cost.",
-          },
-          {
-            id: "q18",
-            question:
-              "Vangie is a new B.S.N. graduate. She wants to become a Public Health Nurse. Where should she apply?",
-            choices: [
-              "Department of Health",
-              "Provincial Health Office",
-              "Regional Health Office",
-              "Rural Health Unit",
-            ],
-            answer: 3,
-            rationale:
-              "Rural Health Unit R.A. 7160 devolved basic health services to local government units (LGU’s ). The public health nurse is an employee of the LGU.",
-          },
-          {
-            id: "q19",
-            question: "Tony is aware the Chairman of the Municipal Health Board is:",
-            choices: [
-              "Mayor",
-              "Municipal Health Officer",
-              "Public Health Nurse",
-              "Any qualified physician",
-            ],
-            answer: 0,
-            rationale:
-              "Mayor The local executive serves as the chairman of the Municipal Health Board.",
-          },
-          {
-            id: "q20",
-            question:
-              "Myra is the public health nurse in a municipality with a total population of about 20,000. There are 3 rural health midwives among the RHU personnel. How many more midwife items will the RHU need?",
-            choices: ["1", "2", "3", "The RHU does not need any more midwife item. 275"],
-            answer: 0,
-            rationale:
-              "1 Each rural health midwife is given a population assignment of about 5,000.",
-          },
-          {
-            id: "q21",
-            question:
-              "According to Freeman and Heinrich, community health nursing is a developmental service. Which of the following best illustrates this statement?",
-            choices: [
-              "The community health nurse continuously develops himself personally and professionally.",
-              "Health education and community organizing are necessary in providing community health services.",
-              "Community health nursing is intended primarily for health promotion and prevention and treatment of disease.",
-              "The goal of community health nursing is to provide nursing services to people in their own places of residence.",
+              "Give cotrimoxazole tablet or syrup",
+              "Assess the patient using the chart on management of children with cough",
+              "Refer to the doctor",
+              "Teach the mother how to count her child's breathing",
             ],
             answer: 1,
             rationale:
-              "Health education and community organizing are necessary in providing community health services. Rationale: The community health nurse develops the health capability of people through health education and community organizing activities. Answer: (B) Measles Presidential Proclamation No. 4 is on the Ligtas Tigdas Program.",
+              "Following the IMCI approach, the nurse's primary action is to assess the child systematically using the standardized cough/cold management chart before deciding on treatment or referral.",
           },
           {
-            id: "q22",
+            id: "q47",
             question:
-              "Nurse Tina is aware that the disease declared through Presidential Proclamation No. 4 as a target for eradication in the Philippines is?",
-            choices: ["Poliomyelitis", "Measles", "Rabies", "Neonatal tetanus"],
+              "In responding to the care concerns of children with severe disease, referral to the hospital is of the essence especially if the child manifests which of the following?",
+            choices: ["Wheezing", "Stopped bleeding", "Fast breathing", "Difficulty to awaken"],
             answer: 3,
             rationale:
-              "Core group formation In core group formation, the nurse is able to transfer the technology of community organizing to the potential or informal community leaders through a training program.",
+              "Difficulty to awaken is a danger sign indicating a severely ill child who requires urgent hospital referral.",
           },
           {
-            id: "q23",
+            id: "q48",
             question:
-              "May knows that the step in community organizing that involves training of potential leaders in the community is:",
+              "Which of the following is the most important responsibility of a nurse in the prevention of unnecessary deaths from pneumonia and other severe diseases?",
             choices: [
-              "Integration",
-              "Community organization",
-              "Community study",
-              "Core group formation",
-            ],
-            answer: 3,
-            rationale:
-              "To maximize the community’s resources in dealing with health problems. Community organizing is a developmental service, with the goal of developing the people’s self-reliance in dealing with community health problems. A, B and C are objectives of contributory objectives to this goal.",
-          },
-          {
-            id: "q24",
-            question:
-              "Hypoxia is a common complication of laryngotracheobronchitis. Nurse Oliver should frequently assess a child with laryngotracheobronchitis for:",
-            choices: ["Drooling", "Muffled voice", "Restlessness", "Low-grade fever"],
-            answer: 1,
-            rationale:
-              "Walk one step ahead, with the child’s hand on the nurse’s elbow. This procedure is generally recommended to follow in guiding a person who is blind.",
-          },
-          {
-            id: "q25",
-            question:
-              "When assessing a newborn diagnosed with ductus arteriosus, Nurse Olivia should expect that the child most likely would have an:",
-            choices: [
-              "Loud, machinery-like murmur.",
-              "Bluish color to the lips.",
-              "Decreased BP reading in the upper extremities",
-              "Increased BP reading in the upper extremities.",
+              "Giving of antibiotics",
+              "Taking of the temperature of the sick child",
+              "Provision of Careful Assessment",
+              "Weighing of the sick child",
             ],
             answer: 2,
             rationale:
-              "More oxygen, and the newborn’s metabolic rate increases. When cold, the infant requires more oxygen and there is an increase in metabolic rate. Non-shievering thermogenesis is a complex process that increases the metabolic rate and rate of oxygen consumption, therefore, the newborn increase heat production.",
+              "A careful, systematic assessment allows the nurse to correctly identify danger signs and classify severity early, which is the most important factor in preventing unnecessary deaths.",
           },
           {
-            id: "q26",
+            id: "q49",
             question:
-              "In a mothers’ class, Nurse Lhynnete discussed childhood diseases such as chicken pox. Which of the following statements about chicken pox is correct?",
+              "You were able to identify factors that lead to respiratory problems in the community where your health facility serves. Your primary role, therefore, in order to reduce morbidity due to pneumonia is to:",
             choices: [
-              "The older one gets, the more susceptible he becomes to the complications of chicken pox.",
-              "A single attack of chicken pox will prevent future episodes, including conditions such as shingles.",
-              "To prevent an outbreak in the community, quarantine may be imposed by health authorities.",
-              "Chicken pox vaccine is best given when there is an impending outbreak in the community.",
+              "Teach mothers how to recognize early signs and symptoms of pneumonia",
+              "Make home visits to sick children",
+              "Refer cases to hospitals",
+              "Seek assistance and mobilize the BHWs to have a meeting with mothers",
             ],
-            answer: 3,
-            rationale:
-              "Consult a physician who may give them rubella immunoglobulin. Rubella vaccine is made up of attenuated German measles viruses. This is contraindicated in pregnancy. Immune globulin, a specific prophylactic against German measles, may be given to pregnant women.",
-          },
-          {
-            id: "q27",
-            question:
-              "Myrna a public health nurse knows that to determine possible sources of sexually transmitted infections, the BEST method that may be undertaken is:",
-            choices: [
-              "Contact tracing",
-              "Community survey",
-              "Mass screening tests",
-              "Interview of suspects",
-            ],
-            answer: 3,
-            rationale:
-              "Leptospirosis Leptospirosis is transmitted through contact with the skin or mucous membrane with water or moist soil contaminated with urine of infected animals, like rats.",
-          },
-          {
-            id: "q28",
-            question:
-              "Angel was diagnosed as having Dengue fever. You will say that there is slow capillary refill when the color of the nailbed that you pressed does not return within how many seconds?",
-            choices: ["3 seconds", "6 seconds", "9 seconds", "10 seconds"],
-            answer: 1,
-            rationale:
-              "Severe dehydration The order of priority in the management of severe dehydration is as follows: intravenous fluid therapy, referral to a facility where IV fluids can be initiated within 30 minutes, Oresol or nasogastric tube. When the foregoing measures are not possible or effective, then urgent referral to the hospital is done.",
-          },
-          {
-            id: "q29",
-            question:
-              "Myrna a public health nurse will conduct outreach immunization in a barangay Masay with a population of about 1500. The estimated number of infants in the barangay would be:",
-            choices: ["45 infants", "50 infants", "55 infants", "65 infants"],
             answer: 0,
             rationale:
-              "DPT DPT is sensitive to freezing. The appropriate storage temperature of DPT is 2 to 8° C only. OPV and measles vaccine are highly sensitive to heat and require freezing. MMR is not an immunization in the Expanded Program on Immunization.",
+              "Teaching mothers to recognize early signs and symptoms of pneumonia enables earlier care-seeking, which is the most direct way to reduce community morbidity from the disease.",
           },
           {
-            id: "q30",
+            id: "q50",
             question:
-              "Several clients is newly admitted and diagnosed with leprosy. Which of the following clients should be classified as a case of multibacillary leprosy?",
+              "Which of the following is the principal focus of the CARI program of the Department of Health?",
             choices: [
-              "3 skin lesions, negative slit skin smear",
-              "3 skin lesions, positive slit skin smear",
-              "5 skin lesions, negative slit skin smear",
-              "5 skin lesions, positive slit skin smear",
+              "Enhancement of health team capabilities",
+              "Teach mothers how to detect signs and where to refer",
+              "Mortality reduction through early detection",
+              "Teach other community health workers how to assess patients",
             ],
             answer: 2,
             rationale:
-              "Thickened painful nerves The lesion of leprosy is not macular. It is characterized by a change in skin color (either reddish or whitish) and loss of sensation, sweating and hair growth over the lesion. Inability to close the eyelids (lagophthalmos) and sinking of the nosebridge are late symptoms.",
+              "The CARI (Control of Acute Respiratory Infections) program's principal focus is reducing mortality through early detection and management.",
           },
           {
-            id: "q31",
+            id: "q51",
             question:
-              "Susie brought her 4 years old daughter to the RHU because of cough and colds. Following the IMCI assessment guide, which of the following is a danger sign that indicates the need for urgent referral to a hospital?",
+              'Situation 11: You are working as a Pediatric Nurse in your own Child Health Nursing Clinic. Theresa, a mother with a 2-year old daughter, asks, "At what age can I be able to take the blood pressure of my daughter as a routine procedure since hypertension is common in the family?" Your answer to this is:',
             choices: [
-              "Inability to drink",
-              "High grade fever",
-              "Signs of severe dehydration",
-              "Cough for more than 30 days",
+              "At 2 years you may",
+              "As early as 1 year old",
+              "When she's 3 years old",
+              "When she's 6 years old",
+            ],
+            answer: 2,
+            rationale:
+              "Routine blood pressure screening in children is generally recommended starting at around 3 years of age.",
+          },
+          {
+            id: "q52",
+            question:
+              "You typically gag children to inspect the back of their throat. When is it important NOT to solicit a gag reflex?",
+            choices: [
+              "When a girl has a geographic tongue",
+              "When a boy has a possible inguinal hernia",
+              "When a child has symptoms of epiglottitis",
+              "When children are under 5 years of age",
+            ],
+            answer: 2,
+            rationale:
+              "In suspected epiglottitis, eliciting a gag reflex can trigger laryngospasm and complete airway obstruction, so throat examination should be avoided.",
+          },
+          {
+            id: "q53",
+            question:
+              "Baby John was given a drug at birth to reverse the effects of a narcotic given to his mother in labor. What drug is commonly used for this?",
+            choices: ["Naloxone (Narcan)", "Morphine Sulfate", "Sodium Chloride", "Penicillin G"],
+            answer: 0,
+            rationale:
+              "Naloxone (Narcan) is the standard antidote used to reverse narcotic-induced respiratory depression in a newborn.",
+          },
+          {
+            id: "q54",
+            question:
+              "Why are small-for-gestational-age newborns at risk for difficulty maintaining body temperature?",
+            choices: [
+              "They do not have as many fat stores as other infants",
+              "They are more active than usual so throw off covers",
+              "Their skin is more susceptible to conduction of cold",
+              "They are preterm so are born relatively small in size",
             ],
             answer: 0,
             rationale:
-              "Refer the child urgently to a hospital for confinement. “Baggy pants” is a sign of severe marasmus. The best management is urgent referral to a hospital.",
+              "SGA newborns have reduced subcutaneous fat stores, limiting insulation and predisposing them to heat loss and hypothermia.",
           },
           {
-            id: "q32",
+            id: "q55",
             question:
-              "Jimmy a 2-year old child revealed “baggy pants”. As a nurse, using the IMCI guidelines, how will you manage Jimmy?",
+              "Baby John develops hyperbilirubinemia. What is a method used to treat hyperbilirubinemia in a newborn?",
             choices: [
-              "Refer the child urgently to a hospital for confinement.",
-              "Coordinate with the social worker to enroll the child in a feeding program.",
-              "Make a teaching plan for the mother, focusing on menu planning for her child.",
-              "Assess and treat the child for health problems like infections and intestinal parasitism. 279",
+              "Keeping infants in a warm and dark environment",
+              "Administration of a cardiovascular stimulant",
+              "Gentle exercise to stop muscle breakdown",
+              "Early feeding to speed passage of meconium",
             ],
             answer: 3,
             rationale:
-              "Let the child rest for 10 minutes then continue giving Oresol more slowly. If the child vomits persistently, that is, he vomits everything that he takes in, he has to be referred urgently to a hospital. Otherwise, vomiting is managed by letting the child rest for 10 minutes and then continuing with Oresol administration. Teach the mother to give Oresol more slowly.",
+              "Early and frequent feeding promotes stooling and passage of meconium, which helps eliminate bilirubin from the body and reduce hyperbilirubinemia.",
           },
           {
-            id: "q33",
+            id: "q56",
             question:
-              "Gina is using Oresol in the management of diarrhea of her 3-year old child. She asked you what to do if her child vomits. As a nurse you will tell her to:",
+              "Situation 12: You are the nurse in the Out-Patient Department and during your shift you encountered multiple children's conditions. You assessed a child with visible severe wasting. He has:",
+            choices: ["edema", "LBM", "kwashiorkor", "marasmus"],
+            answer: 3,
+            rationale:
+              "Visible severe wasting without edema is characteristic of marasmus, a severe form of protein-energy malnutrition.",
+          },
+          {
+            id: "q57",
+            question:
+              "Which of the following conditions is NOT true about contraindications to immunization?",
             choices: [
-              "Bring the child to the nearest hospital for further assessment.",
-              "Bring the child to the health center for intravenous fluid therapy.",
-              "Bring the child to the health center for assessment by the physician.",
-              "Let the child rest for 10 minutes then continue giving Oresol more slowly.",
+              "Do not give DPT2 or DPT3 to a child who has had convulsions within 3 days of DPT1",
+              "Do not give BCG if the child has known hepatitis",
+              "Do not give DPT to a child who has recurrent convulsions or active neurologic disease",
+              "Do not give BCG if the child has known AIDS",
             ],
             answer: 1,
             rationale:
-              "Some dehydration Using the assessment guidelines of IMCI, a child (2 months to 5 years old) with diarrhea is classified as having SOME DEHYDRATION if he shows 2 or more of the following signs: restless or irritable, sunken eyes, the skin goes back slow after a skin pinch.",
+              "Known hepatitis alone is not a true contraindication to BCG vaccination, making this the false statement among the listed contraindications.",
           },
           {
-            id: "q34",
-            question:
-              "Nikki a 5-month old infant was brought by his mother to the health center because of diarrhea for 4 to 5 times a day. Her skin goes back slowly after a skin pinch and her eyes are sunken. Using the IMCI guidelines, you will classify this infant in which category?",
+            id: "q58",
+            question: "Which of the following statements about immunization is NOT true:",
             choices: [
-              "No signs of dehydration",
-              "Some dehydration",
-              "Severe dehydration",
-              "The data is insufficient.",
-            ],
-            answer: 2,
-            rationale:
-              "Normal In IMCI, a respiratory rate of 50/minute or more is fast breathing for an infant aged 2 to 12 months.",
-          },
-          {
-            id: "q35",
-            question:
-              "Chris a 4-month old infant was brought by her mother to the health center because of cough. His respiratory rate is 42/minute. Using the Integrated Management of Child Illness (IMCI) guidelines of assessment, his breathing is considered as:",
-            choices: ["Fast", "Slow", "Normal", "Insignificant"],
-            answer: 0,
-            rationale:
-              "1 year The baby will have passive natural immunity by placental transfer of antibodies. The mother will have active artificial immunity lasting for about 10 years. 5 doses will give the mother lifetime protection.",
-          },
-          {
-            id: "q36",
-            question:
-              "When teaching parents of a neonate the proper position for the neonate’s sleep, the nurse Patricia stresses the importance of placing the neonate on his back to reduce the risk of which of the following?",
-            choices: [
-              "Aspiration",
-              "Sudden infant death syndrome (SIDS)",
-              "Suffocation",
-              "Gastroesophageal reflux (GER)",
-            ],
-            answer: 2,
-            rationale:
-              "Decreased temperature Temperature instability, especially when it results in a low temperature in the neonate, may be a sign of infection. The neonate’s color often changes with an infection process but generally becomes ashen or mottled. The neonate with an infection will usually show a decrease in activity level or lethargy.",
-          },
-          {
-            id: "q37",
-            question:
-              "Which finding might be seen in baby James a neonate suspected of having an infection?",
-            choices: [
-              "Flushed cheeks",
-              "Increased temperature",
-              "Decreased temperature",
-              "Increased activity level",
-            ],
-            answer: 3,
-            rationale:
-              "Polycythemia probably due to chronic fetal hypoxia The small-for-gestation neonate is at risk for developing polycythemia during the transitional period in an attempt to decrease hypoxia. The neonates are also at increased risk for developing hypoglycemia and hypothermia due to decreased glycogen stores.",
-          },
-          {
-            id: "q38",
-            question:
-              "Marjorie has just given birth at 42 weeks’ gestation. When the nurse assessing the neonate, which physical finding is expected?",
-            choices: [
-              "A sleepy, lethargic baby",
-              "Lanugo covering the body",
-              "Desquamation of the epidermis",
-              "Vernix caseosa covering the body",
-            ],
-            answer: 2,
-            rationale:
-              "Respiratory depression Magnesium sulfate crosses the placenta and adverse neonatal effects are respiratory depression, hypotonia, and bradycardia. The serum blood sugar isn’t affected by magnesium sulfate. The neonate would be floppy, not jittery.",
-          },
-          {
-            id: "q39",
-            question:
-              "After reviewing the Myrna’s maternal history of magnesium sulfate during labor, which condition would nurse Richard anticipate as a potential problem in the neonate?",
-            choices: ["Hypoglycemia", "Jitteriness", "Respiratory depression", "Tachycardia"],
-            answer: 2,
-            rationale:
-              "Respiratory rate 40 to 60 breaths/minute A respiratory rate 40 to 60 breaths/minute is normal for a neonate during the transitional period. Nasal flaring, respiratory rate more than 60 breaths/minute, and audible grunting are signs of respiratory distress.",
-          },
-          {
-            id: "q40",
-            question:
-              "Nurse John is knowledgeable that usually individual twins will grow appropriately and at the same rate as singletons until how many weeks?",
-            choices: ["16 to 18 weeks", "18 to 22 weeks", "30 to 32 weeks", "38 to 40 weeks"],
-            answer: 0,
-            rationale:
-              "conjoined twins The type of placenta that develops in monozygotic twins depends on the time at which cleavage of the ovum occurs. Cleavage in conjoined twins occurs more than 13 days after fertilization. Cleavage that occurs less than 3 88. 89. 90. 91. 92. day after fertilization results in diamniotic dicchorionic twins. Cleavage that occurs between days 3 and 8 results in diamniotic monochorionic twins. Cleavage that occurs between days 8 to 13 result in monoamniotic monochorionic twins.",
-          },
-          {
-            id: "q41",
-            question:
-              "Nurse Arnold knows that the following changes in respiratory functioning during pregnancy is considered normal:",
-            choices: [
-              "Increased tidal volume",
-              "Increased expiratory volume",
-              "Decreased inspiratory capacity",
-              "Decreased oxygen consumption",
+              "A child with diarrhea who is due for OPV should receive the OPV and get an extra dose on the next visit",
+              "There is no contraindication to immunization if the child is well enough to go home",
+              "There is no contraindication to immunization if the child is well enough to go home, and a child should be immunized in the health center before referrals — both are correct",
+              "A child should be immunized in the health center before referral",
             ],
             answer: 0,
             rationale:
-              "Diet Clients with gestational diabetes are usually managed by diet alone to control their glucose intolerance. Oral hypoglycemic drugs are contraindicated in pregnancy. Long-acting insulin usually isn’t needed for blood glucose control in the client with gestational diabetes.",
+              "Standard IMCI guidance is that a child with diarrhea due for OPV should still receive the scheduled dose, but it should not need to be repeated as an 'extra dose,' making this statement inaccurate.",
           },
           {
-            id: "q42",
+            id: "q59",
             question:
-              "Marlyn is screened for tuberculosis during her first prenatal visit. An intradermal injection of purified protein derivative (PPD) of the tuberculin bacilli is given. She is considered to have a positive test for which of the following results?",
+              "A child with visible severe wasting or severe palmar pallor may be classified as:",
             choices: [
-              "An indurated wheal under 10 mm in diameter appears in 6 to 12 hours.",
-              "An indurated wheal over 10 mm in diameter appears in 48 to 72 hours.",
-              "A flat circumcised area under 10 mm in diameter appears in 6 to 12 hours.",
-              "A flat circumcised area over 10 mm in diameter appears in 48 to 72 hours.",
-            ],
-            answer: 2,
-            rationale:
-              "Pyelonephritis Rationale The symptoms indicate acute pyelonephritis, a serious condition in a pregnant client. UTI symptoms include dysuria, urgency, frequency, and suprapubic tenderness. Asymptomatic bacteriuria doesn’t cause symptoms. Bacterial vaginosis causes milky white vaginal discharge but no systemic symptoms. 96. Answer: (B) Rh-positive fetal blood crosses into maternal blood, stimulating maternal antibodies. Rh isoimmunization occurs when Rhpositive fetal blood cells cross into the maternal circulation and stimulate maternal antibody production. In subsequent pregnancies with Rhpositive fetuses, maternal antibodies may cross back into the fetal circulation and destroy the fetal blood cells.",
-          },
-          {
-            id: "q43",
-            question:
-              "Dianne, 24 year-old is 27 weeks’ pregnant arrives at her physician’s office with complaints of fever, nausea, vomiting, malaise, unilateral flank pain, and costovertebral angle tenderness. Which of the following diagnoses is most likely?",
-            choices: [
-              "Asymptomatic bacteriuria",
-              "Bacterial vaginosis",
-              "Pyelonephritis",
-              "Urinary tract infection (UTI)",
-            ],
-            answer: 2,
-            rationale:
-              "Supine position The supine position causes compression of the client's aorta and inferior vena cava by the fetus. This, in turn, inhibits maternal circulation, leading to maternal hypotension and, ultimately, fetal hypoxia. The other positions promote comfort and aid labor progress. For instance, the lateral, or side-lying, position improves maternal and fetal circulation, enhances comfort, increases maternal relaxation, reduces muscle tension, and eliminates pressure points. The squatting position promotes comfort by taking advantage of gravity. The standing position also takes advantage of gravity and aligns the fetus with the pelvic angle.",
-          },
-          {
-            id: "q44",
-            question:
-              "Rh isoimmunization in a pregnant client develops during which of the following conditions?",
-            choices: [
-              "Rh-positive maternal blood crosses into fetal blood, stimulating fetal antibodies.",
-              "Rh-positive fetal blood crosses into maternal blood, stimulating maternal antibodies.",
-              "Rh-negative fetal blood crosses into maternal blood, stimulating maternal antibodies.",
-              "Rh-negative maternal blood crosses into fetal blood, stimulating fetal antibodies.",
+              "moderate malnutrition/anemia",
+              "severe malnutrition/anemia",
+              "not very low weight, no anemia",
+              "anemia/very low weight",
             ],
             answer: 1,
             rationale:
-              "Irritability and poor sucking. Neonates of heroin-addicted mothers are physically dependent on the drug and experience withdrawal when the drug is no longer supplied. Signs of heroin withdrawal include irritability, poor sucking, and restlessness. Lethargy isn't associated with neonatal heroin addiction. A flattened nose, small eyes, and thin lips are seen in infants with fetal alcohol syndrome. Heroin use during pregnancy hasn't been linked to specific congenital anomalies.",
+              "Visible severe wasting or severe palmar pallor meets the threshold for classification as severe malnutrition/anemia under IMCI.",
+          },
+          {
+            id: "q60",
+            question: "A child who has some palmar pallor can be classified as:",
+            choices: [
+              "moderate anemia/normal weight",
+              "severe malnutrition/anemia",
+              "anemia/very low weight",
+              "not very low weight to anemia",
+            ],
+            answer: 0,
+            rationale:
+              "Some (rather than severe) palmar pallor, without visible severe wasting, is classified as a lesser degree — moderate anemia with normal weight.",
+          },
+          {
+            id: "q61",
+            question:
+              "Situation 13: Nette, a nurse, palpates the abdomen of Mrs. Medina, a primigravida. She is unsure of the date of her last menstrual period. Leopold's Maneuver is done. The obstetrician noted that she appears to be 20 weeks pregnant. Nette explains this because the fundus is:",
+            choices: [
+              "At the level of the umbilicus, and the fetal heart can be heard with a fetoscope",
+              "18 cm, and the baby is just about to move",
+              "Just over the symphysis, and fetal heart cannot be heard",
+              "28 cm, and fetal heart can be heard with a Doppler",
+            ],
+            answer: 0,
+            rationale:
+              "At approximately 20 weeks gestation, the fundus is typically at the level of the umbilicus, and fetal heart tones can already be auscultated with a fetoscope.",
+          },
+          {
+            id: "q62",
+            question:
+              "In doing Leopold's maneuver palpation, which among the following is NOT considered a good preparation?",
+            choices: [
+              "The woman should lie in a supine position with her knees flexed slightly",
+              "The hands of the nurse should be cold so that abdominal muscles would contract and tighten",
+              "Be certain that your hands are warm (by washing them in warm water first if necessary)",
+              "The woman empties her bladder before palpation",
+            ],
+            answer: 1,
+            rationale:
+              "Cold hands cause the abdominal muscles to tense and guard, making palpation more difficult; the nurse's hands should be warmed beforehand, not cold.",
+          },
+          {
+            id: "q63",
+            question:
+              "In her pregnancy, she experienced fatigue and drowsiness. This probably occurs because:",
+            choices: [
+              "Of high blood pressure",
+              "She is expressing pressure",
+              "The fetus utilizes her glucose stores and leaves her with a low blood glucose",
+              "Of the rapid growth of the fetus",
+            ],
+            answer: 3,
+            rationale:
+              "The metabolic and physiologic demands of rapid fetal growth contribute to the fatigue and drowsiness commonly experienced during pregnancy.",
+          },
+          {
+            id: "q64",
+            question:
+              "The nurse assesses the woman at 20 weeks gestation and expects the woman to report:",
+            choices: [
+              "Spotting related to fetal implantation",
+              "Symptoms of diabetes as human placental lactogen is released",
+              "Feeling fetal kicks",
+              "Nausea and vomiting related to HCG production",
+            ],
+            answer: 2,
+            rationale:
+              "Quickening, the first perceptible fetal movements, is typically felt by the mother around 20 weeks of gestation.",
+          },
+          {
+            id: "q65",
+            question:
+              "If Mrs. Medina comes to you for check-up on June 2, her EDD is June 11, what do you expect during assessment?",
+            choices: [
+              "Fundic height 2 fingers below xyphoid process, engaged",
+              "Cervix closed, uneffaced, fundal height midway between the umbilicus and symphysis pubis",
+              "Cervix open, fundic height 2 fingers below xyphoid process, floating",
+              "Fundic height at least at the level of the xyphoid process, engaged",
+            ],
+            answer: 0,
+            rationale:
+              "At approximately 37 weeks (about a week before the EDD), the fundal height is typically 2 fingerbreadths below the xyphoid process, and the fetal head is commonly engaged.",
+          },
+          {
+            id: "q66",
+            question:
+              "Situation 14: Please continue responding as a professional nurse in varied health situations. Which of the following medications would the nurse expect the physician to order for recurrent convulsive seizures of a 10-year old child brought to your clinic?",
+            choices: ["Phenobarbital", "Nifedipine", "Butorphanol", "Diazepam"],
+            answer: 0,
+            rationale:
+              "Phenobarbital is a commonly used anticonvulsant for managing recurrent seizures in children.",
+          },
+          {
+            id: "q67",
+            question:
+              "RhoGAM is given to Rh-negative women to prevent maternal sensitization from occurring. The nurse is aware that, in addition to pregnancy, Rh-negative women would also receive this medication after which of the following?",
+            choices: [
+              "Unsuccessful artificial insemination procedure",
+              "Blood transfusion after hemorrhage",
+              "Therapeutic or spontaneous abortion",
+              "Head injury from a car accident",
+            ],
+            answer: 2,
+            rationale:
+              "RhoGAM is also indicated after a therapeutic or spontaneous abortion to prevent Rh sensitization from fetal blood exposure.",
+          },
+          {
+            id: "q68",
+            question:
+              "Which of the following would the nurse include when describing the pathophysiology of gestational diabetes?",
+            choices: [
+              "Glucose levels decrease to accommodate fetal growth",
+              "Hypoinsulinemia develops early in the first trimester",
+              "Pregnancy fosters the development of carbohydrate cravings",
+              "There is progressive resistance to the effects of insulin",
+            ],
+            answer: 3,
+            rationale:
+              "Gestational diabetes develops as placental hormones cause progressively increasing insulin resistance as pregnancy advances.",
+          },
+          {
+            id: "q69",
+            question:
+              "When providing prenatal education to a pregnant woman with asthma, which of the following would be important for the nurse to do?",
+            choices: [
+              "Demonstrate how to assess her blood glucose",
+              "Teach correct administration of subcutaneous bronchodilators",
+              "Ensure she seeks treatment for any acute exacerbation",
+              "Explain that she should avoid steroids during her pregnancy",
+            ],
+            answer: 2,
+            rationale:
+              "Prompt treatment of any asthma exacerbation during pregnancy is essential, since uncontrolled hypoxia poses greater risk to the fetus than appropriately managed asthma medications.",
+          },
+          {
+            id: "q70",
+            question:
+              "Which of the following conditions would cause an insulin-dependent diabetic client the most difficulty during her pregnancy?",
+            choices: [
+              "Rh incompatibility",
+              "Placenta previa",
+              "Hyperemesis gravidarum",
+              "Abruptio placentae",
+            ],
+            answer: 2,
+            rationale:
+              "Hyperemesis gravidarum complicates glucose and insulin regulation in an insulin-dependent diabetic client due to poor oral intake and fluctuating nutritional status.",
+          },
+          {
+            id: "q71",
+            question:
+              "Situation 15: One important tool a community health nurse uses in the conduct of his/her activities is the CHN Bag. The Community/Public Health Bag is:",
+            choices: [
+              "A requirement for home visits",
+              "An essential and indispensable equipment of the community health nurse",
+              "Containing basic medications and articles used by the community health nurse",
+              "A tool used by the Community Health Nurse in rendering effective nursing procedures during a home visit",
+            ],
+            answer: 1,
+            rationale:
+              "The CHN bag is considered an essential and indispensable piece of equipment that supports the nurse's community health practice.",
+          },
+          {
+            id: "q72",
+            question: "What is the rationale in the use of bag technique during home visit?",
+            choices: [
+              "It helps render effective nursing care to clients or other members of the family",
+              "It saves time and effort of the nurse in the performance of nursing procedures",
+              "It should minimize or prevent the spread of infection from individuals to families",
+              "It should not overshadow concerns for the patient",
+            ],
+            answer: 0,
+            rationale:
+              "The primary rationale for using the bag technique is to enable the nurse to deliver effective nursing care to the client and family during the visit.",
+          },
+          {
+            id: "q73",
+            question:
+              "Which among the following is important in the use of the bag technique during home visit?",
+            choices: [
+              "Arrangement of the bag's contents must be convenient to the nurse",
+              "The bag should contain all necessary supplies and equipment ready for use",
+              "Be sure to thoroughly clean your bag especially when exposed to communicable disease cases",
+              "Minimize if not totally prevent the spread of infection",
+            ],
+            answer: 3,
+            rationale:
+              "A central and overriding priority of the bag technique is to minimize, if not totally prevent, the spread of infection during home visits.",
+          },
+          {
+            id: "q74",
+            question: "This is an important procedure of the nurse during home visits.",
+            choices: [
+              "Protection of the CHN bag",
+              "Arrangement of the contents of the CHN bag",
+              "Cleaning of the CHN bag",
+              "Proper handwashing",
+            ],
+            answer: 3,
+            rationale:
+              "Proper handwashing before and after the visit is a fundamental infection control procedure during home visits.",
+          },
+          {
+            id: "q75",
+            question:
+              "In consideration of the steps in applying the bag technique, which side of the paper lining of the CHN bag is considered clean to make a non-contaminated work area?",
+            choices: ["The lower lip", "The outer surface", "The upper lip", "The inside surface"],
+            answer: 1,
+            rationale:
+              "The outer surface of the paper lining is considered the clean side, used to create a non-contaminated work area.",
+          },
+          {
+            id: "q76",
+            question:
+              "Situation 16: As a Community Health Nurse relating with people in different communities and implementing health programs, you experience the varying forms of leadership and management from the Barangay level to the Local Government/Municipal City level. The following statements can correctly be made about organization and management: (A) An organization (or company) is people. Values make people persons; values give vitality, meaning and direction to a company. As the people of an organization value, so the company becomes. (B) Management is the process by which administration achieves its mission, goals, and objectives. (C) Management effectiveness can be measured in terms of accomplishment of the purpose of the organization while management efficiency is measured in terms of the satisfaction of individual motives. (D) Management principles are universal, therefore one need not be concerned about people, culture, values, traditions and human relations.",
+            choices: ["B and C only", "A, B and D only", "A and D only", "B, A, and C only"],
+            answer: 3,
+            rationale:
+              "Statements A, B, and C describe accepted principles about organizational values, the purpose of management, and the distinction between effectiveness and efficiency; statement D is incorrect since management must always account for people, culture, and values.",
+          },
+          {
+            id: "q77",
+            question:
+              "Management by Filipino values advocates the consideration of the Filipino goals trilogy according to the Filipino priority-values, which are:",
+            choices: [
+              "Family goals, national goals, organizational goals",
+              "Organizational goals, national goals, family goals",
+              "National goals, organizational goals, family goals",
+              "Family goals, organizational goals, national goals",
+            ],
+            answer: 3,
+            rationale:
+              "Filipino value-based management prioritizes family goals first, followed by organizational goals, and then national goals.",
+          },
+          {
+            id: "q78",
+            question:
+              "Since the advocacy for the utilization of the Filipino value-system in management has been encouraged, the nursing sector is no exception; management needs to examine Filipino values and discover their positive potentials and harness them to achieve:",
+            choices: [
+              "Employee satisfaction",
+              "Organizational commitments, organizational objectives and employee satisfaction",
+              "Employee objectives/satisfaction, commitments and organizational objectives",
+              "Organizational objectives, commitments and employee objective/satisfaction",
+            ],
+            answer: 3,
+            rationale:
+              "Harnessing Filipino values in management aims to jointly achieve organizational objectives, organizational commitment, and employee satisfaction.",
+          },
+          {
+            id: "q79",
+            question:
+              "The following statements can correctly be made about an effective and efficient community or agency managerial-leader: (A) Considers the achievement and advancement of the organization she/he represents as well as his people. (B) Considers the recognition of individual efforts toward the realization of organizational goals as well as the welfare of his people. (C) Considers the welfare of the organization above all other considerations by higher administration. (D) Considers its own recognition by higher administration for purposes of promotion and prestige.",
+            choices: [
+              "Only C and D are correct",
+              "A, C and D are correct",
+              "B, C, and D are correct",
+              "Only A and B are correct",
+            ],
+            answer: 3,
+            rationale:
+              "An effective managerial-leader balances organizational achievement with genuine concern for the welfare and recognition of their people (A and B), rather than prioritizing self-promotion or rigid deference to higher administration (C and D).",
+          },
+          {
+            id: "q80",
+            question:
+              "Whether management is at the community or agency level, there are 3 essential types of skills managers must have. These are: (A) Human relation skills, technical skills, and cognitive skills. (B) Conceptual skills, human relation/behavioral skills, and technical skills. (C) Technical skills, budget and accounting skills, skills in fund-raising. (D) Manipulative skills, technical skills, resource management skills.",
+            choices: ["A and D are correct", "B is correct", "A is correct", "C and D are correct"],
+            answer: 2,
+            rationale:
+              "The three essential managerial skill sets — human relation, technical, and cognitive (conceptual) skills — are captured in statement A.",
+          },
+          {
+            id: "q81",
+            question:
+              "Situation 17: You are an actively practicing nurse who just finished your Graduate Studies. You learned the value of research and would like to utilize the knowledge and skills gained in the application of research to nursing service. Which type of research inquiry investigates the issues of human complexity (e.g. understanding human expertise)?",
+            choices: [
+              "Logical position",
+              "Naturalistic inquiry",
+              "Positivism",
+              "Quantitative Research",
+            ],
+            answer: 1,
+            rationale:
+              "Naturalistic inquiry, associated with qualitative research, explores complex human experiences within their natural context.",
+          },
+          {
+            id: "q82",
+            question: "Which of the following studies is based on quantitative research?",
+            choices: [
+              "A study examining the bereavement process in spouses of clients with terminal cancer",
+              "A study exploring factors influencing weight control behavior",
+              "A study measuring the effects of sleep deprivation on wound healing",
+              "A study examining client's feelings before, during and after a bone marrow aspiration",
+            ],
+            answer: 2,
+            rationale:
+              "Measuring the effects of sleep deprivation on wound healing involves numeric, measurable outcomes, characteristic of quantitative research.",
+          },
+          {
+            id: "q83",
+            question: "Which of the following studies is based on qualitative research?",
+            choices: [
+              "A study examining clients' reactions to stress after open heart surgery",
+              "A study measuring nutrition and weight loss/gain in clients with cancer",
+              "A study examining oxygen levels after endotracheal suctioning",
+              "A study measuring differences in blood pressure before, during and after a procedure",
+            ],
+            answer: 0,
+            rationale:
+              "Examining clients' subjective reactions to stress is characteristic of qualitative research, unlike the other options that involve measurable, numeric data.",
+          },
+          {
+            id: "q84",
+            question:
+              'An 85 year old client in a nursing home tells a nurse, "I signed the papers for that research study because the doctor was so insistent and I want him to continue taking care of me." Which client right is being violated?',
+            choices: [
+              "Right of self determination",
+              "Right to privacy and confidentiality",
+              "Right to full disclosure",
+              "Right not to be harmed",
+            ],
+            answer: 0,
+            rationale:
+              "The client's right to self-determination, which requires voluntary participation free from coercion, is being violated here.",
+          },
+          {
+            id: "q85",
+            question:
+              '"A supposition or system of ideas that is proposed to explain a given phenomenon" best defines:',
+            choices: ["A paradigm", "A concept", "A theory", "A conceptual framework"],
+            answer: 2,
+            rationale:
+              "A theory is a systematic set of ideas or propositions used to explain a phenomenon and predict relationships among concepts.",
+          },
+          {
+            id: "q86",
+            question:
+              "Situation 18: Nurse Michelle works with a Family Nursing Team in Calbayog Province specifically handling a UNICEF Project for Children. Ronnie asks constant questions. How many does a typical 3-year-old ask in a day's time?",
+            choices: ["1,200 or more", "Less than 50", "100-200", "300-400"],
+            answer: 3,
+            rationale:
+              "A typical 3-year-old is highly curious and can ask roughly 300-400 questions in a day as part of normal developmental exploration.",
+          },
+          {
+            id: "q87",
+            question:
+              "Ronnie will need to change to a new bed because his baby sister will need Ronnie's old crib. What measure would you suggest that his parents take to help decrease sibling rivalry between Ronnie and his new sister?",
+            choices: [
+              "Move him to the new bed before the baby arrives",
+              "Explain that new sisters grow up to become best friends",
+              "Tell him he will have to share with the new baby",
+              "Ask him to get his crib ready for the new baby",
+            ],
+            answer: 0,
+            rationale:
+              "Transitioning Ronnie to his new bed before the baby arrives helps him feel the change is his own milestone, rather than feeling displaced by the new sibling, reducing rivalry.",
+          },
+          {
+            id: "q88",
+            question:
+              "Ronnie's parents want to know how to react to him when he begins to masturbate while watching television. What would you suggest?",
+            choices: [
+              "They refuse to allow him to watch television",
+              "They schedule a health check-up for sex-related disease",
+              "They remind him that some activities are private",
+              'They give him "timeout" when this begins',
+            ],
+            answer: 2,
+            rationale:
+              "Normal childhood self-exploration is best handled by calmly redirecting the child and explaining that such activities are private, rather than punishing or over-medicalizing the behavior.",
+          },
+          {
+            id: "q89",
+            question: "How many words does a typical 12-month-old infant use?",
+            choices: [
+              "About 12 words",
+              "Twenty or more words",
+              "About 50 words",
+              'Two, plus "mama" and "dada"',
+            ],
+            answer: 0,
+            rationale:
+              "By around 12 months, many infants can use approximately a dozen recognizable words as part of early expressive language development.",
+          },
+          {
+            id: "q90",
+            question:
+              "As a nurse, you reviewed infant safety procedures with Bryan's mother. What are two of the most common types of accidents among infants?",
+            choices: [
+              "Aspiration and falls",
+              "Falls and auto accidents",
+              "Poisoning and burns",
+              "Drowning and homicide",
+            ],
+            answer: 0,
+            rationale:
+              "Aspiration and falls are among the most common types of accidental injury in infants due to their developing motor skills and tendency to put objects in their mouths.",
+          },
+          {
+            id: "q91",
+            question:
+              "Situation 19: Among common conditions found in children, especially in poor communities, are ear infections/problems. A child with an ear problem should be assessed for the following EXCEPT:",
+            choices: [
+              "Is there any fever?",
+              "Ear discharge",
+              "If discharge is present, for how long?",
+              "Ear pain",
+            ],
+            answer: 0,
+            rationale:
+              "The standard IMCI ear assessment focuses specifically on ear pain, discharge, duration of discharge, and tender swelling behind the ear — checking for fever generally is not part of this specific ear assessment.",
+          },
+          {
+            id: "q92",
+            question:
+              "If the child does not have an ear problem, using IMCI, what should you as the nurse do?",
+            choices: [
+              "Check for ear discharge",
+              "Check for tender swellings behind the ear",
+              "Check for ear pain",
+              "Go to the next question, check for malnutrition",
+            ],
+            answer: 3,
+            rationale:
+              "If no ear problem is identified, the IMCI protocol directs the nurse to proceed to the next assessment area, which is checking for malnutrition.",
+          },
+          {
+            id: "q93",
+            question:
+              "An ear discharge that has been present for more than 14 days can be classified as:",
+            choices: [
+              "mastoiditis",
+              "chronic ear infection",
+              "acute ear infection",
+              "complicated ear infection",
+            ],
+            answer: 1,
+            rationale:
+              "Ear discharge lasting more than 14 days is classified as a chronic ear infection under IMCI guidelines.",
+          },
+          {
+            id: "q94",
+            question:
+              "An ear discharge that has been present for less than 14 days can be classified as:",
+            choices: [
+              "chronic ear infection",
+              "mastoiditis",
+              "acute ear infection",
+              "complicated ear infection",
+            ],
+            answer: 2,
+            rationale:
+              "Ear discharge present for less than 14 days is classified as an acute ear infection.",
+          },
+          {
+            id: "q95",
+            question:
+              "If the child has a severe classification because of an ear problem, what would be the best thing that you as the nurse can do?",
+            choices: [
+              "Instruct mother when to return immediately",
+              "Refer urgently",
+              "Give an antibiotic for 5 days",
+              "Dry the ear by wicking",
+            ],
+            answer: 1,
+            rationale:
+              "A severe classification for an ear problem, such as mastoiditis, requires urgent referral to a hospital for further evaluation and management.",
+          },
+          {
+            id: "q96",
+            question:
+              "Situation 20: If a child with diarrhea registers one sign in the pink row and one in the yellow row in the IMCI Chart, we can classify the patient as:",
+            choices: [
+              "moderate dehydration",
+              "some dehydration",
+              "no dehydration",
+              "severe dehydration",
+            ],
+            answer: 3,
+            rationale:
+              "Per this reviewer's classification approach, a combination of a severe (pink row) sign together with a moderate (yellow row) sign is classified as severe dehydration, prompting urgent management.",
+          },
+          {
+            id: "q97",
+            question:
+              "The child with no dehydration needs home treatment. Which of the following is NOT included in the rules for home treatment in this case?",
+            choices: [
+              "Continue feeding the child",
+              "Give oresol every 4 hours",
+              "Know when to return to the health center",
+              "Give the child extra fluids",
+            ],
+            answer: 1,
+            rationale:
+              "Home treatment for a child with no dehydration calls for giving oral rehydration solution after each loose stool as needed, not on a strict every-4-hours schedule, making that specific instruction inaccurate.",
+          },
+          {
+            id: "q98",
+            question:
+              "A child who has had diarrhea for 14 days but has no sign of dehydration is classified as:",
+            choices: [
+              "severe persistent diarrhea",
+              "dysentery",
+              "severe dysentery",
+              "persistent diarrhea",
+            ],
+            answer: 3,
+            rationale:
+              "Diarrhea lasting 14 days or more without dehydration is classified as persistent diarrhea under IMCI guidelines.",
+          },
+          {
+            id: "q99",
+            question:
+              "If the child has sunken eyes, is drinking eagerly and thirsty, and the skin pinch goes back slowly, the classification would be:",
+            choices: [
+              "no dehydration",
+              "moderate dehydration",
+              "some dehydration",
+              "severe dehydration",
+            ],
+            answer: 2,
+            rationale:
+              "Sunken eyes, eager/thirsty drinking, and a slow skin pinch together meet the criteria for a classification of some dehydration.",
+          },
+          {
+            id: "q100",
+            question:
+              "Carlo has had diarrhea for 5 days. There is no blood in the stool, he is irritable. His eyes are sunken. The nurse offers fluid to Carlo and he drinks eagerly. When the nurse pinches the abdomen, it goes back slowly. How will you classify Carlo's illness?",
+            choices: [
+              "severe dehydration",
+              "no dehydration",
+              "some dehydration",
+              "moderate dehydration",
+            ],
+            answer: 2,
+            rationale:
+              "Carlo's combination of irritability, sunken eyes, eager/thirsty drinking, and slow skin pinch recoil meets the criteria for a classification of some dehydration.",
           },
         ],
       },
@@ -14605,7 +14799,7 @@ export const subjects: Subject[] = [
     banks: [
       {
         id: "fon-test-i-foundation-of-professional-nursin",
-        title: "TEST I - Foundation of Professional Nursing",
+        title: "Foundation of Professional Nursing",
         description: "100 questions from the PNLE reviewer.",
         questions: [
           {
@@ -15860,8 +16054,1133 @@ export const subjects: Subject[] = [
         ],
       },
       {
-        id: "fon-part-iii-practice-test-i-foundation-of",
-        title: "PART III PRACTICE TEST I FOUNDATION OF NURSING",
+        id: "fon-fundamentals-of-nursing-part-1",
+        title: "FUNDAMENTALS OF NURSING PART 1",
+        description: "50 questions from the PNLE reviewer.",
+        questions: [
+          {
+            id: "q1",
+            question:
+              "Using the principles of standard precautions, the nurse would wear gloves in what nursing intervention?",
+            choices: [
+              "Providing a back massage",
+              "Feeding a client",
+              "Providing hair care",
+              "Providing oral hygiene",
+            ],
+            answer: 3,
+            rationale:
+              "Oral hygiene involves contact with mucous membranes and secretions, requiring gloves under standard precautions, unlike back massage, feeding, or hair care.",
+          },
+          {
+            id: "q2",
+            question:
+              "The nurse is preparing to take vital signs in an alert client admitted to the hospital with dehydration secondary to vomiting and diarrhea. What is the best method used to assess the client's temperature?",
+            choices: ["Oral", "Axillary", "Radial", "Heat sensitive tape"],
+            answer: 1,
+            rationale:
+              "The axillary route is safest for a client who has been vomiting, since the oral route could be inaccurate or trigger further nausea.",
+          },
+          {
+            id: "q3",
+            question:
+              "A nurse obtained a client's pulse and found the rate to be above normal. The nurse documents this finding as:",
+            choices: ["Tachypnea", "Hyperpyrexia", "Arrhythmia", "Tachycardia"],
+            answer: 3,
+            rationale: "Tachycardia refers to a pulse or heart rate above the normal range.",
+          },
+          {
+            id: "q4",
+            question:
+              "Which of the following actions should the nurse take to use a wide base of support when assisting a client to get up in a chair?",
+            choices: [
+              "Bend at the waist and place arms under the client's arms and lift",
+              "Face the client, bend knees and place hands on client's forearm and lift",
+              "Spread his or her feet apart",
+              "Tighten his or her pelvic muscles",
+            ],
+            answer: 1,
+            rationale:
+              "Facing the client, bending the knees, and using the leg muscles to lift provides proper body mechanics and a wide, stable base of support, protecting the nurse from injury.",
+          },
+          {
+            id: "q5",
+            question:
+              "A client had oral surgery following a motor vehicle accident. The nurse assessing the client finds the skin flushed and warm. Which of the following would be the best method to take the client's body temperature?",
+            choices: ["Oral", "Axillary", "Arterial line", "Rectal"],
+            answer: 1,
+            rationale:
+              "Since the client had oral surgery, the oral route is contraindicated; the axillary route is the safest, most accessible alternative.",
+          },
+          {
+            id: "q6",
+            question:
+              "A client who is unconscious needs frequent mouth care. When performing mouth care, the best position for a client is:",
+            choices: ["Fowler's position", "Side lying", "Supine", "Trendelenburg"],
+            answer: 1,
+            rationale:
+              "A side-lying position allows secretions and fluid to drain out of the mouth by gravity, reducing the risk of aspiration in an unconscious client.",
+          },
+          {
+            id: "q7",
+            question:
+              "A client is hospitalized for the first time. Which of the following actions ensures the safety of the client?",
+            choices: [
+              "Keep unnecessary furniture out of the way",
+              "Keep the lights on at all times",
+              "Keep side rails up at all times",
+              "Keep all equipment out of view",
+            ],
+            answer: 2,
+            rationale:
+              "Keeping the side rails up at all times helps prevent falls, which is especially important for a client unfamiliar with the hospital environment.",
+          },
+          {
+            id: "q8",
+            question:
+              "A walk-in client enters the clinic with a chief complaint of abdominal pain and diarrhea. The nurse takes the client's vital signs thereafter. What phase of the nursing process is being implemented here by the nurse?",
+            choices: ["Assessment", "Diagnosis", "Planning", "Implementation"],
+            answer: 0,
+            rationale:
+              "Collecting data such as the chief complaint and vital signs is part of the assessment phase of the nursing process.",
+          },
+          {
+            id: "q9",
+            question:
+              "It is best described as a systematic, rational method of planning and providing nursing care for individuals, families, groups and communities.",
+            choices: ["Assessment", "Nursing Process", "Diagnosis", "Implementation"],
+            answer: 1,
+            rationale:
+              "The nursing process is the systematic, rational framework nurses use to plan and deliver individualized care.",
+          },
+          {
+            id: "q10",
+            question: "Exchange of gases takes place in which of the following organs?",
+            choices: ["Kidney", "Lungs", "Liver", "Heart"],
+            answer: 1,
+            rationale:
+              "Gas exchange (oxygen and carbon dioxide) occurs in the alveoli of the lungs.",
+          },
+          {
+            id: "q11",
+            question:
+              "The chamber of the heart that receives oxygenated blood from the lungs is the:",
+            choices: ["Left atrium", "Right atrium", "Left ventricle", "Right ventricle"],
+            answer: 0,
+            rationale:
+              "Oxygenated blood returns from the lungs via the pulmonary veins into the left atrium, which then passes it to the left ventricle for systemic circulation.",
+          },
+          {
+            id: "q12",
+            question:
+              "A muscular, enlarged pouch or sac that lies slightly to the left, used for temporary storage of food:",
+            choices: ["Gallbladder", "Urinary bladder", "Stomach", "Lungs"],
+            answer: 2,
+            rationale:
+              "The stomach is a muscular sac that temporarily stores and begins digesting food.",
+          },
+          {
+            id: "q13",
+            question:
+              "The ability of the body to defend itself against a specific invading agent such as bacteria, toxins, viruses and foreign bodies:",
+            choices: ["Hormones", "Secretion", "Immunity", "Glands"],
+            answer: 2,
+            rationale:
+              "Immunity is the body's ability to resist and defend against specific pathogens and foreign substances.",
+          },
+          {
+            id: "q14",
+            question: "Hormones secreted by the Islets of Langerhans:",
+            choices: ["Progesterone", "Testosterone", "Insulin", "Hemoglobin"],
+            answer: 2,
+            rationale:
+              "The Islets of Langerhans in the pancreas secrete insulin and glucagon, which regulate blood glucose.",
+          },
+          {
+            id: "q15",
+            question:
+              "It is a transparent membrane that focuses the light that enters the eyes to the retina.",
+            choices: ["Lens", "Sclera", "Cornea", "Pupils"],
+            answer: 2,
+            rationale:
+              "The cornea is the transparent, dome-shaped structure at the front of the eye that helps focus incoming light onto the retina.",
+          },
+          {
+            id: "q16",
+            question: "Which of the following is included in Orem's theory?",
+            choices: [
+              "Maintenance of a sufficient intake of air",
+              "Self perception",
+              "Love and belonging",
+              "Physiologic needs",
+            ],
+            answer: 0,
+            rationale:
+              "Orem's Self-Care Deficit Theory identifies universal self-care requisites, including maintaining a sufficient intake of air, water, and food.",
+          },
+          {
+            id: "q17",
+            question:
+              "Which of the following clusters of data belong to Maslow's hierarchy of needs?",
+            choices: [
+              "Love and belonging",
+              "Physiologic needs",
+              "Self actualization",
+              "All of the above",
+            ],
+            answer: 3,
+            rationale:
+              "Maslow's hierarchy of needs includes physiologic needs, love and belonging, and self-actualization among its levels, so all the choices are part of the hierarchy.",
+          },
+          {
+            id: "q18",
+            question: "This is characterized by severe symptoms of relatively short duration.",
+            choices: ["Chronic Illness", "Acute Illness", "Pain", "Syndrome"],
+            answer: 1,
+            rationale:
+              "Acute illness is characterized by a rapid onset of severe symptoms that last a relatively short time.",
+          },
+          {
+            id: "q19",
+            question: "Which of the following is the nurse's role in health promotion?",
+            choices: [
+              "Health risk appraisal",
+              "Teach client to be effective health consumer",
+              "Worksite wellness",
+              "None of the above",
+            ],
+            answer: 1,
+            rationale:
+              "A key nursing role in health promotion is educating clients so they can become effective, informed health consumers.",
+          },
+          {
+            id: "q20",
+            question:
+              "It is described as a collection of people who share some attributes of their lives.",
+            choices: ["Family", "Illness", "Community", "Nursing"],
+            answer: 2,
+            rationale:
+              "A community is a group of people who share common characteristics, location, interests, or attributes.",
+          },
+          {
+            id: "q21",
+            question: "Five teaspoons is equivalent to how many milliliters (ml)?",
+            choices: ["30 ml", "25 ml", "12 ml", "75 ml"],
+            answer: 1,
+            rationale: "Each teaspoon equals about 5 ml, so 5 teaspoons equal 25 ml.",
+          },
+          {
+            id: "q22",
+            question: "1800 ml is equal to how many liters?",
+            choices: ["1.8", "18000", "180", "2800"],
+            answer: 0,
+            rationale: "1000 ml equals 1 liter, so 1800 ml equals 1.8 liters.",
+          },
+          {
+            id: "q23",
+            question: "Which of the following is the abbreviation of drops?",
+            choices: ["Gtt.", "Gtts.", "Dp.", "Dr."],
+            answer: 1,
+            rationale:
+              '"Gtts." is the standard abbreviation used for drops (plural) in medication administration.',
+          },
+          {
+            id: "q24",
+            question: "The abbreviation for microdrop is…",
+            choices: ["µgtt", "gtt", "mdr", "mgts"],
+            answer: 0,
+            rationale:
+              "µgtt is the standard abbreviation for microdrop, used with microdrip IV tubing.",
+          },
+          {
+            id: "q25",
+            question: "Which of the following is the meaning of PRN?",
+            choices: ["When advice", "Immediately", "When necessary", "Now"],
+            answer: 2,
+            rationale: 'PRN (pro re nata) means "as needed" or "when necessary."',
+          },
+          {
+            id: "q26",
+            question: "Which of the following is the appropriate meaning of CBR?",
+            choices: [
+              "Cardiac Board Room",
+              "Complete Bathroom",
+              "Complete Bed Rest",
+              "Complete Board Room",
+            ],
+            answer: 2,
+            rationale: "CBR stands for Complete Bed Rest.",
+          },
+          {
+            id: "q27",
+            question: "1 tsp is equal to how many drops?",
+            choices: ["15", "60", "10", "30"],
+            answer: 1,
+            rationale:
+              "Based on the conversion used in this reviewer, 1 teaspoon (5 ml) is equal to about 60 drops.",
+          },
+          {
+            id: "q28",
+            question: "20 cc is equal to how many ml?",
+            choices: ["2", "20", "2000", "20000"],
+            answer: 1,
+            rationale:
+              "Cubic centimeters (cc) and milliliters (ml) are equivalent units, so 20 cc equals 20 ml.",
+          },
+          {
+            id: "q29",
+            question: "1 cup is equal to how many ounces?",
+            choices: ["8", "80", "800", "8000"],
+            answer: 0,
+            rationale: "1 cup is equivalent to 8 fluid ounces.",
+          },
+          {
+            id: "q30",
+            question:
+              "The nurse must verify the client's identity before administration of medication. Which of the following is the safest way to identify the client?",
+            choices: [
+              "Ask the client his name",
+              "Check the client's identification band",
+              "State the client's name aloud and have the client repeat it",
+              "Check the room number",
+            ],
+            answer: 0,
+            rationale:
+              "Per this reviewer, directly asking the client to state their own name is identified as the correct method, since it actively confirms identity from the client rather than relying on a label, a leading statement, or a room assignment (note: many current facilities pair this with checking the ID band as a second identifier).",
+          },
+          {
+            id: "q31",
+            question:
+              "The nurse prepares to administer buccal medication. The medicine should be placed…",
+            choices: [
+              "On the client's skin",
+              "Between the client's cheeks and gums",
+              "Under the client's tongue",
+              "On the client's conjunctiva",
+            ],
+            answer: 1,
+            rationale:
+              "Buccal medications are placed between the cheek and gums, where they dissolve and are absorbed through the oral mucosa.",
+          },
+          {
+            id: "q32",
+            question:
+              "The nurse administers a cleansing enema. The common position for this procedure is…",
+            choices: ["Sims left lateral", "Dorsal Recumbent", "Supine", "Prone"],
+            answer: 0,
+            rationale:
+              "The Sims left lateral position follows the natural curve of the sigmoid colon and rectum, facilitating the flow of enema solution.",
+          },
+          {
+            id: "q33",
+            question:
+              "A client complains of difficulty swallowing when the nurse tries to administer capsule medication. Which of the following measures should the nurse do?",
+            choices: [
+              "Dissolve the capsule in a glass of water",
+              "Break the capsule and give the content with applesauce",
+              "Check the availability of a liquid preparation",
+              "Crush the capsule and place it under the tongue",
+            ],
+            answer: 2,
+            rationale:
+              "Capsules should not be opened, crushed, or dissolved without checking with the pharmacist or physician first; checking for an available liquid formulation is the safest option for a client with swallowing difficulty.",
+          },
+          {
+            id: "q34",
+            question:
+              "Which of the following is the appropriate route of administration for insulin?",
+            choices: ["Intramuscular", "Intradermal", "Subcutaneous", "Intravenous"],
+            answer: 2,
+            rationale:
+              "Insulin is administered via the subcutaneous route to allow for gradual, sustained absorption.",
+          },
+          {
+            id: "q35",
+            question:
+              "The nurse is ordered to administer ampicillin capsule TID p.o. The nurse should give the medication…",
+            choices: [
+              "Three times a day orally",
+              "Three times a day after meals",
+              "Two times a day by mouth",
+              "Two times a day before meals",
+            ],
+            answer: 0,
+            rationale: "TID means three times a day, and p.o. (per os) means by mouth (orally).",
+          },
+          {
+            id: "q36",
+            question: "Back care is best described as:",
+            choices: [
+              "Caring for the back by means of massage",
+              "Washing of the back",
+              "Application of cold compress at the back",
+              "Application of hot compress at the back",
+            ],
+            answer: 0,
+            rationale:
+              "Back care primarily refers to massaging the back to promote circulation, comfort, and relaxation.",
+          },
+          {
+            id: "q37",
+            question: "It refers to the preparation of the bed with a new set of linens.",
+            choices: ["Bed bath", "Bed making", "Bed shampoo", "Bed lining"],
+            answer: 1,
+            rationale:
+              "Bed making is the procedure of preparing a bed with clean linens for the client's comfort and hygiene.",
+          },
+          {
+            id: "q38",
+            question: "Which of the following is the most important purpose of handwashing?",
+            choices: [
+              "To promote hand circulation",
+              "To prevent the transfer of microorganisms",
+              "To avoid touching the client with a dirty hand",
+              "To provide comfort",
+            ],
+            answer: 1,
+            rationale:
+              "The most important purpose of handwashing is to prevent the transfer of microorganisms and reduce infection risk.",
+          },
+          {
+            id: "q39",
+            question:
+              "What should be done in order to prevent contaminating the environment in bed making?",
+            choices: [
+              "Avoid fanning soiled linens",
+              "Strip all linens at the same time",
+              "Finish both sides at the same time",
+              "Embrace soiled linen",
+            ],
+            answer: 0,
+            rationale:
+              "Avoiding fanning soiled linens prevents microorganisms and dust from becoming airborne and contaminating the environment.",
+          },
+          {
+            id: "q40",
+            question: "The most important purpose of cleansing bed bath is:",
+            choices: [
+              "To cleanse, refresh and give comfort to the client who must remain in bed",
+              "To expose the necessary parts of the body",
+              "To develop skills in bed bath",
+              "To check the body temperature of the client in bed",
+            ],
+            answer: 0,
+            rationale:
+              "A cleansing bed bath is primarily done to cleanse, refresh, and provide comfort to a client confined to bed.",
+          },
+          {
+            id: "q41",
+            question: "Which of the following techniques involves the sense of sight?",
+            choices: ["Inspection", "Palpation", "Percussion", "Auscultation"],
+            answer: 0,
+            rationale:
+              "Inspection relies on visual observation of the client, using the sense of sight.",
+          },
+          {
+            id: "q42",
+            question: "The first technique used in examining the abdomen of a client is:",
+            choices: ["Palpation", "Auscultation", "Percussion", "Inspection"],
+            answer: 3,
+            rationale:
+              "For abdominal assessment, inspection is performed first, followed by auscultation, then percussion and palpation, since palpation and percussion can alter bowel sounds.",
+          },
+          {
+            id: "q43",
+            question:
+              "A technique in physical examination that is used to assess the movement of air through the tracheobronchial tree:",
+            choices: ["Palpation", "Auscultation", "Inspection", "Percussion"],
+            answer: 1,
+            rationale:
+              "Auscultation, typically with a stethoscope, is used to listen to airflow and breath sounds through the tracheobronchial tree.",
+          },
+          {
+            id: "q44",
+            question: "An instrument used for auscultation is:",
+            choices: ["Percussion-hammer", "Audiometer", "Stethoscope", "Sphygmomanometer"],
+            answer: 2,
+            rationale:
+              "The stethoscope is the instrument used to auscultate heart, lung, and bowel sounds.",
+          },
+          {
+            id: "q45",
+            question: "Resonance is best described as:",
+            choices: [
+              "Sounds created by air filled lungs",
+              "Short, high pitch and thudding",
+              "Moderately loud with musical quality",
+              "Drum-like",
+            ],
+            answer: 0,
+            rationale:
+              "Resonance is the low-pitched, hollow sound produced by percussing normal, air-filled lung tissue.",
+          },
+          {
+            id: "q46",
+            question: "The best position for examining the rectum is:",
+            choices: ["Prone", "Sim's", "Knee-chest", "Lithotomy"],
+            answer: 2,
+            rationale:
+              "The knee-chest position provides optimal exposure and access for rectal examination.",
+          },
+          {
+            id: "q47",
+            question: "It refers to the manner of walking.",
+            choices: ["Gait", "Range of motion", "Flexion and extension", "Hopping"],
+            answer: 0,
+            rationale: "Gait refers to a person's pattern or manner of walking.",
+          },
+          {
+            id: "q48",
+            question:
+              "The nurse asked the client to read the Snellen chart. Which of the following is tested:",
+            choices: ["Optic", "Olfactory", "Oculomotor", "Trochlear"],
+            answer: 0,
+            rationale:
+              "The Snellen chart tests visual acuity, which assesses the function of the optic nerve (cranial nerve II).",
+          },
+          {
+            id: "q49",
+            question: "Another name for knee-chest position is:",
+            choices: ["Genu-dorsal", "Genu-pectoral", "Lithotomy", "Sim's"],
+            answer: 1,
+            rationale: "The knee-chest position is also known as the genu-pectoral position.",
+          },
+          {
+            id: "q50",
+            question:
+              "The nurse prepares an IM injection that is irritating to the subcutaneous tissue. Which of the following is the best action in order to prevent tracking of the medication?",
+            choices: [
+              "Use a small gauge needle",
+              "Apply ice on the injection site",
+              "Administer at a 45° angle",
+              "Use the Z-track technique",
+            ],
+            answer: 3,
+            rationale:
+              "The Z-track technique displaces the skin and subcutaneous tissue during injection, sealing the medication in the muscle and preventing it from tracking back through the tissue.",
+          },
+        ],
+      },
+      {
+        id: "fon-fundamentals-of-nursing-part-2",
+        title: "FUNDAMENTALS OF NURSING PART 2",
+        description: "50 questions from the PNLE reviewer.",
+        questions: [
+          {
+            id: "q1",
+            question:
+              "The most appropriate nursing order for a patient who develops dyspnea and shortness of breath would be…",
+            choices: [
+              "Maintain the patient on strict bed rest at all times",
+              "Maintain the patient in an orthopneic position as needed",
+              "Administer oxygen by Venturi mask at 24%, as needed",
+              "Allow a 1 hour rest period between activities",
+            ],
+            answer: 1,
+            rationale:
+              "The orthopneic position encourages maximum chest expansion and keeps abdominal organs from pressing against the diaphragm, improving ventilation. Bed rest and Venturi mask oxygen may help but require a physician's order, and rest periods only decrease the possibility of hypoxia rather than directly relieving dyspnea.",
+          },
+          {
+            id: "q2",
+            question:
+              "The nurse observes that Mr. Adams begins to have increased difficulty breathing. She elevates the head of the bed to the high Fowler position, which decreases his respiratory distress. The nurse documents this breathing as:",
+            choices: ["Tachypnea", "Eupnea", "Orthopnea", "Hyperventilation"],
+            answer: 2,
+            rationale:
+              "Orthopnea is difficulty breathing except in the upright position. Tachypnea is rapid, shallow breathing, and eupnea is normal, quiet, effortless respiration.",
+          },
+          {
+            id: "q3",
+            question:
+              "The physician orders a platelet count to be performed on Mrs. Smith after breakfast. The nurse is responsible for:",
+            choices: [
+              "Instructing the patient about this diagnostic test",
+              "Writing the order for this test",
+              "Giving the patient breakfast",
+              "All of the above",
+            ],
+            answer: 2,
+            rationale:
+              "A platelet count evaluates circulating platelet levels. The nurse is responsible for giving the patient breakfast at the scheduled time, while the physician is responsible for instructing the patient and writing the order.",
+          },
+          {
+            id: "q4",
+            question:
+              "Mrs. Mitchell has been given a copy of her diet. The nurse discusses the foods allowed on a 500-mg low sodium diet. These include:",
+            choices: [
+              "A ham and Swiss cheese sandwich on whole wheat bread",
+              "Mashed potatoes and broiled chicken",
+              "A tossed salad with oil and vinegar and olives",
+              "Chicken bouillon",
+            ],
+            answer: 1,
+            rationale:
+              "Mashed potatoes and broiled chicken are low in natural sodium chloride. Ham, olives, and chicken bouillon contain large amounts of sodium and are contraindicated on a low sodium diet.",
+          },
+          {
+            id: "q5",
+            question:
+              "The physician orders a maintenance dose of 5,000 units of subcutaneous heparin (an anticoagulant) daily. Nursing responsibilities for Mrs. Mitchell now include:",
+            choices: [
+              "Reviewing daily activated partial thromboplastin time (APTT) and prothrombin time",
+              "Reporting an APTT above 45 seconds to the physician",
+              "Assessing the patient for signs and symptoms of frank and occult bleeding",
+              "All of the above",
+            ],
+            answer: 3,
+            rationale:
+              "All of these nursing responsibilities are pertinent when a patient is receiving heparin. Normal APTT is 16–25 seconds and normal prothrombin time is 12–15 seconds, and these levels must stay within two to two-and-a-half times normal. Patients must also be observed for signs of frank and occult bleeding.",
+          },
+          {
+            id: "q6",
+            question:
+              "Which of the following are the four major concepts that all nursing theorists have accepted as the focus of nursing practice, dating back to Florence Nightingale?",
+            choices: [
+              "Person, nursing, environment, medicine",
+              "Person, health, nursing, support systems",
+              "Person, health, psychology, nursing",
+              "Person, environment, health, nursing",
+            ],
+            answer: 3,
+            rationale:
+              "The focus concepts accepted by all theorists as the focus of nursing practice, from the time of Florence Nightingale, include the person receiving nursing care, his environment, his health on the health-illness continuum, and the nursing actions necessary to meet his needs.",
+          },
+          {
+            id: "q7",
+            question:
+              "In Maslow's hierarchy of physiologic needs, the human need of greatest priority is:",
+            choices: ["Love", "Elimination", "Nutrition", "Oxygen"],
+            answer: 3,
+            rationale:
+              "Maslow considered oxygen the most important physiologic need, since human life cannot exist without it. Other physiologic needs, such as food, water, elimination, shelter, and rest, must be met before proceeding to higher hierarchical levels.",
+          },
+          {
+            id: "q8",
+            question:
+              "The family of an accident victim who has been declared brain-dead seems amenable to organ donation. What should the nurse do?",
+            choices: [
+              "Discourage them from making a decision until their grief has eased",
+              "Listen to their concerns and answer their questions honestly",
+              "Encourage them to sign the consent form right away",
+              "Tell them the body will not be available for a wake or funeral",
+            ],
+            answer: 1,
+            rationale:
+              "The brain-dead patient's family needs support and reassurance in making a decision about organ donation. Although decisions must be made quickly since transplants occur within hours of death, the family's concerns must be addressed first, and the body of an organ donor remains available for burial.",
+          },
+          {
+            id: "q9",
+            question:
+              "A new head nurse on a unit is distressed about the poor staffing on the 11 p.m. to 7 a.m. shift. What should she do?",
+            choices: [
+              "Complain to her fellow nurses",
+              "Wait until she knows more about the unit",
+              "Discuss the problem with her supervisor",
+              "Inform the staff that they must volunteer to rotate",
+            ],
+            answer: 2,
+            rationale:
+              "Although a new head nurse should initially spend time observing the unit's strengths and weaknesses, she should take action if a problem threatens patient safety. In this case, the supervisor is the appropriate resource person to approach.",
+          },
+          {
+            id: "q10",
+            question:
+              "Which of the following principles of primary nursing has proven the most satisfying to the patient and nurse?",
+            choices: [
+              "Continuity of patient care promotes efficient, cost-effective nursing care",
+              "Autonomy and authority for planning are best delegated to a nurse who knows the patient well",
+              "Accountability is clearest when one nurse is responsible for the overall plan and its implementation",
+              "The holistic approach provides for a therapeutic relationship, continuity, and efficient nursing care",
+            ],
+            answer: 3,
+            rationale:
+              "Studies show patients and nurses both respond well to primary nursing care units. Patients feel less anxious and more secure because they participate in planning their own care, while nurses gain personal satisfaction and a greater sense of achievement and esprit de corps from the holistic approach.",
+          },
+          {
+            id: "q11",
+            question:
+              "If a nurse administers an injection to a patient who refuses that injection, she has committed:",
+            choices: ["Assault and battery", "Negligence", "Malpractice", "None of the above"],
+            answer: 0,
+            rationale:
+              "Assault is the unjustifiable attempt or threat to touch or injure another person, and battery is the unlawful touching of another person. Any act a nurse performs on a patient against his will is considered assault and battery.",
+          },
+          {
+            id: "q12",
+            question:
+              "If a patient asks the nurse her opinion about a particular physician and the nurse replies that the physician is incompetent, the nurse could be held liable for:",
+            choices: ["Slander", "Libel", "Assault", "Respondent superior"],
+            answer: 0,
+            rationale:
+              "Oral communication that injures an individual's reputation is considered slander, while written communication that does the same is considered libel.",
+          },
+          {
+            id: "q13",
+            question:
+              "A registered nurse reaches to answer the telephone on a busy pediatric unit, momentarily turning away from a 3-month-old infant she has been weighing. The infant falls off the scale, suffering a skull fracture. The nurse could be charged with:",
+            choices: ["Defamation", "Assault", "Battery", "Malpractice"],
+            answer: 3,
+            rationale:
+              "Malpractice is defined as injurious or unprofessional actions that harm another, involving professional misconduct that a reasonable and prudent nurse would or would not do. In this example, the standard of care was breached because a 3-month-old infant should never be left unattended on a scale.",
+          },
+          {
+            id: "q14",
+            question: "Which of the following is an example of nursing malpractice?",
+            choices: [
+              "The nurse administers penicillin to a patient with a documented history of allergy to the drug. The patient experiences an allergic reaction and has cerebral damage resulting from anoxia.",
+              "The nurse applies a hot water bottle or a heating pad to the abdomen of a patient with abdominal cramping.",
+              "The nurse assists a patient out of bed with the bed locked in position; the patient slips and fractures his right humerus.",
+              "The nurse administers the wrong medication to a patient and the patient vomits. This information is documented and reported to the physician and the nursing supervisor.",
+            ],
+            answer: 0,
+            rationale:
+              "The three elements necessary to establish nursing malpractice are nursing error (administering penicillin to a documented-allergy patient), injury (cerebral damage), and proximal cause (the penicillin causing the damage). The other options either lack a physician's order issue, represent correct nursing practice, or were properly documented and reported without the three malpractice elements being clearly established.",
+          },
+          {
+            id: "q15",
+            question:
+              "Which of the following signs and symptoms would the nurse expect to find when assessing an Asian patient for postoperative pain following abdominal surgery?",
+            choices: [
+              "Decreased blood pressure and heart rate and shallow respirations",
+              "Quiet crying",
+              "Immobility, diaphoresis, and avoidance of deep breathing or coughing",
+              "Changing position every 2 hours",
+            ],
+            answer: 2,
+            rationale:
+              "An Asian patient is likely to hide his pain, so the nurse must observe for objective signs such as immobility, diaphoresis, avoidance of deep breathing or coughing, increased heart rate, shallow respirations, and guarding or rigidity of the abdominal wall, rather than overt emotional displays like crying.",
+          },
+          {
+            id: "q16",
+            question:
+              "A patient is admitted to the hospital with complaints of nausea, vomiting, diarrhea, and severe abdominal pain. Which of the following would immediately alert the nurse that the patient has bleeding from the GI tract?",
+            choices: ["Complete blood count", "Guaiac test", "Vital signs", "Abdominal girth"],
+            answer: 1,
+            rationale:
+              "To assess for GI tract bleeding when frank blood is absent, the nurse can test for occult blood in vomitus or stool through the guaiac (Hemoccult) test. A CBC does not provide immediate results, vital sign changes may stem from other causes, and abdominal girth is unrelated to blood loss.",
+          },
+          {
+            id: "q17",
+            question: "The correct sequence for assessing the abdomen is:",
+            choices: [
+              "Tympanic percussion, measurement of abdominal girth, and inspection",
+              "Assessment for distention, tenderness, and discoloration around the umbilicus",
+              "Percussion, palpation, and auscultation",
+              "Auscultation, percussion, and palpation",
+            ],
+            answer: 3,
+            rationale:
+              "Because percussion and palpation can affect bowel motility and thus bowel sounds, they should follow auscultation in abdominal assessment. The correct sequence is inspection, then auscultation, then percussion, then palpation.",
+          },
+          {
+            id: "q18",
+            question: "High-pitched gurgles heard over the right lower quadrant are:",
+            choices: [
+              "A sign of increased bowel motility",
+              "A sign of decreased bowel motility",
+              "Normal bowel sounds",
+              "A sign of abdominal cramping",
+            ],
+            answer: 2,
+            rationale:
+              "Normal bowel sounds are high-pitched gurgles occurring irregularly. Hyperactive sounds indicate increased bowel motility, while two or three sounds per minute indicate decreased motility; hyperactive, high-pitched tinkling sounds with cramping can indicate bowel obstruction.",
+          },
+          {
+            id: "q19",
+            question:
+              "A patient about to undergo abdominal inspection is best placed in which of the following positions?",
+            choices: ["Prone", "Trendelenburg", "Supine", "Side-lying"],
+            answer: 2,
+            rationale:
+              "The supine (dorsal) position, in which the patient lies on his back with his face upward, allows for easy access to the abdomen for inspection.",
+          },
+          {
+            id: "q20",
+            question:
+              "For a rectal examination, the patient can be directed to assume which of the following positions?",
+            choices: ["Genupectoral", "Sims", "Horizontal recumbent", "All of the above"],
+            answer: 3,
+            rationale:
+              "All of these positions are appropriate for a rectal examination: genupectoral (knee-chest), Sims' position (lying on the left side with the right leg flexed), and horizontal recumbent (lying on the back with legs extended and hips rotated outward).",
+          },
+          {
+            id: "q21",
+            question: "During a Romberg test, the nurse asks the patient to assume which position?",
+            choices: ["Sitting", "Standing", "Genupectoral", "Trendelenburg"],
+            answer: 1,
+            rationale:
+              "During a Romberg test, which evaluates for sensory or cerebellar ataxia, the patient must stand with feet together and arms resting at the sides, first with eyes open, then closed. Needing to move the feet apart to maintain the stance is an abnormal finding.",
+          },
+          {
+            id: "q22",
+            question: "If a patient's blood pressure is 150/96, his pulse pressure is:",
+            choices: ["54", "96", "150", "246"],
+            answer: 0,
+            rationale:
+              "Pulse pressure is the difference between systolic and diastolic blood pressure: 150 − 96 = 54.",
+          },
+          {
+            id: "q23",
+            question:
+              "A patient is kept off food and fluids for 10 hours before surgery. His oral temperature at 8 a.m. is 99.8°F (37.7°C). This temperature reading probably indicates:",
+            choices: ["Infection", "Hypothermia", "Anxiety", "Dehydration"],
+            answer: 3,
+            rationale:
+              "A slightly elevated temperature in the immediate preoperative period may result from lack of fluids before surgery rather than infection. Anxiety does not cause elevated temperature, and hypothermia refers to abnormally low body temperature.",
+          },
+          {
+            id: "q24",
+            question:
+              "Which of the following parameters should be checked when assessing respirations?",
+            choices: ["Rate", "Rhythm", "Symmetry", "All of the above"],
+            answer: 3,
+            rationale:
+              "The quality and efficiency of the respiratory process can be determined by appraising the rate, rhythm, depth, ease, sound, and symmetry of respirations.",
+          },
+          {
+            id: "q25",
+            question:
+              "A 38-year old patient's vital signs at 8 a.m. are axillary temperature 99.6°F (37.6°C); pulse rate, 88; respiratory rate, 30. Which findings should be reported?",
+            choices: [
+              "Respiratory rate only",
+              "Temperature only",
+              "Pulse rate and temperature",
+              "Temperature and respiratory rate",
+            ],
+            answer: 3,
+            rationale:
+              "A normal adult respiratory rate is 12–20 breaths/minute, so 30 is abnormal. A normal axillary temperature is about one degree lower than oral (97–100°F oral), making 99.6°F axillary abnormal. The pulse rate of 88 falls within the normal range of 60–100 beats/minute.",
+          },
+          {
+            id: "q26",
+            question: "All of the following can cause tachycardia except:",
+            choices: [
+              "Fever",
+              "Exercise",
+              "Sympathetic nervous system stimulation",
+              "Parasympathetic nervous system stimulation",
+            ],
+            answer: 3,
+            rationale:
+              "Parasympathetic nervous system stimulation decreases heart rate, force of contraction, and impulse conduction. Fever, exercise, and sympathetic stimulation all increase heart rate.",
+          },
+          {
+            id: "q27",
+            question: "Palpating the midclavicular line is the correct technique for assessing:",
+            choices: [
+              "Baseline vital signs",
+              "Systolic blood pressure",
+              "Respiratory rate",
+              "Apical pulse",
+            ],
+            answer: 3,
+            rationale:
+              "The apical pulse is located on the midclavicular line at the fourth, fifth, or sixth intercostal space. Blood pressure is typically assessed at the antecubital fossa, and respiratory rate is assessed by observing chest movement.",
+          },
+          {
+            id: "q28",
+            question:
+              "The absence of which pulse may not be a significant finding when a patient is admitted to the hospital?",
+            choices: ["Apical", "Radial", "Pedal", "Femoral"],
+            answer: 2,
+            rationale:
+              "Because the pedal pulse cannot be detected in 10% to 20% of the population, its absence is not necessarily significant, though it should be documented on admission. Absence of the apical, radial, or femoral pulse is abnormal and should be investigated.",
+          },
+          {
+            id: "q29",
+            question:
+              "Which of the following patients is at greatest risk for developing pressure ulcers?",
+            choices: [
+              "An alert, chronic arthritic patient treated with steroids and aspirin",
+              "An 88-year old incontinent patient with gastric cancer who is confined to his bed at home",
+              "An apathetic 63-year old COPD patient receiving nasal oxygen via cannula",
+              "A confused 78-year old patient with congestive heart failure (CHF) who requires assistance to get out of bed",
+            ],
+            answer: 1,
+            rationale:
+              "Pressure ulcers are most likely to develop in patients with impaired mental status, mobility, activity level, nutrition, circulation, and bladder or bowel control. The 88-year old incontinent patient with impaired nutrition from gastric cancer, confined to bed, is at the greatest combined risk.",
+          },
+          {
+            id: "q30",
+            question:
+              "The physician orders the administration of high-humidity oxygen by facemask and placement of the patient in a high Fowler's position. After assessing Mrs. Paul, the nurse writes the following nursing diagnosis: Impaired gas exchange related to increased secretions. Which of the following nursing interventions has the greatest potential for improving this situation?",
+            choices: [
+              "Encourage the patient to increase her fluid intake to 200 ml every 2 hours",
+              "Place a humidifier in the patient's room",
+              "Continue administering oxygen by high humidity face mask",
+              "Perform chest physiotherapy on a regular schedule",
+            ],
+            answer: 0,
+            rationale:
+              "Adequate hydration thins and loosens pulmonary secretions and helps replace fluids lost from elevated temperature, diaphoresis, dehydration, and dyspnea. High-humidity air and chest physiotherapy also help liquefy and mobilize secretions, but increasing fluid intake has the greatest overall potential to address the underlying secretions.",
+          },
+          {
+            id: "q31",
+            question: "The most common deficiency seen in alcoholics is:",
+            choices: ["Thiamine", "Riboflavin", "Pyridoxine", "Pantothenic acid"],
+            answer: 0,
+            rationale:
+              "Chronic alcoholism commonly results in thiamine deficiency and other symptoms of malnutrition.",
+          },
+          {
+            id: "q32",
+            question:
+              "Which of the following statements is incorrect about a patient with dysphagia?",
+            choices: [
+              "The patient will find pureed or soft foods, such as custards, easier to swallow than water",
+              "Fowler's or semi-Fowler's position reduces the risk of aspiration during swallowing",
+              "The patient should always feed himself",
+              "The nurse should perform oral hygiene before assisting with feeding",
+            ],
+            answer: 2,
+            rationale:
+              "A patient with dysphagia (difficulty swallowing) requires assistance with feeding; self-feeding is a long-range expected outcome, not an immediate requirement. Soft foods, upright positioning, and oral hygiene before eating should be part of the feeding regimen.",
+          },
+          {
+            id: "q33",
+            question:
+              "To assess the kidney function of a patient with an indwelling urinary (Foley) catheter, the nurse measures his hourly urine output. She should notify the physician if the urine output is:",
+            choices: [
+              "Less than 30 ml/hour",
+              "64 ml in 2 hours",
+              "90 ml in 3 hours",
+              "125 ml in 4 hours",
+            ],
+            answer: 0,
+            rationale:
+              "A urine output of less than 30 ml/hour indicates hypovolemia or oliguria, related to kidney function and inadequate fluid intake, and warrants notifying the physician.",
+          },
+          {
+            id: "q34",
+            question: "Certain substances increase the amount of urine produced. These include:",
+            choices: [
+              "Caffeine-containing drinks, such as coffee and cola",
+              "Beets",
+              "Urinary analgesics",
+              "Kaolin with pectin (Kaopectate)",
+            ],
+            answer: 0,
+            rationale:
+              "Fluids containing caffeine have a diuretic effect. Beets and urinary analgesics like pyridium can color urine red, and Kaopectate is an anti-diarrheal medication with no diuretic effect.",
+          },
+          {
+            id: "q35",
+            question:
+              "A male patient who had surgery 2 days ago for head and neck cancer is about to make his first attempt to ambulate outside his room. The nurse notes that he is steady on his feet and that his vision was unaffected by the surgery. Which of the following nursing interventions would be appropriate?",
+            choices: [
+              "Encourage the patient to walk in the hall alone",
+              "Discourage the patient from walking in the hall for a few more days",
+              "Accompany the patient for his walk",
+              "Consult a physical therapist before allowing the patient to ambulate",
+            ],
+            answer: 2,
+            rationale:
+              "A hospitalized surgical patient leaving his room for the first time fears rejection and others staring at him, so he should not walk alone. Accompanying him offers moral support, and patients should begin ambulation as soon as possible after surgery to decrease complications and regain strength and confidence.",
+          },
+          {
+            id: "q36",
+            question:
+              "A patient has exacerbation of chronic obstructive pulmonary disease (COPD) manifested by shortness of breath, orthopnea, thick tenacious secretions, and a dry hacking cough. An appropriate nursing diagnosis would be:",
+            choices: [
+              "Ineffective airway clearance related to thick, tenacious secretions",
+              "Ineffective airway clearance related to dry, hacking cough",
+              "Ineffective individual coping related to COPD",
+              "Pain related to immobilization of affected leg",
+            ],
+            answer: 0,
+            rationale:
+              "Thick, tenacious secretions, a dry hacking cough, orthopnea, and shortness of breath are signs of ineffective airway clearance related to the secretions. The cough itself is not the cause, COPD is a medical diagnosis and cannot serve as the etiology of a nursing diagnosis, and the pain diagnosis is unrelated to this scenario.",
+          },
+          {
+            id: "q37",
+            question:
+              "Mrs. Lim begins to cry as the nurse discusses hair loss. The best response would be:",
+            choices: [
+              "\"Don't worry. It's only temporary\"",
+              '"Why are you crying? I didn\'t get to the bad news yet"',
+              '"Your hair is really pretty"',
+              '"I know this will be difficult for you, but your hair will grow back after the completion of chemotherapy"',
+            ],
+            answer: 3,
+            rationale:
+              "This response acknowledges the patient's feelings and offers a hopeful resolution. \"Don't worry\" offers some relief but doesn't recognize her feelings, the second option is inappropriate at any time, and the third offers no real consolation.",
+          },
+          {
+            id: "q38",
+            question:
+              "An additional Vitamin C is required during all of the following periods except:",
+            choices: ["Infancy", "Young adulthood", "Childhood", "Pregnancy"],
+            answer: 1,
+            rationale:
+              "Additional Vitamin C is needed during growth periods such as infancy and childhood, and during pregnancy to supply demands for fetal growth and maternal tissues, as well as during wound healing, fever, infection, and stress — but not routinely in young adulthood.",
+          },
+          {
+            id: "q39",
+            question: "A prescribed amount of oxygen is needed for a patient with COPD to prevent:",
+            choices: [
+              "Cardiac arrest related to increased partial pressure of carbon dioxide in arterial blood (PaCO2)",
+              "Circulatory overload due to hypervolemia",
+              "Respiratory excitement",
+              "Inhibition of the respiratory hypoxic stimulus",
+            ],
+            answer: 3,
+            rationale:
+              "Delivering more than 2 liters of oxygen per minute to a COPD patient, who is usually in compensated respiratory acidosis, can inhibit the hypoxic stimulus for respiration. Increased PaCO2 would not initially cause cardiac arrest, and circulatory overload and respiratory excitement are not relevant here.",
+          },
+          {
+            id: "q40",
+            question:
+              "After 1 week of hospitalization, Mr. Gray develops hypokalemia. Which of the following is the most significant symptom of his disorder?",
+            choices: [
+              "Lethargy",
+              "Increased pulse rate and blood pressure",
+              "Muscle weakness",
+              "Muscle irritability",
+            ],
+            answer: 2,
+            rationale:
+              "Presenting symptoms of hypokalemia (serum potassium below 3.5 mEq/liter) include muscle weakness, chronic fatigue, and cardiac dysrhythmias, often from the combined effects of inadequate food intake and prolonged diarrhea.",
+          },
+          {
+            id: "q41",
+            question: "Which of the following nursing interventions promotes patient safety?",
+            choices: [
+              "Assess the patient's ability to ambulate and transfer from a bed to a chair",
+              "Demonstrate the signal system to the patient",
+              "Check to see that the patient is wearing his identification band",
+              "All of the above",
+            ],
+            answer: 3,
+            rationale:
+              "Assessing ambulation and transfer ability, demonstrating the signal system, and checking the identification band each contribute to patient safety by ensuring safe mobility, the ability to call for help, and accurate identification for procedures like drug administration.",
+          },
+          {
+            id: "q42",
+            question:
+              "Studies have shown that about 40% of patients fall out of bed despite the use of side rails; this has led to which of the following conclusions?",
+            choices: [
+              "Side rails are ineffective",
+              "Side rails should not be used",
+              "Side rails are a deterrent that prevent a patient from falling out of bed",
+              "Side rails are a reminder to a patient not to get out of bed",
+            ],
+            answer: 3,
+            rationale:
+              "Since about 40% of patients fall out of bed despite side rails, side rails cannot be said to prevent falls; however, they do serve as a reminder that the patient should not get out of bed.",
+          },
+          {
+            id: "q43",
+            question:
+              "Examples of patients suffering from impaired awareness include all of the following except:",
+            choices: [
+              "A semiconscious or overfatigued patient",
+              "A disoriented or confused patient",
+              "A patient who cannot care for himself at home",
+              "A patient demonstrating symptoms of drugs or alcohol withdrawal",
+            ],
+            answer: 2,
+            rationale:
+              "A patient who cannot care for himself at home does not necessarily have impaired awareness; he may simply have some degree of physical immobility.",
+          },
+          {
+            id: "q44",
+            question: "The most common injury among elderly persons is:",
+            choices: [
+              "Atherosclerotic changes in the blood vessels",
+              "Increased incidence of gallbladder disease",
+              "Urinary Tract Infection",
+              "Hip fracture",
+            ],
+            answer: 3,
+            rationale:
+              "Hip fracture, the most common injury among elderly persons, usually results from osteoporosis. The other options are diseases that can occur in the elderly from physiologic changes, not injuries.",
+          },
+          {
+            id: "q45",
+            question: "The most common psychogenic disorder among elderly persons is:",
+            choices: [
+              "Depression",
+              "Sleep disturbances (such as bizarre dreams)",
+              "Inability to concentrate",
+              "Decreased appetite",
+            ],
+            answer: 0,
+            rationale:
+              "Sleep disturbances, inability to concentrate, and decreased appetite are symptoms of depression, the most common psychogenic disorder among elderly persons, along with diminished memory, apathy, and withdrawal.",
+          },
+          {
+            id: "q46",
+            question: "Which of the following vascular system changes results from aging?",
+            choices: [
+              "Increased peripheral resistance of the blood vessels",
+              "Decreased blood flow",
+              "Increased work load of the left ventricle",
+              "All of the above",
+            ],
+            answer: 3,
+            rationale:
+              "Aging decreases the elasticity of blood vessels, leading to increased peripheral resistance and decreased blood flow, which in turn increases the workload of the left ventricle.",
+          },
+          {
+            id: "q47",
+            question:
+              "Which of the following is the most common cause of dementia among elderly persons?",
+            choices: [
+              "Parkinson's disease",
+              "Multiple sclerosis",
+              "Amyotrophic lateral sclerosis (Lou Gehrig's disease)",
+              "Alzheimer's disease",
+            ],
+            answer: 3,
+            rationale:
+              "Alzheimer's disease, also known as senile dementia of the Alzheimer's type, is an insidious, progressive, irreversible, and degenerative brain disease of unknown etiology, and the most common cause of dementia in the elderly.",
+          },
+          {
+            id: "q48",
+            question:
+              "The nurse's most important legal responsibility after a patient's death in a hospital is:",
+            choices: [
+              "Obtaining a consent of an autopsy",
+              "Notifying the coroner or medical examiner",
+              "Labeling the corpse appropriately",
+              "Ensuring that the attending physician issues the death certification",
+            ],
+            answer: 2,
+            rationale:
+              "The nurse is legally responsible for labeling the corpse when death occurs in the hospital. She may assist with autopsy consent or notifying the coroner, but she is not legally responsible for performing those functions, and the attending physician is responsible for issuing the death certificate.",
+          },
+          {
+            id: "q49",
+            question: "Before rigor mortis occurs, the nurse is responsible for:",
+            choices: [
+              "Providing a complete bath and dressing change",
+              "Placing one pillow under the body's head and shoulders",
+              "Removing the body's clothing and wrapping the body in a shroud",
+              "Allowing the body to relax normally",
+            ],
+            answer: 1,
+            rationale:
+              "The nurse must place a pillow under the deceased person's head and shoulders to prevent blood from settling in the face and discoloring it. She only bathes soiled areas, since the mortician washes the entire body, and places a clean gown on the body before wrapping it in a shroud.",
+          },
+          {
+            id: "q50",
+            question:
+              "When a patient in the terminal stages of lung cancer begins to exhibit loss of consciousness, a major nursing priority is to:",
+            choices: [
+              "Protect the patient from injury",
+              "Insert an airway",
+              "Elevate the head of the bed",
+              "Withdraw all pain medications",
+            ],
+            answer: 0,
+            rationale:
+              "Ensuring the patient's safety is the most essential action at this time. The other nursing actions may be necessary but are not the major priority.",
+          },
+        ],
+      },
+      {
+        id: "fundamentals-of-nursing-part-3",
+        title: "FUNDAMENTALS OF NURSING PART 3",
         description: "50 questions from the PNLE reviewer.",
         questions: [
           {
@@ -16470,1591 +17789,6 @@ export const subjects: Subject[] = [
             answer: 1,
             rationale:
               "The immobilized patient commonly suffers from urine retention caused by decreased muscle tone in the perineum, leading to bladder distention and urine stagnation — an excellent medium for bacterial growth and infection. Immobility also results in more alkaline urine with excessive amounts of calcium, sodium, and phosphate.",
-          },
-        ],
-      },
-      {
-        id: "fon-practice-test-i-foundation-of-nursing",
-        title: "PRACTICE TEST I FOUNDATION OF NURSING",
-        description: "45 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "Which element in the circular chain of infection can be eliminated by preserving skin integrity?",
-            choices: ["Host", "Reservoir", "Mode of transmission", "Portal of entry"],
-            answer: 3,
-            rationale:
-              "In the circular chain of infection, pathogens must be able to leave their reservoir and be transmitted to a susceptible host through a portal of entry, such as broken skin.",
-          },
-          {
-            id: "q2",
-            question:
-              "Which of the following will probably result in a break in sterile technique for respiratory isolation?",
-            choices: [
-              "Opening the patient’s window to the outside environment",
-              "Turning on the patient’s room ventilator",
-              "Opening the door of the patient’s room leading into the hospital corridor",
-              "Failing to wear gloves when administering a bed bath",
-            ],
-            answer: 2,
-            rationale:
-              "Respiratory isolation, like strict isolation, requires that the door to the door patient’s room remain closed. However, the patient’s room should be well ventilated, so opening the window or turning on the ventricular is desirable. The nurse does not need to wear gloves for respiratory isolation, but good hand washing is important for all types of isolation.",
-          },
-          {
-            id: "q3",
-            question:
-              "Which of the following patients is at greater risk for contracting an infection?",
-            choices: [
-              "A patient with leukopenia",
-              "A patient receiving broad-spectrum antibiotics",
-              "A postoperative patient who has undergone orthopedic surgery",
-              "A newly diagnosed diabetic patient",
-            ],
-            answer: 0,
-            rationale:
-              "Leukopenia is a decreased number of leukocytes (white blood cells), which are important in resisting infection. None of the other situations would put the patient at risk for contracting an infection; taking broad- spectrum antibiotics might actually reduce the infection risk.",
-          },
-          {
-            id: "q4",
-            question: "After routine patient contact, hand washing should last at least:",
-            choices: ["30 seconds", "1 minute", "2 minute", "3 minutes"],
-            answer: 0,
-            rationale:
-              "Depending on the degree of exposure to pathogens, hand washing may last from 10 seconds to 4 minutes. After routine patient contact, hand washing for 30 seconds effectively minimizes the risk of pathogen transmission.",
-          },
-          {
-            id: "q5",
-            question: "Which of the following procedures always requires surgical asepsis?",
-            choices: [
-              "Vaginal instillation of conjugated estrogen",
-              "Urinary catheterization",
-              "Nasogastric tube insertion 352",
-              "Colostomy irrigation",
-            ],
-            answer: 1,
-            rationale:
-              "The urinary system is normally free of microorganisms except at the urinary meatus. Any procedure that involves entering this system must use surgically aseptic measures to maintain a bacteria-free state.",
-          },
-          {
-            id: "q6",
-            question: "Sterile technique is used whenever:",
-            choices: [
-              "Strict isolation is required",
-              "Terminal disinfection is performed",
-              "Invasive procedures are performed",
-              "Protective isolation is necessary",
-            ],
-            answer: 2,
-            rationale:
-              "All invasive procedures, including surgery, catheter insertion, and administration of parenteral therapy, require sterile technique to maintain a sterile environment. All equipment must be sterile, and the nurse and the physician must wear sterile gloves and maintain surgical asepsis. In the operating room, the nurse and physician are required to wear sterile gowns, gloves, masks, hair covers, and shoe covers for all invasive procedures. Strict isolation requires the use of clean gloves, masks, gowns and equipment to prevent the transmission of highly communicable diseases by contact or by airborne routes. Terminal disinfection is the disinfection of all contaminated supplies and equipment after a patient has been discharged to prepare them for reuse by another patient. The purpose of protective (reverse) isolation is to prevent a person with seriously impaired resistance from coming into contact who potentially pathogenic organisms.",
-          },
-          {
-            id: "q7",
-            question:
-              "Which of the following constitutes a break in sterile technique while preparing a sterile field for a dressing change?",
-            choices: [
-              "Using sterile forceps, rather than sterile gloves, to handle a sterile item",
-              "Touching the outside wrapper of sterilized material without sterile gloves",
-              "Placing a sterile object on the edge of the sterile field",
-              "Pouring out a small amount of solution (15 to 30 ml) before pouring the solution into a sterile container",
-            ],
-            answer: 2,
-            rationale:
-              "The edges of a sterile field are considered contaminated. When sterile items are allowed to come in contact with the edges of the field, the sterile items also become contaminated.",
-          },
-          {
-            id: "q8",
-            question:
-              "All of the following statement are true about donning sterile gloves except:",
-            choices: [
-              "The first glove should be picked up by grasping the inside of the cuff.",
-              "The second glove should be picked up by inserting the gloved fingers under the cuff outside the glove.",
-              "The gloves should be adjusted by sliding the gloved fingers under the sterile cuff and pulling the glove over the wrist",
-              "The inside of the glove is considered sterile",
-            ],
-            answer: 3,
-            rationale: "The inside of the glove is always considered to be clean, but not sterile.",
-          },
-          {
-            id: "q9",
-            question:
-              "When removing a contaminated gown, the nurse should be careful that the first thing she touches is the:",
-            choices: [
-              "Waist tie and neck tie at the back of the gown",
-              "Waist tie in front of the gown",
-              "Cuffs of the gown",
-              "Inside of the gown",
-            ],
-            answer: 0,
-            rationale:
-              "The back of the gown is considered clean, the front is contaminated. So, after removing gloves and washing hands, the nurse should untie the back of the gown; slowly move backward away from the gown, holding the inside of the gown and keeping the edges off the floor; turn and fold the gown inside out; discard it in a contaminated linen container; then wash her hands again.",
-          },
-          {
-            id: "q10",
-            question:
-              "Which of the following nursing interventions is considered the most effective form or universal precautions? 353",
-            choices: [
-              "Cap all used needles before removing them from their syringes",
-              "Discard all used uncapped needles and syringes in an impenetrable protective container",
-              "Wear gloves when administering IM injections",
-              "Follow enteric precautions",
-            ],
-            answer: 1,
-            rationale:
-              "According to the Centers for Disease Control (CDC), blood-to-blood contact occurs most commonly when a health care worker attempts to cap a used needle. Therefore, used needles should never be recapped; instead they should be inserted in a specially designed puncture resistant, labeled container. Wearing gloves is not always necessary when administering an I.M. injection. Enteric precautions prevent the transfer of pathogens via feces.",
-          },
-          {
-            id: "q11",
-            question:
-              "All of the following measures are recommended to prevent pressure ulcers except:",
-            choices: [
-              "Massaging the reddened are with lotion",
-              "Using a water or air mattress",
-              "Adhering to a schedule for positioning and turning",
-              "Providing meticulous skin care",
-            ],
-            answer: 0,
-            rationale:
-              "Nurses and other health care professionals previously believed that massaging a reddened area with lotion would promote venous return and reduce edema to the area. However, research has shown that massage only increases the likelihood of cellular ischemia and necrosis to the area.",
-          },
-          {
-            id: "q12",
-            question:
-              "Which of the following blood tests should be performed before a blood transfusion?",
-            choices: [
-              "Prothrombin and coagulation time",
-              "Blood typing and cross-matching",
-              "Bleeding and clotting time",
-              "Complete blood count (CBC) and electrolyte levels.",
-            ],
-            answer: 1,
-            rationale:
-              "Before a blood transfusion is performed, the blood of the donor and recipient must be checked for compatibility. This is done by blood typing (a test that determines a person’s blood type) and cross-matching (a procedure that determines the compatibility of the donor’s and recipient’s blood after the blood types has been matched). If the blood specimens are incompatible, hemolysis and antigen-antibody reactions will occur.",
-          },
-          {
-            id: "q13",
-            question: "The primary purpose of a platelet count is to evaluate the:",
-            choices: [
-              "Potential for clot formation",
-              "Potential for bleeding",
-              "Presence of an antigen-antibody response",
-              "Presence of cardiac enzymes",
-            ],
-            answer: 0,
-            rationale:
-              "Platelets are disk-shaped cells that are essential for blood coagulation. A platelet count determines the number of thrombocytes in blood available for promoting hemostasis and assisting with blood coagulation after injury. It also is used to evaluate the patient’s potential for bleeding; however, this is not its primary purpose. The normal count ranges from 150,000 to 350,000/mm3. A count of 100,000/mm3 or less indicates a potential for bleeding; count of less than 20,000/mm3 is associated with spontaneous bleeding.",
-          },
-          {
-            id: "q14",
-            question:
-              "Which of the following white blood cell (WBC) counts clearly indicates leukocytosis?",
-            choices: ["4,500/mm³", "7,000/mm³", "10,000/mm³", "25,000/mm³"],
-            answer: 3,
-            rationale:
-              "Leukocytosis is any transient increase in the number of white blood cells (leukocytes) in the blood. Normal WBC counts range from 5,000 to 100,000/mm3. Thus, a count of 25,000/mm3 indicates leukocytosis.",
-          },
-          {
-            id: "q15",
-            question:
-              "After 5 days of diuretic therapy with 20mg of furosemide (Lasix) daily, a patient begins to exhibit fatigue, muscle cramping and muscle weakness. These symptoms probably indicate that the patient is experiencing:",
-            choices: ["Hypokalemia", "Hyperkalemia", "Anorexia", "Dysphagia"],
-            answer: 0,
-            rationale:
-              "Fatigue, muscle cramping, and muscle weaknesses are symptoms of hypokalemia (an inadequate potassium level), which is a potential side effect of diuretic therapy. The physician usually orders supplemental potassium to prevent hypokalemia in patients receiving diuretics. Anorexia is another symptom of hypokalemia. Dysphagia means difficulty swallowing.",
-          },
-          {
-            id: "q16",
-            question: "Which of the following statements about chest X-ray is false?",
-            choices: [
-              "No contradictions exist for this test",
-              "Before the procedure, the patient should remove all jewelry, metallic objects, and buttons above the waist",
-              "A signed consent is not required",
-              "Eating, drinking, and medications are allowed before this test",
-            ],
-            answer: 0,
-            rationale:
-              "Pregnancy or suspected pregnancy is the only contraindication for a chest X-ray. However, if a chest X-ray is necessary, the patient can wear a lead apron to protect the pelvic region from radiation. Jewelry, metallic objects, and buttons would interfere with the X-ray and thus should not be worn above the waist. A signed consent is not required because a chest X-ray is not an invasive examination. Eating, drinking and medications are allowed because the X-ray is of the chest, not the abdominal region.",
-          },
-          {
-            id: "q17",
-            question:
-              "The most appropriate time for the nurse to obtain a sputum specimen for culture is:",
-            choices: [
-              "Early in the morning",
-              "After the patient eats a light breakfast",
-              "After aerosol therapy",
-              "After chest physiotherapy",
-            ],
-            answer: 0,
-            rationale:
-              "Obtaining a sputum specimen early in this morning ensures an adequate supply of bacteria for culturing and decreases the risk of contamination from food or medication.",
-          },
-          {
-            id: "q18",
-            question:
-              "A patient with no known allergies is to receive penicillin every 6 hours. When administering the medication, the nurse observes a fine rash on the patient’s skin. The most appropriate nursing action would be to:",
-            choices: [
-              "Withhold the moderation and notify the physician",
-              "Administer the medication and notify the physician",
-              "Administer the medication with an antihistamine",
-              "Apply corn starch soaks to the rash",
-            ],
-            answer: 0,
-            rationale:
-              "Initial sensitivity to penicillin is commonly manifested by a skin rash, even in individuals who have not been allergic to it previously. Because of the danger of anaphylactic shock, he nurse should withhold the drug and notify the physician, who may choose to substitute another drug. Administering an antihistamine is a dependent nursing intervention that requires a written physician’s order. Although applying corn starch to the rash may relieve discomfort, it is not the nurse’s top priority in such a potentially life-threatening situation. 358",
-          },
-          {
-            id: "q19",
-            question:
-              "All of the following nursing interventions are correct when using the Z- track method of drug injection except:",
-            choices: [
-              "Prepare the injection site with alcohol",
-              "Use a needle that’s a least 1” long",
-              "Aspirate for blood before injection",
-              "Rub the site vigorously after the injection to promote absorption",
-            ],
-            answer: 3,
-            rationale:
-              "The Z-track method is an I.M. injection technique in which the patient’s skin is pulled in such a way that the needle track is sealed off after the injection. This procedure seals medication deep into the muscle, thereby minimizing skin staining and irritation. Rubbing the injection site is contraindicated because it may cause the medication to extravasate into the skin.",
-          },
-          {
-            id: "q20",
-            question:
-              "The correct method for determining the vastus lateralis site for I.M. injection is to:",
-            choices: [
-              "Locate the upper aspect of the upper outer quadrant of the buttock about 5 to 8 cm below the iliac crest",
-              "Palpate the lower edge of the acromion process and the midpoint lateral aspect of the arm",
-              "Palpate a 1” circular area anterior to the umbilicus",
-              "Divide the area between the greater femoral trochanter and the lateral femoral condyle into thirds, and select the middle third on the anterior of the thigh",
-            ],
-            answer: 3,
-            rationale:
-              "The vastus lateralis, a long, thick muscle that extends the full length of the thigh, is viewed by many clinicians as the site of choice for I.M. injections because it has relatively few major nerves and blood vessels. The middle third of the muscle is recommended as the injection site. The patient can be in a supine or sitting position for an injection into this site.",
-          },
-          {
-            id: "q21",
-            question:
-              "The mid-deltoid injection site is seldom used for I.M. injections because it:",
-            choices: [
-              "Can accommodate only 1 ml or less of medication",
-              "Bruises too easily",
-              "Can be used only when the patient is lying down",
-              "Does not readily parenteral medication",
-            ],
-            answer: 0,
-            rationale:
-              "The mid-deltoid injection site can accommodate only 1 ml or less of medication because of its size and location (on the deltoid muscle of the arm, close to the brachial artery and radial nerve).",
-          },
-          {
-            id: "q22",
-            question: "The appropriate needle size for insulin injection is:",
-            choices: ["18G, 1 ½” long", "22G, 1” long", "22G, 1 ½” long", "25G, 5/8” long"],
-            answer: 3,
-            rationale:
-              "A 25G, 5/8” needle is the recommended size for insulin injection because insulin is administered by the subcutaneous route. An 18G, 1 ½” needle is usually used for I.M. injections in children, typically in the vastus lateralis. A 22G, 1 ½” needle is usually used for adult I.M. injections, which are typically administered in the vastus lateralis or ventrogluteal site.",
-          },
-          {
-            id: "q23",
-            question: "The appropriate needle gauge for intradermal injection is:",
-            choices: ["20G", "22G", "25G", "26G"],
-            answer: 3,
-            rationale:
-              "Because an intradermal injection does not penetrate deeply into the skin, a small-bore 25G needle is recommended. This type of injection is used primarily to administer antigens to evaluate reactions for allergy or sensitivity studies. A 20G needle is usually used for I.M. injections of oil- based medications; a 22G needle for I.M. injections; and a 25G needle, for I.M. injections; and a 25G needle, for subcutaneous insulin injections.",
-          },
-          {
-            id: "q24",
-            question: "Parenteral penicillin can be administered as an:",
-            choices: [
-              "IM injection or an IV solution",
-              "IV or an intradermal injection",
-              "Intradermal or subcutaneous injection",
-              "IM or a subcutaneous injection",
-            ],
-            answer: 0,
-            rationale:
-              "Parenteral penicillin can be administered I.M. or added to a solution and given I.V. It cannot be administered subcutaneously or intradermally.",
-          },
-          {
-            id: "q25",
-            question:
-              "The physician orders an IV solution of dextrose 5% in water at 100ml/hour. What would the flow rate be if the drop factor is 15 gtt = 1 ml?",
-            choices: ["5 gtt/minute", "13 gtt/minute", "25 gtt/minute", "50 gtt/minute"],
-            answer: 2,
-            rationale: "100ml/60 min X 15 gtt/ 1 ml = 25 gtt/minute",
-          },
-          {
-            id: "q26",
-            question:
-              "Which of the following is a sign or symptom of a hemolytic reaction to blood transfusion?",
-            choices: ["Hemoglobinuria", "Chest pain", "Urticaria", "Distended neck veins"],
-            answer: 0,
-            rationale:
-              "Hemoglobinuria, the abnormal presence of hemoglobin in the urine, indicates a hemolytic reaction (incompatibility of the donor’s and recipient’s blood). In this reaction, antibodies in the recipient’s plasma combine rapidly with donor RBC’s; the cells are hemolyzed in either circulatory or reticuloendothelial system. 359 Hemolysis occurs more rapidly in ABO incompatibilities than in Rh incompatibilities. Chest pain and urticarial may be symptoms of impending anaphylaxis. Distended neck veins are an indication of hypervolemia.",
-          },
-          {
-            id: "q27",
-            question: "Which of the following conditions may require fluid restriction? 354",
-            choices: [
-              "b. c. d. Fever Chronic Obstructive Pulmonary Disease Renal Failure Dehydration 31. All of the following are common signs and symptoms of phlebitis except: a. Pain or discomfort at the IV insertion site",
-              "Edema and warmth at the IV insertion site",
-              "A red streak exiting the IV insertion site",
-              "Frank bleeding at the insertion site",
-            ],
-            answer: 2,
-            rationale:
-              "In real failure, the kidney loses their ability to effectively eliminate wastes and fluids. Because of this, limiting the patient’s intake of oral and I.V. fluids may be necessary. Fever, chronic obstructive pulmonary disease, and dehydration are conditions for which fluids should be encouraged.",
-          },
-          {
-            id: "q28",
-            question:
-              "The best way of determining whether a patient has learned to instill ear medication properly is for the nurse to:",
-            choices: [
-              "Ask the patient if he/she has used ear drops before",
-              "Have the patient repeat the nurse’s instructions using her own words",
-              "Demonstrate the procedure to the patient and encourage to ask questions",
-              "Ask the patient to demonstrate the procedure",
-            ],
-            answer: 3,
-            rationale:
-              "Return demonstration provides the most certain evidence for evaluating the effectiveness of patient teaching.",
-          },
-          {
-            id: "q29",
-            question:
-              "Which of the following types of medications can be administered via gastrostomy tube?",
-            choices: [
-              "Any oral medications",
-              "Capsules whole contents are dissolve in water",
-              "Enteric-coated tablets that are thoroughly dissolved in water",
-              "Most tablets designed for oral use, except for extended-duration compounds",
-            ],
-            answer: 3,
-            rationale:
-              "Capsules, enteric-coated tablets, and most extended duration or sustained release products should not be dissolved for use in a gastrostomy tube. They are pharmaceutically manufactured in these forms for valid reasons, and altering them destroys their purpose. The nurse should seek an alternate physician’s order when an ordered medication is inappropriate for delivery by tube.",
-          },
-          {
-            id: "q30",
-            question:
-              "A patient who develops hives after receiving an antibiotic is exhibiting drug:",
-            choices: ["Tolerance", "Idiosyncrasy", "Synergism", "Allergy"],
-            answer: 3,
-            rationale:
-              "A drug-allergy is an adverse reaction resulting from an immunologic response following a previous sensitizing exposure to the drug. The reaction can range from a rash or hives to anaphylactic shock. Tolerance to a drug means that the patient experiences a decreasing physiologic response to repeated administration of the drug in the same dosage. Idiosyncrasy is an individual’s unique hypersensitivity to a drug, food, or other substance; it appears to be genetically determined. Synergism, is a drug interaction in which the sum of the drug’s combined effects is greater than that of their separate effects.",
-          },
-          {
-            id: "q31",
-            question:
-              "A patient has returned to his room after femoral arteriography. All of the following are appropriate nursing interventions except:",
-            choices: [
-              "Assess femoral, popliteal, and pedal pulses every 15 minutes for 2 hours",
-              "Check the pressure dressing for sanguineous drainage",
-              "Assess vital signs every 15 minutes for 2 hours 355",
-              "Order a hemoglobin and hematocrit count 1 hour after the arteriography",
-            ],
-            answer: 3,
-            rationale:
-              "A hemoglobin and hematocrit count would be ordered by the physician if bleeding were suspected. The other answers are appropriate nursing interventions for a patient who has undergone femoral arteriography.",
-          },
-          {
-            id: "q32",
-            question: "The nurse explains to a patient that a cough:",
-            choices: [
-              "Is a protective response to clear the respiratory tract of irritants",
-              "Is primarily a voluntary action",
-              "Is induced by the administration of an antitussive drug",
-              "Can be inhibited by “splinting” the abdomen",
-            ],
-            answer: 0,
-            rationale:
-              "Coughing, a protective response that clears the respiratory tract of irritants, usually is involuntary; however it can be voluntary, as when a patient is taught to perform coughing exercises. An antitussive drug inhibits coughing. Splinting the abdomen supports the abdominal muscles when a patient coughs.",
-          },
-          {
-            id: "q33",
-            question:
-              "An infected patient has chills and begins shivering. The best nursing intervention is to:",
-            choices: [
-              "Apply iced alcohol sponges",
-              "Provide increased cool liquids",
-              "Provide additional bedclothes",
-              "Provide increased ventilation",
-            ],
-            answer: 2,
-            rationale:
-              "In an infected patient, shivering results from the body’s attempt to increase heat production and the production of neutrophils and phagocytotic action through increased skeletal muscle tension and contractions. Initial vasoconstriction may cause skin to feel cold to the touch. Applying additional bed clothes helps to equalize the body temperature and stop the chills. Attempts to cool the body result in further shivering, increased metabloism, and thus increased heat production.",
-          },
-          {
-            id: "q34",
-            question: "A clinical nurse specialist is a nurse who has:",
-            choices: [
-              "Been certified by the National League for Nursing",
-              "Received credentials from the Philippine Nurses’ Association",
-              "Graduated from an associate degree program and is a registered professional nurse",
-              "Completed a master’s degree in the prescribed clinical area and is a registered professional nurse.",
-            ],
-            answer: 3,
-            rationale:
-              "A clinical nurse specialist must have completed a master’s degree in a clinical specialty and be a registered professional nurse. The National League of Nursing accredits educational programs in nursing and provides a testing service to evaluate student nursing competence but it does not certify nurses. The American Nurses Association identifies requirements for certification and offers examinations for certification in many areas of nursing, such as medical surgical nursing. These certification (credentialing) demonstrates that the nurse has the knowledge and the ability to provide high quality nursing care in the area of her certification. A graduate of an associate degree program is not a clinical nurse specialist: however, she is prepared to provide bed side nursing with a high degree of knowledge and skill. She must successfully complete the licensing examination to become a registered professional nurse.",
-          },
-          {
-            id: "q35",
-            question: "The purpose of increasing urine acidity through dietary means is to:",
-            choices: [
-              "Decrease burning sensations",
-              "Change the urine’s color",
-              "Change the urine’s concentration",
-              "Inhibit the growth of microorganisms",
-            ],
-            answer: 3,
-            rationale: "Microorganisms usually do not grow in an acidic environment.",
-          },
-          {
-            id: "q36",
-            question: "Clay colored stools indicate:",
-            choices: [
-              "Upper GI bleeding",
-              "Impending constipation",
-              "An effect of medication",
-              "Bile obstruction",
-            ],
-            answer: 3,
-            rationale:
-              "Bile colors the stool brown. Any inflammation or obstruction that impairs bile flow will affect the stool pigment, yielding light, clay-colored stool. Upper GI bleeding results in black or tarry stool. Constipation is characterized by small, hard masses. Many medications and foods will discolor stool – for example, drugs containing iron turn stool black.; beets turn stool red.",
-          },
-          {
-            id: "q37",
-            question:
-              "In which step of the nursing process would the nurse ask a patient if the medication she administered relieved his pain?",
-            choices: ["Assessment", "Analysis", "Planning", "Evaluation"],
-            answer: 3,
-            rationale:
-              "In the evaluation step of the nursing process, the nurse must decide whether the patient has achieved the expected outcome that was identified in the planning phase.",
-          },
-          {
-            id: "q38",
-            question: "All of the following are good sources of vitamin A except:",
-            choices: ["White potatoes", "Carrots", "Apricots", "Egg yolks"],
-            answer: 0,
-            rationale:
-              "The main sources of vitamin A are yellow and green vegetables (such as carrots, sweet potatoes, squash, spinach, collard greens, broccoli, and cabbage) and yellow fruits (such as apricots, and cantaloupe). Animal sources include liver, kidneys, cream, butter, and egg yolks.",
-          },
-          {
-            id: "q39",
-            question:
-              "Which of the following is a primary nursing intervention necessary for all patients with a Foley Catheter in place?",
-            choices: [
-              "Maintain the drainage tubing and collection bag level with the patient’s bladder",
-              "Irrigate the patient with 1% Neosporin solution three times a daily",
-              "Clamp the catheter for 1 hour every 4 hours to maintain the bladder’s elasticity",
-              "Maintain the drainage tubing and collection bag below bladder level to facilitate drainage by gravity",
-            ],
-            answer: 3,
-            rationale:
-              "Maintaing the drainage tubing and collection bag level with the patient’s bladder could result in reflux of urine into the kidney. Irrigating the bladder with Neosporin and clamping the catheter for 1 hour every 4 hours must be prescribed by a physician.",
-          },
-          {
-            id: "q40",
-            question: "The ELISA test is used to:",
-            choices: [
-              "Screen blood donors for antibodies to human immunodeficiency virus (HIV)",
-              "Test blood to be used for transfusion for HIV antibodies",
-              "Aid in diagnosing a patient with AIDS",
-              "All of the above",
-            ],
-            answer: 3,
-            rationale:
-              "The ELISA test of venous blood is used to assess blood and potential blood donors to human immunodeficiency virus (HIV). A positive ELISA test combined with various signs and symptoms helps to diagnose acquired immunodeficiency syndrome (AIDS)",
-          },
-          {
-            id: "q41",
-            question:
-              "Effective skin disinfection before a surgical procedure includes which of the following methods?",
-            choices: [
-              "Shaving the site on the day before surgery",
-              "Applying a topical antiseptic to the skin on the evening before surgery",
-              "Having the patient take a tub bath on the morning of surgery",
-              "Having the patient shower with an antiseptic soap on the evening v=before and the morning of surgery",
-            ],
-            answer: 3,
-            rationale:
-              "Studies have shown that showering with an antiseptic soap before surgery is the most effective method of removing microorganisms from the skin. Shaving the site of the intended surgery might cause breaks in the skin, thereby increasing the risk of infection; however, if indicated, shaving, should be done immediately before surgery, not the day before. A topical antiseptic would not remove microorganisms and would be beneficial only after proper cleaning and rinsing. Tub bathing might transfer organisms to another body site rather than rinse them away.",
-          },
-          {
-            id: "q42",
-            question:
-              "When transferring a patient from a bed to a chair, the nurse should use which muscles to avoid back injury?",
-            choices: ["Abdominal muscles", "Back muscles", "Leg muscles", "Upper arm muscles"],
-            answer: 2,
-            rationale:
-              "The leg muscles are the strongest muscles in the body and should bear the greatest stress when lifting. Muscles of the abdomen, back, and upper arms may be easily injured.",
-          },
-          {
-            id: "q43",
-            question:
-              "Thrombophlebitis typically develops in patients with which of the following conditions?",
-            choices: [
-              "Increases partial thromboplastin time",
-              "Acute pulsus paradoxus",
-              "An impaired or traumatized blood vessel wall",
-              "Chronic Obstructive Pulmonary Disease (COPD)",
-            ],
-            answer: 2,
-            rationale:
-              "The factors, known as Virchow’s triad, collectively predispose a patient to thromboplebitis; impaired venous return to the heart, blood hypercoagulability, and injury to a blood vessel wall. Increased partial thromboplastin time indicates a prolonged bleeding time during fibrin clot formation, commonly the result of anticoagulant (heparin) therapy. Arterial blood disorders (such as pulsus paradoxus) and lung diseases (such as COPD) do 360 not necessarily impede venous return of injure vessel walls.",
-          },
-          {
-            id: "q44",
-            question:
-              "In a recumbent, immobilized patient, lung ventilation can become altered, leading to such respiratory complications as:",
-            choices: [
-              "Respiratory acidosis, ateclectasis, and hypostatic pneumonia",
-              "Appneustic breathing, atypical pneumonia and respiratory alkalosis",
-              "Cheyne-Strokes respirations and spontaneous pneumothorax",
-              "Kussmail’s respirations and hypoventilation",
-            ],
-            answer: 0,
-            rationale:
-              "Because of restricted respiratory movement, a recumbent, immobilize patient is at particular risk for respiratory acidosis from poor gas exchange; atelectasis from reduced surfactant and accumulated mucus in the bronchioles, and hypostatic pneumonia from bacterial growth caused by stasis of mucus secretions.",
-          },
-          {
-            id: "q45",
-            question: "Immobility impairs bladder elimination, resulting in such disorders as",
-            choices: [
-              "Increased urine acidity and relaxation of the perineal muscles, causing incontinence",
-              "Urine retention, bladder distention, and infection",
-              "Diuresis, natriuresis, and decreased urine specific gravity",
-              "Decreased calcium and phosphate levels in the urine 356 357",
-            ],
-            answer: 1,
-            rationale:
-              "The immobilized patient commonly suffers from urine retention caused by decreased muscle tone in the perineum. This leads to bladder distention and urine stagnation, which provide an excellent medium for bacterial growth leading to infection. Immobility also results in more alkaline urine with excessive amounts of calcium, sodium and phosphate, a gradual decrease in urine production, and an increased specific gravity. 361",
-          },
-        ],
-      },
-      {
-        id: "fon-fundamentals-of-nursing-part-2",
-        title: "FUNDAMENTALS OF NURSING PART 2",
-        description: "43 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "The most appropriate nursing order for a patient who develops dyspnea and shortness of breath would be…",
-            choices: [
-              "Maintain the patient on strict bed rest at all times",
-              "Maintain the patient in an orthopneic position as needed",
-              "Administer oxygen by Venturi mask at 24%, as needed",
-              "Allow a 1 hour rest period between activities",
-            ],
-            answer: 1,
-            rationale:
-              "When a patient develops dyspnea and shortness of breath, the orthopneic position encourages maximum chest expansion and keeps the abdominal organs from pressing against the diaphragm, thus improving ventilation. Bed rest and oxygen by Venturi mask at 24% would improve oxygenation of the tissues and cells but must be ordered by a physician. Allowing for rest periods decreases the possibility of hypoxia.",
-          },
-          {
-            id: "q2",
-            question:
-              "The nurse observes that Mr. Adams begins to have increased difficulty breathing. She elevates the head of the bed to the high Fowler position, which decreases his respiratory distress. The nurse documents this breathing as:",
-            choices: ["Tachypnea", "Eupnca", "Orthopnea", "Hyperventilation"],
-            answer: 2,
-            rationale:
-              "Orthopnea is difficulty of breathing except in the upright position. Tachypnea is rapid respiration characterized by quick, shallow breaths. Eupnea is normal respiration – quiet, rhythmic, and without effort.",
-          },
-          {
-            id: "q3",
-            question:
-              "The physician orders a platelet count to be performed on Mrs. Smith after breakfast. The nurse is responsible for:",
-            choices: [
-              "Instructing the patient about this diagnostic test",
-              "Writing the order for this test",
-              "Giving the patient breakfast",
-              "All of the above",
-            ],
-            answer: 2,
-            rationale:
-              "A platelet count evaluates the number of platelets in the circulating blood volume. The nurse is responsible for giving the patient breakfast at the scheduled time. The physician is responsible for instructing the patient about the test and for writing the order for the test.",
-          },
-          {
-            id: "q4",
-            question:
-              "Mrs. Mitchell has been given a copy of her diet. The nurse discusses the foods allowed on a 500mg low sodium diet. These include:",
-            choices: [
-              "A ham and Swiss cheese sandwich on whole wheat bread",
-              "Mashed potatoes and broiled chicken",
-              "A tossed salad with oil and vinegar and olives",
-              "Chicken bouillon",
-            ],
-            answer: 1,
-            rationale:
-              "Mashed potatoes and broiled chicken are low in natural sodium chloride. Ham, olives, and chicken bouillon contain large amounts of sodium and are contraindicated on a low sodium diet.",
-          },
-          {
-            id: "q5",
-            question:
-              "The physician orders a maintenance dose of 5,000 units of subcutaneous heparin (an anticoagulant) daily. Nursing responsibilities for Mrs. Mitchell now include:",
-            choices: [
-              "Reviewing daily activated partial thromboplastin time (APTT) and prothrombin time.",
-              "Reporting an APTT above 45 seconds to the physician",
-              "Assessing the patient for signs and symptoms of frank and occult bleeding",
-              "All of the above 392",
-            ],
-            answer: 3,
-            rationale:
-              "All of the identified nursing responsibilities are pertinent when a patient is receiving heparin. The normal activated partial thromboplastin time is 16 to 25 seconds and the normal prothrombin time is 12 to 15 seconds; these levels must remain within two to two and one half the normal levels. All patients receiving anticoagulant therapy must be observed for signs and symptoms of frank and occult bleeding (including hemorrhage, hypotension, tachycardia, tachypnea, restlessness, pallor, cold and clammy skin, thirst and confusion); blood pressure should be measured every 4 hours and the patient should be instructed to report promptly any bleeding that occurs with tooth brushing, bowel movements, urination or heavy prolonged menstruation.",
-          },
-          {
-            id: "q6",
-            question:
-              "The four main concepts common to nursing that appear in each of the current conceptual models are:",
-            choices: [
-              "Person, nursing, environment, medicine",
-              "Person, health, nursing, support systems",
-              "Person, health, psychology, nursing",
-              "Person, environment, health, nursing",
-            ],
-            answer: 3,
-            rationale:
-              "The focus concepts that have been accepted by all theorists as the focus of nursing practice from the time of Florence Nightingale include the person receiving nursing care, his environment, his health on the health illness 397 398 breached; a 3-month-old infant should never be left unattended on a scale.",
-          },
-          {
-            id: "q7",
-            question: "Which of the following is an example of nursing malpractice?",
-            choices: [
-              "The nurse administers penicillin to a patient with a documented history of allergy to the drug. The patient experiences an allergic reaction and has cerebral damage resulting from anoxia.",
-              "The nurse applies a hot water bottle or a heating pad to the abdomen of a patient with abdominal cramping.",
-              "The nurse assists a patient out of bed with the bed locked in position; the patient slips and fractures his right humerus.",
-              "The nurse administers the wrong medication to a patient and the patient vomits. This information is documented and reported to the physician and the nursing supervisor.",
-            ],
-            answer: 0,
-            rationale:
-              "The three elements necessary to establish a nursing malpractice are nursing error (administering penicillin to a patient with a documented allergy to the drug), injury (cerebral damage), and proximal cause (administering the penicillin caused the cerebral damage). Applying a hot water bottle or heating pad to a patient without a physician’s order does not include the three required components. Assisting a patient out of bed with the bed locked in position is the correct nursing practice; therefore, the fracture was not the result of malpractice. Administering an incorrect medication is a nursing error; however, if such action resulted in a serious illness or chronic problem, the nurse could be sued for malpractice.",
-          },
-          {
-            id: "q8",
-            question:
-              "Which of the following signs and symptoms would the nurse expect to find when assessing an Asian patient for postoperative pain following abdominal surgery?",
-            choices: [
-              "Decreased blood pressure and heart rate and shallow respirations",
-              "Quiet crying",
-              "Immobility, diaphoresis, and avoidance of deep breathing or coughing",
-              "Changing position every 2 hours",
-            ],
-            answer: 2,
-            rationale:
-              "An Asian patient is likely to hide his pain. Consequently, the nurse must observe for objective signs. In an abdominal surgery patient, these might include immobility, diaphoresis, and avoidance of deep breathing or coughing, as well as increased heart rate, shallow respirations (stemming from pain upon moving the diaphragm and respiratory muscles), and guarding or rigidity of the abdominal wall. Such a patient is unlikely to display emotion, such as crying.",
-          },
-          {
-            id: "q9",
-            question:
-              "A patient is admitted to the hospital with complaints of nausea, vomiting, diarrhea, and severe abdominal pain. Which of the following would immediately alert the nurse that the patient has bleeding from the GI tract?",
-            choices: ["Complete blood count", "Guaiac test", "Vital signs", "Abdominal girth"],
-            answer: 1,
-            rationale:
-              "To assess for GI tract bleeding when frank blood is absent, the nurse has two options: She can test for occult blood in vomitus, if present, or in stool – through guaiac (Hemoccult) test. A complete blood count does not provide immediate results and does not always immediately reflect blood loss. Changes in vital signs may be cause by factors other than blood loss. Abdominal girth is unrelated to blood loss.",
-          },
-          {
-            id: "q10",
-            question: "The correct sequence for assessing the abdomen is:",
-            choices: [
-              "Tympanic percussion, measurement of abdominal girth, and inspection",
-              "Assessment for distention, tenderness, and discoloration around the umbilicus.",
-              "Percussions, palpation, and auscultation",
-              "Auscultation, percussion, and palpation",
-            ],
-            answer: 3,
-            rationale:
-              "Because percussion and palpation can affect bowel motility and thus bowel sounds, they should follow auscultation in abdominal assessment. Tympanic percussion, measurement of abdominal girth, and inspection are methods of assessing the abdomen. Assessing for distention, tenderness and discoloration around the umbilicus can indicate various bowel-related conditions, such as cholecystitis, appendicitis and peritonitis.",
-          },
-          {
-            id: "q11",
-            question: "High-pitched gurgles head over the right lower quadrant are:",
-            choices: [
-              "A sign of increased bowel motility",
-              "A sign of decreased bowel motility",
-              "Normal bowel sounds",
-              "A sign of abdominal cramping",
-            ],
-            answer: 2,
-            rationale:
-              "Hyperactive sounds indicate increased bowel motility; two or three sounds per minute indicate decreased bowel motility. Abdominal 398 cramping with hyperactive, high pitched tinkling bowel sounds can indicate a bowel obstruction.",
-          },
-          {
-            id: "q12",
-            question:
-              "A patient about to undergo abdominal inspection is best placed in which of the following positions?",
-            choices: ["Prone", "Trendelenburg", "Supine", "Side-lying"],
-            answer: 2,
-            rationale:
-              "The supine position (also called the dorsal position), in which the patient lies on his back with his face upward, allows for easy access to the abdomen. In the prone position, the patient lies on his abdomen with his face turned to the side. In the Trendelenburg position, the head of the bed is tilted downward to 30 to 40 degrees so that the upper body is lower than the legs. In the lateral position, the patient lies on his side.",
-          },
-          {
-            id: "q13",
-            question:
-              "For a rectal examination, the patient can be directed to assume which of the following positions?",
-            choices: ["Genupecterol", "Sims", "Horizontal recumbent", "All of the above"],
-            answer: 3,
-            rationale:
-              "All of these positions are appropriate for a rectal examination. In the genupectoral (kneechest) position, the patient kneels and rests his chest on the table, forming a 90 degree angle between the torso and upper legs. In Sims’ position, the patient lies on his left side with the left arm behind the body and his right leg flexed. In the horizontal recumbent position, the patient lies on his back with legs extended and hips rotated outward.",
-          },
-          {
-            id: "q14",
-            question: "During a Romberg test, the nurse asks the patient to assume which position?",
-            choices: ["Sitting", "Standing", "Genupectoral", "Trendelenburg"],
-            answer: 1,
-            rationale:
-              "During a Romberg test, which evaluates for sensory or cerebellar ataxia, the patient must stand with feet together and arms resting at the sides—first with eyes open, then with eyes closed. The need to move the feet apart to maintain this stance is an abnormal finding.",
-          },
-          {
-            id: "q15",
-            question: "If a patient’s blood pressure is 150/96, his pulse pressure is:",
-            choices: ["54", "96", "150", "246"],
-            answer: 0,
-            rationale:
-              "The pulse pressure is the difference between the systolic and diastolic blood pressure readings – in this case, 54.",
-          },
-          {
-            id: "q16",
-            question:
-              "A patient is kept off food and fluids for 10 hours before surgery. His oral temperature at 8 a.m. is 99.8 F (37.7 C) This temperature reading probably indicates:",
-            choices: ["Infection", "Hypothermia 393 394", "Anxiety", "Dehydration"],
-            answer: 3,
-            rationale:
-              "A slightly elevated temperature in the immediate preoperative or post operative period may result from the lack of fluids before surgery rather than from infection. Anxiety will not cause an elevated temperature. Hypothermia is an abnormally low body temperature.",
-          },
-          {
-            id: "q17",
-            question:
-              "Which of the following parameters should be checked when assessing respirations?",
-            choices: ["Rate", "Rhythm", "Symmetry", "All of the above"],
-            answer: 3,
-            rationale:
-              "The quality and efficiency of the respiratory process can be determined by appraising the rate, rhythm, depth, ease, sound, and symmetry of respirations.",
-          },
-          {
-            id: "q18",
-            question:
-              "A 38-year old patient’s vital signs at 8 a.m. are axillary temperature 99.6 F (37.6 C); pulse rate, 88; respiratory rate, 30. Which findings should be reported?",
-            choices: [
-              "Respiratory rate only",
-              "Temperature only",
-              "Pulse rate and temperature",
-              "Temperature and respiratory rate",
-            ],
-            answer: 3,
-            rationale:
-              "Under normal conditions, a healthy adult breathes in a smooth uninterrupted pattern 12 to 20 times a minute. Thus, a respiratory rate of 30 would be abnormal. A normal adult body temperature, as measured on an oral thermometer, ranges between 97° and 100°F (36.1° and 37.8°C); an axillary temperature is approximately one degree lower and a rectal temperature, one degree higher. Thus, an axillary temperature of 99.6°F (37.6°C) would be considered abnormal. The resting pulse rate in 399 an adult ranges from 60 to 100 beats/minute, so a rate of 88 is normal.",
-          },
-          {
-            id: "q19",
-            question: "All of the following can cause tachycardia except:",
-            choices: [
-              "Fever",
-              "Exercise",
-              "Sympathetic nervous system stimulation",
-              "Parasympathetic nervous system stimulation",
-            ],
-            answer: 3,
-            rationale:
-              "Parasympathetic nervous system stimulation of the heart decreases the heart rate as well as the force of contraction, rate of impulse conduction and blood flow through the coronary vessels. Fever, exercise, and sympathetic stimulation all increase the heart rate.",
-          },
-          {
-            id: "q20",
-            question: "Palpating the midclavicular line is the correct technique for assessing",
-            choices: [
-              "Baseline vital signs",
-              "Systolic blood pressure",
-              "Respiratory rate",
-              "Apical pulse",
-            ],
-            answer: 3,
-            rationale:
-              "The apical pulse (the pulse at the apex of the heart) is located on the midclavicular line at the fourth, fifth, or sixth intercostal space. Base line vital signs include pulse rate, temperature, respiratory rate, and blood pressure. Blood pressure is typically assessed at the antecubital fossa, and respiratory rate is assessed best by observing chest movement with each inspiration and expiration.",
-          },
-          {
-            id: "q21",
-            question:
-              "The absence of which pulse may not be a significant finding when a patient is admitted to the hospital?",
-            choices: ["Apical", "Radial", "Pedal", "Femoral"],
-            answer: 2,
-            rationale:
-              "Because the pedal pulse cannot be detected in 10% to 20% of the population, its absence is not necessarily a significant finding. However, the presence or absence of the pedal pulse should be documented upon admission so that changes can be identified during the hospital stay. Absence of the apical, radial, or femoral pulse is abnormal and should be investigated.",
-          },
-          {
-            id: "q22",
-            question:
-              "Which of the following patients is at greatest risk for developing pressure ulcers?",
-            choices: [
-              "An alert, chronic arthritic patient treated with steroids and aspirin",
-              "An 88-year old incontinent patient with gastric cancer who is confined to his bed at home",
-              "An apathetic 63-year old COPD patient receiving nasal oxygen via cannula",
-              "A confused 78-year old patient with congestive heart failure (CHF) who requires assistance to get out of bed.",
-            ],
-            answer: 1,
-            rationale:
-              "Pressure ulcers are most likely to develop in patients with impaired mental status, mobility, activity level, nutrition, circulation and bladder or bowel control. Age is also a factor. Thus, the 88-year old incontinent patient who has impaired nutrition (from gastric cancer) and is confined to bed is at greater risk.",
-          },
-          {
-            id: "q23",
-            question:
-              "The physician orders the administration of highhumidity oxygen by face mask and placement of the patient in a high Fowler’s position. After assessing Mrs. Paul, the nurse writes the 394 following nursing diagnosis: Impaired gas exchange related to increased secretions. Which of the following nursing interventions has the greatest potential for improving this situation?",
-            choices: [
-              "Encourage the patient to increase her fluid intake to 200 ml every 2 hours",
-              "Place a humidifier in the patient’s room.",
-              "Continue administering oxygen by high humidity face mask",
-              "Perform chest physiotheraphy on a regular schedule",
-            ],
-            answer: 0,
-            rationale:
-              "Adequate hydration thins and loosens pulmonary secretions and also helps to replace fluids lost from elevated temperature, diaphoresis, dehydration and dyspnea. Highhumidity air and chest physiotherapy help liquefy and mobilize secretions.",
-          },
-          {
-            id: "q24",
-            question: "The most common deficiency seen in alcoholics is:",
-            choices: ["Thiamine", "Riboflavin", "Pyridoxine", "Pantothenic acid"],
-            answer: 0,
-            rationale:
-              "Chronic alcoholism commonly results in thiamine deficiency and other symptoms of malnutrition.",
-          },
-          {
-            id: "q25",
-            question:
-              "Which of the following statement is incorrect about a patient with dysphagia?",
-            choices: [
-              "The patient will find pureed or soft foods, such as custards, easier to swallow than water",
-              "Fowler’s or semi Fowler’s position reduces the risk of aspiration during swallowing",
-              "The patient should always feed himself",
-              "The nurse should perform oral hygiene before assisting with feeding.",
-            ],
-            answer: 2,
-            rationale:
-              "A patient with dysphagia (difficulty swallowing) requires assistance with feeding. Feeding himself is a long-range expected outcome. Soft foods, Fowler’s or semi-Fowler’s position, and oral hygiene before eating should be part of the feeding regimen.",
-          },
-          {
-            id: "q26",
-            question:
-              "To assess the kidney function of a patient with an indwelling urinary (Foley) catheter, the nurse measures his hourly urine output. She should notify the physician if the urine output is:",
-            choices: [
-              "Less than 30 ml/hour",
-              "64 ml in 2 hours",
-              "90 ml in 3 hours",
-              "125 ml in 4 hours",
-            ],
-            answer: 0,
-            rationale:
-              "A urine output of less than 30ml/hour indicates hypovolemia or oliguria, which is related to kidney function and inadequate fluid intake.",
-          },
-          {
-            id: "q27",
-            question: "Certain substances increase the amount of urine produced. These include:",
-            choices: [
-              "Caffeine-containing drinks, such as coffee and cola.",
-              "Beets",
-              "Urinary analgesics",
-              "Kaolin with pectin (Kaopectate)",
-            ],
-            answer: 0,
-            rationale:
-              "Fluids containing caffeine have a diuretic effect. Beets and urinary analgesics, such as pyridium, can color urine red. Kaopectate is an anti diarrheal medication.",
-          },
-          {
-            id: "q28",
-            question:
-              "A male patient who had surgery 2 days ago for head and neck cancer is about to make his first attempt to ambulate outside his room. The nurse notes that he is steady on his feet and that his vision was unaffected by the surgery. Which of the following nursing interventions would be appropriate?",
-            choices: [
-              "Encourage the patient to walk in the hall alone 395",
-              "Discourage the patient from walking in the hall for a few more days",
-              "Accompany the patient for his walk.",
-              "Consuit a physical therapist before allowing the patient to ambulate",
-            ],
-            answer: 2,
-            rationale:
-              "A hospitalized surgical patient leaving his room for the first time fears rejection and others staring at him, so he should not walk alone. Accompanying him will offer moral support, enabling him to face the rest of the world. Patients should begin ambulation as soon as possible after surgery to decrease complications and to regain strength and confidence. Waiting to consult a physical therapist is unnecessary.",
-          },
-          {
-            id: "q29",
-            question:
-              "A patient has exacerbation of chronic obstructive pulmonary disease (COPD) manifested by shortness of breath; orthopnea: thick, tenacious secretions; and a dry hacking cough. An appropriate nursing diagnosis would be:",
-            choices: [
-              "Ineffective airway clearance related to thick, tenacious secretions.",
-              "Ineffective airway clearance related to dry, hacking cough.",
-              "Ineffective individual coping to COPD.",
-              "Pain related to immobilization of affected leg.",
-            ],
-            answer: 0,
-            rationale:
-              "Thick, tenacious secretions, a dry, hacking cough, orthopnea, and shortness of breath are signs of ineffective airway clearance. Ineffective airway clearance related to dry, hacking cough is incorrect because the cough is not the reason for the ineffective airway clearance. Ineffective individual coping related to COPD is wrong because the etiology for a nursing diagnosis should not be a medical diagnosis (COPD) and because no data indicate that the patient is coping ineffectively. Pain related to immobilization of affected leg would be an appropriate nursing diagnosis for a patient with a leg fracture.",
-          },
-          {
-            id: "q30",
-            question:
-              "Mrs. Lim begins to cry as the nurse discusses hair loss. The best response would be:",
-            choices: [
-              "“Don’t worry. It’s only temporary”",
-              "“Why are you crying? I didn’t get to the bad news yet”",
-              "“Your hair is really pretty”",
-              "“I know this will be difficult for you, but your hair will grow back after the completion of chemotheraphy”",
-            ],
-            answer: 3,
-            rationale:
-              "“I know this will be difficult” acknowledges the problem and suggests a resolution to it. “Don’t worry..” offers some relief but doesn’t recognize the patient’s feelings. “..I didn’t get to the bad news yet” would be inappropriate at any time. “Your hair is really pretty” offers no consolation or alternatives to the patient.",
-          },
-          {
-            id: "q31",
-            question:
-              "An additional Vitamin C is required during all of the following periods except:",
-            choices: ["Infancy", "Young adulthood", "Childhood", "Pregnancy"],
-            answer: 1,
-            rationale:
-              "Additional Vitamin C is needed in growth periods, such as infancy and childhood, and during pregnancy to supply demands for fetal growth and maternal tissues. Other conditions requiring extra vitamin C include wound healing, fever, infection and stress.",
-          },
-          {
-            id: "q32",
-            question: "A prescribed amount of oxygen s needed for a patient with COPD to prevent:",
-            choices: [
-              "Cardiac arrest related to increased partial pressure of carbon dioxide in arterial blood (PaCO2)",
-              "Circulatory overload due to hypervolemia",
-              "Respiratory excitement",
-              "Inhibition of the respiratory hypoxic stimulus",
-            ],
-            answer: 3,
-            rationale:
-              "Delivery of more than 2 liters of oxygen per minute to a patient with chronic obstructive pulmonary disease (COPD), who is usually in a state of compensated respiratory acidosis (retaining carbon dioxide (CO2)), can inhibit the hypoxic stimulus for respiration. An increased partial pressure of carbon dioxide in arterial blood (PACO2) would not initially result in cardiac arrest. Circulatory overload and respiratory excitement have no relevance to the question. 399 400",
-          },
-          {
-            id: "q33",
-            question:
-              "After 1 week of hospitalization, Mr. Gray develops hypokalemia. Which of the following is the most significant symptom of his disorder?",
-            choices: [
-              "Lethargy",
-              "Increased pulse rate and blood pressure",
-              "Muscle weakness",
-              "Muscle irritability",
-            ],
-            answer: 2,
-            rationale:
-              "Presenting symptoms of hypokalemia ( a serum potassium level below 3.5 mEq/liter) include muscle weakness, chronic fatigue, and cardiac dysrhythmias. The combined effects of inadequate food intake and prolonged diarrhea can deplete the potassium stores of a patient with GI problems.",
-          },
-          {
-            id: "q34",
-            question: "Which of the following nursing interventions promotes patient safety?",
-            choices: [
-              "Asses the patient’s ability to ambulate and transfer from a bed to a chair",
-              "Demonstrate the signal system to the patient",
-              "Check to see that the patient is wearing his identification band",
-              "All of the above",
-            ],
-            answer: 3,
-            rationale:
-              "Assisting a patient with ambulation and transfer from a bed to a chair allows the nurse to evaluate the patient’s ability to carry out these functions safely. Demonstrating the signal system and providing an opportunity for a return demonstration ensures that the patient knows how to operate the equipment and encourages him to call for assistance when needed. Checking the patient’s identification band verifies the patient’s identity and prevents identification mistakes in drug administration.",
-          },
-          {
-            id: "q35",
-            question:
-              "Studies have shown that about 40% of patients fall out of bed despite the use of side rails; this has led to which of the following conclusions?",
-            choices: [
-              "Side rails are ineffective",
-              "Side rails should not be used",
-              "Side rails are a deterrent that prevent a patient from falling out of bed.",
-              "Side rails are a reminder to a patient not to get out of bed",
-            ],
-            answer: 3,
-            rationale:
-              "Since about 40% of patients fall out of bed despite the use of side rails, side rails cannot be said to prevent falls; however, they do serve as a reminder that the patient should not get out of bed. The other answers are incorrect interpretations of the statistical data.",
-          },
-          {
-            id: "q36",
-            question:
-              "Examples of patients suffering from impaired awareness include all of the following except:",
-            choices: [
-              "A semiconscious or over fatigued patient",
-              "A disoriented or confused patient",
-              "A patient who cannot care for himself at home",
-              "A patient demonstrating symptoms of drugs or alcohol withdrawal",
-            ],
-            answer: 2,
-            rationale:
-              "A patient who cannot care for himself at home does not necessarily have impaired awareness; he may simply have some degree of immobility.",
-          },
-          {
-            id: "q37",
-            question: "The most common injury among elderly persons is:",
-            choices: [
-              "Atheroscleotic changes in the blood vessels",
-              "Increased incidence of gallbladder disease",
-              "Urinary Tract Infection",
-              "Hip fracture",
-            ],
-            answer: 3,
-            rationale:
-              "Hip fracture, the most common injury among elderly persons, usually results from osteoporosis. The other answers are diseases that can occur in the elderly from physiologic changes.",
-          },
-          {
-            id: "q38",
-            question: "The most common psychogenic disorder among elderly person is:",
-            choices: [
-              "Depression",
-              "Sleep disturbances (such as bizarre dreams)",
-              "Inability to concentrate",
-              "Decreased appetite",
-            ],
-            answer: 0,
-            rationale:
-              "Sleep disturbances, inability to concentrate and decreased appetite are symptoms of depression, the most common psychogenic disorder among elderly persons. Other symptoms include diminished memory, apathy, disinterest in appearance, withdrawal, and irritability. Depression typically begins before the onset of old age and usually is caused by psychosocial, genetic, or biochemical factors",
-          },
-          {
-            id: "q39",
-            question: "Which of the following vascular system changes results from aging?",
-            choices: [
-              "Increased peripheral resistance of the blood vessels",
-              "Decreased blood flow",
-              "Increased work load of the left ventricle",
-              "All of the above",
-            ],
-            answer: 3,
-            rationale:
-              "Aging decreases elasticity of the blood vessels, which leads to increased peripheral resistance and decreased blood flow. These changes, in turn, increase the work load of the left ventricle.",
-          },
-          {
-            id: "q40",
-            question:
-              "Which of the following is the most common cause of dementia among elderly persons?",
-            choices: [
-              "Parkinson’s disease",
-              "Multiple sclerosis",
-              "Amyotrophic lateral sclerosis (Lou Gerhig’s disease) 395 396",
-              "Alzheimer’s disease",
-            ],
-            answer: 3,
-            rationale:
-              "Alzheimer;s disease, sometimes known as senile dementia of the Alzheimer’s type or primary degenerative dementia, is an insidious; progressive, irreversible, and degenerative disease of the brain whose etiology is still 400 unknown. Parkinson’s disease is a neurologic disorder caused by lesions in the extrapyramidial system and manifested by tremors, muscle rigidity, hypokinesis, dysphagia, and dysphonia. Multiple sclerosis, a progressive, degenerative disease involving demyelination of the nerve fibers, usually begins in young adulthood and is marked by periods of remission and exacerbation. Amyotrophic lateral sclerosis, a disease marked by progressive degeneration of the neurons, eventually results in atrophy of all the muscles; including those necessary for respiration.",
-          },
-          {
-            id: "q41",
-            question:
-              "The nurse’s most important legal responsibility after a patient’s death in a hospital is:",
-            choices: [
-              "Obtaining a consent of an autopsy",
-              "Notifying the coroner or medical examiner",
-              "Labeling the corpse appropriately",
-              "Ensuring that the attending physician issues the death certification",
-            ],
-            answer: 2,
-            rationale:
-              "The nurse is legally responsible for labeling the corpse when death occurs in the hospital. She may be involved in obtaining consent for an autopsy or notifying the coroner or medical examiner of a patient’s death; however, she is not legally responsible for performing these functions. The attending physician may need information from the nurse to complete the death certificate, but he is responsible for issuing it.",
-          },
-          {
-            id: "q42",
-            question: "Before rigor mortis occurs, the nurse is responsible for:",
-            choices: [
-              "Providing a complete bath and dressing change",
-              "Placing one pillow under the body’s head and shoulders",
-              "Removing the body’s clothing and wrapping the body in a shroud",
-              "Allowing the body to relax normally",
-            ],
-            answer: 1,
-            rationale:
-              "The nurse must place a pillow under the decreased person’s head and shoulders to prevent blood from settling in the face and discoloring it. She is required to bathe only soiled areas of the body since the mortician will wash the entire body. Before wrapping the body in a shroud, the nurse places a clean gown on the body and closes the eyes and mouth.",
-          },
-          {
-            id: "q43",
-            question:
-              "When a patient in the terminal stages of lung cancer begins to exhibit loss of consciousness, a major nursing priority is to:",
-            choices: [
-              "Protect the patient from injury",
-              "Insert an airway",
-              "Elevate the head of the bed",
-              "Withdraw all pain medications 396 397 continuum, and the nursing actions necessary to meet his needs.",
-            ],
-            answer: 0,
-            rationale:
-              "Ensuring the patient’s safety is the most essential action at this time. The other nursing actions may be necessary but are not a major priority. 401 8. Which of the following constitutes a break in sterile technique while preparing a sterile field for a dressing change? a. Using sterile forceps, rather than sterile gloves, to handle a sterile item b. Touching the outside wrapper of sterilized material without sterile gloves c. Placing a sterile object on the edge of the sterile field d. Pouring out a small amount of solution (15 to 30 ml) before pouring the solution into a sterile container 9. A natural body defense that plays an active role in preventing infection is: a. Yawning b. Body hair c. Hiccupping d. Rapid eye movements 10. All of the following statement are true about donning sterile gloves except: a. The first glove should be picked up by grasping the inside of the cuff. b. The second glove should be picked up by inserting the gloved fingers under the cuff outside the glove. c. The gloves should be adjusted by sliding the gloved fingers under the sterile cuff and pulling the glove over the wrist d. The inside of the glove is considered sterile 11. When removing a contaminated gown, the nurse should be careful that the first thing she touches is the: a. Waist tie and neck tie at the back of the gown b. Waist tie in front of the gown c. Cuffs of the gown d. Inside of the gown 12. Which of the following nursing interventions is considered the most effective form or universal precautions? a. Cap all used needles before removing them from their syringes b. Discard all used uncapped needles and syringes in an impenetrable protective container c. Wear gloves when administering IM injections d. Follow enteric precautions 13. All of the following measures are recommended to prevent pressure ulcers except: a. Massaging the reddened are with lotion",
-          },
-        ],
-      },
-      {
-        id: "fon-fundamentals-of-nursing-part-3",
-        title: "FUNDAMENTALS OF NURSING PART 3",
-        description: "40 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "Which element in the circular chain of infection can be eliminated by preserving skin integrity?",
-            choices: ["Host", "Reservoir", "Mode of transmission", "Portal of entry"],
-            answer: 3,
-            rationale:
-              "In the circular chain of infection, pathogens must be able to leave their reservoir and be transmitted to a susceptible host through a portal of entry, such as broken skin.",
-          },
-          {
-            id: "q2",
-            question:
-              "Which of the following will probably result in a break in sterile technique for respiratory isolation?",
-            choices: [
-              "Opening the patient’s window to the outside environment",
-              "Turning on the patient’s room ventilator",
-              "Opening the door of the patient’s room leading into the hospital corridor",
-              "Failing to wear gloves when administering a bed bath",
-            ],
-            answer: 2,
-            rationale:
-              "Respiratory isolation, like strict isolation, requires that the door to the door patient’s room remain closed. However, the patient’s room should be well ventilated, so opening the window or turning on the ventricular is desirable. The nurse does not need to wear gloves for respiratory isolation, but good hand washing is important for all types of isolation.",
-          },
-          {
-            id: "q3",
-            question:
-              "Which of the following patients is at greater risk for contracting an infection?",
-            choices: [
-              "A patient with leukopenia",
-              "A patient receiving broad-spectrum antibiotics",
-              "A postoperative patient who has undergone orthopedic surgery",
-              "A newly diagnosed diabetic patient",
-            ],
-            answer: 0,
-            rationale:
-              "Leukopenia is a decreased number of leukocytes (white blood cells), which are important in resisting infection. None of the other situations would put the patient at risk for contracting an infection; taking broad-spectrum antibiotics might actually reduce the infection risk.",
-          },
-          {
-            id: "q4",
-            question: "After routine patient contact, hand washing should last at least:",
-            choices: ["30 seconds", "1 minute", "2 minute", "3 minutes"],
-            answer: 0,
-            rationale:
-              "Depending on the degree of exposure to pathogens, hand washing may last from 10 seconds to 4 minutes. After routine patient contact, hand washing for 30 seconds effectively minimizes the risk of pathogen transmission.",
-          },
-          {
-            id: "q5",
-            question: "Which of the following procedures always requires surgical asepsis?",
-            choices: [
-              "Vaginal instillation of conjugated estrogen",
-              "Urinary catheterization",
-              "Nasogastric tube insertion",
-              "Colostomy irrigation",
-            ],
-            answer: 1,
-            rationale:
-              "The urinary system is normally free of microorganisms except at the urinary meatus. Any procedure that involves entering this system must use surgically aseptic measures to maintain a bacteria-free state.",
-          },
-          {
-            id: "q6",
-            question: "Sterile technique is used whenever:",
-            choices: [
-              "Strict isolation is required",
-              "Terminal disinfection is performed",
-              "Invasive procedures are performed",
-              "Protective isolation is necessary 401 402 b. Using a water or air mattress c. Adhering to a schedule for positioning and turning d. Providing meticulous skin care",
-            ],
-            answer: 2,
-            rationale:
-              "All invasive procedures, including surgery, catheter insertion, and administration of parenteral therapy, require sterile technique to maintain a sterile environment. All equipment must be sterile, and the nurse and the physician must wear sterile gloves and maintain surgical asepsis. In the operating room, the nurse and physician are required to wear sterile gowns, gloves, masks, hair covers, and shoe covers for all invasive procedures. Strict isolation requires the use of clean gloves, masks, gowns and equipment to prevent the transmission of highly communicable diseases by contact or by airborne routes. Terminal disinfection is the disinfection of all contaminated supplies and 405 406 incompatible, hemolysis and antigen-antibody reactions will occur.",
-          },
-          {
-            id: "q7",
-            question: "The primary purpose of a platelet count is to evaluate the:",
-            choices: [
-              "Potential for clot formation",
-              "Potential for bleeding",
-              "Presence of an antigen-antibody response",
-              "Presence of cardiac enzymes",
-            ],
-            answer: 0,
-            rationale:
-              "Platelets are disk-shaped cells that are essential for blood coagulation. A platelet count determines the number of thrombocytes in blood available for promoting hemostasis and assisting with blood coagulation after injury. It also is used to evaluate the patient’s potential for bleeding; however, this is not its primary purpose. The normal count ranges from 150,000 to 350,000/mm3. A count of 100,000/mm3 or less indicates a potential for bleeding; count of less than 20,000/mm3 is associated with spontaneous bleeding.",
-          },
-          {
-            id: "q8",
-            question:
-              "Which of the following white blood cell (WBC) counts clearly indicates leukocytosis?",
-            choices: ["4,500/mm³", "7,000/mm³", "10,000/mm³", "25,000/mm³"],
-            answer: 3,
-            rationale:
-              "Leukocytosis is any transient increase in the number of white blood cells (leukocytes) in the blood. Normal WBC counts range from 5,000 to 100,000/mm3. Thus, a count of 25,000/mm3 indicates leukocytosis.",
-          },
-          {
-            id: "q9",
-            question:
-              "After 5 days of diuretic therapy with 20mg of furosemide (Lasix) daily, a patient begins to exhibit fatigue, muscle cramping and muscle weakness. These symptoms probably indicate that the patient is experiencing:",
-            choices: ["Hypokalemia", "Hyperkalemia", "Anorexia", "Dysphagia"],
-            answer: 0,
-            rationale:
-              "Fatigue, muscle cramping, and muscle weaknesses are symptoms of hypokalemia (an inadequate potassium level), which is a potential side effect of diuretic therapy. The physician usually orders supplemental potassium to prevent hypokalemia in patients receiving diuretics. Anorexia is another symptom of hypokalemia. Dysphagia means difficulty swallowing.",
-          },
-          {
-            id: "q10",
-            question: "Which of the following statements about chest X-ray is false?",
-            choices: [
-              "No contradictions exist for this test",
-              "Before the procedure, the patient should remove all jewelry, metallic objects, and buttons above the waist",
-              "A signed consent is not required",
-              "Eating, drinking, and medications are allowed before this test",
-            ],
-            answer: 0,
-            rationale:
-              "Pregnancy or suspected pregnancy is the only contraindication for a chest X-ray. However, if a chest X-ray is necessary, the patient can wear a lead apron to protect the pelvic region from radiation. Jewelry, metallic objects, and buttons would interfere with the X-ray and thus should not be worn above the waist. A signed consent is not required because a chest X-ray is not an invasive examination. Eating, drinking and medications are allowed because the X-ray is of the chest, not the abdominal region.",
-          },
-          {
-            id: "q11",
-            question:
-              "The most appropriate time for the nurse to obtain a sputum specimen for culture is:",
-            choices: [
-              "Early in the morning",
-              "After the patient eats a light breakfast",
-              "After aerosol therapy",
-              "After chest physiotherapy",
-            ],
-            answer: 0,
-            rationale:
-              "Obtaining a sputum specimen early in this morning ensures an adequate supply of bacteria for culturing and decreases the risk of contamination from food or medication.",
-          },
-          {
-            id: "q12",
-            question:
-              "A patient with no known allergies is to receive penicillin every 6 hours. When administering the medication, the nurse observes a fine rash on 402 the patient’s skin. The most appropriate nursing action would be to:",
-            choices: [
-              "Withhold the moderation and notify the physician",
-              "Administer the medication and notify the physician",
-              "Administer the medication with an antihistamine",
-              "Apply corn starch soaks to the rash",
-            ],
-            answer: 0,
-            rationale:
-              "Initial sensitivity to penicillin is commonly manifested by a skin rash, even in individuals who have not been allergic to it previously. Because of the danger of anaphylactic shock, he nurse should withhold the drug and notify the physician, who may choose to substitute another drug. Administering an antihistamine is a dependent nursing intervention that requires a written physician’s order. Although applying 406 corn starch to the rash may relieve discomfort, it is not the nurse’s top priority in such a potentially life-threatening situation.",
-          },
-          {
-            id: "q13",
-            question:
-              "All of the following nursing interventions are correct when using the Z-track method of drug injection except:",
-            choices: [
-              "Prepare the injection site with alcohol",
-              "Use a needle that’s a least 1” long",
-              "Aspirate for blood before injection",
-              "Rub the site vigorously after the injection to promote absorption",
-            ],
-            answer: 3,
-            rationale:
-              "The Z-track method is an I.M. injection technique in which the patient’s skin is pulled in such a way that the needle track is sealed off after the injection. This procedure seals medication deep into the muscle, thereby minimizing skin staining and irritation. Rubbing the injection site is contraindicated because it may cause the medication to extravasate into the skin.",
-          },
-          {
-            id: "q14",
-            question:
-              "The correct method for determining the vastus lateralis site for I.M. injection is to:",
-            choices: [
-              "Locate the upper aspect of the upper outer quadrant of the buttock about 5 to 8 cm below the iliac crest",
-              "Palpate the lower edge of the acromion process and the midpoint lateral aspect of the arm",
-              "Palpate a 1” circular area anterior to the umbilicus",
-              "Divide the area between the greater femoral trochanter and the lateral femoral condyle into thirds, and select the middle third on the anterior of the thigh",
-            ],
-            answer: 3,
-            rationale:
-              "The vastus lateralis, a long, thick muscle that extends the full length of the thigh, is viewed by many clinicians as the site of choice for I.M. injections because it has relatively few major nerves and blood vessels. The middle third of the muscle is recommended as the injection site. The patient can be in a supine or sitting position for an injection into this site.",
-          },
-          {
-            id: "q15",
-            question:
-              "The mid-deltoid injection site is seldom used for I.M. injections because it:",
-            choices: [
-              "Can accommodate only 1 ml or less of medication",
-              "Bruises too easily",
-              "Can be used only when the patient is lying down",
-              "Does not readily parenteral medication",
-            ],
-            answer: 0,
-            rationale:
-              "The mid-deltoid injection site can accommodate only 1 ml or less of medication because of its size and location (on the deltoid muscle of the arm, close to the brachial artery and radial nerve).",
-          },
-          {
-            id: "q16",
-            question: "The appropriate needle size for insulin injection is:",
-            choices: ["18G, 1 ½” long", "22G, 1” long", "22G, 1 ½” long", "25G, 5/8” long"],
-            answer: 3,
-            rationale:
-              "A 25G, 5/8” needle is the recommended size for insulin injection because insulin is administered by the subcutaneous route. An 18G, 1 ½” needle is usually used for I.M. injections in children, typically in the vastus lateralis. A 22G, 1 ½” needle is usually used for adult I.M. injections, which are typically administered in the vastus lateralis or ventrogluteal site.",
-          },
-          {
-            id: "q17",
-            question: "The appropriate needle gauge for intradermal injection is:",
-            choices: ["20G", "22G", "25G", "26G 403"],
-            answer: 3,
-            rationale:
-              "Because an intradermal injection does not penetrate deeply into the skin, a small-bore 25G needle is recommended. This type of injection is used primarily to administer antigens to evaluate reactions for allergy or sensitivity studies. A 20G needle is usually used for I.M. injections of oil-based medications; a 22G needle for I.M. injections; and a 25G needle, for I.M. injections; and a 25G needle, for subcutaneous insulin injections.",
-          },
-          {
-            id: "q18",
-            question: "Parenteral penicillin can be administered as an:",
-            choices: [
-              "IM injection or an IV solution",
-              "IV or an intradermal injection",
-              "Intradermal or subcutaneous injection",
-              "IM or a subcutaneous injection",
-            ],
-            answer: 0,
-            rationale:
-              "Parenteral penicillin can be administered I.M. or added to a solution and given I.V. It cannot be administered subcutaneously or intradermally.",
-          },
-          {
-            id: "q19",
-            question:
-              "The physician orders an IV solution of dextrose 5% in water at 100ml/hour. What would the flow rate be if the drop factor is 15 gtt = 1 ml?",
-            choices: ["5 gtt/minute", "13 gtt/minute", "25 gtt/minute", "50 gtt/minute"],
-            answer: 2,
-            rationale: "100ml/60 min X 15 gtt/ 1 ml = 25 gtt/minute",
-          },
-          {
-            id: "q20",
-            question:
-              "Which of the following is a sign or symptom of a hemolytic reaction to blood transfusion?",
-            choices: ["Hemoglobinuria", "Chest pain", "Urticaria", "Distended neck veins"],
-            answer: 0,
-            rationale:
-              "Hemoglobinuria, the abnormal presence of hemoglobin in the urine, indicates a hemolytic reaction (incompatibility of the donor’s and 407 recipient’s blood). In this reaction, antibodies in the recipient’s plasma combine rapidly with donor RBC’s; the cells are hemolyzed in either circulatory or reticuloendothelial system. Hemolysis occurs more rapidly in ABO incompatibilities than in Rh incompatibilities. Chest pain and urticaria may be symptoms of impending anaphylaxis. Distended neck veins are an indication of hypervolemia.",
-          },
-          {
-            id: "q21",
-            question: "Which of the following conditions may require fluid restriction?",
-            choices: [
-              "Fever",
-              "Chronic Obstructive Pulmonary Disease",
-              "Renal Failure",
-              "Dehydration",
-            ],
-            answer: 2,
-            rationale:
-              "In real failure, the kidney loses their ability to effectively eliminate wastes and fluids. Because of this, limiting the patient’s intake of oral and I.V. fluids may be necessary. Fever, chronic obstructive pulmonary disease, and dehydration are conditions for which fluids should be encouraged.",
-          },
-          {
-            id: "q22",
-            question: "All of the following are common signs and symptoms of phlebitis except:",
-            choices: [
-              "Pain or discomfort at the IV insertion site",
-              "Edema and warmth at the IV insertion site",
-              "A red streak exiting the IV insertion site",
-              "Frank bleeding at the insertion site",
-            ],
-            answer: 3,
-            rationale:
-              "Phlebitis, the inflammation of a vein, can be caused by chemical irritants (I.V. solutions or medications), mechanical irritants (the needle or catheter used during venipuncture or cannulation), or a localized allergic reaction to the needle or catheter. Signs and symptoms of phlebitis include pain or discomfort, edema and heat at the I.V. insertion site, and a red streak going up the arm or leg from the I.V. insertion site.",
-          },
-          {
-            id: "q23",
-            question:
-              "The best way of determining whether a patient has learned to instill ear medication properly is for the nurse to:",
-            choices: [
-              "Ask the patient if he/she has used ear drops before",
-              "Have the patient repeat the nurse’s instructions using her own words",
-              "Demonstrate the procedure to the patient and encourage to ask questions",
-              "Ask the patient to demonstrate the procedure",
-            ],
-            answer: 3,
-            rationale:
-              "Return demonstration provides the most certain evidence for evaluating the effectiveness of patient teaching.",
-          },
-          {
-            id: "q24",
-            question:
-              "Which of the following types of medications can be administered via gastrostomy tube?",
-            choices: [
-              "Any oral medications",
-              "Capsules whole contents are dissolve in water",
-              "Enteric-coated tablets that are thoroughly dissolved in water",
-              "Most tablets designed for oral use, except for extended-duration compounds",
-            ],
-            answer: 3,
-            rationale:
-              "Capsules, enteric-coated tablets, and most extended duration or sustained release products should not be dissolved for use in a gastrostomy tube. They are pharmaceutically manufactured in these forms for valid reasons, and altering them destroys their purpose. The nurse should seek an alternate physician’s order when an ordered medication is inappropriate for delivery by tube.",
-          },
-          {
-            id: "q25",
-            question:
-              "A patient who develops hives after receiving an antibiotic is exhibiting drug:",
-            choices: ["Tolerance", "Idiosyncrasy", "Synergism", "Allergy"],
-            answer: 3,
-            rationale:
-              "A drug-allergy is an adverse reaction resulting from an immunologic response following a previous sensitizing exposure to the drug. The reaction can range from a rash or hives to anaphylactic shock. Tolerance to a drug means that the patient experiences a decreasing physiologic response to repeated administration of the drug in the same dosage. Idiosyncrasy is an individual’s unique hypersensitivity to a drug, food, or other substance; it appears to be genetically determined. Synergism, is a drug interaction in which the sum of the drug’s combined effects is greater than that of their separate effects.",
-          },
-          {
-            id: "q26",
-            question:
-              "A patient has returned to his room after femoral arteriography. All of the following are appropriate nursing interventions except:",
-            choices: [
-              "Assess femoral, popliteal, and pedal pulses every 15 minutes for 2 hours",
-              "Check the pressure dressing for sanguineous drainage",
-              "Assess a vital signs every 15 minutes for 2 hours",
-              "Order a hemoglobin and hematocrit count 1 hour after the arteriography",
-            ],
-            answer: 3,
-            rationale:
-              "A hemoglobin and hematocrit count would be ordered by the physician if bleeding were suspected. The other answers are appropriate nursing interventions for a patient who has undergone femoral arteriography.",
-          },
-          {
-            id: "q27",
-            question: "The nurse explains to a patient that a cough:",
-            choices: [
-              "Is a protective response to clear the respiratory tract of irritants",
-              "Is primarily a voluntary action",
-              "Is induced by the administration of an antitussive drug",
-              "Can be inhibited by “splinting” the abdomen",
-            ],
-            answer: 0,
-            rationale:
-              "Coughing, a protective response that clears the respiratory tract of irritants, usually is involuntary; however it can be voluntary, as when a patient is taught to perform coughing exercises. An antitussive drug inhibits coughing. Splinting the abdomen supports the abdominal muscles when a patient coughs.",
-          },
-          {
-            id: "q28",
-            question:
-              "An infected patient has chills and begins shivering. The best nursing intervention is to:",
-            choices: [
-              "Apply iced alcohol sponges",
-              "Provide increased cool liquids",
-              "Provide additional bedclothes",
-              "Provide increased ventilation",
-            ],
-            answer: 2,
-            rationale:
-              "In an infected patient, shivering results from the body’s attempt to increase heat production and the production of neutrophils and phagocytotic action through increased skeletal muscle tension and contractions. Initial vasoconstriction may cause skin to feel cold to the touch. Applying additional bed clothes helps to equalize the body temperature and stop the chills. Attempts to cool the body result in further shivering, increased metabloism, and thus increased heat production.",
-          },
-          {
-            id: "q29",
-            question: "A clinical nurse specialist is a nurse who has:",
-            choices: [
-              "Been certified by the National League for Nursing",
-              "Received credentials from the Philippine Nurses’ Association",
-              "Graduated from an associate degree program and is a registered professional nurse",
-              "Completed a master’s degree in the prescribed clinical area and is a registered professional nurse.",
-            ],
-            answer: 3,
-            rationale:
-              "A clinical nurse specialist must have completed a master’s degree in a clinical specialty and be a registered professional nurse. The National League of Nursing accredits educational programs in nursing and provides a testing service to evaluate student nursing competence but it does not certify nurses. The American Nurses Association identifies requirements for certification and offers examinations for certification in many areas of nursing., such as medical surgical nursing. These certification (credentialing) demonstrates that the nurse has the knowledge and the ability to provide high quality nursing care in the area of her certification. A graduate of an associate degree program is not a clinical nurse specialist: however, she is prepared to provide bed side nursing with a high degree of knowledge and skill. She must successfully complete the licensing examination to become a registered professional nurse.",
-          },
-          {
-            id: "q30",
-            question: "The purpose of increasing urine acidity through dietary means is to:",
-            choices: [
-              "Decrease burning sensations 403 404",
-              "Change the urine’s color",
-              "Change the urine’s concentration",
-              "Inhibit the growth of microorganisms",
-            ],
-            answer: 3,
-            rationale: "Microorganisms usually do not grow in an acidic environment.",
-          },
-          {
-            id: "q31",
-            question: "Clay colored stools indicate:",
-            choices: [
-              "Upper GI bleeding",
-              "Impending constipation",
-              "An effect of medication",
-              "Bile obstruction",
-            ],
-            answer: 3,
-            rationale:
-              "Bile colors the stool brown. Any inflammation or obstruction that impairs bile flow will affect the stool pigment, yielding light, clay-colored stool. Upper GI bleeding results in black or tarry stool. Constipation is characterized by small, hard masses. Many medications and foods will 407 408 discolor stool – for example, drugs containing iron turn stool black.; beets turn stool red.",
-          },
-          {
-            id: "q32",
-            question:
-              "In which step of the nursing process would the nurse ask a patient if the medication she administered relieved his pain?",
-            choices: ["Assessment", "Analysis", "Planning", "Evaluation"],
-            answer: 3,
-            rationale:
-              "In the evaluation step of the nursing process, the nurse must decide whether the patient has achieved the expected outcome that was identified in the planning phase.",
-          },
-          {
-            id: "q33",
-            question: "All of the following are good sources of vitamin A except:",
-            choices: ["White potatoes", "Carrots", "Apricots", "Egg yolks"],
-            answer: 0,
-            rationale:
-              "The main sources of vitamin A are yellow and green vegetables (such as carrots, sweet potatoes, squash, spinach, collard greens, broccoli, and cabbage) and yellow fruits (such as apricots, and cantaloupe). Animal sources include liver, kidneys, cream, butter, and egg yolks.",
-          },
-          {
-            id: "q34",
-            question:
-              "Which of the following is a primary nursing intervention necessary for all patients with a Foley Catheter in place?",
-            choices: [
-              "Maintain the drainage tubing and collection bag level with the patient’s bladder",
-              "Irrigate the patient with 1% Neosporin solution three times a daily",
-              "Clamp the catheter for 1 hour every 4 hours to maintain the bladder’s elasticity",
-              "Maintain the drainage tubing and collection bag below bladder level to facilitate drainage by gravity",
-            ],
-            answer: 3,
-            rationale:
-              "Maintaing the drainage tubing and collection bag level with the patient’s bladder could result in reflux of urine into the kidney. Irrigating the bladder with Neosporin and clamping the catheter for 1 hour every 4 hours must be prescribed by a physician.",
-          },
-          {
-            id: "q35",
-            question: "The ELISA test is used to:",
-            choices: [
-              "Screen blood donors for antibodies to human immunodeficiency virus (HIV)",
-              "Test blood to be used for transfusion for HIV antibodies",
-              "Aid in diagnosing a patient with AIDS",
-              "All of the above",
-            ],
-            answer: 3,
-            rationale:
-              "The ELISA test of venous blood is used to assess blood and potential blood donors to human immunodeficiency virus (HIV). A positive ELISA test combined with various signs and symptoms helps to diagnose acquired immunodeficiency syndrome (AIDS)",
-          },
-          {
-            id: "q36",
-            question:
-              "Effective skin disinfection before a surgical procedure includes which of the following methods?",
-            choices: [
-              "Shaving the site on the day before surgery 404",
-              "Applying a topical antiseptic to the skin on the evening before surgery",
-              "Having the patient take a tub bath on the morning of surgery",
-              "Having the patient shower with an antiseptic soap on the evening v=before and the morning of surgery",
-            ],
-            answer: 3,
-            rationale:
-              "Studies have shown that showering with an antiseptic soap before surgery is the most effective method of removing microorganisms from the skin. Shaving the site of the intended surgery might cause breaks in the skin, thereby increasing the risk of infection; however, if indicated, shaving, should be done immediately before surgery, not the day before. A topical antiseptic would not remove microorganisms and would be beneficial only after proper cleaning and rinsing. Tub bathing might transfer organisms to another body site rather than rinse them away.",
-          },
-          {
-            id: "q37",
-            question:
-              "When transferring a patient from a bed to a chair, the nurse should use which muscles to avoid back injury?",
-            choices: ["Abdominal muscles", "Back muscles", "Leg muscles", "Upper arm muscles"],
-            answer: 2,
-            rationale:
-              "The leg muscles are the strongest muscles in the body and should bear the greatest stress when lifting. Muscles of the abdomen, back, and upper arms may be easily injured.",
-          },
-          {
-            id: "q38",
-            question:
-              "Thrombophlebitis typically develops in patients with which of the following conditions?",
-            choices: [
-              "Increases partial thromboplastin time",
-              "Acute pulsus paradoxus",
-              "An impaired or traumatized blood vessel wall",
-              "Chronic Obstructive Pulmonary Disease (COPD)",
-            ],
-            answer: 2,
-            rationale:
-              "The factors, known as Virchow’s triad, collectively predispose a patient to thromboplebitis; impaired venous return to the heart, blood hypercoagulability, and injury to a 408 blood vessel wall. Increased partial thromboplastin time indicates a prolonged bleeding time during fibrin clot formation, commonly the result of anticoagulant (heparin) therapy. Arterial blood disorders (such as pulsus paradoxus) and lung diseases (such as COPD) do not necessarily impede venous return of injure vessel walls.",
-          },
-          {
-            id: "q39",
-            question:
-              "In a recumbent, immobilized patient, lung ventilation can become altered, leading to such respiratory complications as:",
-            choices: [
-              "Respiratory acidosis, ateclectasis, and hypostatic pneumonia",
-              "Appneustic breathing, atypical pneumonia and respiratory alkalosis",
-              "Cheyne-Strokes respirations and spontaneous pneumothorax",
-              "Kussmail’s respirations and hypoventilation",
-            ],
-            answer: 0,
-            rationale:
-              "Because of restricted respiratory movement, a recumbent, immobilize patient is at particular risk for respiratory acidosis from poor gas exchange; atelectasis from reduced surfactant and accumulated mucus in the bronchioles, and hypostatic pneumonia from bacterial growth caused by stasis of mucus secretions.",
-          },
-          {
-            id: "q40",
-            question: "Immobility impairs bladder elimination, resulting in such disorders as",
-            choices: [
-              "Increased urine acidity and relaxation of the perineal muscles, causing incontinence",
-              "Urine retention, bladder distention, and infection",
-              "Diuresis, natriuresis, and decreased urine specific gravity",
-              "Decreased calcium and phosphate levels in the urine 405 equipment after a patient has been discharged to prepare them for reuse by another patient. The purpose of protective (reverse) isolation is to prevent a person with seriously impaired resistance from coming into contact who potentially pathogenic organisms.",
-            ],
-            answer: 1,
-            rationale:
-              "The immobilized patient commonly suffers from urine retention caused by decreased muscle tone in the perineum. This leads to bladder distention and urine stagnation, which provide an excellent medium for bacterial growth leading to infection. Immobility also results in more alkaline urine with excessive amounts of calcium, sodium and phosphate, a gradual decrease in urine production, and an increased specific gravity 409 7. Which of the following represents the average amount of weight gained during pregnancy? a. 12 to 22 lb b. 15 to 25 lb c. 24 to 30 lb d. 25 to 40 lb 8. When talking with a pregnant client who is experiencing aching swollen, leg veins, the nurse would explain that this is most probably the result of which of the following? a. Thrombophlebitis b. Pregnancy-induced hypertension c. Pressure on blood vessels from the enlarging uterus d. The force of gravity pulling down on the uterus 9. Cervical softening and uterine souffle are classified as which of the following? a. Diagnostic signs b. Presumptive signs c. Probable signs d. Positive signs 10. Which of the following would the nurse identify as a presumptive sign of pregnancy? a. Hegar sign b. Nausea and vomiting c. Skin pigmentation changes d. Positive serum pregnancy test 11. Which of the following common emotional reactions to pregnancy would the nurse expect to occur during the first trimester? a. Introversion, egocentrism, narcissism b. Awkwardness, clumsiness, and unattractiveness c. Anxiety, passivity, extroversion d. Ambivalence, fear, fantasies 12. During which of the following would the focus of classes be mainly on physiologic changes, fetal development, sexuality, during pregnancy, and nutrition? a. Prepregnant period b. First trimester c. Second trimester d. Third trimester 13. Which of the following would be disadvantage of breast feeding? a. Involution occurs more rapidly b. The incidence of allergies increases due to maternal antibodies c. The father may resent the infant’s demands on the mother’s body",
           },
         ],
       },
@@ -19092,7 +18826,7 @@ export const subjects: Subject[] = [
       },
       {
         id: "fon-nursing-research-part-1",
-        title: "NURSING RESEARCH Part 1",
+        title: "Nursing Research Part 1",
         description: "46 questions from the PNLE reviewer.",
         questions: [
           {
@@ -19638,6 +19372,425 @@ export const subjects: Subject[] = [
             answer: 0,
             rationale:
               "Keep the identities of the subject secret Keeping the identities of the research subject secret will ensure anonymity because this will hinder providing link between the information given to whoever is its source. Answer: (A) generalized to other settings or samples External validity refers to the generalizability of research findings to other settings or samples. This is an issue of importance to evidence-based nursing practice.",
+          },
+        ],
+      },
+      {
+        id: "nursing-research-part-2",
+        title: "Nursing Research Part 2",
+        description: "40 questions from the PNLE reviewer.",
+        questions: [
+          {
+            id: "q1",
+            question:
+              "Situation 1: You are fortunate to be chosen as part of the research team in the hospital. A review of the following important nursing concepts was made. A professional nurse can do research for varied reasons except:",
+            choices: [
+              "Professional advancement through research participation",
+              "To validate results of new nursing modalities",
+              "For financial gains",
+              "To improve nursing care",
+            ],
+            answer: 2,
+            rationale:
+              "Nursing research is undertaken for professional growth, validating nursing modalities, and improving patient care — not for personal financial gain.",
+          },
+          {
+            id: "q2",
+            question:
+              "Each nurse participant was asked to identify a problem. After the identification of the research problem, which of the following should be done?",
+            choices: [
+              "Methodology",
+              "Review of related literature",
+              "Acknowledgement",
+              "Formulate hypothesis",
+            ],
+            answer: 1,
+            rationale:
+              "After the research problem is identified, the next step is reviewing related literature to gain background knowledge before formulating a hypothesis and methodology.",
+          },
+          {
+            id: "q3",
+            question:
+              "Which of the following communicates the results of the research to the readers by facilitating the description of the data?",
+            choices: ["Hypothesis", "Statistics", "Research problem", "Tables and graphs"],
+            answer: 3,
+            rationale:
+              "Tables and graphs visually organize and present data, making results easier for readers to understand and interpret.",
+          },
+          {
+            id: "q4",
+            question:
+              "In quantitative data, which of the following is described as the distance in the scoring units of the variable from the highest to the lowest?",
+            choices: ["Frequency", "Mean", "Median", "Range"],
+            answer: 3,
+            rationale:
+              "The range is the difference between the highest and lowest scores in a data set.",
+          },
+          {
+            id: "q5",
+            question:
+              "This expresses the variability of the data in reference to the mean. It provides a numerical estimate of how far, on the average, the separate observations are from the mean:",
+            choices: ["Mode", "Standard deviation", "Median", "Frequency"],
+            answer: 1,
+            rationale:
+              "Standard deviation measures the average distance of individual scores from the mean, indicating the spread or variability of the data.",
+          },
+          {
+            id: "q6",
+            question:
+              "Situation 2: Survey and statistics are important parts of research necessary to explain the characteristics of the population. According to WHO statistics on the homeless population around the world, which of the following groups of people disproportionately represents the homeless population?",
+            choices: ["Hispanics", "Asians", "African Americans", "Caucasians"],
+            answer: 3,
+            rationale:
+              "Per the reviewer's cited WHO data, Caucasians were identified as disproportionately represented among the global homeless population relative to their share of the general population.",
+          },
+          {
+            id: "q7",
+            question: "All but one of the following is NOT a measure of central tendency:",
+            choices: ["Mode", "Variance", "Standard deviation", "Range"],
+            answer: 0,
+            rationale:
+              "Mode is a measure of central tendency, while variance, standard deviation, and range are measures of variability or dispersion.",
+          },
+          {
+            id: "q8",
+            question: "In the values: 87, 85, 88, 92, 90, what is the mean?",
+            choices: ["88.2", "88.4", "87", "90"],
+            answer: 1,
+            rationale: "The sum of the values (87+85+88+92+90 = 442) divided by 5 equals 88.4.",
+          },
+          {
+            id: "q9",
+            question: "In the values: 80, 80, 80, 82, 82, 90, 90, 100, what is the mode?",
+            choices: ["80", "82", "90", "85.5"],
+            answer: 0,
+            rationale:
+              "The mode is the most frequently occurring value; 80 appears three times, more than any other value.",
+          },
+          {
+            id: "q10",
+            question: "In the values: 80, 80, 10, 10, 25, 65, 100, 200, what is the median?",
+            choices: ["71.25", "22.5", "10 and 25", "72.5"],
+            answer: 3,
+            rationale:
+              "Arranged in order (10, 10, 25, 65, 80, 80, 100, 200), the median for these 8 values is the average of the 4th and 5th values: (65+80)/2 = 72.5.",
+          },
+          {
+            id: "q11",
+            question:
+              "Draw lots, lottery, table of random numbers, or a sampling method that ensures that each element of the population has an equal and independent chance of being chosen is called:",
+            choices: ["Cluster", "Simple", "Stratified", "Systematic"],
+            answer: 1,
+            rationale:
+              "Simple random sampling gives every member of the population an equal and independent chance of being selected, often through lottery methods or random number tables.",
+          },
+          {
+            id: "q12",
+            question:
+              "An investigator wants to determine some of the problems experienced by diabetic clients when using an insulin pump. The investigator went to a clinic where he personally knows several diabetic clients having problems with the insulin pump. The type of sampling done by the investigator is called:",
+            choices: ["Probability", "Purposive", "Snowball", "Incidental"],
+            answer: 3,
+            rationale:
+              "Incidental (or convenience) sampling involves selecting readily available subjects, such as clients the investigator personally knows, rather than using a systematic or randomized method.",
+          },
+          {
+            id: "q13",
+            question:
+              "If the researcher implemented a new structured counseling program with a randomized group of subjects and a routine counseling program with another randomized group of subjects, the research is utilizing which design?",
+            choices: ["Quasi experimental", "Experimental", "Comparative", "Methodological"],
+            answer: 1,
+            rationale:
+              "Random assignment of subjects to an experimental group and a control group, combined with manipulation of the treatment, characterizes a true experimental design.",
+          },
+          {
+            id: "q14",
+            question: "Which of the following is not true about a pure experimental research?",
+            choices: [
+              "There is a control group",
+              "There is an experimental group",
+              "Selection of subjects in the control group is randomized",
+              "There is a careful selection of subjects in the experimental group",
+            ],
+            answer: 3,
+            rationale:
+              "Pure experimental research requires random assignment of subjects to groups, not a deliberate, handpicked ('careful') selection of subjects for the experimental group, which would introduce bias.",
+          },
+          {
+            id: "q15",
+            question:
+              "The researcher implemented a medication regimen using a new type of combination drug for manic patients, while another group of manic patients received the routine drugs. The researcher, however, handpicked the experimental group because they are the clients with multiple episodes of bipolar disorder. The researcher utilized which research design?",
+            choices: [
+              "Quasi experimental",
+              "Pure experimental",
+              "Phenomenological",
+              "Longitudinal",
+            ],
+            answer: 0,
+            rationale:
+              "Because the experimental group was handpicked rather than randomly assigned, this lacks the randomization required for a true experiment, making it a quasi-experimental design.",
+          },
+          {
+            id: "q16",
+            question:
+              "Situation 3: As a nurse, you are expected to participate in initiating or participating in the conduct of research studies to improve nursing practice. You are interested in studying the effects of meditation and relaxation on the pain experienced by cancer patients. What type of variable is pain?",
+            choices: ["Dependent", "Correlational", "Independent", "Demographic"],
+            answer: 0,
+            rationale:
+              "Pain is the outcome being measured in response to the intervention (meditation and relaxation), making it the dependent variable.",
+          },
+          {
+            id: "q17",
+            question:
+              "You would like to compare the support system of patients with chronic illness and those with acute illness. How will you best state your problem?",
+            choices: [
+              "A descriptive study to compare the support systems of patients with chronic illness and those with acute illness in terms of demographic data and knowledge about intervention",
+              "The effects of the types of support system of patients with chronic illness and those with acute illness",
+              "A comparative analysis of the support system of patients with chronic illness and those with acute illness",
+              "A study to compare the support system of patients with chronic illness and those with acute illness",
+              "What are the differences of the support system being received by patients with chronic illness and patients with acute illness?",
+            ],
+            answer: 4,
+            rationale:
+              "Research problems are best stated as clear, specific, and answerable questions. Phrasing the problem interrogatively directly identifies the variables and populations being compared without implying unintended causation or adding unrelated variables.",
+          },
+          {
+            id: "q18",
+            question:
+              'You would like to compare the support system of patients with chronic illness to those with acute illness. Considering that the hypothesis was: "Clients with chronic illness have lesser support system than clients with acute illness," what type of research is this?',
+            choices: [
+              "Descriptive",
+              "Correlational, non experimental",
+              "Experimental",
+              "Quasi experimental",
+            ],
+            answer: 1,
+            rationale:
+              "This study compares pre-existing groups without manipulating any variable, which is characteristic of correlational, non-experimental research.",
+          },
+          {
+            id: "q19",
+            question:
+              "In any research study where individual persons are involved, it is important that an informed consent of the study is obtained. The following are essential information about the consent that you should disclose to the prospective subjects except:",
+            choices: [
+              "Consent to incomplete disclosure",
+              "Description of benefits, risks, and discomforts",
+              "Explanation of procedure",
+              "Assurance of anonymity and confidentiality",
+            ],
+            answer: 0,
+            rationale:
+              "Informed consent requires full disclosure of the study's nature, risks, benefits, and procedures; obtaining a subject's consent to incomplete disclosure is not an essential element of informed consent and would undermine it.",
+          },
+          {
+            id: "q20",
+            question:
+              'In the hypothesis: "The utilization of technology in teaching improves the retention and attention of the nursing students," which is the dependent variable?',
+            choices: [
+              "Utilization of technology",
+              "Improvement in the retention and attention",
+              "Nursing students",
+              "Teaching",
+            ],
+            answer: 1,
+            rationale:
+              "The improvement in retention and attention is the outcome being measured in response to the use of technology, making it the dependent variable.",
+          },
+          {
+            id: "q21",
+            question:
+              "Situation 4: You are an actively practicing nurse who has just finished your graduate studies. You learned the value of research and would like to utilize the knowledge and skills gained in the application of research to nursing service. Which type of research inquiry investigates the issues of human complexity (e.g. understanding human expertise)?",
+            choices: [
+              "Logical position",
+              "Naturalistic inquiry",
+              "Positivism",
+              "Quantitative Research",
+            ],
+            answer: 1,
+            rationale:
+              "Naturalistic inquiry, associated with qualitative research, explores complex human experiences and phenomena within their natural context.",
+          },
+          {
+            id: "q22",
+            question: "Which of the following studies is based on quantitative research?",
+            choices: [
+              "A study examining the bereavement process in spouses of clients with terminal cancer",
+              "A study exploring factors influencing weight control behavior",
+              "A study measuring the effects of sleep deprivation on wound healing",
+              "A study examining client's feelings before, during and after a bone marrow aspiration",
+            ],
+            answer: 2,
+            rationale:
+              "Measuring the effects of sleep deprivation on wound healing involves numeric, measurable outcomes, which is characteristic of quantitative research, unlike the other options that explore subjective experiences and feelings.",
+          },
+          {
+            id: "q23",
+            question: "Which of the following studies is based on qualitative research?",
+            choices: [
+              "A study examining client's reactions to stress after open heart surgery",
+              "A study measuring nutrition and weight loss/gain in clients with cancer",
+              "A study examining oxygen levels after endotracheal suctioning",
+              "A study measuring differences in blood pressure before, during and after a procedure",
+            ],
+            answer: 0,
+            rationale:
+              "Examining clients' reactions to stress explores subjective experiences and meanings, which is characteristic of qualitative research, unlike the other options that involve measurable, numeric data.",
+          },
+          {
+            id: "q24",
+            question:
+              'An 85 year old client in a nursing home tells a nurse, "I signed the papers for that research study because the doctor was so insistent and I want him to continue taking care of me." Which client right is being violated?',
+            choices: [
+              "Right of self determination",
+              "Right to privacy and confidentiality",
+              "Right to full disclosure",
+              "Right not to be harmed",
+            ],
+            answer: 0,
+            rationale:
+              "The client's right to self-determination, which requires voluntary participation free from coercion, is being violated because she felt pressured to consent to maintain her care.",
+          },
+          {
+            id: "q25",
+            question:
+              '"A supposition or system of ideas that is proposed to explain a given phenomenon" best defines:',
+            choices: ["A paradigm", "A concept", "A theory", "A conceptual framework"],
+            answer: 2,
+            rationale:
+              "A theory is a systematic set of ideas or propositions used to explain a phenomenon and predict relationships among concepts.",
+          },
+          {
+            id: "q26",
+            question:
+              "Situation 5: Mastery of research design determination is essential in passing the NLE. Monette wants to know if the length of time she will study for the board examination is proportional to her board rating. During the December 2007 board examination, she studied for six months and gained 68%. On June 2008 board exam, she studied for 6 months again for a total of one year and gained 74%. On November 2008, she studied for 6 months for a total of one and a half years and gained 82%. The research design she used is:",
+            choices: ["Comparative", "Correlational", "Experimental", "Qualitative"],
+            answer: 1,
+            rationale:
+              "Monette is examining the relationship between study time and board rating without manipulating any variable, which is characteristic of a correlational design.",
+          },
+          {
+            id: "q27",
+            question:
+              "Rodrigo was always eating a high fat diet. You want to determine the effect of high cholesterol food on Rodrigo in the next 10 years. You will use:",
+            choices: ["Comparative", "Correlational", "Historical", "Longitudinal"],
+            answer: 3,
+            rationale:
+              "Studying the same subject over an extended future period to observe changes over time is characteristic of a longitudinal design.",
+          },
+          {
+            id: "q28",
+            question:
+              "Community A was selected randomly, as well as Community B. Nurse Crystal conducted teaching to Community A and assessed if Community A will have a better status than Community B. This is an example of:",
+            choices: ["Comparative", "Correlational", "Experimental", "Qualitative"],
+            answer: 2,
+            rationale:
+              "Random selection of groups combined with the deliberate application of an intervention (teaching) to one group and comparison against a control group is characteristic of an experimental design.",
+          },
+          {
+            id: "q29",
+            question:
+              "Faye researched the development of a new way to measure intelligence by creating a 100-item questionnaire that will assess the cognitive skills of an individual. The design best suited for this study is:",
+            choices: ["Historical", "Methodological", "Survey", "Case study"],
+            answer: 1,
+            rationale:
+              "Methodological research focuses on developing, testing, and evaluating research instruments and tools, such as a new intelligence questionnaire.",
+          },
+          {
+            id: "q30",
+            question:
+              "Jay Emmanuelle is conducting a research study on how Ralph, an AIDS client, lives his life. A design suited for this is:",
+            choices: ["Historical", "Case study", "Phenomenological", "Ethnographic"],
+            answer: 2,
+            rationale:
+              "Phenomenological research explores the lived experiences and meanings individuals attach to a phenomenon, such as how Ralph experiences and lives with his illness.",
+          },
+          {
+            id: "q31",
+            question:
+              "Maecee is to perform a study about how nurses performed surgical asepsis during World War II. A design best for this study is:",
+            choices: ["Historical", "Case study", "Phenomenological", "Ethnographic"],
+            answer: 0,
+            rationale:
+              "Studying past events and practices, such as nursing asepsis during World War II, is characteristic of historical research.",
+          },
+          {
+            id: "q32",
+            question:
+              "Medel conducts sampling at Barangay Maligaya. He collected 100 random individuals and determined who is their favorite actor. 50% said Piolo, 20% said John Lloyd, while some answered Sam, Dingdong, Richard, and Derek. Medel conducted what type of research study?",
+            choices: ["Phenomenological", "Case study", "Non experimental", "Survey"],
+            answer: 3,
+            rationale:
+              "Collecting data from a sample of a population to describe their characteristics or opinions, such as favorite actors, is characteristic of survey research.",
+          },
+          {
+            id: "q33",
+            question:
+              "Mark and Roberts visited a tribe located somewhere in China, called the Shin Jea tribe. They studied the way of life, tradition, and societal structure of these people. They will best use which research design?",
+            choices: ["Historical", "Case study", "Phenomenological", "Ethnographic"],
+            answer: 3,
+            rationale:
+              "Ethnographic research involves the in-depth study of the culture, way of life, and societal structure of a particular group of people.",
+          },
+          {
+            id: "q34",
+            question:
+              "Jezza and Jenny researched about TB — its transmission, causative agent and factors, treatment, signs and symptoms, as well as medication and all other in-depth information about tuberculosis. This study is best suited for which research design?",
+            choices: ["Historical", "Case study", "Phenomenological", "Ethnographic"],
+            answer: 1,
+            rationale:
+              "A comprehensive, in-depth exploration of a single condition or phenomenon, gathering detailed information from multiple angles, is characteristic of a case study design.",
+          },
+          {
+            id: "q35",
+            question:
+              "Diana, Arlene, and Sally are to conduct a study about the relationship of the number of family members in the household and the electricity bill. Which of the following is the best research design suited for this study? 1. Descriptive 2. Exploratory 3. Explanatory 4. Correlational 5. Comparative 6. Experimental",
+            choices: ["1 and 4", "2 and 5", "3 and 6", "1 and 5", "2 and 4"],
+            answer: 0,
+            rationale:
+              "Studying the relationship between two naturally occurring variables (family size and electricity bill) without manipulation is a descriptive-correlational design.",
+          },
+          {
+            id: "q36",
+            question:
+              "Situation 6: As a nurse researcher, Vinz must have a very good understanding of the common terms of concept used in research. The information that an investigator like Vinz collects from the subjects or participants in a research study is usually called:",
+            choices: ["Hypothesis", "Data", "Variable", "Concept"],
+            answer: 1,
+            rationale:
+              "Data refers to the information collected from research subjects or participants.",
+          },
+          {
+            id: "q37",
+            question:
+              "Which of the following usually refers to the independent variable in doing research?",
+            choices: ["Result", "Cause", "Output", "Effect"],
+            answer: 1,
+            rationale:
+              "The independent variable is the presumed cause that is manipulated or examined for its effect on the dependent variable.",
+          },
+          {
+            id: "q38",
+            question:
+              "The recipients of experimental treatment in an experimental design, or the individuals to be observed in a non-experimental design, are called:",
+            choices: ["Setting", "Subjects", "Treatment", "Sample"],
+            answer: 1,
+            rationale:
+              "Subjects are the individuals who participate in a study, whether receiving treatment or being observed.",
+          },
+          {
+            id: "q39",
+            question: "The device or technique that Vinz employs to collect data is called:",
+            choices: ["Sample", "Instrument", "Hypothesis", "Concept"],
+            answer: 1,
+            rationale:
+              "An instrument is the tool or device used to collect data in a research study.",
+          },
+          {
+            id: "q40",
+            question:
+              "The use of another person's ideas or wordings without giving appropriate credit results from inaccurate or incomplete attribution of materials to its resources. Which of the following is referred to when another person's idea is inappropriately credited as one's own?",
+            choices: ["Plagiarism", "Quotation", "Assumption", "Paraphrase"],
+            answer: 0,
+            rationale:
+              "Plagiarism is the act of using someone else's ideas or words without proper attribution, presenting them as one's own.",
           },
         ],
       },

@@ -87,15 +87,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Goodluck, my Love — PNLE Review" },
       {
         property: "og:description",
-        content:
-          "Clean, mobile-first PNLE review. Subjects, test banks, instant rationales.",
+        content: "Clean, mobile-first PNLE review. Subjects, test banks, instant rationales.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      {
+        rel: "icon",
+        href: "/stetheshearticon.png",
+        type: "image/x-icon",
+      },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import { ArrowLeft, Check, X, RotateCcw, Sparkles } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { findBank, findSubject } from "@/lib/quiz-data";
+import { CorrectAnswerVideoModal } from "@/components/correct-answer-video-modal";
 
 export const Route = createFileRoute("/quiz/$subjectId/$bankId")({
   loader: ({ params }) => {
@@ -20,8 +21,7 @@ export const Route = createFileRoute("/quiz/$subjectId/$bankId")({
       },
       {
         name: "description",
-        content:
-          loaderData?.bank.description ?? "Answer questions and learn from each rationale.",
+        content: loaderData?.bank.description ?? "Answer questions and learn from each rationale.",
       },
       { name: "robots", content: "noindex" },
     ],
@@ -36,6 +36,7 @@ function QuizPage() {
   const [revealed, setRevealed] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [done, setDone] = useState(false);
+  const [showCorrectVideo, setShowCorrectVideo] = useState(false);
 
   const q = bank.questions[index];
   const total = bank.questions.length;
@@ -48,7 +49,10 @@ function QuizPage() {
     if (revealed) return;
     setSelected(i);
     setRevealed(true);
-    if (i === q.answer) setCorrectCount((c) => c + 1);
+    if (i === q.answer) {
+      setCorrectCount((c) => c + 1);
+      setShowCorrectVideo(true);
+    }
   }
 
   function next() {
@@ -59,6 +63,7 @@ function QuizPage() {
     setIndex((i) => i + 1);
     setSelected(null);
     setRevealed(false);
+    setShowCorrectVideo(false);
   }
 
   function restart() {
@@ -67,6 +72,7 @@ function QuizPage() {
     setRevealed(false);
     setCorrectCount(0);
     setDone(false);
+    setShowCorrectVideo(false);
   }
 
   return (
@@ -131,12 +137,10 @@ function QuizPage() {
                         "flex w-full items-center gap-3 rounded-xl border p-4 text-left text-[15px] transition-all",
                         state === "idle" &&
                           "border-border bg-card hover:border-primary/50 hover:bg-accent/40",
-                        state === "correct" &&
-                          "border-success/60 bg-success/10 text-foreground",
+                        state === "correct" && "border-success/60 bg-success/10 text-foreground",
                         state === "wrong" &&
                           "border-destructive/60 bg-destructive/10 text-foreground",
-                        state === "muted" &&
-                          "border-border bg-card text-muted-foreground",
+                        state === "muted" && "border-border bg-card text-muted-foreground",
                       ]
                         .filter(Boolean)
                         .join(" ")}
@@ -177,7 +181,7 @@ function QuizPage() {
                 </div>
                 <p className="text-[15px] leading-relaxed text-foreground/90">
                   {selected === q.answer
-                    ? "Nice — you got it."
+                    ? "WOW YOU GOT IT RIGHT, ETO KISS MWA MWA MWA"
                     : `The correct answer is ${String.fromCharCode(65 + q.answer)}. ${q.choices[q.answer]}`}
                 </p>
                 {q.rationale && (
@@ -196,6 +200,10 @@ function QuizPage() {
           </>
         )}
       </main>
+
+      {showCorrectVideo && (
+        <CorrectAnswerVideoModal onContinue={() => setShowCorrectVideo(false)} />
+      )}
     </div>
   );
 }
@@ -214,7 +222,7 @@ function ResultCard({
   const pct = Math.round((correct / total) * 100);
   const msg =
     pct >= 80
-      ? "Ang galing mo, mahal. Keep going."
+      ? "Ang galing mo lovee, Keep going."
       : pct >= 60
         ? "Solid effort. Review the misses and go again."
         : "Every miss is a lesson. You're closer than you think.";
@@ -229,9 +237,7 @@ function ResultCard({
         <span className="text-muted-foreground">/{total}</span>
       </h2>
       <p className="mt-1 text-sm text-muted-foreground">{pct}% correct</p>
-      <p className="mx-auto mt-5 max-w-sm text-[15px] text-foreground/85">
-        {msg}
-      </p>
+      <p className="mx-auto mt-5 max-w-sm text-[15px] text-foreground/85">{msg}</p>
       <div className="mt-7 flex flex-col justify-center gap-2 sm:flex-row">
         <button
           onClick={onRestart}
