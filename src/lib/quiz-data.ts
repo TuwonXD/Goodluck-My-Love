@@ -6639,8 +6639,8 @@ export const subjects: Subject[] = [
     banks: [
       {
         id: "matern-practice-test-ii-maternal-and-child-heal",
-        title: "PRACTICE TEST II Maternal and Child Health",
-        description: "49 questions from the PNLE reviewer.",
+        title: "PRACTICE TEST - Maternal and Child Health",
+        description: "50 questions from the PNLE reviewer.",
         questions: [
           {
             id: "q1",
@@ -7248,595 +7248,10 @@ export const subjects: Subject[] = [
             rationale:
               "Testosterone is produced by the Leyding cells in the seminiferous tubules. Follicle-stimulating hormone and leuteinzing hormone are released by the anterior pituitary gland. The hypothalamus is responsible for releasing gonadotropin-releasing hormone. 172 173",
           },
-        ],
-      },
-      {
-        id: "matern-practice-test-ii-maternal-and-child-heal-2",
-        title: "PRACTICE TEST II Maternal and Child Health",
-        description: "49 questions from the PNLE reviewer.",
-        questions: [
           {
-            id: "q1",
+            id: "q50",
             question:
-              "For the client who is using oral contraceptives, the nurse informs the client about the need to take the pill at the same time each day to accomplish which of the following?",
-            choices: [
-              "Decrease the incidence of nausea",
-              "Maintain hormonal levels",
-              "Reduce side effects",
-              "Prevent drug interactions",
-            ],
-            answer: 1,
-            rationale:
-              "Regular timely ingestion of oral contraceptives is necessary to maintain hormonal levels of the drugs to suppress the action of the hypothalamus and anterior pituitary leading to inappropriate secretion of FSH and LH. Therefore, follicles do not mature, ovulation is inhibited, and pregnancy is prevented. The estrogen content of the oral site contraceptive may cause the nausea, regardless of when the pill is taken. Side effects and drug interactions may occur with oral contraceptives regardless of the time the pill is taken.",
-          },
-          {
-            id: "q2",
-            question:
-              "When teaching a client about contraception. Which of the following would the nurse include as the most effective method for preventing sexually transmitted infections?",
-            choices: ["Spermicides", "Diaphragm", "Condoms", "Vasectomy"],
-            answer: 2,
-            rationale:
-              "Condoms, when used correctly and consistently, are the most effective contraceptive method or barrier against bacterial and viral sexually transmitted infections. Although spermicides kill sperm, they do not provide reliable protection against the spread of sexually transmitted infections, especially intracellular organisms such as HIV. Insertion and removal of the diaphragm along with the use of the spermicides may cause vaginal irritations, which could place the client at risk for infection transmission. Male sterilization eliminates spermatozoa from the ejaculate, but it does not eliminate bacterial and/or viral microorganisms that can cause sexually transmitted infections.",
-          },
-          {
-            id: "q3",
-            question:
-              "When preparing a woman who is 2 days postpartum for discharge, recommendations for which of the following contraceptive methods would be avoided?",
-            choices: ["Diaphragm", "Female condom", "Oral contraceptives", "Rhythm method"],
-            answer: 0,
-            rationale:
-              "The diaphragm must be fitted individually to ensure effectiveness. Because of the changes to the reproductive structures during pregnancy and following delivery, the diaphragm must be refitted, usually at the 6 weeks’ examination following childbirth or after a weight loss of 15 lbs or more. In addition, for maximum effectiveness, spermicidal jelly should be placed in the dome and around the rim. However, spermicidal jelly should not be inserted into the vagina until involution is completed at approximately 6 weeks. Use of a female condom protects the reproductive system from the introduction of semen or spermicides into the vagina and may be used after childbirth. Oral contraceptives may be started within the first postpartum week to ensure suppression of ovulation. For the couple who has determined the female’s fertile period, using the rhythm method, avoidance of intercourse during this period, is safe and effective. 366",
-          },
-          {
-            id: "q4",
-            question:
-              "For which of the following clients would the nurse expect that an intrauterine device would not be recommended?",
-            choices: [
-              "Woman over age 35",
-              "Nulliparous woman",
-              "Promiscuous young adult",
-              "Postpartum client",
-            ],
-            answer: 2,
-            rationale:
-              "An IUD may increase the risk of pelvic inflammatory disease, especially in women with more than one sexual partner, because of the increased risk of sexually transmitted infections. An UID should not be used if the woman has an active or chronic pelvic infection, postpartum infection, endometrial hyperplasia or carcinoma, or uterine abnormalities. Age is not a factor in determining the risks associated with IUD use. Most IUD users are over the age of 30. Although there is a slightly higher risk for infertility in women who have never been pregnant, the IUD is an acceptable option as long as the riskbenefit ratio is discussed. IUDs may be inserted immediately after delivery, but this is not recommended because of the increased risk and rate of expulsion at this time.",
-          },
-          {
-            id: "q5",
-            question:
-              "A client in her third trimester tells the nurse, “I’m constipated all the time!” Which of the following should the nurse recommend?",
-            choices: [
-              "Daily enemas",
-              "Laxatives",
-              "Increased fiber intake",
-              "Decreased fluid intake",
-            ],
-            answer: 2,
-            rationale:
-              "During the third trimester, the enlarging uterus places pressure on the intestines. This coupled with the effect of hormones on smooth muscle relaxation causes decreased intestinal motility (peristalsis). Increasing fiber in the diet will help fecal matter pass more quickly through the intestinal tract, thus decreasing the amount of water that is absorbed. As a result, stool is softer and easier to pass. Enemas could precipitate preterm labor and/or electrolyte loss and should be avoided. Laxatives may cause preterm labor by stimulating peristalsis and may interfere with the absorption of nutrients. Use for more than 1 week can also lead to laxative dependency. Liquid in the diet helps provide a semisolid, soft consistency to the stool. Eight to ten glasses of fluid per day are essential to maintain hydration and promote stool evacuation.",
-          },
-          {
-            id: "q6",
-            question:
-              "Which of the following would the nurse use as the basis for the teaching plan when caring for a pregnant teenager concerned about gaining too much weight during pregnancy?",
-            choices: [
-              "10 pounds per trimester",
-              "1 pound per week for 40 weeks",
-              "½ pound per week for 40 weeks",
-              "A total gain of 25 to 30 pounds",
-            ],
-            answer: 3,
-            rationale:
-              "To ensure adequate fetal growth and development during the 40 weeks of a pregnancy, a total weight gain 25 to 30 pounds is recommended: 1.5 pounds in the first 10 weeks; 9 pounds by 30 weeks; and 27.5 pounds by 40 weeks. The pregnant woman should gain less weight in the first and second trimester than in the third. During the first trimester, the client should only gain 1.5 pounds in the first 10 weeks, not 1 pound per week. A weight gain of ½ pound per week would be 20 pounds for the total pregnancy, less than the recommended amount.",
-          },
-          {
-            id: "q7",
-            question:
-              "The client tells the nurse that her last menstrual period started on January 14 and ended on January 20. Using Nagele’s rule, the nurse determines her EDD to be which of the following?",
-            choices: ["September 27", "October 21", "November 7", "December 27"],
-            answer: 1,
-            rationale:
-              "To calculate the EDD by Nagele’s rule, add 7 days to the first day of the last menstrual period and count back 3 months, changing the year appropriately. To obtain a date of September 27, 367 7 days have been added to the last day of the LMP (rather than the first day of the LMP), plus 4 months (instead of 3 months) were counted back. To obtain the date of November 7, 7 days have been subtracted (instead of added) from the first day of LMP plus November indicates counting back 2 months (instead of 3 months) from January. To obtain the date of December 27, 7 days were added to the last day of the LMP (rather than the first day of the LMP) and December indicates counting back only 1 month (instead of 3 months) from January.",
-          },
-          {
-            id: "q8",
-            question:
-              "When taking an obstetrical history on a pregnant client who states, “I had a son born at 38 weeks gestation, a daughter born at 30 weeks gestation and I lost a baby at about 8 weeks,” the nurse should record her obstetrical history as which of the following?",
-            choices: ["G2 T2 P0 A0 L2", "G3 T1 P1 A0 L2", "G3 T2 P0 A0 L2", "G4 T1 P1 A1 L2"],
-            answer: 3,
-            rationale:
-              "The client has been pregnant four times, including current pregnancy (G). Birth at 38 weeks’ gestation is considered full term (T), while birth form 20 weeks to 38 weeks is considered preterm (P). A spontaneous abortion occurred at 8 weeks (A). She has two living children (L).",
-          },
-          {
-            id: "q9",
-            question:
-              "When preparing to listen to the fetal heart rate at 12 weeks’ gestation, the nurse would use which of the following?",
-            choices: [
-              "Stethoscope placed midline at the umbilicus",
-              "Doppler placed midline at the suprapubic region",
-              "Fetoscope placed midway between the umbilicus and the xiphoid process",
-              "External electronic fetal monitor placed at the umbilicus",
-            ],
-            answer: 1,
-            rationale:
-              "At 12 weeks gestation, the uterus rises out of the pelvis and is palpable above the symphysis pubis. The Doppler intensifies the sound of the fetal pulse rate so it is audible. The uterus has merely risen out of the pelvis into the abdominal cavity and is not at the level of the umbilicus. The fetal heart rate at this age is not audible with a stethoscope. The uterus at 12 weeks is just above the symphysis pubis in the abdominal cavity, not midway between the umbilicus and the xiphoid process. At 12 weeks the FHR would be difficult to auscultate with a fetoscope. Although the external electronic fetal monitor would project the FHR, the uterus has not risen to the umbilicus at 12 weeks.",
-          },
-          {
-            id: "q10",
-            question:
-              "When developing a plan of care for a client newly diagnosed with gestational diabetes, which of the following instructions would be the priority?",
-            choices: ["Dietary intake", "Medication", "Exercise", "Glucose monitoring"],
-            answer: 0,
-            rationale:
-              "Although all of the choices are important in the management of diabetes, diet therapy is the mainstay of the treatment plan and should always be the priority. Women diagnosed with gestational diabetes generally need only diet therapy without medication to control their blood sugar levels. Exercise, is important for all pregnant women and especially for diabetic women, because it burns up glucose, thus decreasing blood sugar. However, dietary intake, not exercise, is the priority. All pregnant women with diabetes should have periodic monitoring of serum glucose. However, those with gestational diabetes generally do not need daily glucose monitoring. The standard of care recommends a fasting and 2- hour postprandial blood sugar level every 2 weeks.",
-          },
-          {
-            id: "q11",
-            question:
-              "A client at 24 weeks gestation has gained 6 pounds in 4 weeks. Which of the following would be the priority when assessing the client?",
-            choices: ["Glucosuria", "Depression", "Hand/face edema", "Dietary intake"],
-            answer: 2,
-            rationale:
-              "After 20 weeks’ gestation, when there is a rapid weight gain, preeclampsia should be suspected, which may be caused by fluid retention manifested by edema, especially of the hands and face. The three classic signs of preeclampsia are hypertension, edema, and proteinuria. Although urine is checked for glucose at each clinic visit, this is not the priority. Depression may cause either anorexia or excessive food intake, leading to excessive weight gain or loss. This is not, however, the priority consideration at this time. Weight gain thought to be caused by excessive food intake would require a 24-hour diet recall. However, excessive intake would not be the primary consideration for this client at this time.",
-          },
-          {
-            id: "q12",
-            question:
-              "A client 12 weeks’ pregnant come to the emergency department with abdominal cramping and moderate vaginal bleeding. Speculum examination reveals 2 to 3 cms cervical dilation. The nurse would document these findings as which of the following?",
-            choices: [
-              "Threatened abortion",
-              "Imminent abortion",
-              "Complete abortion",
-              "Missed abortion a. A dark red discharge on a 2-day postpartum client b. A pink to brownish discharge on a client who is 5 days postpartum c. Almost colorless to creamy discharge on a client 2 weeks after delivery d. A bright red discharge 5 days after delivery",
-            ],
-            answer: 1,
-            rationale:
-              "Cramping and vaginal bleeding coupled with cervical dilation signifies that termination of the pregnancy is inevitable and cannot be prevented. Thus, the nurse would document an imminent abortion. In a threatened abortion, cramping and vaginal bleeding are present, but there is no cervical dilation. The symptoms may subside or progress to abortion. In a complete abortion all the products of conception are expelled. A missed abortion is early fetal intrauterine death without expulsion of the products of conception.",
-          },
-          {
-            id: "q13",
-            question:
-              "Which of the following would be the priority nursing diagnosis for a client with an ectopic pregnancy?",
-            choices: ["Risk for infection", "Pain", "Knowledge Deficit", "Anticipatory Grieving"],
-            answer: 1,
-            rationale:
-              "For the client with an ectopic pregnancy, lower abdominal pain, usually unilateral, is the primary symptom. Thus, pain is the priority. Although the potential for infection is always present, the risk is low in ectopic pregnancy because pathogenic microorganisms have not been introduced from external sources. The client may have a limited knowledge of the pathology and treatment of the condition and will most likely experience grieving, but this is not the priority at this time.",
-          },
-          {
-            id: "q14",
-            question:
-              "A postpartum client has a temperature of 101.4ºF, with a uterus that is tender when palpated, remains unusually large, and not descending as normally expected. Which of the following should the nurse assess next?",
-            choices: ["Lochia", "Breasts", "Incision", "Urine"],
-            answer: 0,
-            rationale:
-              "The data suggests an infection of the endometrial lining of the uterus. The lochia may be decreased or copious, dark brown in appearance, and foul smelling, providing further evidence of a possible infection. All the client’s data indicate a uterine problem, not a breast problem. Typically, transient fever, usually 101ºF, may be present with breast engorgement. Symptoms of mastitis include influenza-like manifestations. Localized infection of an episiotomy or C-section incision rarely causes systemic symptoms, and uterine involution would not be affected. The client data do not include dysuria, frequency, or urgency, symptoms of urinary tract infections, which would necessitate assessing the client’s urine.",
-          },
-          {
-            id: "q15",
-            question:
-              "Before assessing the postpartum client’s uterus for firmness and position in relation to the umbilicus and midline, which of the following should the nurse do first?",
-            choices: [
-              "Assess the vital signs",
-              "Administer analgesia",
-              "Ambulate her in the hall",
-              "Assist her to urinate",
-            ],
-            answer: 3,
-            rationale:
-              "Before uterine assessment is performed, it is essential that the woman empty her bladder. A full bladder will interfere with the accuracy of the assessment by elevating the uterus and displacing to the side of the midline. Vital sign assessment is not necessary unless an abnormality in uterine assessment is identified. Uterine assessment should not cause acute pain that requires administration of analgesia. Ambulating the client is an essential component of postpartum care, but is not necessary prior to assessment of the uterus.",
-          },
-          {
-            id: "q16",
-            question:
-              "Which of the following should the nurse do when a primipara who is lactating tells the nurse that she has sore nipples?",
-            choices: [
-              "Tell her to breast feed more frequently",
-              "Administer a narcotic before breast feeding",
-              "Encourage her to wear a nursing brassiere",
-              "Use soap and water to clean the nipples",
-            ],
-            answer: 0,
-            rationale:
-              "Feeding more frequently, about every 2 hours, will decrease the infant’s frantic, vigorous sucking from hunger and will decrease breast engorgement, soften the breast, and promote ease of correct latching-on for feeding. Narcotics administered prior to breast feeding are passed through the breast milk to the infant, causing excessive sleepiness. Nipple soreness is not severe enough to warrant narcotic analgesia. All postpartum clients, especially lactating mothers, should wear a supportive brassiere with wide cotton straps. This does not, however, prevent or reduce nipple soreness. Soaps are drying to the skin of the nipples and should not be used on the breasts of lactating mothers. Dry nipple skin predisposes to cracks and fissures, which can become sore and painful.",
-          },
-          {
-            id: "q17",
-            question:
-              "The nurse assesses the vital signs of a client, 4 hours’ postpartum that are as follows: BP 90/60; temperature 100.4ºF; pulse 100 weak, thready; R 20 per minute. Which of the following should the nurse do first?",
-            choices: [
-              "Report the temperature to the physician",
-              "Recheck the blood pressure with another cuff",
-              "Assess the uterus for firmness and position",
-              "Determine the amount of lochia",
-            ],
-            answer: 3,
-            rationale:
-              "A weak, thready pulse elevated to 100 BPM may indicate impending hemorrhagic shock. An increased pulse is a compensatory mechanism of the body in response to decreased fluid volume. Thus, the nurse should check the amount of lochia present. Temperatures up to 100.48F in the first 24 hours after birth are related to the dehydrating effects of labor and are considered normal. Although rechecking the blood pressure may be a correct choice of action, it is not the first action that should be implemented in light of the other data. The data indicate a potential impending hemorrhage. Assessing the uterus for firmness and position in relation to the umbilicus and midline is important, but the nurse should check the extent of vaginal bleeding first. Then it would be appropriate to check the uterus, which may be a possible cause of the hemorrhage.",
-          },
-          {
-            id: "q18",
-            question:
-              "The nurse assesses the postpartum vaginal discharge (lochia) on four clients. Which of the following assessments would warrant notification of the physician? 362 19. Which of the following is the priority focus of nursing practice with the current early postpartum discharge?",
-            choices: [
-              "Promoting comfort and restoration of health",
-              "Exploring the emotional status of the family",
-              "Facilitating safe and effective self-and newborn care",
-              "Teaching about the importance of family planning",
-            ],
-            answer: 3,
-            rationale:
-              "Any bright red vaginal discharge would be considered abnormal, but especially 5 days after delivery, when the lochia is typically pink to brownish. Lochia rubra, a dark red discharge, is present for 2 to 3 days after delivery. Bright red vaginal bleeding at this time suggests late postpartum hemorrhage, which occurs after the first 24 hours following delivery and is generally caused by retained placental fragments or bleeding disorders. Lochia rubra is the normal dark red discharge occurring in the first 2 to 3 days after delivery, containing epithelial cells, erythrocyes, leukocytes and decidua. Lochia serosa is a pink to brownish serosanguineous discharge occurring from 3 to 10 days after delivery that contains decidua, erythrocytes, leukocytes, cervical mucus, and microorganisms. Lochia alba is an almost colorless to yellowish discharge occurring from 10 days to 3 weeks after delivery and containing leukocytes, decidua, epithelial cells, fat, cervical mucus, cholesterol crystals, and bacteria. 368",
-          },
-          {
-            id: "q19",
-            question:
-              "Which of the following actions would be least effective in maintaining a neutral thermal environment for the newborn?",
-            choices: [
-              "Placing infant under radiant warmer after bathing",
-              "Covering the scale with a warmed blanket prior to weighing",
-              "Placing crib close to nursery window for family viewing",
-              "Covering the infant’s head with a knit stockinette",
-            ],
-            answer: 2,
-            rationale:
-              "Heat loss by radiation occurs when the infant’s crib is placed too near cold walls or windows. Thus placing the newborn’s crib close to the viewing window would be least effective. Body heat is lost through evaporation during bathing. Placing the infant under the radiant warmer after bathing will assist the infant to be rewarmed. Covering the scale with a warmed blanket prior to weighing prevents heat loss through conduction. A knit cap prevents heat loss from the head a large head, a large body surface area of the newborn’s body.",
-          },
-          {
-            id: "q20",
-            question:
-              "A newborn who has an asymmetrical Moro reflex response should be further assessed for which of the following?",
-            choices: [
-              "Talipes equinovarus",
-              "Fractured clavicle",
-              "Congenital hypothyroidism",
-              "Increased intracranial pressure 363",
-            ],
-            answer: 1,
-            rationale:
-              "A fractured clavicle would prevent the normal Moro response of symmetrical sequential extension and abduction of the arms followed by flexion and adduction. In talipes equinovarus (clubfoot) the foot is turned medially, and in plantar flexion, with the heel elevated. The feet are not involved with the Moro reflex. Hypothyroiddism has no effect on the primitive reflexes. Absence of the Moror reflex is the most significant single indicator of central nervous system status, but it is not a sign of increased intracranial pressure.",
-          },
-          {
-            id: "q21",
-            question:
-              "During the first 4 hours after a male circumcision, assessing for which of the following is the priority?",
-            choices: ["Infection", "Hemorrhage", "Discomfort", "Dehydration"],
-            answer: 1,
-            rationale:
-              "Hemorrhage is a potential risk following any surgical procedure. Although the infant has been given vitamin K to facilitate clotting, the 369 prophylactic dose is often not sufficient to prevent bleeding. Although infection is a possibility, signs will not appear within 4 hours after the surgical procedure. The primary discomfort of circumcision occurs during the surgical procedure, not afterward. Although feedings are withheld prior to the circumcision, the chances of dehydration are minimal.",
-          },
-          {
-            id: "q22",
-            question:
-              "The mother asks the nurse. “What’s wrong with my son’s breasts? Why are they so enlarged?” Whish of the following would be the best response by the nurse?",
-            choices: [
-              "“The breast tissue is inflamed from the trauma experienced with birth”",
-              "“A decrease in material hormones present before birth causes enlargement,”",
-              "“You should discuss this with your doctor. It could be a malignancy”",
-              "“The tissue has hypertrophied while the baby was in the uterus”",
-            ],
-            answer: 1,
-            rationale:
-              "The presence of excessive estrogen and progesterone in the maternal- fetal blood followed by prompt withdrawal at birth precipitates breast engorgement, which will spontaneously resolve in 4 to 5 days after birth. The trauma of the birth process does not cause inflammation of the newborn’s breast tissue. Newborns do not have breast malignancy. This reply by the nurse would cause the mother to have undue anxiety. Breast tissue does not hypertrophy in the fetus or newborns.",
-          },
-          {
-            id: "q23",
-            question:
-              "Immediately after birth the nurse notes the following on a male newborn: respirations 78; apical hearth rate 160 BPM, nostril flaring; mild intercostal retractions; and grunting at the end of expiration. Which of the following should the nurse do?",
-            choices: [
-              "Call the assessment data to the physician’s attention",
-              "Start oxygen per nasal cannula at 2 L/min.",
-              "Suction the infant’s mouth and nares",
-              "Recognize this as normal first period of reactivity",
-            ],
-            answer: 3,
-            rationale:
-              "The first 15 minutes to 1 hour after birth is the first period of reactivity involving respiratory and circulatory adaptation to extrauterine life. The data given reflect the normal changes during this time period. The infant’s assessment data reflect normal adaptation. Thus, the physician does not need to be notified and oxygen is not needed. The data do not indicate the presence of choking, gagging or coughing, which are signs of excessive secretions. Suctioning is not necessary.",
-          },
-          {
-            id: "q24",
-            question:
-              "The nurse hears a mother telling a friend on the telephone about umbilical cord care. Which of the following statements by the mother indicates effective teaching?",
-            choices: [
-              "“Daily soap and water cleansing is best”",
-              "‘Alcohol helps it dry and kills germs”",
-              "“An antibiotic ointment applied daily prevents infection”",
-              "“He can have a tub bath each day”",
-            ],
-            answer: 1,
-            rationale:
-              "Application of 70% isopropyl alcohol to the cord minimizes microorganisms (germicidal) and promotes drying. The cord should be kept dry until it falls off and the stump has healed. Antibiotic ointment should only be used to treat an infection, not as a prophylaxis. Infants should not be submerged in a tub of water until the cord falls off and the stump has completely healed.",
-          },
-          {
-            id: "q25",
-            question:
-              "A newborn weighing 3000 grams and feeding every 4 hours needs 120 calories/kg of body weight every 24 hours for proper growth and development. How many ounces of 20 cal/oz formula should this newborn receive at each feeding to meet nutritional needs?",
-            choices: ["2 ounces", "3 ounces", "4 ounces", "6 ounces"],
-            answer: 1,
-            rationale:
-              "To determine the amount of formula needed, do the following mathematical calculation. 3 kg x 120 cal/kg per day = 360 calories/day feeding q 4 hours = 6 feedings per day = 60 calories per feeding: 60 calories per feeding; 60 calories per feeding with formula 20 cal/oz = 3 ounces per feeding. Based on the calculation. 2, 4 or 6 ounces are incorrect.",
-          },
-          {
-            id: "q26",
-            question:
-              "The postterm neonate with meconium-stained amniotic fluid needs care designed to especially monitor for which of the following?",
-            choices: [
-              "Respiratory problems",
-              "Gastrointestinal problems",
-              "Integumentary problems",
-              "Elimination problems",
-            ],
-            answer: 0,
-            rationale:
-              "Intrauterine anoxia may cause relaxation of the anal sphincter and emptying of meconium into the amniotic fluid. At birth some of the meconium fluid may be aspirated, causing mechanical obstruction or chemical pneumonitis. The infant is not at increased risk for gastrointestinal problems. Even though the skin is stained with meconium, it is noninfectious (sterile) and nonirritating. The postterm meconium- stained infant is not at additional risk for bowel or urinary problems.",
-          },
-          {
-            id: "q27",
-            question:
-              "When measuring a client’s fundal height, which of the following techniques denotes the correct method of measurement used by the nurse?",
-            choices: [
-              "From the xiphoid process to the umbilicus",
-              "From the symphysis pubis to the xiphoid process",
-              "From the symphysis pubis to the fundus",
-              "From the fundus to the umbilicus",
-            ],
-            answer: 2,
-            rationale:
-              "The nurse should use a nonelastic, flexible, paper measuring tape, placing the zero point on the superior border of the symphysis pubis and stretching the tape across the abdomen at the midline to the top of the fundus. The xiphoid and umbilicus are not appropriate landmarks to use when measuring the height of the fundus (McDonald’s measurement).",
-          },
-          {
-            id: "q28",
-            question:
-              "A client with severe preeclampsia is admitted with of BP 160/110, proteinuria, and severe pitting edema. Which of the following would be most important to include in the client’s plan of care?",
-            choices: [
-              "Daily weights",
-              "Seizure precautions",
-              "Right lateral positioning",
-              "Stress reduction",
-            ],
-            answer: 1,
-            rationale:
-              "Women hospitalized with severe preeclampsia need decreased CNS stimulation to prevent a seizure. Seizure precautions provide environmental safety should a seizure occur. Because of edema, daily weight is important but not the priority. Preclampsia causes vasospasm and therefore can reduce utero-placental perfusion. The client should be placed on her left side to maximize blood flow, reduce blood pressure, and promote diuresis. Interventions to reduce stress and anxiety are very important to facilitate coping and a sense of control, but seizure precautions are the priority.",
-          },
-          {
-            id: "q29",
-            question:
-              "A postpartum primipara asks the nurse, “When can we have sexual intercourse again?” Which of the following would be the nurse’s best response?",
-            choices: [
-              "“Anytime you both want to.”",
-              "“As soon as choose a contraceptive method.”",
-              "“When the discharge has stopped and the incision is healed.”",
-              "“After your 6 weeks examination.”",
-            ],
-            answer: 2,
-            rationale:
-              "Cessation of the lochial discharge signifies healing of the endometrium. Risk of hemorrhage and infection are minimal 3 weeks after a normal vaginal delivery. Telling the client anytime is inappropriate because this response does not provide the client with the specific information she is requesting. Choice of a contraceptive method is important, but not the specific criteria for safe resumption of sexual activity. Culturally, the 6- weeks’ examination has been used as the time frame for resuming sexual activity, but it may be resumed earlier.",
-          },
-          {
-            id: "q30",
-            question:
-              "When preparing to administer the vitamin K injection to a neonate, the nurse would select which of the following sites as appropriate for the injection?",
-            choices: [
-              "Deltoid muscle",
-              "Anterior femoris muscle",
-              "Vastus lateralis muscle",
-              "Gluteus maximus muscle",
-            ],
-            answer: 2,
-            rationale:
-              "The middle third of the vastus lateralis is the preferred injection site for vitamin K administration because it is free of blood vessels and nerves and is large enough to absorb the medication. The deltoid muscle of a newborn is not large enough for a newborn IM injection. Injections into this muscle in a small child might cause damage to the radial nerve. The anterior femoris muscle is the next safest muscle to use in a newborn but is not the safest. Because of the proximity of the sciatic nerve, the gluteus maximus muscle should not be until the child has been walking 2 years.",
-          },
-          {
-            id: "q31",
-            question:
-              "When performing a pelvic examination, the nurse observes a red swollen area on the right side of the vaginal orifice. The nurse would document this as enlargement of which of the following?",
-            choices: ["Clitoris", "Parotid gland", "Skene’s gland", "Bartholin’s gland"],
-            answer: 3,
-            rationale:
-              "Bartholin’s glands are the glands on either side of the vaginal orifice. The clitoris is female erectile tissue found in the perineal area above the urethra. The parotid glands are open into the mouth. Skene’s glands open into the posterior wall of the female urinary meatus.",
-          },
-          {
-            id: "q32",
-            question:
-              "To differentiate as a female, the hormonal stimulation of the embryo that must occur involves which of the following?",
-            choices: [
-              "Increase in maternal estrogen secretion",
-              "Decrease in maternal androgen secretion",
-              "Secretion of androgen by the fetal gonad",
-              "Secretion of estrogen by the fetal gonad",
-            ],
-            answer: 3,
-            rationale:
-              "The fetal gonad must secrete estrogen for the embryo to differentiate as a female. An increase in maternal estrogen secretion does not affect differentiation of the embryo, and maternal estrogen secretion occurs in every pregnancy. Maternal androgen secretion remains the same as before pregnancy and does not affect differentiation. Secretion of androgen by the fetal gonad would produce a male fetus.",
-          },
-          {
-            id: "q33",
-            question:
-              "A client at 8 weeks’ gestation calls complaining of slight nausea in the morning hours. Which of the following client interventions should the nurse question?",
-            choices: [
-              "Taking 1 teaspoon of bicarbonate of soda in an 8-ounce glass of water",
-              "Eating a few low-sodium crackers before getting out of bed",
-              "Avoiding the intake of liquids in the morning hours",
-              "Eating six small meals a day instead of thee large meals",
-            ],
-            answer: 0,
-            rationale:
-              "Using bicarbonate would increase the amount of sodium ingested, which can cause complications. Eating low-sodium crackers would be appropriate. Since liquids can increase nausea avoiding them in the morning hours when nausea is usually the strongest is appropriate. Eating six small meals a day would keep the stomach full, which often decrease nausea.",
-          },
-          {
-            id: "q34",
-            question:
-              "The nurse documents positive ballottement in the client’s prenatal record. The nurse understands that this indicates which of the following?",
-            choices: [
-              "Palpable contractions on the abdomen",
-              "Passive movement of the unengaged fetus",
-              "Fetal kicking felt by the client",
-              "Enlargement and softening of the uterus",
-            ],
-            answer: 1,
-            rationale:
-              "Ballottement indicates passive movement of the unengaged fetus. Ballottement is not a contraction. Fetal kicking felt by the client represents quickening. Enlargement and softening of the uterus is known as Piskacek’s sign.",
-          },
-          {
-            id: "q35",
-            question:
-              "During a pelvic exam the nurse notes a purpleblue tinge of the cervix. The nurse documents this as which of the following?",
-            choices: ["Braxton-Hicks sign", "Chadwick’s sign", "Goodell’s sign", "McDonald’s sign"],
-            answer: 1,
-            rationale:
-              "Chadwick’s sign refers to the purple-blue tinge of the cervix. Braxton Hicks contractions are painless contractions beginning around the 4th month. Goodell’s sign indicates softening of the cervix. Flexibility of the uterus against the cervix is known as McDonald’s sign.",
-          },
-          {
-            id: "q36",
-            question:
-              "During a prenatal class, the nurse explains the rationale for breathing techniques during preparation for labor based on the 364 understanding that breathing techniques are most important in achieving which of the following?",
-            choices: [
-              "Eliminate pain and give the expectant parents something to do",
-              "Reduce the risk of fetal distress by increasing uteroplacental perfusion",
-              "Facilitate relaxation, possibly reducing the perception of pain",
-              "Eliminate pain so that less analgesia and anesthesia are needed",
-            ],
-            answer: 2,
-            rationale:
-              "Breathing techniques can raise the pain threshold and reduce the perception of pain. They also promote relaxation. Breathing techniques do not eliminate pain, but they can reduce it. Positioning, not breathing, increases uteroplacental perfusion.",
-          },
-          {
-            id: "q37",
-            question:
-              "After 4 hours of active labor, the nurse notes that the contractions of a primigravida client are not strong enough to dilate the cervix. Which of the following would the nurse anticipate doing?",
-            choices: [
-              "Obtaining an order to begin IV oxytocin infusion",
-              "Administering a light sedative to allow the patient to rest for several hour",
-              "Preparing for a cesarean section for failure to progress",
-              "Increasing the encouragement to the patient when pushing begins",
-            ],
-            answer: 0,
-            rationale:
-              "The client’s labor is hypotonic. The nurse should call the physical and obtain an order for an infusion of oxytocin, which will assist the uterus to contact more forcefully in an attempt to dilate the cervix. Administering light sedative would be done for hypertonic uterine contractions. Preparing for cesarean section is unnecessary at this time. Oxytocin would increase the uterine contractions and hopefully progress labor before a cesarean would be necessary. It is too early to anticipate client pushing with contractions. 370",
-          },
-          {
-            id: "q38",
-            question:
-              "A multigravida at 38 weeks’ gestation is admitted with painless, bright red bleeding and mild contractions every 7 to 10 minutes. Which of the following assessments should be avoided?",
-            choices: [
-              "Maternal vital sign",
-              "Fetal heart rate",
-              "Contraction monitoring",
-              "Cervical dilation",
-            ],
-            answer: 3,
-            rationale:
-              "The signs indicate placenta previa and vaginal exam to determine cervical dilation would not be done because it could cause hemorrhage. Assessing maternal vital signs can help determine maternal physiologic status. Fetal heart rate is important to assess fetal well-being and should be done. Monitoring the contractions will help evaluate the progress of labor.",
-          },
-          {
-            id: "q39",
-            question:
-              "Which of the following would be the nurse’s most appropriate response to a client who asks why she must have a cesarean delivery if she has a complete placenta previa?",
-            choices: [
-              "“You will have to ask your physician when he returns.”",
-              "“You need a cesarean to prevent hemorrhage.”",
-              "“The placenta is covering most of your cervix.”",
-              "“The placenta is covering the opening of the uterus and blocking your baby.”",
-            ],
-            answer: 3,
-            rationale:
-              "A complete placenta previa occurs when the placenta covers the opening of the uterus, thus blocking the passageway for the baby. This response explains what a complete previa is and the reason the baby cannot come out except by cesarean delivery. Telling the client to ask the physician is a poor response and would increase the patient’s anxiety. Although a cesarean would help to prevent hemorrhage, the statement does not explain why the hemorrhage could occur. With a complete previa, the placenta is covering the entire cervix, not just most of it.",
-          },
-          {
-            id: "q40",
-            question:
-              "The nurse understands that the fetal head is in which of the following positions with a face presentation?",
-            choices: [
-              "Completely flexed",
-              "Completely extended",
-              "Partially extended 365",
-              "Partially flexed",
-            ],
-            answer: 1,
-            rationale:
-              "With a face presentation, the head is completely extended. With a vertex presentation, the head is completely or partially flexed. With a brow (forehead) presentation, the head would be partially extended.",
-          },
-          {
-            id: "q41",
-            question:
-              "With a fetus in the left-anterior breech presentation, the nurse would expect the fetal heart rate would be most audible in which of the following areas?",
-            choices: [
-              "Above the maternal umbilicus and to the right of midline",
-              "In the lower-left maternal abdominal quadrant",
-              "In the lower-right maternal abdominal quadrant",
-              "Above the maternal umbilicus and to the left of midline",
-            ],
-            answer: 3,
-            rationale:
-              "With this presentation, the fetal upper torso and back face the left upper maternal abdominal wall. The fetal heart rate would be most audible above the maternal umbilicus and to the left of the middle. The other positions would be incorrect.",
-          },
-          {
-            id: "q42",
-            question:
-              "The amniotic fluid of a client has a greenish tint. The nurse interprets this to be the result of which of the following?",
-            choices: ["Lanugo", "Hydramnio", "Meconium", "Vernix"],
-            answer: 2,
-            rationale:
-              "The greenish tint is due to the presence of meconium. Lanugo is the soft, downy hair on the shoulders and back of the fetus. Hydramnios represents excessive amniotic fluid. Vernix is the white, cheesy substance covering the fetus.",
-          },
-          {
-            id: "q43",
-            question:
-              "A patient is in labor and has just been told she has a breech presentation. The nurse should be particularly alert for which of the following?",
-            choices: ["Quickening", "Ophthalmia neonatorum", "Pica", "Prolapsed umbilical cord"],
-            answer: 3,
-            rationale:
-              "In a breech position, because of the space between the presenting part and the cervix, prolapse of the umbilical cord is common. Quickening is the woman’s first perception of fetal movement. Ophthalmia neonatorum usually results from maternal gonorrhea and is conjunctivitis. Pica refers to the oral intake of nonfood substances.",
-          },
-          {
-            id: "q44",
-            question:
-              "When describing dizygotic twins to a couple, on which of the following would the nurse base the explanation?",
-            choices: [
-              "Two ova fertilized by separate sperm",
-              "Sharing of a common placenta",
-              "Each ova with the same genotype",
-              "Sharing of a common chorion",
-            ],
-            answer: 0,
-            rationale:
-              "Dizygotic (fraternal) twins involve two ova fertilized by separate sperm. Monozygotic (identical) twins involve a common placenta, same genotype, and common chorion.",
-          },
-          {
-            id: "q45",
-            question:
-              "Which of the following refers to the single cell that reproduces itself after conception?",
-            choices: ["Chromosome", "Blastocyst", "Zygote", "Trophoblast"],
-            answer: 2,
-            rationale:
-              "The zygote is the single cell that reproduces itself after conception. The chromosome is the material that makes up the cell and is gained from each parent. Blastocyst and trophoblast are later terms for the embryo after zygote. 371",
-          },
-          {
-            id: "q46",
-            question:
-              "In the late 1950s, consumers and health care professionals began challenging the routine use of analgesics and anesthetics during childbirth. Which of the following was an outgrowth of this concept?",
-            choices: [
-              "Labor, delivery, recovery, postpartum (LDRP)",
-              "Nurse-midwifery",
-              "Clinical nurse specialist",
-              "Prepared childbirth",
-            ],
-            answer: 3,
-            rationale:
-              "Prepared childbirth was the direct result of the 1950’s challenging of the routine use of analgesic and anesthetics during childbirth. The LDRP was a much later concept and was not a direct result of the challenging of routine use of analgesics and anesthetics during childbirth. Roles for nurse midwives and clinical nurse specialists did not develop from this challenge.",
-          },
-          {
-            id: "q47",
-            question:
-              "A client has a midpelvic contracture from a previous pelvic injury due to a motor vehicle accident as a teenager. The nurse is aware that this could prevent a fetus from passing through or around which structure during childbirth?",
-            choices: ["Symphysis pubis", "Sacral promontory", "Ischial spines", "Pubic arch"],
-            answer: 2,
-            rationale:
-              "The ischial spines are located in the mid-pelvic region and could be narrowed due to the previous pelvic injury. The symphysis pubis, sacral promontory, and pubic arch are not part of the mid-pelvis.",
-          },
-          {
-            id: "q48",
-            question:
-              "When teaching a group of adolescents about variations in the length of the menstrual cycle, the nurse understands that the underlying mechanism is due to variations in which of the following phases?",
+              "When teaching a group of adolescents	about variationsin the length of the menstrual cycle,	the	nurse understands	that	the	underlying	mechanism is due to variationsin which ofthe	following	phases?",
             choices: [
               "Menstrual phase",
               "Proliferative phase",
@@ -7845,21 +7260,7 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Variations in the length of the menstrual cycle are due to variations in the proliferative phase. The menstrual, secretory and ischemic phases do not contribute to this variation.",
-          },
-          {
-            id: "q49",
-            question:
-              "When teaching a group of adolescents about male hormone production, which of the following would the nurse include as being produced by the Leydig cells?",
-            choices: [
-              "Follicle-stimulating hormone",
-              "Testosterone",
-              "Leuteinizing hormone",
-              "Gonadotropin releasing hormone",
-            ],
-            answer: 1,
-            rationale:
-              "Testosterone is produced by the Leyding cells in the seminiferous tubules. Follicle-stimulating hormone and leuteinzing hormone are released by the anterior pituitary gland. The hypothalamus is responsible for releasing gonadotropin-releasing hormone.",
+              "Variations in the length of the menstrual cycle are due to variations in the proliferative  phase.	The	menstrual, secretory and ischemic	phases do not contribute to this	variation.",
           },
         ],
       },
@@ -9604,9 +9005,9 @@ export const subjects: Subject[] = [
     description: "Mental health disorders, therapeutic communication and interventions.",
     banks: [
       {
-        id: "psych-psychiatric-nursing",
-        title: "PSYCHIATRIC NURSING",
-        description: "42 questions from the PNLE reviewer.",
+        id: "psychiatric-nursing-part-1",
+        title: "PSYCHIATRIC NURSING PART 1",
+        description: "25 questions from the PNLE reviewer.",
         questions: [
           {
             id: "q1",
@@ -9614,1111 +9015,7 @@ export const subjects: Subject[] = [
               "Marco approached Nurse Trish asking for advice on how to deal with his alcohol addiction. Nurse Trish should tell the client that the only effective treatment for alcoholism is:",
             choices: [
               "Psychotherapy",
-              "Alcoholics anonymous (A.A.)",
-              "Total abstinence",
-              "Aversion Therapy",
-            ],
-            answer: 2,
-            rationale: "Total abstinence is the only effective treatment for alcoholism",
-          },
-          {
-            id: "q2",
-            question:
-              "Nurse Hazel is caring for a male client who experience false sensory perceptions with no basis in reality. This perception is known as:",
-            choices: ["Hallucinations", "Delusions", "Loose associations", "Neologisms"],
-            answer: 0,
-            rationale:
-              "Hallucinations are visual, auditory, gustatory, tactile or olfactory perceptions that have no basis in reality.",
-          },
-          {
-            id: "q3",
-            question:
-              "Nurse Monet is caring for a female client who has suicidal tendency. When accompanying the client to the restroom, Nurse Monet should…",
-            choices: [
-              "Give her privacy",
-              "Allow her to urinate",
-              "Open the window and allow her to get some fresh air",
-              "Observe her",
-            ],
-            answer: 3,
-            rationale:
-              "The Nurse has a responsibility to observe continuously the acutely suicidal client. The Nurse should watch for clues, such as communicating suicidal thoughts, and messages; hoarding medications and talking about death.",
-          },
-          {
-            id: "q4",
-            question:
-              "Nurse Maureen is developing a plan of care for a female client with anorexia nervosa. Which action should the nurse include in the plan?",
-            choices: [
-              "Provide privacy during meals",
-              "Set-up a strict eating plan for the client",
-              "Encourage client to exercise to reduce anxiety",
-              "Restrict visits with the family",
-            ],
-            answer: 1,
-            rationale:
-              "Establishing a consistent eating plan and monitoring client’s weight are important to this disorder.",
-          },
-          {
-            id: "q5",
-            question:
-              "A client is experiencing anxiety attack. The most appropriate nursing intervention should include?",
-            choices: [
-              "Turning on the television",
-              "Leaving the client alone",
-              "Staying with the client and speaking in short sentences",
-              "Ask the client to play with other clients",
-            ],
-            answer: 2,
-            rationale:
-              "Appropriate nursing interventions for an anxiety attack include using short sentences, staying with the client, decreasing stimuli, remaining calm and medicating as needed.",
-          },
-          {
-            id: "q6",
-            question:
-              "A female client is admitted with a diagnosis of delusions of GRANDEUR. This diagnosis reflects a belief that one is:",
-            choices: [
-              "Being Killed",
-              "Highly famous and important",
-              "Responsible for evil world",
-              "Connected to client unrelated to oneself 180",
-            ],
-            answer: 1,
-            rationale:
-              "Delusion of grandeur is a false belief that one is highly famous and important.",
-          },
-          {
-            id: "q7",
-            question:
-              "A 20 year old client was diagnosed with dependent personality disorder. Which behavior is not likely to be evidence of ineffective individual coping?",
-            choices: [
-              "Recurrent self-destructive behavior",
-              "Avoiding relationship",
-              "Showing interest in solitary activities",
-              "Inability to make choices and decision without advise",
-            ],
-            answer: 3,
-            rationale:
-              "Individual with dependent personality disorder typically shows indecisiveness submissiveness and clinging behavior so that others will make decisions with them.",
-          },
-          {
-            id: "q8",
-            question:
-              "A male client is diagnosed with schizotypal personality disorder. Which signs would this client exhibit during social situation?",
-            choices: [
-              "Paranoid thoughts",
-              "Emotional affect",
-              "Independence need",
-              "Aggressive behavior",
-            ],
-            answer: 0,
-            rationale:
-              "Clients with schizotypal personality disorder experience excessive social anxiety that can lead to paranoid thoughts",
-          },
-          {
-            id: "q9",
-            question:
-              "Nurse Claire is caring for a client diagnosed with bulimia. The most appropriate initial goal for a client diagnosed with bulimia is?",
-            choices: [
-              "Encourage to avoid foods",
-              "Identify anxiety causing situations",
-              "Eat only three meals a day",
-              "Avoid shopping plenty of groceries",
-            ],
-            answer: 1,
-            rationale:
-              "Bulimia disorder generally is a maladaptive coping response to stress and underlying issues. The client should identify anxiety causing situation that stimulate the bulimic behavior and then learn new ways of coping with the anxiety.",
-          },
-          {
-            id: "q10",
-            question:
-              "Nurse Tony was caring for a 41 year old female client. Which behavior by the client indicates adult cognitive development?",
-            choices: [
-              "Generates new levels of awareness",
-              "Assumes responsibility for her actions",
-              "Has maximum ability to solve problems and learn new skills",
-              "Her perception are based on reality",
-            ],
-            answer: 0,
-            rationale: "An adult age 31 to 45 generates new level of awareness.",
-          },
-          {
-            id: "q11",
-            question:
-              "A neuromuscular blocking agent is administered to a client before ECT therapy. The Nurse should carefully observe the client for?",
-            choices: ["Respiratory difficulties", "Nausea and vomiting", "Dizziness", "Seizures"],
-            answer: 0,
-            rationale:
-              "Neuromuscular Blocker, such as SUCCINYLCHOLINE (Anectine) produces respiratory depression because it inhibits contractions of respiratory muscles.",
-          },
-          {
-            id: "q12",
-            question:
-              "A 75 year old client is admitted to the hospital with the diagnosis of dementia of the Alzheimer’s type and depression. The symptom that is unrelated to depression would be?",
-            choices: [
-              "Apathetic response to the environment",
-              "“I don’t know” answer to questions",
-              "Shallow of labile effect",
-              "Neglect of personal hygiene 181",
-            ],
-            answer: 2,
-            rationale:
-              "With depression, there is little or no emotional involvement therefore little alteration in affect.",
-          },
-          {
-            id: "q13",
-            question:
-              "Nurse Patricia is aware that the major health complication associated with intractable anorexia nervosa would be?",
-            choices: [
-              "Cardiac dysrhythmias resulting to cardiac arrest",
-              "Glucose intolerance resulting in protracted hypoglycemia",
-              "Endocrine imbalance causing cold amenorrhea",
-              "Decreased metabolism causing cold intolerance",
-            ],
-            answer: 0,
-            rationale:
-              "These clients have severely depleted levels of sodium and potassium because of their starvation diet and energy expenditure, these electrolytes are necessary for cardiac functioning.",
-          },
-          {
-            id: "q14",
-            question: "Nurse Anna can minimize agitation in a disturbed client by?",
-            choices: [
-              "Increasing stimulation",
-              "limiting unnecessary interaction",
-              "increasing appropriate sensory perception",
-              "ensuring constant client and staff contact",
-            ],
-            answer: 1,
-            rationale: "Limiting unnecessary interaction will decrease stimulation and agitation.",
-          },
-          {
-            id: "q15",
-            question:
-              "A 39 year old mother with obsessive-compulsive disorder has become immobilized by her elaborate hand washing and walking rituals. Nurse Trish recognizes that the basis of O.C. disorder is often:",
-            choices: [
-              "Problems with being too conscientious",
-              "Problems with anger and remorse",
-              "Feelings of guilt and inadequacy",
-              "Feeling of unworthiness and hopelessness",
-            ],
-            answer: 2,
-            rationale:
-              "Ritualistic behavior seen in this disorder is aimed at controlling guilt and inadequacy by maintaining an absolute set pattern of behavior.",
-          },
-          {
-            id: "q16",
-            question:
-              "Mario is complaining to other clients about not being allowed by staff to keep food in his room. Which of the following interventions would be most appropriate?",
-            choices: [
-              "Allowing a snack to be kept in his room",
-              "Reprimanding the client",
-              "Ignoring the clients behavior",
-              "Setting limits on the behavior",
-            ],
-            answer: 3,
-            rationale:
-              "The nurse needs to set limits in the client’s manipulative behavior to help the client control dysfunctional behavior. A consistent approach by the staff is necessary to decrease manipulation.",
-          },
-          {
-            id: "q17",
-            question:
-              "Conney with borderline personality disorder who is to be discharge soon threatens to “do something” to herself if discharged. Which of the following actions by the nurse would be most important?",
-            choices: [
-              "Ask a family member to stay with the client at home temporarily",
-              "Discuss the meaning of the client’s statement with her",
-              "Request an immediate extension for the client",
-              "Ignore the clients statement because it’s a sign of manipulation",
-            ],
-            answer: 1,
-            rationale:
-              "Any suicidal statement must be assessed by the nurse. The nurse should discuss the client’s statement with her to determine its meaning in terms of suicide.",
-          },
-          {
-            id: "q18",
-            question:
-              "Joey a client with antisocial personality disorder belches loudly. A staff member asks Joey, “Do you know why people find you repulsive?” this statement most likely would elicit which of the following client reaction?",
-            choices: ["Depensiveness", "Embarrassment", "Shame", "Remorsefulness"],
-            answer: 0,
-            rationale:
-              "When the staff member ask the client if he wonders why others find him repulsive, the client is likely to feel defensive because the question is belittling. The natural tendency is to counterattack the threat to self-image.",
-          },
-          {
-            id: "q19",
-            question:
-              "Which of the following approaches would be most appropriate to use with a client suffering from narcissistic personality disorder when discrepancies exist between what the client states and what actually exist?",
-            choices: [
-              "Rationalization",
-              "Supportive confrontation",
-              "Limit setting",
-              "Consistency",
-            ],
-            answer: 1,
-            rationale:
-              "The nurse would specifically use supportive confrontation with the client to point out discrepancies between what the client states and what actually exists to increase responsibility for self.",
-          },
-          {
-            id: "q20",
-            question:
-              "Cely is experiencing alcohol withdrawal exhibits tremors, diaphoresis and hyperactivity. Blood pressure is 190/87 mmhg and pulse is 92 bpm. Which of the medications would the nurse expect to administer?",
-            choices: [
-              "Naloxone (Narcan)",
-              "Benzlropine (Cogentin)",
-              "Lorazepam (Ativan)",
-              "Haloperidol (Haldol)",
-            ],
-            answer: 2,
-            rationale:
-              "The nurse would most likely administer benzodiazepine, such as lorazepan (ativan) to the client who is experiencing symptom: The client’s experiences symptoms of withdrawal because of the rebound phenomenon when the sedation of the CNS from alcohol begins to decrease.",
-          },
-          {
-            id: "q21",
-            question:
-              "Which of the following foods would the nurse Trish eliminate from the diet of a client in alcohol withdrawal?",
-            choices: ["Milk", "Orange Juice", "Soda", "Regular Coffee"],
-            answer: 3,
-            rationale:
-              "Regular coffee contains caffeine which acts as psychomotor stimulants and leads to feelings of anxiety and agitation. Serving coffee top the client may add to tremors or wakefulness.",
-          },
-          {
-            id: "q22",
-            question:
-              "Which of the following would Nurse Hazel expect to assess for a client who is exhibiting late signs of heroin withdrawal?",
-            choices: [
-              "Yawning & diaphoresis",
-              "Restlessness & Irritability",
-              "Constipation & steatorrhea",
-              "Vomiting and Diarrhea",
-            ],
-            answer: 3,
-            rationale:
-              "Vomiting and diarrhea are usually the late signs of heroin withdrawal, along with muscle spasm, fever, nausea, repetitive, abdominal cramps and backache.",
-          },
-          {
-            id: "q23",
-            question:
-              "To establish open and trusting relationship with a female client who has been hospitalized with severe anxiety, the nurse in charge should?",
-            choices: [
-              "Encourage the staff to have frequent interaction with the client",
-              "Share an activity with the client",
-              "Give client feedback about behavior",
-              "Respect client’s need for personal space",
-            ],
-            answer: 3,
-            rationale:
-              "Moving to a client’s personal space increases the feeling of threat, which increases anxiety.",
-          },
-          {
-            id: "q24",
-            question:
-              "Nurse Monette recognizes that the focus of environmental (MILIEU) therapy is to:",
-            choices: [
-              "Manipulate the environment to bring about positive changes in behavior",
-              "Allow the client’s freedom to determine whether or not they will be involved in activities",
-              "Role play life events to meet individual needs",
-              "Use natural remedies rather than drugs to control behavior",
-            ],
-            answer: 0,
-            rationale:
-              "Environmental (MILIEU) therapy aims at having everything in the client’s surrounding area toward helping the client.",
-          },
-          {
-            id: "q25",
-            question:
-              "Nurse Trish would expect a child with a diagnosis of reactive attachment disorder to:",
-            choices: [
-              "Have more positive relation with the father than the mother",
-              "Cling to mother & cry on separation",
-              "Be able to develop only superficial relation with the others",
-              "Have been physically abuse",
-            ],
-            answer: 2,
-            rationale:
-              "Children who have experienced attachment difficulties with primary caregiver are not able to trust others and therefore relate superficially",
-          },
-          {
-            id: "q26",
-            question: "When teaching parents about childhood depression Nurse Trina should say?",
-            choices: [
-              "It may appear acting out behavior",
-              "Does not respond to conventional treatment",
-              "Is short in duration & resolves easily",
-              "Looks almost identical to adult depression",
-            ],
-            answer: 0,
-            rationale:
-              "Children have difficulty verbally expressing their feelings, acting out behavior, such as temper tantrums, may indicate underlying depression.",
-          },
-          {
-            id: "q27",
-            question: "Nurse Perry is aware that language development in autistic child resembles:",
-            choices: ["Scanning speech", "Speech lag", "Shuttering", "Echolalia"],
-            answer: 3,
-            rationale: "The autistic child repeats sounds or words spoken by others.",
-          },
-          {
-            id: "q28",
-            question:
-              "A 60 year old female client who lives alone tells the nurse at the community health center “I really don’t need anyone to talk to”. The TV is 182 my best friend. The nurse recognizes that the client is using the defense mechanism known as?",
-            choices: ["Displacement", "Projection", "Sublimation", "Denial"],
-            answer: 3,
-            rationale:
-              "The client statement is an example of the use of denial, a defense that blocks problem by unconscious refusing to admit they exist",
-          },
-          {
-            id: "q29",
-            question:
-              "Nurse Penny is aware that the symptoms that distinguish post-traumatic stress disorder from other anxiety disorder would be:",
-            choices: [
-              "Avoidance of situation & certain activities that resemble the stress",
-              "Depression and a blunted affect when discussing the traumatic situation",
-              "Lack of interest in family & others",
-              "Re-experiencing the trauma in dreams or flashback",
-            ],
-            answer: 3,
-            rationale:
-              "Experiencing the actual trauma in dreams or flashback is the major symptom that distinguishes post-traumatic stress disorder from other anxiety disorder.",
-          },
-          {
-            id: "q30",
-            question:
-              "Nurse Benjie is communicating with a male client with substance-induced persisting dementia; the client cannot remember facts and fills in the gaps with imaginary information. Nurse Benjie is aware that this is typical of?",
-            choices: ["Flight of ideas", "Associative looseness", "Confabulation", "Concretism"],
-            answer: 2,
-            rationale:
-              "Confabulation or the filling in of memory gaps with imaginary facts is a defense mechanism used by people experiencing memory deficits.",
-          },
-          {
-            id: "q31",
-            question:
-              "Nurse Joey is aware that the signs & symptoms that would be most specific for diagnosis anorexia are?",
-            choices: [
-              "Excessive weight loss, amenorrhea & abdominal distension",
-              "Slow pulse, 10% weight loss & alopecia 183",
-              "Compulsive behavior, excessive fears & nausea",
-              "Excessive activity, memory lapses & an increased pulse",
-            ],
-            answer: 0,
-            rationale:
-              "186 These are the major signs of anorexia nervosa. Weight loss is excessive (15% of expected weight)",
-          },
-          {
-            id: "q32",
-            question:
-              "Nurse Monette is aware that extremely depressed clients seem to do best in settings where they have:",
-            choices: [
-              "Multiple stimuli",
-              "Routine Activities",
-              "Minimal decision making",
-              "Varied Activities",
-            ],
-            answer: 1,
-            rationale:
-              "Depression usually is both emotional & physical. A simple daily routine is the best, least stressful and least anxiety producing.",
-          },
-          {
-            id: "q33",
-            question:
-              "To further assess a client’s suicidal potential. Nurse Katrina should be especially alert to the client expression of:",
-            choices: [
-              "Frustration & fear of death",
-              "Anger & resentment",
-              "Anxiety & loneliness",
-              "Helplessness & hopelessness",
-            ],
-            answer: 3,
-            rationale:
-              "The expression of these feeling may indicate that this client is unable to continue the struggle of life.",
-          },
-          {
-            id: "q34",
-            question:
-              "When planning care for a female client using ritualistic behavior, Nurse Gina must recognize that the ritual:",
-            choices: [
-              "Helps the client focus on the inability to deal with reality",
-              "Helps the client control the anxiety",
-              "Is under the client’s conscious control",
-              "Is used by the client primarily for secondary gains",
-            ],
-            answer: 1,
-            rationale:
-              "The rituals used by a client with obsessive compulsive disorder help control the anxiety level by maintaining a set pattern of action.",
-          },
-          {
-            id: "q35",
-            question:
-              "A 32 year old male graduate student, who has become increasingly withdrawn and neglectful of his work and personal hygiene, is brought to the psychiatric hospital by his parents. After detailed assessment, a diagnosis of schizophrenia is made. It is unlikely that the client will demonstrate:",
-            choices: [
-              "Low self esteem",
-              "Concrete thinking",
-              "Effective self-boundaries",
-              "Weak ego",
-            ],
-            answer: 2,
-            rationale: "A person with this disorder would not have adequate self-boundaries",
-          },
-          {
-            id: "q36",
-            question:
-              "A long term goal for a paranoid male client who has unjustifiably accused his wife of having many extramarital affairs would be to help the client develop:",
-            choices: [
-              "Insight into his behavior",
-              "Better self-control",
-              "Feeling of self-worth",
-              "Faith in his wife",
-            ],
-            answer: 2,
-            rationale:
-              "Helping the client to develop feeling of self-worth would reduce the client’s need to use pathologic defenses.",
-          },
-          {
-            id: "q37",
-            question:
-              "A male client who is experiencing disordered thinking about food being poisoned is admitted to the mental health unit. The nurse uses which communication technique to encourage the client to eat dinner?",
-            choices: [
-              "Focusing on self-disclosure of own food preference",
-              "Using open ended question and silence",
-              "Offering opinion about the need to eat",
-              "Verbalizing reasons that the client may not choose to eat",
-            ],
-            answer: 1,
-            rationale:
-              "Open ended questions and silence are strategies used to encourage clients to discuss their problem in descriptive manner.",
-          },
-          {
-            id: "q38",
-            question:
-              "Nurse Nina is assigned to care for a client diagnosed with Catatonic Stupor. When Nurse Nina enters the client’s room, the client is found lying on the bed with a body pulled into a fetal position. Nurse Nina should?",
-            choices: [
-              "Ask the client direct questions to encourage talking",
-              "Rake the client into the dayroom to be with other clients",
-              "Sit beside the client in silence and occasionally ask open-ended question",
-              "Leave the client alone and continue with providing care to the other clients",
-            ],
-            answer: 2,
-            rationale:
-              "Clients who are withdrawn may be immobile and mute, and require consistent, repeated interventions. Communication with withdrawn clients requires much patience from the nurse. The nurse facilitates communication with the client by sitting in silence, asking openended question and pausing to provide opportunities for the client to respond.",
-          },
-          {
-            id: "q39",
-            question:
-              "During electroconvulsive therapy (ECT) the client receives oxygen by mask via positive pressure ventilation. The nurse assisting with this procedure knows that positive pressure ventilation is necessary because?",
-            choices: [
-              "Anesthesia is administered during the procedure",
-              "Decrease oxygen to the brain increases confusion and disorientation",
-              "Grand mal seizure activity depresses respirations",
-              "Muscle relaxations given to prevent injury during seizure activity depress respirations.",
-            ],
-            answer: 3,
-            rationale:
-              "A short acting skeletal muscle relaxant such as succinylcholine (Anectine) is administered during this procedure to prevent injuries during seizure.",
-          },
-          {
-            id: "q40",
-            question:
-              "When planning the discharge of a client with chronic anxiety, Nurse Chris evaluates achievement of the discharge maintenance goals. Which goal would be most appropriately having been included in the plan of care requiring evaluation?",
-            choices: [
-              "The client eliminates all anxiety from daily situations",
-              "The client ignores feelings of anxiety",
-              "The client identifies anxiety producing situations",
-              "The client maintains contact with a crisis counselor 184",
-            ],
-            answer: 2,
-            rationale:
-              "Recognizing situations that produce anxiety allows the client to prepare to cope with anxiety or avoid specific stimulus.",
-          },
-          {
-            id: "q41",
-            question:
-              "Nurse Tina is caring for a client with depression who has not responded to antidepressant medication. The nurse anticipates that what treatment procedure may be prescribed.",
-            choices: [
-              "Neuroleptic medication",
-              "Short term seclusion",
-              "Psychosurgery",
-              "Electroconvulsive therapy",
-            ],
-            answer: 3,
-            rationale:
-              "Electroconvulsive therapy is an effective treatment for depression that has not responded to medication",
-          },
-          {
-            id: "q42",
-            question:
-              "Mario is admitted to the emergency room with drug-included anxiety related to over ingestion of prescribed antipsychotic medication. The most important piece of information the nurse in charge should obtain initially is the:",
-            choices: [
-              "Length of time on the med.",
-              "Name of the ingested medication & the amount ingested",
-              "Reason for the suicide attempt",
-              "Name of the nearest relative & their phone number 185",
-            ],
-            answer: 1,
-            rationale:
-              'In an emergency, lives saving facts are obtained first. The name and the amount of medication ingested are of outmost important in treating this potentially life threatening situation. FOUNDATION OF PROFESSIONAL NURSING PRACTICE Situation 1 - Mr. Ibarra is assigned to the triage area and while on duty, he assesses the condition of Mrs. Simon who came in with asthma. She has difficulty breathing and her respiratory rate is 40 per minute. Mr. Ibarra is asked to inject the client epinephrine 0.3mg subcutaneously 1. The indication for epinephrine injection for Mrs Simon is to: a. Reduce anaphylaxis b. Relieve hypersensitivity to allergen c. Relieve respirator distress due to bronchial spasm d. Restore client’s cardiac rhythm 2. When preparing the epinephrine injection from an ampule, the nurse initially: a. Taps the ampule at the top to allow fluid to flow to the base of the ampule b. Checks expiration date of the medication ampule c. Removes needle cap of syringe and pulls plunger to expel air d. Breaks the neck of the ampule with a gauze wrapped around it 3. Mrs. Simon is obese. When administering a subcutaneous injection to an obese patient, it is best for the nurse to: a Inject needle at a 15 degree angle\' over the stretched skin of the client b. Pinch skin at the Injection site and use airlock technique c. Pull skin of patient down to administer the drug in a Z track d. Spread skin or pinch at the injection site and inject needle at a 45-90 degree angle 4. When preparing for a subcutaneous injection, the proper size of syringe and needle would be: a. Syringe 3-5ml and needle gauge 21 to 23 b. Tuberculin syringe 1 mi with needle gauge 26 or 27 c. Syringe 2ml and needle gauge 22 d. Syringe 1-3ml and needle gauge 25 to 27 5. The rationale for giving medications through the subcutaneous route is; 188 a. There are many alternative sites for subcutaneous injection b. Absorption time of the medicine is slower c. There are less pain receptors in this area d. The medication can be injected while the client is in any position Situation 2 - The use of massage and meditation to help decrease stress and pain have been strongly recommended based on documented testimonials. 6. Martha wants to do a study on, this topic. "Effects of massage and meditation on stress and pain." The type of research that best suits this topic is: a. applied research b. qualitative research c. basic research d. quantitative research 7. The type of research design that does not manipulate independent variable is: a. experimental design b. quasi-experimental design c. non-experimental design d. quantitative design 8. This research topic has the potential to contribute to nursing because it seeks to: a. include new modalities of care b. resolve a clinical problem c. clarify an ambiguous modality of care d. enhance client care 9. Martha does review of related literature for the purpose of: a. determine statistical treatment of data research b. gathering data about what is already known or unknown c. to identify if problem can be replicated d. answering the research question 10. Client’s rights should be protected when doing research using human subjects. Martha identifies these rights as follows EXCEPT: a. right of self-determination b. right to compensation c. right of privacy d. right not to be harmed 189 Situation 3 - Richard has a nursing diagnosis of ineffective airway clearance related to excessive secretions and is at risk for infection because of retained secretions. Part of Nurse Mario\'s nursing care plan is to loosen and remove excessive secretions in the airway, 11. Mario listens to Richard\'s bilateral sounds and finds that congestion is in the upper lobes of the lungs. The appropriate position to drain the anterior and posterior apical segments of the lungs when Mario does percussion would be: a. Client lying on his back then flat on his abdomen on Trendelenburg position b. Client seated upright in bed or on a chair then leaning forward in sitting position then flat on his back and on his abdomen c. Client lying flat on his back and then flat on his abdomen d. Client lying on his right then left side on Trendelenburg position 12. When documenting outcome of Richard\'s treatment Mario should include the following in his recording EXCEPT: a. Color, amount and consistent of sputum b. Character of breath sounds and respirator/rate before and after procedure c. Amount of fluid intake of client before and after the procedure d. Significant changes in vital signs 13. When assessing Richard for chest percussion or chest vibration and postural drainage Mario would focus on the following EXCEPT: a. Amount of food and fluid taken during the last meal before treatment b. Respiratory rate, breath sounds and location of congestion c. Teaching the client\'s relatives to perform \'the procedure d. Doctor\'s order regarding position restriction and client\'s tolerance for lying flat 14. Mario prepares Richard for postural drainage and percussion. Which of the flowing is a special consideration when doing the procedure? a. Respiratory rate of 16 to 20 per minute b. Client can tolerate sitting and lying position c. Client has no signs of infection d. Time of fast food and fluid intake of the client 15. The purpose of chest percussion and vibration is to loosen secretions in the lungs. The difference between the procedure is; a. Percussion uses only one hand white vibration uses both hands b. Percussion delivers cushioned blows to the chest with cupped palms while gently shakes secretion loose on the exhalation cycle c. In both percussion and vibration the hands are on top of each other and hand action is in tune with client\'s breath rhythm d. Percussion slaps the chest to loosen secretions while vibration shakes the secretions along with the inhalation of air Situation 4 - A 61 year old man, Mr. Regalado, is admitted to the private ward for observation; after complaints of severe chest pain. You are assigned to take care of the client. 16. When doing an initial assessment, the best way for you to identify the client’s priority problem is to: a. Interview the client for chief complaints and other symptoms b. Talk to the relatives to gather data about history of illness c. Do auscultation to check for chest congestion d. Do a physical examination white asking the client relevant questions 17. Upon establishing Mr. Regalado\'s nursing needs, the next nursing approach would be to: a. introduce the client to the ward staff to put the client and family at ease b. Give client and relatives a brief tour of the physical set up the unit c. Take his vital signs for a baseline assessment d. Establish priority needs and implement appropriate interventions 18. Mr. Regalado says he has "trouble going to sleep". In order to plan your nursing intervention you will. a. Observe his sleeping patterns in the next few days b. Ask him what he means by this statement c. Check his physical environment to decrease noise level d. Take his blood pressure before sleeping and upon waking up 19. Mr. Regalado\'s lower extremities are swollen and shiny. He has pitting pedal edema. When taking care of Mr. Regalado, which of the following intervention would be the most appropriate immediate nursing approach. a. Moisturize lower extremities to prevent skin irritation b. Measure fluid intake and output to decrease edema c. Elevate lower extremities for postural drainage d. Provide the client a list of food low in sodium 20. Mr. Regalado will be discharged from your unit within the hour. Nursing actions when preparing a client for discharge include all EXCEPT: a. Making a final physical assessment before client leaves the hospital b. Giving instructions about his medication regimen c. Walking the client to the hospital exit to ensure his safety d. Proper recording of pertinent data Situation 5 - Nancy, mother of 2 young kids. 36 years old, had a mammogram and was told that she has breast cysts and that she may need surgery. This causes her anxiety as shown by increase in her pulse and respiratory rate, sweating and feelings of tension. 21. Considering her level of anxiety, the nurse can best assist Nancy by: a. Giving her activities to divert her attention b. Giving detailed explanations about the treatments she will undergo c. Preparing her and her family in case surgery is not successful d. Giving her clear but brief information at the level of her understanding 23. The nurse visits Nancy and prods her to eat her food. Nancy replies "what\'s the use? My time is running out. The nurse\'s best response would be: a. "The doctor ordered full diet for you so that you will be strong for surgery." b. "I understand how you fee! but you have 1o try for your children\'s sake." c. "Have you told your, doctor how you feel? Are you changing your mind) about surgery?" d. "You sound like you are giving up." 24. The nurse feels sad about Nancy\'s illness and tells her head nurse during the end of shift endorsement that "it\'s unfair for Nancy to have cancer when she is still so young and with two kinds. The best response of the head nurse would be: a. Advise the nurse to "be strong and learn to control her feelings" b. Assign the nurse to another client to avoid sympathy for the client c. Reassure the nurse that the client has hope if she goes through all statements prescribed for her c. Ask the other nurses what they feel about the patient to find out if they share the same feelings 25. Realizing that she feels angry about Nancy\'s condition, the nurse Seams that being self-aware is a conscious process that she should do in any situation like this because: a. This is a necessary part of the nurse -client relationship process b. The nurse is a role model for the client and should be strong C. How the nurse thinks and feels affect her actions towards her client and her work d. The nurse has to be therapeutic at all times and should not be affected 22. Nancy blames God for her situation. She is easily provoked to tears and wants to be left alone, refusing to eat or talk to her family. A religious person before, she now refuses to pray or go to church stating that God has abandoned her. The nurse understands that Nancy is grieving for her self and is in the stage of: Situation 6 – Mrs. Seva, 32 years old, asks you about possible problems regarding her elimination now that she is in the menopausal stage. a. bargaining b. denial c. anger d. acceptance a. Hold urine, as long as she can before emptying the bladder to strengthen her sphincters muscles b. If burning sensation is experienced while voiding, drink pineapple-juice c. After urination, wipe from anal area up towards the 190 26. Instruction on health promotion regarding urinary elimination is important. Which would you include? 191 pubis d. Jell client to empty the bladder at each voiding 27. Mrs. Seva also tells the nurse that she is often constipated. Because she is aging, what physical changes predispose her to constipation? a. inhibition of the parasympathetic reflex b. weakness of sphincter muscles of the anus c. loss of tone of the smooth muscles of the color d. decreased ability to absorb fluids in the lower intestines 28. The nurse understands that one of these factors contributes to constipation: a. excessive exercise b. high fiber diet c. no regular tine for defecation daily d. prolonged use of laxatives 29. Mrs. Seva talks about rear of being incontinent due to a prior experience of dribbling urine when laughing or sneezing and when she has a full bladder. Your most appropriate .instruction would be to: a. tell client to drink less fluids to avoid accidents b. instruct client to start wearing thin adult diapers c. ask the client to bring change of underwear "just in case" d. teach client pelvic exercise to strengthen perineal muscles 30. Mrs. Seva asked for instructions for skin care for her mother who has urinary incontinence and is almost always in bed. Your instruction would focus on prevention of skin irritation and breakdown by a. Using thick diapers to absorb urine well b. Drying the skin with baby powder to prevent or mask the smell of ammonia c. Thorough washing, rising and during of skin area that get wet with urine d. Making sure that linen are smooth and dry at all times a. Carol with a tumor in the brain b. Theresa with anemia c. Sonny Boy with a fracture in the femur d. Brigette with diarrhea 32. You noted from the lab exams in the chart of Mr. Santos that he has reduced oxygen in the blood. This condition is called: a. Cyanosis b. Hypoxia c. Hypoxemia d. Anemia 33. You will nasopharyngeal suctioning Mr. Abad. Your guide for the length of insertion of the tubing for an adult would be: a. tip of the nose to the base of the .neck b. the distance from the tip of the nose to the middle of the cheek c. the distance from the tip of the nose to the tip of the ear lobe d. eight to ten inches 34. While doing nasopharyngeal suctioning on .Mr. Abad, the nurse can avoid trauma to the area by: a. Apply suction for at least 20-30 seconds each time to ensure that all secretions are removed b. Using gloves to prevent introduction of pathogens to the respiratory system c. Applying no suction while inserting the catheter d. Rotating catheter as it is inserted with gentle suction 35. Myrna has difficulty breathing when on her back and must sit upright in bed to breath, effectively and comfortably. The nurse documents this condition as: a. Apnea b. Orthopnea c. Dyspnea d. Tachypnea Situation 7 - Using Maslow\'s need theory, Airway, Breathing and Circulation are the physiological needs vital to life. The nurse\'s knowledge and ability to identify and immediately intervene to meet these needs is important to save lives. Situation 8 - You are assigned to screen for hypertension: Your task is to take blood pressure readings and you are informed about avoiding the common mistakes in BP taking that lead to \'false or inaccurate blood pressure readings. 31. Which of these clients has a problem with the transport of oxygen from the lungs to the tissues: 36. When taking blood pressure reading the cuff should be: a. deflated fully then immediately start second reading for same client b deflated quickly after inflating up to 180 mmHg c. large enough to wrap around upper arm of the adult client 1 cm above brachial artery d. inflated to 30 mmHg above the estimated systolic BP based on palpation of radial or bronchial artery 37. Chronic Obstructive Pulmonary Disease (COPD) in one of the leading causes of death worldwide and is a preventable disease. The primary cause of COPD is: a. tobacco hack b. bronchitis c. asthma d. cigarette smoking 38. In your health education class for clients with diabetes you teach, them the areas, for control . Diabetes which include all EXCEPT: a. regular physical activity b. thorough knowledge of foot care c. prevention nutrition d. proper nutrition 39. You teach your clients the difference between, Type I (IDDM) and Type II (NDDM) Diabetes. Which of the following is true? a. both types diabetes mellitus clients are all prone to developing ketosis b. Type II (NIDDM) is more common and is also preventable compared to Type I (IDDM) diabetes which is genetic in etiology c. Type I (IDDM) is characterized by fasting hyperglycemia d. Type II (IDDM) is characterized by abnormal immune response 40. Lifestyle-related diseases in general share areas common risk factors. These are the following except a. physical activity b. smoking c. genetics d. nutrition Situation 9 - Nurse Rivera witnesses a vehicular accident near the hospital where she works. She decides to get involved and help the victims of the accident. 41. Her priority nursing action would be to: 192 a. Assess damage to property b. Assist in the police investigation since she is a witness c. Report the incident immediately to the local police authorities d. Assess the extent of injuries incurred by the victims, of the accident 42. Priority attention should be given to which of these clients? a. Linda who shows severe anxiety due to trauma of the accident b. Ryan who has chest injury, is pate and with difficulty of breathing c. Noel who has lacerations on the arms with mildbleeding c. Andy whose left ankle swelled and has some abrasions 43. In the emergency room, Nurse Rivera is assigned to attend to the client with .lacerations on the arms, while assessing the extent of the wound the nurse observes that the wound is now starting to bleed profusely. The most immediate nursing action would be to: a. Apply antiseptic to prevent infection b. Clean the wound vigorously of contaminants c. Control and. reduce bleeding of the wound d. Bandage the wound and elevate the arm 44. The nurse applies pressure dressing on the bleeding site. This intervention is done to: a. Reduce the need to change dressing frequently b. Allow the pus to surface faster c. Protect the wound from micro organisms in the air d. Promote hemostasis 45. After the treatment, the client is sent home and asked to come back for follow-up care. Your responsibilities when the client is to be discharged include the following EXCEPT: a. Encouraging the client to go to the, outpatient clinic for follow up care b. Accurate recording, of treatment done and instructions given to client c. Instructing the client to see you after discharge for further assistance d. Providing instructions regarding wound care Situation 10 - While working in the clinic, a new client, Geline, 35 years old, arrives for her doctor\'s 193 appointment. As the clinic nurse, you are to assist the client fiil up forms, gather data and make an assessment. 46. The nurse purpose of your initial nursing interview is to: a. Record pertinent information in the client chart for health team to read b Assist the client find solutions to her health concerns c. Understand her lifestyle, health needs and possible problems to develop a plan of care d. Make nursing diagnoses for identified health problems 47. While interviewing Geline, she starts to moan and doubles up in pain, She tells you that this pain occurs about an hour after taking black coffee without breakfast for a few weeks now. You will record this as follows: a. Claims to have abdominal pains after intake of coffee unrelieved by analgesics b. After drinking coffee, the client experienced severe abdominal pain c. Client complained of intermittent abdominal pain an hour after drinking coffee d. Client reported abdominal pain an hour after drinking black coffee for three weeks now 48. Geline tells you that she drinks black coffee frequently within the day to "have energy and be wide awake" and she eats nothing for breakfast and eats strictly vegetable salads for lunch and dinner to lose weight. She has lost weight during the past two weeks, in planning a healthy balanced diet with Geline, you will: a. Start her off with a cleansing diet to free her body of toxins then change to a vegetarian, diet and drink plenty of fluids b. Plan a high protein, diet; low carbohydrate diet for her considering her favorite food c. Instruct her to attend classes in nutrition to find food rich in complex carbohydrates to maintain daily high energy level d. Discuss with her the importance of eating a variety of food from the major food groups with plenty of fluids 49. Geline tells you that she drinks 4-5 cups of black coffee and diet cola drinks. She also smokes up to a pack of cigarettes daily. She confesses that she is in her 2nd month of pregnancy but she does not want to become fat that is why she limits her food intake. You warn or caution her about which of the following? a. Caffeine products affect the central nervous system and may cause the mother to have a "nervous breakdown" b. Malnutrition and its possible effects on growth and development problems in the unborn fetus c. Caffeine causes a stimulant effect on both the mother and the baby d. Studies show conclusively that caffeine causes mental retardation 50. Your health education plan for Geline stresses proper diet for a pregnant woman and the prevention of non-communicable diseases that are influenced by her lifestyle these include of the following EXCEPT: a. Cardiovascular diseases b. Cancer c. Diabetes Mellitus d. Osteoporosis Situation 11 - Management of nurse practitioners is done by qualified nursing leaders who have had clinical experience and management experience. 51. An example of a management function of a nurse is: a. Teaching patient do breathing and coughing exercises b. Preparing for a surprise party for a client c. Performing nursing procedures for clients d. Directing and evaluating the staff nurses 52. Your head nurse in the unit believes that the staff nurses are not capable of decision making so she makes the decisions for everyone without consulting anybody. This type of leadership is: a. Laissez faire leadership b. Democratic leadership c. Autocratic leadership d. Managerial leadership 53. When the head nurse in your ward plots and approves your work schedules and directs your work, she is demonstrating: a. Responsibility b. Delegation c. Accountability d. Authority 54. The following tasks can be safely delegated\' by a nurse to a non-nurse health worker EXCEPT: a. Transfer a client from bed to chair b. Change IV infusions c. Irrigation of a nasogastric tube d. Take vital signs 55. You made a mistake in giving the medicine to the wrong client You notify the client’s doctor and write an incident report. You are demonstrating: a. Responsibility b. Accountability c. Authority d. Autocracy Situation 12 – Mr. Dizon, 84 years old, is brought to the .Emergency Room for complaint of hypertension flushed face, severe headache, and nausea. You are doing the initial assessment of vital signs. 56. You are to measure the client’s initial blood pressure reading by doing all of the following EXCEPT: a. Take the blood pressure reading on both arms for comparison b. Listen to and identify the phases of Korotkoff’s sounds c. Pump the cuff up to around 50 mmHg above the point where the pulse is obliterated d. Observe procedures for infection control 57. A pulse oximeter is attached to Mr. Dizon’s finger to: Mr. Dizon smokes and drinks coffee. When taking the blood pressure of a client who recently smoked or drank coffee, how long should be the nurse wait before taking the client’s blood pressure for accurate reading? a. 15 minutes b. 30 minutes c. 1 hour d. 5 minutes 60. While the client has the pulse oximeter on his fingertip, you notice that the sunlight is shining on .the area where the oximeter is. Your action will be to: a. Set and turn on the alarm of the oximeter b. Do nothing since there is no identified problem c. Cover the fingertip sensor with a towel or bedsheet d. Change the location of the sensor every four hours Situation 13 - The nurse\'s understanding of ethico-legal responsibilities will guide his/her nursing practice. 61. The principles that .govern right and proper conducts of a person regarding life, biology and the health professions is referred to as: a. Morality b. Religion c. Values d. Bioethics 62. The purpose of having nurses’ code of ethics is: a. Determine if the client’s hemoglobin level is low and if he needs blood transfusion b. Check level of client’s tissue perfusion c. Measure the efficacy of the client’s anti hypertensive medications d. Detect oxygen saturation of arterial blood before symptoms of hypoxemia develops a. Delineate the scope and areas of nursing practice b. Identify nursing action recommended for specific healthcare situations c. To help the public understand professional conduct, expected of nurses d. To define the roles and functions of the health care giver, nurses, clients 58. After a few hours in the Emergency Room, Mr. Dizon is admitted to the ward with an order of hourly monitoring of blood pressure. The nurse finds that the cuff is too narrow and this will cause the blood pressure reading to be: 63. The most important nursing responsibility where ethical situations emerge in patient care is to: a. Inconsistent b. low systolic and high diastolic pressure c. higher than what the reading should be d. lower than what the reading should be 59. Through the client’s health history, you gather that 194 a. Act only when advised that the action is ethically sound b. Not take sides remain neutral and fair c. Assume that ethical questions are the responsibility: of the health team d. Be accountable for his or her own actions 64. You inform the patient about his rights which include the following EXCEPT: 195 a. Right to expect reasonable continuity of care b. Right to consent to or decline to participate in research studies or experiments c. Right to obtain information about another patient d. Right to expect that the records about his care will be treated as confidential 65. The principle states that a person has unconditional worth and has the capacity to determine his own destiny. a. Bioethics b. Justice c. Fidelity d. Autonomy Situation 14 – Your director of nursing wants to improve the quality of health care offered in the hospital. As a staff nurse in that hospital you know that this entails quality assurance programs. 66. The following mechanisms can be utilized as part of the quality assessment program of your hospital EXCEPT: a. Patient satisfaction surveys provided b. Peer review clinical records of care of client c. RO of the Nursing Intervention Classification d. 67. The nurse of the Standards of Nursing Practice is important in the hospital. Which of the following statements best describes what it is? a. These are statements that describe the maximum or highest level of acceptable performance in nursing practice. b. It refers to the scope of nursing as defined in Republic Act 9173 c. It is a license issued by the Professional Regulation Commission to protect the public from substandard nursing practice. d. The Standards of care includes the various steps of the nursing process and the standards of professional performance. 68. You are taking care of critically ill client and the doctor in charge calls to order a DNR (do not resuscitate) for the client. Which of the following is the appropriate action when getting DNR order over the phone? a. Have the registered nurse, family spokesperson, nurse supervisor and doctor sign b. Have two nurses validate the phone order, both nurses sign the order and the doctor should sign his order within 24 hours. c. Have the registered nurse, family and doctor sign the order d. Have 1 nurse take the order and sign it and have the doctor sign it within 24 hours 69. To ensure the client safety before starting blood transfusion the following are needed before the procedure can be done EXCEPT: a. take baseline vital signs b. blood should be warmed to room temperature for 30 minutes before blood transfusion is administered c. have two nurses verify client identification, blood type, unit number and expiration date of blood d. get a consent signed for blood transfusion 70. Part of standards of care has to do with the use of restraints. Which of the following statements is NOT true? a. Doctor’s order for restraints should be signed within 24 hours b. Remove and reapply restraints every two hours c. Check client’s pulse, blood pressure and circulation every four hours d. Offer food and toileting every two hours Situation 15 – During the NUTRITION EDUCATION class discussion a 58 year old man, Mr. Bruno shows increased interest. 71. Mr. Bruno asks what the "normal" allowable salt intake is. Your best response to Mr. Bruno is: a.1 tsp of salt/day with iodine and sprinkle of MSG b. 5 gms per day or 1 tsp of table salt/day a.2 tbsp of salt/day with some patis and toyo a.3 tsp of salt/day but not patis or toyo 72. Your instructions to reduce or limit salt intake include all the following EXCEPT: a. eat natural food with little or no salt added b. limit use of table salt and use condiments instead c. use herbs and spices d. limit intake of preserved or processed food 73. Teaching strategies and approaches when giving nutrition education is influenced by age, sex and immediate concerns of the group. Your presentation for a group of young mothers would be best if you focus on: a. diets limited in salt and fat b. harmful effect on drugs and alcohol intake c. commercial preparation of dishes d. cooking demonstration and meal planning 74. Cancer cure is dependent on a. use of alternative methods of healing b. watching out for warning signs of cancer c. proficiency in doing breast self-examination d. early detection and prompt treatment 75. The role of the health worker in health education is to: a. report incidence of non-communicable disease to community health center b. educate as many people about warning signs of noncommunicable diseases c. focus on smoking cessation projects d. monitor clients with hypertension Situation 16 – You are assigned to take care of 10 patients during the morning shift. The endorsement includes the IV infusion and medications for these clients. 76. Mr. Felipe, 36 years old is to be given 2700ml of D5RL to infuse for 18 hours starting at 8am. At what rate should the IV fluid be flowing hourly? a. 100 ml/hour b. 210 ml/hour c. 150 ml/hour d. 90 ml/hour 77. Mr. Atienza is to receive 150mg/hour of D5W IV infusion for 12 hours for a total of 1800ml. He is also losing gastric fluid which must be replaced every two hours. Between 8am to 10am. Mr. Atienza has lost 250ml of gastric fluid. How much fluid should he receive at 11am? a. 350 ml/hour b. 275 ml/hour c. 400 ml/hour d. 200 ml/hour 78. You are to apply a transdermal patch of 196 nitroglycerin to your client. The following important guidelines to observe EXCEPT: a. Apply to hairlines clean are of the skin not subject to much wrinkling b. Patches may be applied to distal part of the extremities like forearm c. Change application and site regularly to prevent irritation of the skin d. Wear gloves to avoid any medication of your hand 79. You will be applying eye drops to Miss Romualdez. After checking all the necessary information and cleaning the affected eyelid and eyelashes you administer the ophthalmic drops by instilling the eye drops. a. directly onto the cornea b. pressing on the lacrimal duct c. into the outer third of the lower conjunctival sac d. from the inner canthus going towards the side of the eye 80. When applying eye ointment, the following guidelines apply EXCEPT: a. squeeze about 2 cm of ointment and gently close but not squeeze eye b. apply ointment from the inner canthus going outward of the affected eye c. discard the first bead of the eye ointment before application because the tube likely to expel more than desired amount of ointment d. hold the tube above the conjunctival sac do not let tip touch the conjuctiva Situation 17 – The staff nurse supervisor request all the staff nurses to “brainstorm” and learn ways to instruct diabetic clients on self-administration of insulin. She wants to ensure that there are nurses available daily to do health education classess. 81. The plan of the nurse supervisor is an example of a. in service education process b. efficient management of human resources c. increasing human resources d. primary prevention 82. When Mrs. Guevarra, a nurse, delegates aspects of the clients care to the nurse-aide who is an unlicensed staff, Mrs. Guevarra. 197 a. makes the assignment to teach the staff member b. is assigning the responsibility to the aide but not the accountability for those tasks c. does not have to supervise or evaluate the aide d. most know how to perform task delegated d. wellness center 83. Connie, the-new nurse, appears tired and sluggish and lacks the enthusiasms she give six weeks ago when she started the job. The nurse supervisor should: a. Goals and interventions to be followed by client are based on nurse\'s priorities b. Goals and intervention developed by nurse and client should be approved by the doctor c. Nurse will decide goals and, interventions needed to meet client goals d. Client will decide the goals and interventions required to meet her goals a. empathize with the nurse and listen to her b. tell her to take the day off c. discuss how she is adjusting to her new job d. ask about her family life 84. Process of formal negotiations of working conditions between a group of registered nurses and employer is: a. grievance b. arbitration c. collective bargaining d. strike 85. You are attending a certification program on cardiopulmonary resuscitation (CPR) offered and required by the hospital employing you. This is; a. professional course towards credits b. in-service education c. advance training d. continuing education Situation 18 - There are various developments in health education that the nurse should know about. 86. The provision of health information in the rural areas nationwide through television and radio programs and video conferencing is referred to as: a. Community health program b. Telehealth program c. Wellness program d. Red cross program 87. A nearby community provides blood pressure screening, height and weight measurement smoking cessation classes and aerobics class services. This type of program is referred to as: a. outreach program b. hospital extension program c. barangay health center 88. Part of teaching client in health promotion is responsibility for one’s health. When Danica states she need to improve her nutritional status this means: 89. Nurse Beatrice is providing tertiary prevention to Mrs. De Villa. An example of tertiary provestion is: a. Marriage counseling b. Self-examination for breast cancer c. Identifying complication of diabetes d. Poison, control 90. Mrs. Ostrea has a schedule for Pap Smear. She has a strong family history of cervical cancer. This is an example of: a. tertiary prevention b. secondary prevention c. health screening d. primary prevention Situation: 19 - Ronnie has a vehicular accident where he sustained injury to his left ankle. In the Emergency Room, you notice how anxious he looks. 91. You establish rapport with him and to reduce his anxiety you initially a. Take him to the radiology, section for X-ray of affected extremity b. Identify yourself and state your purpose in being with the client c. Talk to the physician for an order of Valium d. Do inspection and palpation to check extent of his injuries 92. While doing your assessment, Ronnie asks you "Do I have a fracture? I don\'t want to have a cast.” The most appropriate nursing response would be: a. "You have to have an X-ray first to know if you have a fracture." b. "Why do you; sound so scared? It is just a cast and it\'s not painful" c. "You seem to be concerned about being in a cast." d. "Based on my assessment, there doesn’t seem to be a fracture." 198 199',
-          },
-        ],
-      },
-      {
-        id: "psych-psychiatric-nursing-2",
-        title: "PSYCHIATRIC NURSING",
-        description: "42 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "Marco approached Nurse Trish asking for advice on how to deal with his alcohol addiction. Nurse Trish should tell the client that the only effective treatment for alcoholism is:",
-            choices: [
-              "Psychotherapy",
-              "Alcoholics anonymous (A.A.)",
-              "Total abstinence",
-              "Aversion Therapy",
-            ],
-            answer: 2,
-            rationale: "Total abstinence is the only effective treatment for alcoholism",
-          },
-          {
-            id: "q2",
-            question:
-              "Nurse Hazel is caring for a male client who experience false sensory perceptions with no basis in reality. This perception is known as:",
-            choices: ["Hallucinations", "Delusions", "Loose associations", "Neologisms"],
-            answer: 0,
-            rationale:
-              "Hallucinations are visual, auditory, gustatory, tactile or olfactory perceptions that have no basis in reality.",
-          },
-          {
-            id: "q3",
-            question:
-              "Nurse Monet is caring for a female client who has suicidal tendency. When accompanying the client to the restroom, Nurse Monet should…",
-            choices: [
-              "Give her privacy",
-              "Allow her to urinate",
-              "Open the window and allow her to get some fresh air",
-              "Observe her",
-            ],
-            answer: 3,
-            rationale:
-              "The Nurse has a responsibility to observe continuously the acutely suicidal client. The Nurse should watch for clues, such as communicating suicidal thoughts, and messages; hoarding medications and talking about death.",
-          },
-          {
-            id: "q4",
-            question:
-              "Nurse Maureen is developing a plan of care for a female client with anorexia nervosa. Which action should the nurse include in the plan?",
-            choices: [
-              "Provide privacy during meals",
-              "Set-up a strict eating plan for the client",
-              "Encourage client to exercise to reduce anxiety",
-              "Restrict visits with the family",
-            ],
-            answer: 1,
-            rationale:
-              "Establishing a consistent eating plan and monitoring client’s weight are important to this disorder.",
-          },
-          {
-            id: "q5",
-            question:
-              "A client is experiencing anxiety attack. The most appropriate nursing intervention should include?",
-            choices: [
-              "Turning on the television",
-              "Leaving the client alone",
-              "Staying with the client and speaking in short sentences",
-              "Ask the client to play with other clients",
-            ],
-            answer: 2,
-            rationale:
-              "Appropriate nursing interventions for an anxiety attack include using short sentences, staying with the client, decreasing stimuli, remaining calm and medicating as needed.",
-          },
-          {
-            id: "q6",
-            question:
-              "A female client is admitted with a diagnosis of delusions of GRANDEUR. This diagnosis reflects a belief that one is:",
-            choices: [
-              "Being Killed",
-              "Highly famous and important",
-              "Responsible for evil world",
-              "Connected to client unrelated to oneself",
-            ],
-            answer: 1,
-            rationale:
-              "Delusion of grandeur is a false belief that one is highly famous and important.",
-          },
-          {
-            id: "q7",
-            question:
-              "A 20 year old client was diagnosed with dependent personality disorder. Which behavior is not likely to be evidence of ineffective individual coping?",
-            choices: [
-              "Recurrent self-destructive behavior",
-              "Avoiding relationship",
-              "Showing interest in solitary activities",
-              "Inability to make choices and decision without advise",
-            ],
-            answer: 3,
-            rationale:
-              "Individual with dependent personality disorder typically shows indecisiveness submissiveness and clinging behavior so that others will make decisions with them.",
-          },
-          {
-            id: "q8",
-            question:
-              "A male client is diagnosed with schizotypal personality disorder. Which signs would this client exhibit during social situation?",
-            choices: [
-              "Paranoid thoughts",
-              "Emotional affect",
-              "Independence need",
-              "Aggressive behavior",
-            ],
-            answer: 0,
-            rationale:
-              "Clients with schizotypal personality disorder experience excessive social anxiety that can lead to paranoid thoughts",
-          },
-          {
-            id: "q9",
-            question:
-              "Nurse Claire is caring for a client diagnosed with bulimia. The most appropriate initial goal for a client diagnosed with bulimia is?",
-            choices: [
-              "Encourage to avoid foods",
-              "Identify anxiety causing situations",
-              "Eat only three meals a day",
-              "Avoid shopping plenty of groceries",
-            ],
-            answer: 1,
-            rationale:
-              "Bulimia disorder generally is a maladaptive coping response to stress and underlying issues. The client should identify anxiety causing situation that stimulate the bulimic behavior and then learn new ways of coping with the anxiety.",
-          },
-          {
-            id: "q10",
-            question:
-              "Nurse Tony was caring for a 41 year old female client. Which behavior by the client indicates adult cognitive development?",
-            choices: [
-              "Generates new levels of awareness",
-              "Assumes responsibility for her actions",
-              "Has maximum ability to solve problems and learn new skills",
-              "Her perception are based on reality",
-            ],
-            answer: 0,
-            rationale: "An adult age 31 to 45 generates new level of awareness.",
-          },
-          {
-            id: "q11",
-            question:
-              "A neuromuscular blocking agent is administered to a client before ECT therapy. The Nurse should carefully observe the client for?",
-            choices: ["Respiratory difficulties", "Nausea and vomiting", "Dizziness", "Seizures"],
-            answer: 0,
-            rationale:
-              "Neuromuscular Blocker, such as SUCCINYLCHOLINE (Anectine) produces respiratory depression because it inhibits contractions of respiratory muscles.",
-          },
-          {
-            id: "q12",
-            question:
-              "A 75 year old client is admitted to the hospital with the diagnosis of dementia of the Alzheimer’s type and depression. The symptom that is unrelated to depression would be?",
-            choices: [
-              "Apathetic response to the environment",
-              "“I don’t know” answer to questions",
-              "Shallow of labile effect",
-              "Neglect of personal hygiene",
-            ],
-            answer: 2,
-            rationale:
-              "384 With depression, there is little or no emotional involvement therefore little alteration in affect.",
-          },
-          {
-            id: "q13",
-            question:
-              "Nurse Patricia is aware that the major health complication associated with intractable anorexia nervosa would be?",
-            choices: [
-              "Cardiac dysrhythmias resulting to cardiac arrest",
-              "Glucose intolerance resulting in protracted hypoglycemia",
-              "Endocrine imbalance causing cold amenorrhea",
-              "Decreased metabolism causing cold intolerance",
-            ],
-            answer: 0,
-            rationale:
-              "These clients have severely depleted levels of sodium and potassium because of their starvation diet and energy expenditure, these electrolytes are necessary for cardiac functioning.",
-          },
-          {
-            id: "q14",
-            question: "Nurse Anna can minimize agitation in a disturbed client by?",
-            choices: [
-              "Increasing stimulation",
-              "limiting unnecessary interaction",
-              "increasing appropriate sensory perception",
-              "ensuring constant client and staff contact",
-            ],
-            answer: 1,
-            rationale: "Limiting unnecessary interaction will decrease stimulation and agitation.",
-          },
-          {
-            id: "q15",
-            question:
-              "A 39 year old mother with obsessive-compulsive disorder has become immobilized by her elaborate hand washing and walking rituals. Nurse Trish recognizes that the basis of O.C. disorder is often:",
-            choices: [
-              "Problems with being too conscientious",
-              "Problems with anger and remorse",
-              "Feelings of guilt and inadequacy",
-              "Feeling of unworthiness and hopelessness",
-            ],
-            answer: 2,
-            rationale:
-              "Ritualistic behavior seen in this disorder is aimed at controlling guilt and inadequacy by maintaining an absolute set pattern of behavior.",
-          },
-          {
-            id: "q16",
-            question:
-              "Mario is complaining to other clients about not being allowed by staff to keep food in his room. Which of the following interventions would be most appropriate?",
-            choices: [
-              "Allowing a snack to be kept in his room",
-              "Reprimanding the client",
-              "Ignoring the clients behavior",
-              "Setting limits on the behavior",
-            ],
-            answer: 3,
-            rationale:
-              "The nurse needs to set limits in the client’s manipulative behavior to help the client control dysfunctional behavior. A consistent approach by the staff is necessary to decrease manipulation.",
-          },
-          {
-            id: "q17",
-            question:
-              "Conney with borderline personality disorder who is to be discharge soon threatens to “do something” to herself if discharged. Which of the 380 following actions by the nurse would be most important?",
-            choices: [
-              "Ask a family member to stay with the client at home temporarily",
-              "Discuss the meaning of the client’s statement with her",
-              "Request an immediate extension for the client",
-              "Ignore the clients statement because it’s a sign of manipulation",
-            ],
-            answer: 1,
-            rationale:
-              "Any suicidal statement must be assessed by the nurse. The nurse should discuss the client’s statement with her to determine its meaning in terms of suicide.",
-          },
-          {
-            id: "q18",
-            question:
-              "Joey a client with antisocial personality disorder belches loudly. A staff member asks Joey, “Do you know why people find you repulsive?” this statement most likely would elicit which of the following client reaction?",
-            choices: ["Depensiveness", "Embarrassment", "Shame", "Remorsefulness"],
-            answer: 0,
-            rationale:
-              "When the staff member ask the client if he wonders why others find him repulsive, the client is likely to feel defensive because the question is belittling. The natural tendency is to counterattack the threat to self-image.",
-          },
-          {
-            id: "q19",
-            question:
-              "Which of the following approaches would be most appropriate to use with a client suffering from narcissistic personality disorder when discrepancies exist between what the client states and what actually exist?",
-            choices: [
-              "Rationalization",
-              "Supportive confrontation",
-              "Limit setting",
-              "Consistency",
-            ],
-            answer: 1,
-            rationale:
-              "The nurse would specifically use supportive confrontation with the client to point out discrepancies between what the client states and what actually exists to increase responsibility for self.",
-          },
-          {
-            id: "q20",
-            question:
-              "Cely is experiencing alcohol withdrawal exhibits tremors, diaphoresis and hyperactivity. Blood pressure is 190/87 mmhg and pulse is 92 bpm. Which of the medications would the nurse expect to administer?",
-            choices: [
-              "Naloxone (Narcan)",
-              "Benzlropine (Cogentin)",
-              "Lorazepam (Ativan)",
-              "Haloperidol (Haldol)",
-            ],
-            answer: 2,
-            rationale:
-              "The nurse would most likely administer benzodiazepine, such as lorazepan (ativan) to the client who is experiencing symptom: The client’s experiences symptoms of withdrawal because of the rebound phenomenon when the sedation of the CNS from alcohol begins to decrease.",
-          },
-          {
-            id: "q21",
-            question:
-              "Which of the following foods would the nurse Trish eliminate from the diet of a client in alcohol withdrawal?",
-            choices: ["Milk", "Orange Juice", "Soda", "Regular Coffee"],
-            answer: 3,
-            rationale:
-              "385 Regular coffee contains caffeine which acts as psychomotor stimulants and leads to feelings of anxiety and agitation. Serving coffee top the client may add to tremors or wakefulness.",
-          },
-          {
-            id: "q22",
-            question:
-              "Which of the following would Nurse Hazel expect to assess for a client who is exhibiting late signs of heroin withdrawal?",
-            choices: [
-              "Yawning & diaphoresis 381",
-              "Restlessness & Irritability",
-              "Constipation & steatorrhea",
-              "Vomiting and Diarrhea",
-            ],
-            answer: 3,
-            rationale:
-              "Vomiting and diarrhea are usually the late signs of heroin withdrawal, along with muscle spasm, fever, nausea, repetitive, abdominal cramps and backache.",
-          },
-          {
-            id: "q23",
-            question:
-              "To establish open and trusting relationship with a female client who has been hospitalized with severe anxiety, the nurse in charge should?",
-            choices: [
-              "Encourage the staff to have frequent interaction with the client",
-              "Share an activity with the client",
-              "Give client feedback about behavior",
-              "Respect client’s need for personal space",
-            ],
-            answer: 3,
-            rationale:
-              "Moving to a client’s personal space increases the feeling of threat, which increases anxiety.",
-          },
-          {
-            id: "q24",
-            question:
-              "Nurse Monette recognizes that the focus of environmental (MILIEU) therapy is to:",
-            choices: [
-              "Manipulate the environment to bring about positive changes in behavior",
-              "Allow the client’s freedom to determine whether or not they will be involved in activities",
-              "Role play life events to meet individual needs",
-              "Use natural remedies rather than drugs to control behavior",
-            ],
-            answer: 0,
-            rationale:
-              "Environmental (MILIEU) therapy aims at having everything in the client’s surrounding area toward helping the client.",
-          },
-          {
-            id: "q25",
-            question:
-              "Nurse Trish would expect a child with a diagnosis of reactive attachment disorder to:",
-            choices: [
-              "Have more positive relation with the father than the mother",
-              "Cling to mother & cry on separation",
-              "Be able to develop only superficial relation with the others",
-              "Have been physically abuse",
-            ],
-            answer: 2,
-            rationale:
-              "Children who have experienced attachment difficulties with primary caregiver are not able to trust others and therefore relate superficially",
-          },
-          {
-            id: "q26",
-            question: "When teaching parents about childhood depression Nurse Trina should say?",
-            choices: [
-              "It may appear acting out behavior",
-              "Does not respond to conventional treatment",
-              "Is short in duration & resolves easily",
-              "Looks almost identical to adult depression",
-            ],
-            answer: 0,
-            rationale:
-              "Children have difficulty verbally expressing their feelings, acting out behavior, such as temper tantrums, may indicate underlying depression.",
-          },
-          {
-            id: "q27",
-            question: "Nurse Perry is aware that language development in autistic child resembles:",
-            choices: ["Scanning speech", "Speech lag", "Shuttering", "Echolalia"],
-            answer: 3,
-            rationale: "The autistic child repeats sounds or words spoken by others.",
-          },
-          {
-            id: "q28",
-            question:
-              "A 60 year old female client who lives alone tells the nurse at the community health center “I really don’t need anyone to talk to”. The TV is my best friend. The nurse recognizes that the client is using the defense mechanism known as?",
-            choices: ["Displacement", "Projection", "Sublimation", "Denial"],
-            answer: 3,
-            rationale:
-              "The client statement is an example of the use of denial, a defense that blocks problem by unconscious refusing to admit they exist",
-          },
-          {
-            id: "q29",
-            question:
-              "Nurse Penny is aware that the symptoms that distinguish post-traumatic stress disorder from other anxiety disorder would be:",
-            choices: [
-              "Avoidance of situation & certain activities that resemble the stress",
-              "Depression and a blunted affect when discussing the traumatic situation",
-              "Lack of interest in family & others",
-              "Re-experiencing the trauma in dreams or flashback",
-            ],
-            answer: 3,
-            rationale:
-              "Experiencing the actual trauma in dreams or flashback is the major symptom that distinguishes post-traumatic stress disorder from other anxiety disorder.",
-          },
-          {
-            id: "q30",
-            question:
-              "Nurse Benjie is communicating with a male client with substance-induced persisting dementia; the client cannot remember facts and fills in the gaps with imaginary information. Nurse Benjie is aware that this is typical of?",
-            choices: ["Flight of ideas", "Associative looseness", "Confabulation", "Concretism"],
-            answer: 2,
-            rationale:
-              "Confabulation or the filling in of memory gaps with imaginary facts is a defense mechanism used by people experiencing memory deficits.",
-          },
-          {
-            id: "q31",
-            question:
-              "Nurse Joey is aware that the signs & symptoms that would be most specific for diagnosis anorexia are?",
-            choices: [
-              "Excessive weight loss, amenorrhea & abdominal distension",
-              "Slow pulse, 10% weight loss & alopecia",
-              "Compulsive behavior, excessive fears & nausea",
-              "Excessive activity, memory lapses & an increased pulse",
-            ],
-            answer: 0,
-            rationale:
-              "These are the major signs of anorexia nervosa. Weight loss is excessive (15% of expected weight)",
-          },
-          {
-            id: "q32",
-            question:
-              "Nurse Monette is aware that extremely depressed clients seem to do best in settings where they have:",
-            choices: [
-              "Multiple stimuli",
-              "Routine Activities",
-              "Minimal decision making",
-              "Varied Activities",
-            ],
-            answer: 1,
-            rationale:
-              "Depression usually is both emotional & physical. A simple daily routine is the best, least stressful and least anxiety producing.",
-          },
-          {
-            id: "q33",
-            question:
-              "To further assess a client’s suicidal potential. Nurse Katrina should be especially alert to the client expression of:",
-            choices: [
-              "Frustration & fear of death",
-              "Anger & resentment",
-              "Anxiety & loneliness",
-              "Helplessness & hopelessness",
-            ],
-            answer: 3,
-            rationale:
-              "The expression of these feeling may indicate that this client is unable to continue the struggle of life.",
-          },
-          {
-            id: "q34",
-            question:
-              "When planning care for a female client using ritualistic behavior, Nurse Gina must recognize that the ritual:",
-            choices: [
-              "Helps the client focus on the inability to deal with reality",
-              "Helps the client control the anxiety",
-              "Is under the client’s conscious control",
-              "Is used by the client primarily for secondary gains",
-            ],
-            answer: 1,
-            rationale:
-              "The rituals used by a client with obsessive compulsive disorder help control the anxiety level by maintaining a set pattern of action.",
-          },
-          {
-            id: "q35",
-            question:
-              "A 32 year old male graduate student, who has become increasingly withdrawn and neglectful of his work and personal hygiene, is brought to the psychiatric hospital by his parents. After 382 detailed assessment, a diagnosis of schizophrenia is made. It is unlikely that the client will demonstrate:",
-            choices: [
-              "Low self esteem",
-              "Concrete thinking",
-              "Effective self-boundaries",
-              "Weak ego",
-            ],
-            answer: 2,
-            rationale: "A person with this disorder would not have adequate self-boundaries",
-          },
-          {
-            id: "q36",
-            question:
-              "A long term goal for a paranoid male client who has unjustifiably accused his wife of having many extramarital affairs would be to help the client develop:",
-            choices: [
-              "Insight into his behavior",
-              "Better self-control",
-              "Feeling of self-worth",
-              "Faith in his wife",
-            ],
-            answer: 2,
-            rationale:
-              "Helping the client to develop feeling of self-worth would reduce the client’s need to use pathologic defenses.",
-          },
-          {
-            id: "q37",
-            question:
-              "A male client who is experiencing disordered thinking about food being poisoned is admitted to the mental health unit. The nurse uses which communication technique to encourage the client to eat dinner?",
-            choices: [
-              "Focusing on self-disclosure of own food preference",
-              "Using open ended question and silence",
-              "Offering opinion about the need to eat",
-              "Verbalizing reasons that the client may not choose to eat",
-            ],
-            answer: 1,
-            rationale:
-              "Open ended questions and silence are strategies used to encourage clients to discuss their problem in descriptive manner.",
-          },
-          {
-            id: "q38",
-            question:
-              "Nurse Nina is assigned to care for a client diagnosed with Catatonic Stupor. When Nurse Nina enters the client’s room, the client is found lying on the bed with a body pulled into a fetal position. Nurse Nina should?",
-            choices: [
-              "Ask the client direct questions to encourage talking",
-              "Rake the client into the dayroom to be with other clients",
-              "Sit beside the client in silence and occasionally ask open-ended question",
-              "Leave the client alone and continue with providing care to the other clients 383",
-            ],
-            answer: 2,
-            rationale:
-              "Clients who are withdrawn may be immobile and mute, and require consistent, repeated interventions. Communication with withdrawn clients requires much patience from the nurse. The nurse facilitates communication with the client by sitting in silence, asking openended question and pausing to provide opportunities for the client to respond.",
-          },
-          {
-            id: "q39",
-            question:
-              "During electroconvulsive therapy (ECT) the client receives oxygen by mask via positive pressure ventilation. The nurse assisting with this procedure knows that positive pressure ventilation is necessary because?",
-            choices: [
-              "Anesthesia is administered during the procedure",
-              "Decrease oxygen to the brain increases confusion and disorientation",
-              "Grand mal seizure activity depresses respirations",
-              "Muscle relaxations given to prevent injury during seizure activity depress respirations.",
-            ],
-            answer: 3,
-            rationale:
-              "A short acting skeletal muscle relaxant such as succinylcholine (Anectine) is administered during this procedure to prevent injuries during seizure.",
-          },
-          {
-            id: "q40",
-            question:
-              "When planning the discharge of a client with chronic anxiety, Nurse Chris evaluates achievement of the discharge maintenance goals. Which goal would be most appropriately having been included in the plan of care requiring evaluation?",
-            choices: [
-              "The client eliminates all anxiety from daily situations",
-              "The client ignores feelings of anxiety",
-              "The client identifies anxiety producing situations",
-              "The client maintains contact with a crisis counselor",
-            ],
-            answer: 2,
-            rationale:
-              "Recognizing situations that produce anxiety allows the client to prepare to cope with anxiety or avoid specific stimulus.",
-          },
-          {
-            id: "q41",
-            question:
-              "Nurse Tina is caring for a client with depression who has not responded to antidepressant medication. The nurse anticipates that what treatment procedure may be prescribed.",
-            choices: [
-              "Neuroleptic medication",
-              "Short term seclusion",
-              "Psychosurgery",
-              "Electroconvulsive therapy",
-            ],
-            answer: 3,
-            rationale:
-              "Electroconvulsive therapy is an effective treatment for depression that has not responded to medication",
-          },
-          {
-            id: "q42",
-            question:
-              "Mario is admitted to the emergency room with drug-included anxiety related to over ingestion of prescribed antipsychotic medication. The most important piece of information the nurse in charge should obtain initially is the:",
-            choices: [
-              "Length of time on the med.",
-              "Name of the ingested medication & the amount ingested",
-              "Reason for the suicide attempt",
-              "Name of the nearest relative & their phone number",
-            ],
-            answer: 1,
-            rationale:
-              "In an emergency, lives saving facts are obtained first. The name and the amount of medication ingested are of outmost important in treating this potentially life threatening situation. 386 387",
-          },
-        ],
-      },
-      {
-        id: "psych-psychiatric-nursing-part-1",
-        title: "PSYCHIATRIC NURSING Part 1",
-        description: "36 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "Marco approached Nurse Trish asking for advice on how to deal with his alcohol addiction. Nurse Trish should tell the client that the only effective treatment for alcoholism is:",
-            choices: [
-              "Psychotherapy",
-              "Alcoholics anonymous (A.A.)",
+              "Alcoholics Anonymous (A.A.)",
               "Total abstinence",
               "Aversion Therapy",
             ],
@@ -10728,11 +9025,11 @@ export const subjects: Subject[] = [
           {
             id: "q2",
             question:
-              "Nurse Hazel is caring for a male client who experience false sensory perceptions with no basis in reality. This perception is known as:",
+              "Nurse Hazel is caring for a male client who experiences false sensory perceptions with no basis in reality. This perception is known as:",
             choices: ["Hallucinations", "Delusions", "Loose associations", "Neologisms"],
             answer: 0,
             rationale:
-              "Hallucinations are visual, auditory, gustatory, tactile or olfactory perceptions that have no basis in reality.",
+              "Hallucinations are visual, auditory, gustatory, tactile, or olfactory perceptions that have no basis in reality.",
           },
           {
             id: "q3",
@@ -10746,7 +9043,7 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "The Nurse has a responsibility to observe continuously the acutely suicidal client. The Nurse should watch for clues, such as communicating suicidal thoughts, and messages; hoarding medications and talking about death.",
+              "The nurse has a responsibility to continuously observe the acutely suicidal client, watching for clues such as communicating suicidal thoughts, hoarding medications, and talking about death.",
           },
           {
             id: "q4",
@@ -10760,31 +9057,31 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Establishing a consistent eating plan and monitoring client’s weight are important to this disorder.",
+              "Establishing a consistent eating plan and monitoring the client's weight are important interventions for this disorder.",
           },
           {
             id: "q5",
             question:
-              "A client is experiencing anxiety attack. The most appropriate nursing intervention should include?",
+              "A client is experiencing an anxiety attack. The most appropriate nursing intervention should include:",
             choices: [
               "Turning on the television",
               "Leaving the client alone",
               "Staying with the client and speaking in short sentences",
-              "Ask the client to play with other clients",
+              "Asking the client to play with other clients",
             ],
             answer: 2,
             rationale:
-              "Appropriate nursing interventions for an anxiety attack include using short sentences, staying with the client, decreasing stimuli, remaining calm and medicating as needed.",
+              "Appropriate nursing interventions for an anxiety attack include using short sentences, staying with the client, decreasing stimuli, remaining calm, and medicating as needed.",
           },
           {
             id: "q6",
             question:
               "A female client is admitted with a diagnosis of delusions of GRANDEUR. This diagnosis reflects a belief that one is:",
             choices: [
-              "Being Killed",
+              "Being killed",
               "Highly famous and important",
-              "Responsible for evil world",
-              "Connected to client unrelated to oneself",
+              "Responsible for evil in the world",
+              "Connected to events unrelated to oneself",
             ],
             answer: 1,
             rationale:
@@ -10793,84 +9090,177 @@ export const subjects: Subject[] = [
           {
             id: "q7",
             question:
-              "A 20 year old client was diagnosed with dependent personality disorder. Which behavior is not most likely to be evidence of ineffective individual coping?",
+              "Nurse Trish is caring for a client with dependent personality disorder. Which behavior is not likely to be evidence of ineffective individual coping?",
             choices: [
-              "Recurrent self-destructive behavior 497 498 a. Cardiac dysrhythmias resulting to cardiac arrest",
+              "Recurrent self-destructive behavior",
+              "Avoiding relationships",
+              "Showing interest in solitary activities",
+              "Inability to make choices and decisions without advice",
+            ],
+            answer: 3,
+            rationale:
+              "Individuals with dependent personality disorder typically show indecisiveness, submissiveness, and clinging behavior so that others will make decisions for them — this reliance itself is the expected pattern, not an unrelated finding.",
+          },
+          {
+            id: "q8",
+            question:
+              "A male client is diagnosed with schizotypal personality disorder. Which signs would this client exhibit during a social situation?",
+            choices: [
+              "Paranoid thoughts",
+              "Emotional affect",
+              "Independence need",
+              "Aggressive behavior",
+            ],
+            answer: 0,
+            rationale:
+              "Clients with schizotypal personality disorder experience excessive social anxiety that can lead to paranoid thoughts.",
+          },
+          {
+            id: "q9",
+            question:
+              "Nurse Claire is caring for a client diagnosed with bulimia. The most appropriate initial goal for a client diagnosed with bulimia is to:",
+            choices: [
+              "Encourage the client to avoid foods",
+              "Identify anxiety causing situations",
+              "Eat only three meals a day",
+              "Avoid shopping for plenty of groceries",
+            ],
+            answer: 1,
+            rationale:
+              "Bulimia is generally a maladaptive coping response to stress and underlying issues; the client should identify anxiety-causing situations that stimulate the bulimic behavior and then learn new ways of coping.",
+          },
+          {
+            id: "q10",
+            question:
+              "Nurse Tony was caring for a 41 year old female client. Which behavior by the client indicates adult cognitive development?",
+            choices: [
+              "Generates new levels of awareness",
+              "Assumes responsibility for her actions",
+              "Has maximum ability to solve problems and learn new skills",
+              "Her perceptions are based on reality",
+            ],
+            answer: 0,
+            rationale:
+              "An adult aged 31 to 45 generates new levels of awareness, reflecting this stage of adult cognitive development.",
+          },
+          {
+            id: "q11",
+            question:
+              "A neuromuscular blocking agent is administered to a client before ECT therapy. The nurse should carefully observe the client for:",
+            choices: ["Respiratory difficulties", "Nausea and vomiting", "Dizziness", "Seizures"],
+            answer: 0,
+            rationale:
+              "Neuromuscular blockers, such as succinylcholine (Anectine), produce respiratory depression because they inhibit contraction of respiratory muscles.",
+          },
+          {
+            id: "q12",
+            question:
+              "A 75 year old client is admitted to the hospital with the diagnosis of dementia of the Alzheimer's type and depression. The symptom that is unrelated to depression would be:",
+            choices: [
+              "Apathetic response to the environment",
+              '"I don\'t know" answer to questions',
+              "Shallow or labile affect",
+              "Neglect of personal hygiene",
+            ],
+            answer: 2,
+            rationale:
+              "With depression, there is typically little or no emotional involvement, and therefore little alteration in affect — making shallow or labile affect unrelated to depression.",
+          },
+          {
+            id: "q13",
+            question:
+              "Nurse Trish is working in a mental health facility; the nurse's priority nursing intervention for a newly admitted client with bulimia nervosa would be to:",
+            choices: [
+              "Teach client to measure I & O",
+              "Involve client in planning daily meals",
+              "Observe client during meals",
+              "Monitor client continuously",
+            ],
+            answer: 3,
+            rationale:
+              "These clients often hide food or force vomiting, so they must be carefully and continuously monitored.",
+          },
+          {
+            id: "q14",
+            question:
+              "Nurse Patricia is aware that the major health complication associated with intractable anorexia nervosa would be:",
+            choices: [
+              "Cardiac dysrhythmias resulting in cardiac arrest",
               "Glucose intolerance resulting in protracted hypoglycemia",
               "Endocrine imbalance causing cold amenorrhea",
               "Decreased metabolism causing cold intolerance",
             ],
-            answer: 3,
+            answer: 0,
             rationale:
-              "Individual with dependent personality disorder typically shows indecisiveness submissiveness and clinging behavior so that others will make decisions with them.",
+              "These clients have severely depleted sodium and potassium levels because of their starvation diet and energy expenditure; these electrolytes are necessary for cardiac functioning, risking dysrhythmias and arrest.",
           },
           {
-            id: "q8",
-            question: "Nurse Anna can minimize agitation in a disturbed client by?",
+            id: "q15",
+            question: "Nurse Anna can minimize agitation in a disturbed client by:",
             choices: [
               "Increasing stimulation",
-              "limiting unnecessary interaction",
-              "increasing appropriate sensory perception",
-              "ensuring constant client and staff contact",
+              "Limiting unnecessary interaction",
+              "Increasing appropriate sensory perception",
+              "Ensuring constant client and staff contact",
             ],
             answer: 1,
-            rationale: "Limiting unnecessary interaction will decrease stimulation and agitation.",
+            rationale: "Limiting unnecessary interaction decreases stimulation and agitation.",
           },
           {
-            id: "q9",
+            id: "q16",
             question:
               "A 39 year old mother with obsessive-compulsive disorder has become immobilized by her elaborate hand washing and walking rituals. Nurse Trish recognizes that the basis of O.C. disorder is often:",
             choices: [
               "Problems with being too conscientious",
               "Problems with anger and remorse",
               "Feelings of guilt and inadequacy",
-              "Feeling of unworthiness and hopelessness",
+              "Feelings of unworthiness and hopelessness",
             ],
             answer: 2,
             rationale:
-              "Ritualistic behavior seen in this disorder is aimed at controlling guilt and inadequacy by maintaining an absolute set pattern of behavior. 502",
+              "Ritualistic behavior seen in this disorder is aimed at controlling guilt and inadequacy by maintaining an absolute, set pattern of behavior.",
           },
           {
-            id: "q10",
+            id: "q17",
             question:
               "Mario is complaining to other clients about not being allowed by staff to keep food in his room. Which of the following interventions would be most appropriate?",
             choices: [
               "Allowing a snack to be kept in his room",
               "Reprimanding the client",
-              "Ignoring the clients behavior",
+              "Ignoring the client's behavior",
               "Setting limits on the behavior",
             ],
             answer: 3,
             rationale:
-              "The nurse needs to set limits in the client’s manipulative behavior to help the client control dysfunctional behavior. A consistent approach by the staff is necessary to decrease manipulation.",
+              "The nurse needs to set limits on the client's manipulative behavior to help the client control dysfunctional behavior, with a consistent staff approach to decrease manipulation.",
           },
           {
-            id: "q11",
+            id: "q18",
             question:
-              "Conney with borderline personality disorder who is to be discharge soon threatens to “do something” to herself if discharged. Which of the following actions by the nurse would be most important?",
+              'Conney, with borderline personality disorder, who is to be discharged soon threatens to "do something" to herself if discharged. Which of the following actions by the nurse would be most important?',
             choices: [
               "Ask a family member to stay with the client at home temporarily",
-              "Discuss the meaning of the client’s statement with her",
+              "Discuss the meaning of the client's statement with her",
               "Request an immediate extension for the client",
-              "Ignore the clients statement because it’s a sign of manipulation",
+              "Ignore the client's statement because it's a sign of manipulation",
             ],
             answer: 1,
             rationale:
-              "Any suicidal statement must be assessed by the nurse. The nurse should discuss the client’s statement with her to determine its meaning in terms of suicide.",
+              "Any suicidal statement must be assessed by the nurse. The nurse should discuss the client's statement with her to determine its meaning in terms of suicide.",
           },
           {
-            id: "q12",
+            id: "q19",
             question:
-              "Joey a client with antisocial personality disorder belches loudly. A staff member asks Joey, “Do you know why people find you repulsive?” this statement most likely would elicit which of the following client reaction?",
-            choices: ["Depensiveness", "Embarrassment 498", "Shame", "Remorsefulness"],
+              'Joey, a client with antisocial personality disorder, belches loudly. A staff member asks Joey, "Do you know why people find you repulsive?" This statement most likely would elicit which of the following client reactions?',
+            choices: ["Defensiveness", "Embarrassment", "Shame", "Remorsefulness"],
             answer: 0,
             rationale:
-              "When the staff member ask the client if he wonders why others find him repulsive, the client is likely to feel defensive because the question is belittling. The natural tendency is to counterattack the threat to self image.",
+              "This question is belittling, so the natural tendency is for the client to feel defensive and counterattack the threat to his self-image.",
           },
           {
-            id: "q13",
+            id: "q20",
             question:
-              "Which of the following approaches would be most appropriate to use with a client suffering from narcissistic personality disorder when discrepancies exist between what the client states and what actually exist?",
+              "Which of the following approaches would be most appropriate to use with a client suffering from narcissistic personality disorder when discrepancies exist between what the client states and what actually exists?",
             choices: [
               "Rationalization",
               "Supportive confrontation",
@@ -10879,33 +9269,33 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "The nurse would specifically use supportive confrontation with the client to point out discrepancies between what the client states and what actually exists to increase responsibility for self.",
+              "The nurse would use supportive confrontation to point out discrepancies between what the client states and what actually exists, increasing responsibility for self.",
           },
           {
-            id: "q14",
+            id: "q21",
             question:
-              "Cely is experiencing alcohol withdrawal exhibits tremors, diaphoresis and hyperactivity. Blood pressure is 190/87 mmhg and pulse is 92 bpm. Which of the medications would the nurse expect to administer?",
+              "Cely, experiencing alcohol withdrawal, exhibits tremors, diaphoresis and hyperactivity. Blood pressure is 190/87 mmHg and pulse is 92 bpm. Which of the following medications would the nurse expect to administer?",
             choices: [
               "Naloxone (Narcan)",
-              "Benzlropine (Cogentin)",
+              "Benztropine (Cogentin)",
               "Lorazepam (Ativan)",
               "Haloperidol (Haldol)",
             ],
             answer: 2,
             rationale:
-              "The nurse would most likely administer benzodiazepine, such as lorazepan (ativan) to the client who is experiencing symptom: The client’s experiences symptoms of withdrawal because of the rebound phenomenon when the sedation of the CNS from alcohol begins to decrease.",
+              "The nurse would most likely administer a benzodiazepine such as lorazepam (Ativan) for these withdrawal symptoms, which occur from the rebound phenomenon as CNS sedation from alcohol decreases.",
           },
           {
-            id: "q15",
+            id: "q22",
             question:
-              "Which of the following foods would the nurse Trish eliminate from the diet of a client in alcohol withdrawal?",
+              "Which of the following foods would the nurse eliminate from the diet of a client in alcohol withdrawal?",
             choices: ["Milk", "Orange Juice", "Soda", "Regular Coffee"],
             answer: 3,
             rationale:
-              "Regular coffee contains caffeine which acts as psychomotor stimulants and leads to feelings of anxiety and agitation. Serving coffee top the client may add to tremors or wakefulness.",
+              "Regular coffee contains caffeine, which acts as a psychomotor stimulant and can add to feelings of anxiety, tremors, or wakefulness.",
           },
           {
-            id: "q16",
+            id: "q23",
             question:
               "Which of the following would Nurse Hazel expect to assess for a client who is exhibiting late signs of heroin withdrawal?",
             choices: [
@@ -10916,106 +9306,143 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Vomiting and diarrhea are usually the late signs of heroin withdrawal, along with muscle spasm, fever, nausea, repetitive, abdominal cramps and backache.",
+              "Vomiting and diarrhea are usually late signs of heroin withdrawal, along with muscle spasm, fever, nausea, repetitive abdominal cramps, and backache.",
           },
           {
-            id: "q17",
+            id: "q24",
             question:
-              "To establish open and trusting relationship with a female client who has been hospitalized with severe anxiety, the nurse in charge should?",
+              "To establish an open and trusting relationship with a female client who has been hospitalized with severe anxiety, the nurse in charge should:",
             choices: [
               "Encourage the staff to have frequent interaction with the client",
               "Share an activity with the client",
               "Give client feedback about behavior",
-              "Respect client’s need for personal space",
+              "Respect client's need for personal space",
             ],
             answer: 3,
             rationale:
-              "Moving to a client’s personal space increases the feeling of threat, which increases anxiety.",
+              "Moving into a client's personal space increases the feeling of threat, which increases anxiety, so respecting personal space builds trust.",
           },
           {
-            id: "q18",
+            id: "q25",
             question:
-              "Nurse Monette recognizes that the focus of environmental (MILIEU) therapy is to:",
+              "Nurse Monette recognizes that the focus of environmental (milieu) therapy is to:",
             choices: [
               "Manipulate the environment to bring about positive changes in behavior",
-              "Allow the client’s freedom to determine whether or not they will be involved in activities",
+              "Allow the client's freedom to determine whether or not they will be involved in activities",
               "Role play life events to meet individual needs",
-              "Use natural remedies rather than drugs to control behavior 499",
+              "Use natural remedies rather than drugs to control behavior",
             ],
             answer: 0,
             rationale:
-              "Environmental (MILIEU) therapy aims at having everything in the client’s surrounding area toward helping the client.",
+              "Environmental (milieu) therapy aims at shaping everything in the client's surrounding environment toward helping the client.",
           },
+        ],
+      },
+      {
+        id: "psychiatric-nursing-part-2",
+        title: "PSYCHIATRIC NURSING PART 2",
+        description: "25 questions from the PNLE reviewer.",
+        questions: [
           {
-            id: "q19",
+            id: "q1",
             question:
               "Nurse Trish would expect a child with a diagnosis of reactive attachment disorder to:",
             choices: [
               "Have more positive relation with the father than the mother",
               "Cling to mother & cry on separation",
-              "Be able to develop only superficial relation with the others",
-              "Have been physically abuse",
+              "Be able to develop only superficial relations with others",
+              "Have been physically abused",
             ],
             answer: 2,
             rationale:
-              "Children who have experienced attachment difficulties with primary caregiver are not able to trust others and therefore relate superficially",
+              "Children who have experienced attachment difficulties with their primary caregiver are not able to trust others and therefore relate only superficially.",
           },
           {
-            id: "q20",
-            question: "When teaching parents about childhood depression Nurse Trina should say?",
+            id: "q2",
+            question: "When teaching parents about childhood depression, Nurse Trina should say:",
             choices: [
-              "It may appear acting out behavior",
-              "Does not respond to conventional treatment",
-              "Is short in duration & resolves easily",
-              "Looks almost identical to adult depression",
+              "It may appear as acting out behavior",
+              "It does not respond to conventional treatment",
+              "It is short in duration & resolves easily",
+              "It looks almost identical to adult depression",
             ],
             answer: 0,
             rationale:
-              "Children have difficulty verbally expressing their feelings, acting out behavior, such as temper tantrums, may indicate underlying depression.",
+              "Children have difficulty verbally expressing their feelings, so acting-out behavior, such as temper tantrums, may indicate underlying depression.",
           },
           {
-            id: "q21",
-            question: "Nurse Perry is aware that language development in autistic child resembles:",
-            choices: ["Scanning speech", "Speech lag", "Shuttering", "Echolalia"],
-            answer: 3,
-            rationale: "The autistic child repeat sounds or words spoken by others.",
-          },
-          {
-            id: "q22",
+            id: "q3",
             question:
-              "A 60 year old female client who lives alone tells the nurse at the community health center “I really don’t need anyone to talk to”. The TV is my best friend. The nurse recognizes that the client is using the defense mechanism known as?",
+              "Nurse Perry is aware that language development in an autistic child resembles:",
+            choices: ["Scanning speech", "Speech lag", "Stuttering", "Echolalia"],
+            answer: 3,
+            rationale:
+              "The autistic child repeats sounds or words spoken by others, a pattern known as echolalia.",
+          },
+          {
+            id: "q4",
+            question:
+              'A 60 year old female client who lives alone tells the nurse at the community health center, "I really don\'t need anyone to talk to. The TV is my best friend." The nurse recognizes that the client is using the defense mechanism known as:',
             choices: ["Displacement", "Projection", "Sublimation", "Denial"],
             answer: 3,
             rationale:
-              "The client statement is an example of the use of denial, a defense that blocks problem by unconscious refusing to admit they exist.",
+              "The client's statement is an example of denial, a defense mechanism that blocks problems by unconsciously refusing to admit they exist.",
           },
           {
-            id: "q23",
+            id: "q5",
             question:
-              "Nurse Penny is aware that the symptoms that distinguish post traumatic stress disorder from other anxiety disorder would be:",
+              "When working with a male client suffering from a phobia about black cats, Nurse Trish should anticipate that a problem for this client would be:",
             choices: [
-              "Avoidance of situation & certain activities that resemble the stress",
+              "Anxiety when discussing the phobia",
+              "Anger toward the feared object",
+              "Denying that the phobia exists",
+              "Distortion of reality when completing daily routines",
+            ],
+            answer: 0,
+            rationale:
+              "Discussion of the feared object triggers an emotional (anxiety) response to the object.",
+          },
+          {
+            id: "q6",
+            question:
+              "Linda is pacing the floor and appears extremely anxious. The duty nurse approaches in an attempt to alleviate Linda's anxiety. The most therapeutic question by the nurse would be:",
+            choices: [
+              "Would you like to watch TV?",
+              "Would you like me to talk with you?",
+              "Are you feeling upset now?",
+              "Ignore the client",
+            ],
+            answer: 1,
+            rationale:
+              "The nurse's presence and offer to talk may provide the client with support and a feeling of control.",
+          },
+          {
+            id: "q7",
+            question:
+              "Nurse Penny is aware that the symptoms that distinguish post-traumatic stress disorder from other anxiety disorders would be:",
+            choices: [
+              "Avoidance of situations & certain activities that resemble the stress",
               "Depression and a blunted affect when discussing the traumatic situation",
               "Lack of interest in family & others",
-              "Re-experiencing the trauma in dreams or flashback",
+              "Re-experiencing the trauma in dreams or flashbacks",
             ],
             answer: 3,
             rationale:
-              "Experiencing the actual trauma in dreams or flashback is the major symptom that distinguishes post traumatic stress disorder from other anxiety disorder.",
+              "Re-experiencing the actual trauma in dreams or flashbacks is the major symptom that distinguishes PTSD from other anxiety disorders.",
           },
           {
-            id: "q24",
+            id: "q8",
             question:
-              "Nurse Benjie is communicating with a male client with substance-induced persisting dementia; the client cannot remember facts and fills in the gaps with imaginary information. Nurse Benjie is aware that this is typical of?",
+              "Nurse Benjie is communicating with a male client with substance-induced persisting dementia; the client cannot remember facts and fills in the gaps with imaginary information. Nurse Benjie is aware that this is typical of:",
             choices: ["Flight of ideas", "Associative looseness", "Confabulation", "Concretism"],
             answer: 2,
             rationale:
-              "Confabulation or the filling in of memory gaps with imaginary facts is a defense mechanism used by people experiencing memory deficits.",
+              "Confabulation, or the filling in of memory gaps with imaginary facts, is a defense mechanism used by people experiencing memory deficits.",
           },
           {
-            id: "q25",
+            id: "q9",
             question:
-              "Nurse Joey is aware that the signs & symptoms that would be most specific for diagnosis anorexia are?",
+              "Nurse Joey is aware that the signs & symptoms that would be most specific for diagnosing anorexia are:",
             choices: [
               "Excessive weight loss, amenorrhea & abdominal distension",
               "Slow pulse, 10% weight loss & alopecia",
@@ -11024,10 +9451,24 @@ export const subjects: Subject[] = [
             ],
             answer: 0,
             rationale:
-              "These are the major signs of anorexia nervosa. Weight loss is excessive (15% of expected weight).",
+              "These are the major signs of anorexia nervosa; weight loss is excessive (about 15% of expected weight).",
           },
           {
-            id: "q26",
+            id: "q10",
+            question:
+              "A characteristic that would suggest to Nurse Anne that an adolescent may have bulimia would be:",
+            choices: [
+              "Frequent regurgitation & re-swallowing of food",
+              "Previous history of gastritis",
+              "Badly stained teeth",
+              "Positive body image",
+            ],
+            answer: 2,
+            rationale:
+              "Dental enamel erosion, causing badly stained teeth, occurs from repeated self-induced vomiting characteristic of bulimia.",
+          },
+          {
+            id: "q11",
             question:
               "Nurse Monette is aware that extremely depressed clients seem to do best in settings where they have:",
             choices: [
@@ -11038,12 +9479,12 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Depression usually is both emotional & physical. A simple daily routine is the best, least stressful and least anxiety producing.",
+              "Depression is both emotional and physical; a simple daily routine is the least stressful and least anxiety-producing setting.",
           },
           {
-            id: "q27",
+            id: "q12",
             question:
-              "To further assess a client’s suicidal potential. Nurse Katrina should be especially alert to the client expression of:",
+              "To further assess a client's suicidal potential, Nurse Katrina should be especially alert to the client's expression of:",
             choices: [
               "Frustration & fear of death",
               "Anger & resentment",
@@ -11052,107 +9493,159 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "The expression of these feeling may indicate that this client is unable to continue the struggle of life.",
+              "Expressions of helplessness and hopelessness may indicate that the client feels unable to continue the struggle of life, signaling suicide risk.",
           },
           {
-            id: "q28",
+            id: "q13",
+            question:
+              "A nursing care plan for a male client with bipolar I disorder should include:",
+            choices: [
+              "Providing a structured environment",
+              "Designing activities that will require the client to maintain contact with reality",
+              "Engaging the client in conversing about current affairs",
+              "Touching the client to provide assurance",
+            ],
+            answer: 0,
+            rationale:
+              "Structure tends to decrease agitation and anxiety and to increase the client's feeling of security.",
+          },
+          {
+            id: "q14",
             question:
               "When planning care for a female client using ritualistic behavior, Nurse Gina must recognize that the ritual:",
             choices: [
               "Helps the client focus on the inability to deal with reality",
               "Helps the client control the anxiety",
-              "Is under the client’s conscious control",
+              "Is under the client's conscious control",
               "Is used by the client primarily for secondary gains",
             ],
             answer: 1,
             rationale:
-              "The rituals used by a client with obsessive compulsive disorder help control the anxiety level by maintaining a set pattern of action.",
+              "The rituals used by a client with obsessive-compulsive disorder help control the anxiety level by maintaining a set pattern of action.",
           },
           {
-            id: "q29",
+            id: "q15",
             question:
               "A 32 year old male graduate student, who has become increasingly withdrawn and neglectful of his work and personal hygiene, is brought to the psychiatric hospital by his parents. After detailed assessment, a diagnosis of schizophrenia is made. It is unlikely that the client will demonstrate:",
             choices: [
               "Low self esteem",
               "Concrete thinking",
-              "Effective self boundaries",
+              "Effective self-boundaries",
               "Weak ego",
             ],
             answer: 2,
-            rationale: "A person with this disorder would not have adequate self-boundaries.",
+            rationale:
+              "A person with schizophrenia would not have adequate self-boundaries, making effective self-boundaries unlikely to be demonstrated.",
           },
           {
-            id: "q30",
+            id: "q16",
+            question:
+              "A 23 year old client admitted with a diagnosis of schizophrenia says to the nurse, \"Yes, it's march, March is little woman. That's literal you know.\" This statement illustrates:",
+            choices: ["Neologisms", "Echolalia", "Flight of ideas", "Loosening of association"],
+            answer: 3,
+            rationale:
+              "Loose associations are thoughts presented without the logical connections usually necessary for the listener to interpret the message.",
+          },
+          {
+            id: "q17",
             question:
               "A long term goal for a paranoid male client who has unjustifiably accused his wife of having many extramarital affairs would be to help the client develop:",
             choices: [
               "Insight into his behavior",
-              "Better self control",
-              "Feeling of self worth",
+              "Better self-control",
+              "Feelings of self-worth",
               "Faith in his wife",
             ],
             answer: 2,
             rationale:
-              "Helping the client to develop feeling of self worth would reduce the client’s need to use pathologic defenses.",
+              "Helping the client develop feelings of self-worth would reduce his need to use pathologic defenses such as unfounded jealousy and accusation.",
           },
           {
-            id: "q31",
+            id: "q18",
             question:
               "A male client who is experiencing disordered thinking about food being poisoned is admitted to the mental health unit. The nurse uses which communication technique to encourage the client to eat dinner?",
             choices: [
               "Focusing on self-disclosure of own food preference",
-              "Using open ended question and silence",
+              "Using open ended questions and silence",
               "Offering opinion about the need to eat",
               "Verbalizing reasons that the client may not choose to eat",
             ],
             answer: 1,
             rationale:
-              "Open ended questions and silence are strategies used to encourage clients to discuss their problem in descriptive manner.",
+              "Open-ended questions and silence are strategies used to encourage clients to discuss their problem in a descriptive manner.",
           },
           {
-            id: "q32",
+            id: "q19",
             question:
-              "Nurse Nina is assigned to care for a client diagnosed with Catatonic Stupor. When Nurse Nina enters the client’s room, the client is found lying on the bed with a body pulled into a fetal position. Nurse Nina should? 500",
+              "Nurse Nina is assigned to care for a client diagnosed with Catatonic Stupor. When Nurse Nina enters the client's room, the client is found lying on the bed with a body pulled into a fetal position. Nurse Nina should:",
             choices: [
               "Ask the client direct questions to encourage talking",
-              "Rake the client into the dayroom to be with other clients",
-              "Sit beside the client in silence and occasionally ask open-ended question",
+              "Take the client into the dayroom to be with other clients",
+              "Sit beside the client in silence and occasionally ask open-ended questions",
               "Leave the client alone and continue with providing care to the other clients",
             ],
             answer: 2,
             rationale:
-              "Clients who are withdrawn may be immobile and mute, and require consistent, repeated interventions. Communication with withdrawn clients requires much patience from the nurse. The nurse facilitates communication with the client by sitting in silence, asking open-ended question and pausing to provide opportunities for the client to respond.",
+              "Withdrawn clients may be immobile and mute, requiring consistent, patient intervention. The nurse facilitates communication by sitting in silence, asking open-ended questions, and pausing to allow the client to respond.",
           },
           {
-            id: "q33",
+            id: "q20",
             question:
-              "During electroconvulsive therapy (ECT) the client receives oxygen by mask via positive pressure ventilation. The nurse assisting with this procedure knows that positive pressure ventilation is necessary because?",
+              'Nurse Tina is caring for a client with delirium who states, "look at the spiders on the wall." What should the nurse respond to the client?',
             choices: [
-              "Anesthesia is administered during the procedure",
-              "Decrease oxygen to the brain increases confusion and disorientation",
-              "Grand mal seizure activity depresses respirations",
-              "Muscle relaxations given to prevent injury during seizure activity depress respirations.",
+              '"You\'re having a hallucination, there are no spiders in this room at all"',
+              '"I can see the spiders on the wall, but they are not going to hurt you"',
+              '"Would you like me to kill the spiders?"',
+              '"I know you are frightened, but I do not see spiders on the wall"',
             ],
             answer: 3,
             rationale:
-              "A short acting skeletal muscle relaxant such as succinylcholine (Anectine) is administered during this procedure to prevent injuries during seizure.",
+              "When a hallucination is present, the nurse should reinforce reality with the client while still acknowledging the client's feelings.",
           },
           {
-            id: "q34",
+            id: "q21",
             question:
-              "When planning the discharge of a client with chronic anxiety, Nurse Chris evaluates achievement of the discharge maintenance goals. Which goal would be most appropriately having been included in the plan of care requiring evaluation?",
+              "Nurse Jonel is providing information to a community group about violence in the family. Which statement by a group member would indicate a need to provide additional information?",
+            choices: [
+              '"Abuse occurs more in low-income families"',
+              '"Abusers are often jealous or self-centered"',
+              '"Abusers use fear and intimidation"',
+              '"Abusers usually have poor self-esteem"',
+            ],
+            answer: 0,
+            rationale:
+              "Personal characteristics of abusers include low self-esteem, immaturity, dependence, insecurity, and jealousy; abuse is not limited to or more common in low-income families specifically, so this statement indicates a misconception needing correction.",
+          },
+          {
+            id: "q22",
+            question:
+              "During electroconvulsive therapy (ECT), the client receives oxygen by mask via positive pressure ventilation. The nurse assisting with this procedure knows that positive pressure ventilation is necessary because:",
+            choices: [
+              "Anesthesia is administered during the procedure",
+              "Decreased oxygen to the brain increases confusion and disorientation",
+              "Grand mal seizure activity depresses respirations",
+              "Muscle relaxants given to prevent injury during seizure activity depress respirations",
+            ],
+            answer: 3,
+            rationale:
+              "A short-acting skeletal muscle relaxant such as succinylcholine (Anectine) is administered during this procedure to prevent injury, and this depresses respirations, requiring positive pressure ventilation support.",
+          },
+          {
+            id: "q23",
+            question:
+              "When planning the discharge of a client with chronic anxiety, Nurse Chris evaluates achievement of the discharge maintenance goals. Which goal would be most appropriately included in the plan of care requiring evaluation?",
             choices: [
               "The client eliminates all anxiety from daily situations",
               "The client ignores feelings of anxiety",
-              "The client identifies anxiety producing situations 501",
+              "The client identifies anxiety producing situations",
               "The client maintains contact with a crisis counselor",
             ],
             answer: 2,
             rationale:
-              "Recognizing situations that produce anxiety allows the client to prepare to cope with anxiety or avoid specific stimulus.",
+              "Recognizing situations that produce anxiety allows the client to prepare to cope with anxiety or avoid specific stimuli, making this a realistic and appropriate discharge goal.",
           },
           {
-            id: "q35",
+            id: "q24",
             question:
               "Nurse Tina is caring for a client with depression who has not responded to antidepressant medication. The nurse anticipates that what treatment procedure may be prescribed?",
             choices: [
@@ -11166,1151 +9659,18 @@ export const subjects: Subject[] = [
               "Electroconvulsive therapy is an effective treatment for depression that has not responded to medication.",
           },
           {
-            id: "q36",
+            id: "q25",
             question:
-              "Mario is admitted to the emergency room with drug-included anxiety related to over ingestion of prescribed antipsychotic medication. The most important piece of information the nurse in charge should obtain initially is the:",
+              "Mario is admitted to the emergency room with drug-induced toxicity related to overingestion of prescribed antipsychotic medication. The most important piece of information the nurse in charge should obtain initially is the:",
             choices: [
-              "Length of time on the med.",
+              "Length of time on the medication",
               "Name of the ingested medication & the amount ingested",
               "Reason for the suicide attempt",
-              "Name of the nearest relative & their phone number 501 502",
+              "Name of the nearest relative & their phone number",
             ],
             answer: 1,
             rationale:
-              "In an emergency, lives saving facts are obtained first. The name and the amount of medication ingested are of outmost important in treating this potentially life threatening situation. 503 504",
-          },
-        ],
-      },
-      {
-        id: "psych-psychiatric-nursing-part-2",
-        title: "PSYCHIATRIC NURSING Part 2",
-        description: "39 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "Nurse Tony should first discuss terminating the nurseclient relationship with a client during the:",
-            choices: [
-              "Termination phase when discharge plans are being made.",
-              "Working phase when the client shows some progress.",
-              "Orientation phase when a contract is established.",
-              "Working phase when the client brings it up.",
-            ],
-            answer: 2,
-            rationale:
-              "When the nurse and client agree to work together, a contract should be established, the length of the relationship should be discussed in terms of its ultimate termination.",
-          },
-          {
-            id: "q2",
-            question:
-              "Malou is diagnosed with major depression spends majority of the day lying in bed with the sheet pulled over his head. Which of the following approaches by the nurse would be the most therapeutic?",
-            choices: [
-              "Question the client until he responds",
-              "Initiate contact with the client frequently",
-              "Sit outside the clients room",
-              "Wait for the client to begin the conversation",
-            ],
-            answer: 1,
-            rationale:
-              "The nurse should initiate brief, frequent contacts throughout the day to let the client know that he is important to the nurse. This will positively affect the client’s self-esteem.",
-          },
-          {
-            id: "q3",
-            question:
-              "Joe who is very depressed exhibits psychomotor retardation, a flat affect and apathy. The nurse in charge observes Joe to be in need of grooming and hygiene. Which of the following nursing actions would be most appropriate?",
-            choices: [
-              "Waiting until the client’s family can participate in the client’s care",
-              "Asking the client if he is ready to take shower",
-              "Explaining the importance of hygiene to the client",
-              "Stating to the client that it’s time for him to take a shower",
-            ],
-            answer: 3,
-            rationale:
-              "The client with depression is preoccupied, has decreased energy, and is unable to make decisions. The nurse presents the situation, “It’s time for a shower”, and assists the client with personal hygiene to preserve his dignity and selfesteem.",
-          },
-          {
-            id: "q4",
-            question:
-              "When teaching Mario with a typical depression about foods to avoid while taking phenelzine(Nardil), which of the following would the nurse in charge include?",
-            choices: ["Roasted chicken", "Fresh fish", "Salami", "Hamburger"],
-            answer: 2,
-            rationale:
-              "Foods high in tyramine, those that are fermented, pickled, aged, or smoked must be avoided because when they are ingested in combination with MAOIs a hypertensive crisis will occur.",
-          },
-          {
-            id: "q5",
-            question:
-              "When assessing a female client who is receiving tricyclic antidepressant therapy, which of the following would alert the nurse to the possibility that the client is experiencing anticholinergic effects?",
-            choices: [
-              "Urine retention and blurred vision",
-              "Respiratory depression and convulsion",
-              "Delirium and Sedation",
-              "Tremors and cardiac arrhythmias",
-            ],
-            answer: 0,
-            rationale:
-              "Anticholinergic effects, which result from blockage of the parasympathetic (craniosacral) nervous system including urine retention, blurred vision, dry mouth & constipation.",
-          },
-          {
-            id: "q6",
-            question:
-              "For a male client with dysthymic disorder, which of the following approaches would the nurse expect to implement?",
-            choices: [
-              "ECT",
-              "Psychotherapeutic approach 504",
-              "Psychoanalysis",
-              "Antidepressant therapy",
-            ],
-            answer: 1,
-            rationale:
-              "Dysthymia is a less severe, chronic depression diagnosed when a client has had a depressed mood for more days than not over a period of at least 2 years. Client with dysthymic disorder benefit from psychotherapeutic approaches that assist the client in reversing the negative self image, negative feelings about the future.",
-          },
-          {
-            id: "q7",
-            question:
-              "Danny who is diagnosed with bipolar disorder and acute mania, states the nurse, “Where is my daughter? I love Louis. Rain, rain go away. Dogs eat dirt.” The nurse interprets these statements as indicating which of the following?",
-            choices: ["Echolalia", "Neologism", "Clang associations", "Flight of ideas"],
-            answer: 3,
-            rationale:
-              "Flight of ideas is speech pattern of rapid transition from topic to topic, often without finishing one idea. It is common in mania.",
-          },
-          {
-            id: "q8",
-            question:
-              "Terry with mania is skipping up and down the hallway practically running into other clients. Which of the following activities would the nurse in charge expect to include in Terry’s plan of care?",
-            choices: [
-              "Watching TV",
-              "Cleaning dayroom tables",
-              "Leading group activity",
-              "Reading a book",
-            ],
-            answer: 1,
-            rationale:
-              "The client with mania is very active & needs to have this energy channeled in a constructive task such as cleaning or tidying the room.",
-          },
-          {
-            id: "q9",
-            question:
-              "When assessing a male client for suicidal risk, which of the following methods of suicide would the nurse identify as most lethal?",
-            choices: ["Wrist cutting", "Head banging", "Use of gun", "Aspirin overdose"],
-            answer: 2,
-            rationale:
-              "A crucial factor is determining the lethality of a method is the amount of time that occurs between initiating the method & the delivery of the lethal impact of the method.",
-          },
-          {
-            id: "q10",
-            question:
-              "Jun has been hospitalized for major depression and suicidal ideation. Which of the following statements indicates to the nurse that the client is improving?",
-            choices: [
-              "“I’m of no use to anyone anymore.”",
-              "“I know my kids don’t need me anymore since they’re grown.”",
-              "“I couldn’t kill myself because I don’t want to go to hell.”",
-              "“I don’t think about killing myself as much as I used to.”",
-            ],
-            answer: 3,
-            rationale:
-              "The statement “I don’t think about killing myself as much as I used to.” Indicates a lessening of suicidal ideation and improvement in the client’s condition.",
-          },
-          {
-            id: "q11",
-            question:
-              "Which of the following activities would Nurse Trish recommend to the client who becomes very anxious when thoughts of suicide occur?",
-            choices: ["Using exercise bicycle", "Meditating", "Watching TV", "Reading comics"],
-            answer: 0,
-            rationale:
-              "Using exercise bicycle is appropriate for the client who becomes very anxious when thoughts of suicidal occur.",
-          },
-          {
-            id: "q12",
-            question:
-              "When developing the plan of care for a client receiving haloperidol, which of the following medications would nurse Monet anticipate administering if the client developed extra pyramidal side effects?",
-            choices: [
-              "Olanzapine (Zyprexa)",
-              "Paroxetine (Paxil)",
-              "Benztropine mesylate (Cogentin)",
-              "Lorazepam (Ativan) 505",
-            ],
-            answer: 2,
-            rationale:
-              "The drug of choice for a client experiencing extra pyramidal side effects from haloperidol 509 510 clearly indicates that the product does not contain alcohol.",
-          },
-          {
-            id: "q13",
-            question:
-              "Which of the following assessment would provide the best information about the client’s physiologic response and the effectiveness of the medication prescribed specifically for alcohol withdrawal?",
-            choices: ["Sleeping pattern", "Mental alertness", "Nutritional status", "Vital signs"],
-            answer: 3,
-            rationale:
-              "Monitoring of vital signs provides the best information about the client’s overall physiologic status during alcohol withdrawal & the physiologic response to the medication used.",
-          },
-          {
-            id: "q14",
-            question:
-              "After administering naloxone (Narcan), an opioid antagonist, Nurse Ronald should monitor the female client carefully for which of the following?",
-            choices: ["Respiratory depression", "Epilepsy", "Kidney failure", "Cerebral edema"],
-            answer: 0,
-            rationale:
-              "After administering naloxone (Narcan) the nurse should monitor the client’s respiratory status carefully, because the drug is short acting & respiratory depression may recur after its effects wear off.",
-          },
-          {
-            id: "q15",
-            question:
-              "Which of the following would nurse Ronald use as the best measure to determine a client’s progress in rehabilitation?",
-            choices: [
-              "The way he gets along with his parents",
-              "The number of drug-free days he has",
-              "The kinds of friends he makes",
-              "The amount of responsibility his job entails",
-            ],
-            answer: 1,
-            rationale:
-              "The best measure to determine a client’s progress in rehabilitation is the number of drugfree days he has. The longer the client is free of drugs, the better the prognosis is.",
-          },
-          {
-            id: "q16",
-            question:
-              "A female client is brought by ambulance to the hospital emergency room after taking an overdose 505 506 of barbiturates is comatose. Nurse Trish would be especially alert for which of the following?",
-            choices: ["Epilepsy", "Myocardial Infarction", "Renal failure", "Respiratory failure"],
-            answer: 3,
-            rationale:
-              "Barbiturates are CNS depressants; the nurse would be especially alert for the possibility of respiratory failure. Respiratory failure is the most likely cause of death from barbiturate over dose.",
-          },
-          {
-            id: "q17",
-            question:
-              "Joey who has a chronic user of cocaine reports that he feels like he has cockroaches crawling under his skin. His arms are red because of scratching. The nurse in charge interprets these findings as possibly indicating which of the following?",
-            choices: ["Delusion", "Formication", "Flash back", "Confusion"],
-            answer: 1,
-            rationale:
-              "The feeling of bugs crawling under the skin is termed as formication, and is associated with cocaine use.",
-          },
-          {
-            id: "q18",
-            question:
-              "Jose is diagnosed with amphetamine psychosis and was admitted in the emergency room. Nurse Ronald would most likely prepare to administer which of the following medication?",
-            choices: ["Librium", "Valium", "Ativan", "Haldol"],
-            answer: 3,
-            rationale:
-              "The nurse would prepare to administer an antipsychotic medication such as Haldol to a client experiencing amphetamine psychosis to decrease agitation & psychotic symptoms, including delusions, hallucinations & cognitive impairment.",
-          },
-          {
-            id: "q19",
-            question:
-              "Which of the following liquids would nurse Leng administer to a female client who is intoxicated with phencyclidine (PCP) to hasten excretion of the chemical?",
-            choices: ["Shake", "Tea", "Cranberry Juice", "Grape juice"],
-            answer: 2,
-            rationale:
-              "An acid environment aids in the excretion of PCP. The nurse will definitely give the client with PCP intoxication cranberry juice to acidify the urine to a ph of 5.5 & accelerate excretion.",
-          },
-          {
-            id: "q20",
-            question:
-              "When developing a plan of care for a female client with acute stress disorder who lost her sister in a car accident. Which of the following would the nurse expect to initiate?",
-            choices: [
-              "Facilitating progressive review of the accident and its consequences",
-              "Postponing discussion of the accident until the client brings it up",
-              "Telling the client to avoid details of the accident",
-              "Helping the client to evaluate her sister’s behavior",
-            ],
-            answer: 0,
-            rationale:
-              "The nurse would facilitate progressive review of the accident and its consequence to help the client integrate feelings & memories and to begin the grieving process.",
-          },
-          {
-            id: "q21",
-            question:
-              "The nursing assistant tells nurse Ronald that the client is not in the dining room for lunch. Nurse Ronald would direct the nursing assistant to do which of the following?",
-            choices: [
-              "Tell the client he’ll need to wait until supper to eat if he misses lunch",
-              "Invite the client to lunch and accompany him to the dining room",
-              "Inform the client that he has 10 minutes to get to the dining room for lunch 506",
-              "Take the client a lunch tray and let the client eat in his room",
-            ],
-            answer: 1,
-            rationale:
-              "The nurse instructs the nursing assistant to invite the client to lunch & accompany him to the dinning room to decrease manipulation, secondary gain, dependency and reinforcement of negative behavior while maintaining the client’s worth.",
-          },
-          {
-            id: "q22",
-            question:
-              "The initial nursing intervention for the significantothers during shock phase of a grief reaction should be focused on:",
-            choices: [
-              "Presenting full reality of the loss of the individuals",
-              "Directing the individual’s activities at this time",
-              "Staying with the individuals involved",
-              "Mobilizing the individual’s support system",
-            ],
-            answer: 2,
-            rationale:
-              "This provides support until the individuals coping mechanisms and personal support systems can be immobilized.",
-          },
-          {
-            id: "q23",
-            question:
-              "Joy’s stream of consciousness is occupied exclusively with thoughts of her father’s death. Nurse Ronald should plan to help Joy through this stage of grieving, which is known as:",
-            choices: [
-              "Shock and disbelief",
-              "Developing awareness",
-              "Resolving the loss",
-              "Restitution",
-            ],
-            answer: 2,
-            rationale:
-              "Resolving a loss is a slow, painful, continuous process until a mental image of the dead person, almost devoid of negative or undesirable features emerges.",
-          },
-          {
-            id: "q24",
-            question:
-              "When taking a health history from a female client who has a moderate level of cognitive impairment due to dementia, the nurse would expect to note the presence of:",
-            choices: [
-              "Accentuated premorbid traits",
-              "Enhance intelligence",
-              "Increased inhibitions",
-              "Hyper vigilance",
-            ],
-            answer: 0,
-            rationale:
-              "A moderate level of cognitive impairment due to dementia is characterized by increasing 510 dependence on environment & social structure and by increasing psychologic rigidity with accentuated previous traits & behaviors.",
-          },
-          {
-            id: "q25",
-            question: "What is the priority care for a client with a dementia resulting from AIDS?",
-            choices: [
-              "Planning for remotivational therapy",
-              "Arranging for long term custodial care",
-              "Providing basic intellectual stimulation",
-              "Assessing pain frequently",
-            ],
-            answer: 2,
-            rationale:
-              "This action maintains for as long as possible, the clients intellectual functions by providing an opportunity to use them.",
-          },
-          {
-            id: "q26",
-            question:
-              "Jerome who has eating disorder often exhibits similar symptoms. Nurse Lhey would expect an adolescent client with anorexia to exhibit:",
-            choices: [
-              "Affective instability",
-              "Dishered, unkempt physical appearance",
-              "Depersonalization and derealization",
-              "Repetitive motor mechanisms",
-            ],
-            answer: 0,
-            rationale:
-              "Individuals with anorexia often display irritability, hospitality, and a depressed mood.",
-          },
-          {
-            id: "q27",
-            question:
-              "The primary nursing diagnosis for a female client with a medical diagnosis of major depression would be:",
-            choices: [
-              "Situational low self-esteem related to altered role",
-              "Powerlessness related to the loss of idealized self",
-              "Spiritual distress related to depression",
-              "Impaired verbal communication related to depression",
-            ],
-            answer: 3,
-            rationale:
-              "Depressed clients demonstrate decreased communication because of lack of psychic or physical energy.",
-          },
-          {
-            id: "q28",
-            question:
-              "When developing an initial nursing care plan for a male client with a Bipolar I disorder (manic episode) nurse Ron should plan to? 507",
-            choices: [
-              "Isolate his gym time",
-              "Encourage his active participation in unit programs",
-              "Provide foods, fluids and rest",
-              "Encourage his participation in programs",
-            ],
-            answer: 2,
-            rationale:
-              "The client in a manic episode of the illness often neglects basic needs, these needs are a priority to ensure adequate nutrition, fluid, and rest.",
-          },
-          {
-            id: "q29",
-            question:
-              "Grace is exhibiting withdrawn patterns of behavior. Nurse Johnny is aware that this type of behavior eventually produces feeling of:",
-            choices: ["Repression", "Loneliness", "Anger", "Paranoia"],
-            answer: 1,
-            rationale:
-              "The withdrawn pattern of behavior presents the individual from reaching out to others for sharing the isolation produces feeling of loneliness.",
-          },
-          {
-            id: "q30",
-            question:
-              "One morning a female client on the inpatient psychiatric service complains to nurse Hazel that she has been waiting for over an hour for someone to accompany her to activities. Nurse Hazel replies to the client “We’re doing the best we can. There are a lot of other people on the unit who needs attention too.” This statement shows that the nurse’s use of:",
-            choices: [
-              "Defensive behavior",
-              "Reality reinforcement",
-              "Limit-setting behavior",
-              "Impulse control",
-            ],
-            answer: 0,
-            rationale:
-              "The nurse’s response is not therapeutic because it does not recognize the client’s needs but tries to make the client feel guilty for being demanding.",
-          },
-          {
-            id: "q31",
-            question:
-              "A 25 year old male is admitted to a mental health facility because of inappropriate behavior. The client has been hearing voices, responding to imaginary companions and withdrawing to his room for several days at a time. Nurse Monette understands that the withdrawal is a defense against the client’s fear of:",
-            choices: ["Phobia", "Powerlessness", "Punishment", "Rejection"],
-            answer: 3,
-            rationale:
-              "An aloof, detached, withdrawn posture is a means of protecting the self by withdrawing and maintaining a safe, emotional distance.",
-          },
-          {
-            id: "q32",
-            question:
-              "When asking the parents about the onset of problems in young client with the diagnosis of schizophrenia, Nurse Linda would expect that they would relate the client’s difficulties began in:",
-            choices: ["Early childhood", "Late childhood", "Adolescence", "Puberty"],
-            answer: 2,
-            rationale: "The usual age of onset of schizophrenia is adolescence or early childhood.",
-          },
-          {
-            id: "q33",
-            question:
-              "Jose who has been hospitalized with schizophrenia tells Nurse Ron, “My heart has stopped and my veins have turned to glass!” Nurse Ron is aware that this is an example of:",
-            choices: ["Somatic delusions", "Depersonalization", "Hypochondriasis", "Echolalia"],
-            answer: 0,
-            rationale: "Somatic delusion is a fixed false belief about one’s body.",
-          },
-          {
-            id: "q34",
-            question:
-              "In recognizing common behaviors exhibited by male client who has a diagnosis of schizophrenia, nurse Josie can anticipate:",
-            choices: [
-              "Slumped posture, pessimistic out look and flight of ideas",
-              "Grandiosity, arrogance and distractibility",
-              "Withdrawal, regressed behavior and lack of social skills",
-              "Disorientation, forgetfulness and anxiety",
-            ],
-            answer: 2,
-            rationale:
-              "These are the classic behaviors exhibited by clients with a diagnosis of schizophrenia.",
-          },
-          {
-            id: "q35",
-            question:
-              "One morning, nurse Diane finds a disturbed client curled up in the fetal position in the corner of the dayroom. The most accurate initial evaluation of the behavior would be that the client is:",
-            choices: [
-              "Physically ill and experiencing abdominal discomfort",
-              "Tired and probably did not sleep well last night",
-              "Attempting to hide from the nurse",
-              "Feeling more anxious today",
-            ],
-            answer: 3,
-            rationale:
-              "The fetal position represents regressed behavior. Regression is a way of responding to overwhelming anxiety.",
-          },
-          {
-            id: "q36",
-            question:
-              "Nurse John recognizes that paranoid delusions usually are related to the defense mechanism of:",
-            choices: ["Projection", "Identification", "Repression", "Regression"],
-            answer: 0,
-            rationale:
-              "Projection is a mechanism in which inner thoughts and feelings are projected onto the environment, seeming to come from outside the self rather than from within.",
-          },
-          {
-            id: "q37",
-            question:
-              "When planning care for a male client using paranoid ideation, nurse Jasmin should realize the importance of:",
-            choices: [
-              "Giving the client difficult tasks to provide stimulation 507 508",
-              "Providing the client with activities in which success can be achieved",
-              "Removing stress so that the client can relax",
-              "Not placing any demands on the client",
-            ],
-            answer: 1,
-            rationale:
-              "This will help the client develop self-esteem and reduce the use of paranoid ideation.",
-          },
-          {
-            id: "q38",
-            question:
-              "Nurse Gerry is aware that the defense mechanism commonly used by clients who are alcoholics is:",
-            choices: ["Displacement", "Denial", "Projection", "Compensation"],
-            answer: 1,
-            rationale:
-              "Denial is a method of resolving conflict or escaping unpleasant realities by ignoring their existence. 511",
-          },
-          {
-            id: "q39",
-            question:
-              "Within a few hours of alcohol withdrawal, nurse John should assess the male client for the presence of:",
-            choices: [
-              "Disorientation, paranoia, tachycardia",
-              "Tremors, fever, profuse diaphoresis",
-              "Irritability, heightened alertness, jerky movements",
-              "Yawning, anxiety, convulsions 508 509 (Haldol) is benztropine mesylate (cogentin) because of its anti cholinergic properties.",
-            ],
-            answer: 2,
-            rationale:
-              "Alcohol is a central nervous system depressant. These symptoms are the body’s neurologic adaptation to the withdrawal of alcohol. 511 512",
-          },
-        ],
-      },
-      {
-        id: "psych-psychiatric-nursing-part-3",
-        title: "PSYCHIATRIC NURSING Part 3",
-        description: "50 questions from the PNLE reviewer.",
-        questions: [
-          {
-            id: "q1",
-            question:
-              "Francis who is addicted to cocaine withdraws from the drug. Nurse Ron should expect to observe:",
-            choices: ["Hyperactivity", "Depression", "Suspicion", "Delirium"],
-            answer: 1,
-            rationale:
-              "There is no set of symptoms associated with cocaine withdrawal, only the depression that follows the high caused by the drug.",
-          },
-          {
-            id: "q2",
-            question: "Nurse John is aware that a serious effect of inhaling cocaine is?",
-            choices: [
-              "Deterioration of nasal septum",
-              "Acute fluid and electrolyte imbalances",
-              "Extra pyramidal tract symptoms",
-              "Esophageal varices",
-            ],
-            answer: 0,
-            rationale:
-              "Cocaine is a chemical that when inhaled, causes destruction of the mucous membranes of the nose.",
-          },
-          {
-            id: "q3",
-            question:
-              "A tentative diagnosis of opiate addiction, Nurse Candy should assess a recently hospitalized client for signs of opiate withdrawal. These signs would include:",
-            choices: [
-              "Rhinorrhea, convulsions, subnormal temperature",
-              "Nausea, dilated pupils, constipation",
-              "Lacrimation, vomiting, drowsiness",
-              "Muscle aches, papillary constriction, yawning",
-            ],
-            answer: 3,
-            rationale:
-              "These adaptations are associated with opiate withdrawal which occurs after cessation or reduction of prolonged moderate or heavy use of opiates.",
-          },
-          {
-            id: "q4",
-            question:
-              "A 48 year old male client is brought to the psychiatric emergency room after attempting to jump off a bridge. The client’s wife states that he lost his job several months ago and has been unable to find another job. The primary nursing intervention at this time would be to assess for:",
-            choices: [
-              "A past history of depression",
-              "Current plans to commit suicide",
-              "The presence of marital difficulties",
-              "Feelings of excessive failure",
-            ],
-            answer: 1,
-            rationale:
-              "Whether there is a suicide plan is a criterion when assessing the client’s determination to make another attempt.",
-          },
-          {
-            id: "q5",
-            question:
-              "Before helping a male client who has been sexually assaulted, nurse Maureen should recognize that the rapist is motivated by feelings of:",
-            choices: ["Hostility", "Inadequacy", "Incompetence", "Passion"],
-            answer: 0,
-            rationale:
-              "Rapists are believed to harbor and act out hostile feelings toward all women through the act of rape.",
-          },
-          {
-            id: "q6",
-            question:
-              "When working with children who have been sexually abused by a family member it is important for the nurse to understand that these victims usually are overwhelmed with feelings of:",
-            choices: ["Humiliation", "Confusion", "Self blame", "Hatred"],
-            answer: 2,
-            rationale:
-              "These children often have nonsexual needs met by individual and are powerless to refuse. Ambivalence results in self-blame and also guilt.",
-          },
-          {
-            id: "q7",
-            question:
-              "Joy who has just experienced her second spontaneous abortion expresses anger towards her physician, the hospital and the “rotten nursing care”. When assessing the situation, the nurse recognizes that the client may be using the coping mechanism of: 512",
-            choices: ["Projection", "Displacement", "Denial", "Reaction formation"],
-            answer: 1,
-            rationale:
-              "The client’s anger over the abortion is shifted to the staff and the hospital because she is unable to deal with the abortion at this time.",
-          },
-          {
-            id: "q8",
-            question:
-              "The most critical factor for nurse Linda to determine during crisis intervention would be the client’s:",
-            choices: [
-              "Available situational supports",
-              "Willingness to restructure the personality",
-              "Developmental theory",
-              "Underlying unconscious conflict",
-            ],
-            answer: 0,
-            rationale:
-              "Personal internal strength and supportive individuals are critical factors that can be employed to assist the individual to cope with a crisis.",
-          },
-          {
-            id: "q9",
-            question:
-              "Nurse Trish suggests a crisis intervention group to a client experiencing a developmental crisis. These groups are successful because the:",
-            choices: [
-              "Crisis intervention worker is a psychologist and understands behavior patterns",
-              "Crisis group supplies a workable solution to the client’s problem",
-              "Client is encouraged to talk about personal problems",
-              "Client is assisted to investigate alternative approaches to solving the identified problem",
-            ],
-            answer: 3,
-            rationale:
-              "Crisis intervention group helps client reestablish psychologic equilibrium by assisting them to explore new alternatives for coping. It considers realistic situations using rational and flexible problem solving methods.",
-          },
-          {
-            id: "q10",
-            question:
-              "Nurse Ronald could evaluate that the staff’s approach to setting limits for a demanding, angry client was effective if the client:",
-            choices: [
-              "Apologizes for disrupting the unit’s routine when something is needed",
-              "Understands the reason why frequent calls to the staff were made",
-              "Discuss concerns regarding the emotional condition that required hospitalizations",
-              "No longer calls the nursing staff for assistance",
-            ],
-            answer: 2,
-            rationale:
-              "This would document that the client feels comfortable enough to discuss the problems that have motivated the behavior.",
-          },
-          {
-            id: "q11",
-            question:
-              "Nurse John is aware that the therapy that has the highest success rate for people with phobias would be:",
-            choices: [
-              "Psychotherapy aimed at rearranging maladaptive thought process",
-              "Psychoanalytical exploration of repressed conflicts of an earlier development phase",
-              "Systematic desensitization using relaxation technique",
-              "Insight therapy to determine the origin of the anxiety and fear",
-            ],
-            answer: 2,
-            rationale:
-              "The most successful therapy for people with phobias involves behavior modification techniques using desensitization.",
-          },
-          {
-            id: "q12",
-            question:
-              "When nurse Hazel considers a client’s placement on the continuum of anxiety, a key in determining the degree of anxiety being experienced is the client’s:",
-            choices: ["Perceptual field", "Delusional system", "Memory state", "Creativity level"],
-            answer: 0,
-            rationale:
-              "Perceptual field is a key indicator of anxiety level because the perceptual fields narrow as anxiety increases.",
-          },
-          {
-            id: "q13",
-            question:
-              "In the diagnosis of a possible pervasive developmental autistic disorder. The nurse would 513 find it most unusual for a 3 year old child to demonstrate:",
-            choices: [
-              "An interest in music",
-              "An attachment to odd objects",
-              "Ritualistic behavior",
-              "Responsiveness to the parents",
-            ],
-            answer: 3,
-            rationale:
-              "One of the symptoms of autistic child displays a lack of responsiveness to others. There is little or no extension to the external environment.",
-          },
-          {
-            id: "q14",
-            question:
-              "Malou with schizophrenia tells Nurse Melinda, “My intestines are rotted from worms chewing on them.” This statement indicates a:",
-            choices: [
-              "Jealous delusion",
-              "Somatic delusion",
-              "Delusion of grandeur",
-              "Delusion of persecution",
-            ],
-            answer: 1,
-            rationale:
-              "Somatic delusions focus on bodily functions or systems and commonly include delusion about foul odor emissions, insect manifestations, internal parasites and misshapen parts.",
-          },
-          {
-            id: "q15",
-            question:
-              "Andy is admitted to the psychiatric unit with a diagnosis of borderline personality disorder. Nurse Hilary should expects the assessment to reveal:",
-            choices: [
-              "Coldness, detachment and lack of tender feelings",
-              "Somatic symptoms",
-              "Inability to function as responsible parent",
-              "Unpredictable behavior and intense interpersonal relationships",
-            ],
-            answer: 3,
-            rationale:
-              "A client with borderline personality displays a pervasive pattern of unpredictable behavior, mood and self image. Interpersonal relationships may be intense and unstable and behavior may be inappropriate and impulsive. 516",
-          },
-          {
-            id: "q16",
-            question:
-              "PROPRANOLOL (Inderal) is used in the mental health setting to manage which of the following conditions?",
-            choices: [
-              "Antipsychotic – induced akathisia and anxiety",
-              "Obsessive – compulsive disorder (OCD) to reduce ritualistic behavior",
-              "Delusions for clients suffering from schizophrenia",
-              "The manic phase of bipolar illness as a mood stabilizer",
-            ],
-            answer: 0,
-            rationale:
-              "Propranolol is a potent beta adrenergic blocker and producing a sedating effect, therefore it is used to treat antipsychotic induced akathisia and anxiety.",
-          },
-          {
-            id: "q17",
-            question:
-              "Which medication can control the extra pyramidal effects associated with antipsychotic agents?",
-            choices: [
-              "Clorazepate (Tranxene)",
-              "Amantadine (Symmetrel)",
-              "Doxepin (Sinequan)",
-              "Perphenazine (Trilafon)",
-            ],
-            answer: 1,
-            rationale:
-              "Amantadine is an anticholinergic drug used to relive drug-induced extra pyramidal adverse effects such as muscle weakness, involuntary muscle movements, pseudoparkinsonism and tar dive dyskinesia.",
-          },
-          {
-            id: "q18",
-            question:
-              "Which of the following statements should be included when teaching clients about monoamine oxidase inhibitor (MAOI) antidepressants?",
-            choices: [
-              "Don’t take aspirin or nonsteroidal antiinflammatory drugs (NSAIDs)",
-              "Have blood levels screened weekly for leucopenia",
-              "Avoid strenuous activity because of the cardiac effects of the drug",
-              "Don’t take prescribed or over the counter medications without consulting the physician",
-            ],
-            answer: 2,
-            rationale:
-              "MAOI antidepressants when combined with a number of drugs can cause life-threatening hypertensive crisis. It’s imperative that a client checks with his physician and pharmacist before taking any other medications.",
-          },
-          {
-            id: "q19",
-            question:
-              "Kris periodically has acute panic attacks. These attacks are unpredictable and have no apparent association with a specific object or situation. During an acute panic attack, Kris may experience:",
-            choices: [
-              "Heightened concentration",
-              "Decreased perceptual field",
-              "Decreased cardiac rate",
-              "Decreased respiratory rate",
-            ],
-            answer: 1,
-            rationale:
-              "Panic is the most severe level of anxiety. During panic attack, the client experiences a decrease in the perceptual field, becoming more focused on self, less aware of surroundings and unable to process information from the environment. The decreased perceptual field contributes to impaired attention and inability to concentrate.",
-          },
-          {
-            id: "q20",
-            question:
-              "Initial interventions for Marco with acute anxiety include all except which of the following?",
-            choices: [
-              "Touching the client in an attempt to comfort him",
-              "Approaching the client in calm, confident manner",
-              "Encouraging the client to verbalize feelings and concerns",
-              "Providing the client with a safe, quiet and private place",
-            ],
-            answer: 0,
-            rationale:
-              "The emergency nurse must establish rapport and trust with the anxious client before using therapeutic touch. Touching an anxious client may actually increase anxiety.",
-          },
-          {
-            id: "q21",
-            question:
-              "Nurse Jessie is assessing a client suffering from stress and anxiety. A common physiological response to stress and anxiety is:",
-            choices: ["Uticaria", "Vertigo", "Sedation", "Diarrhea"],
-            answer: 3,
-            rationale: "Diarrhea is a common physiological response to stress and anxiety.",
-          },
-          {
-            id: "q22",
-            question:
-              "When performing a physical examination on a female anxious client, nurse Nelli would expect to find which of the following effects produced by the parasympathetic system?",
-            choices: [
-              "Muscle tension",
-              "Hyperactive bowel sounds",
-              "Decreased urine output",
-              "Constipation",
-            ],
-            answer: 1,
-            rationale:
-              "The parasympathetic nervous system would produce incomplete G.I. motility resulting in hyperactive bowel sounds, possibly leading to diarrhea.",
-          },
-          {
-            id: "q23",
-            question:
-              "Which of the following drugs have been known to be effective in treating obsessive-compulsive disorder (OCD)?",
-            choices: [
-              "Divalproex (depakote) and Lithium (lithobid)",
-              "Chlordiazepoxide (Librium) and diazepam (valium)",
-              "Fluvoxamine (Luvox) and clomipramine (anafranil)",
-              "Benztropine (Cogentin) and diphenhydramine (benadryl)",
-            ],
-            answer: 2,
-            rationale:
-              "The antidepressants fluvoxamine and clomipramine have been effective in the treatment of OCD.",
-          },
-          {
-            id: "q24",
-            question:
-              "Tony with agoraphobia has been symptom-free for 4 months. Classic signs and symptoms of phobia include:",
-            choices: [
-              "Severe anxiety and fear",
-              "Withdrawal and failure to distinguish reality from fantasy",
-              "Depression and weight loss",
-              "Insomnia and inability to concentrate",
-            ],
-            answer: 0,
-            rationale:
-              "Phobias cause severe anxiety (such as panic attack) that is out of proportion to the threat of the feared object or situation. Physical signs and symptoms of phobias include profuse sweating, poor motor control, tachycardia and elevated B.P.",
-          },
-          {
-            id: "q25",
-            question:
-              "Which nursing action is most appropriate when trying to diffuse a client’s impending violent behavior?",
-            choices: [
-              "Place the client in seclusion",
-              "Leaving the client alone until he can talk about his feelings",
-              "Involving the client in a quiet activity to divert attention",
-              "Helping the client identify and express feelings of anxiety and anger 513 514",
-            ],
-            answer: 3,
-            rationale:
-              "In many instances, the nurse can diffuse impending violence by helping the client identify and express feelings of anger and anxiety. Such statement as “What happened to get you this angry?” may help the client verbalizes feelings rather than act on them.",
-          },
-          {
-            id: "q26",
-            question:
-              "Rosana is in the second stage of Alzheimer’s disease who appears to be in pain. Which question by Nurse Jenny would best elicit information about the pain?",
-            choices: [
-              "“Where is your pain located?”",
-              "“Do you hurt? (pause) “Do you hurt?”",
-              "“Can you describe your pain?”",
-              "“Where do you hurt?”",
-            ],
-            answer: 1,
-            rationale:
-              "When speaking to a client with Alzheimer’s disease, the nurse should use close-ended questions. Those that the client can answer with “yes” or “no” whenever possible and avoid questions that require the client to make choices. Repeating the question aids comprehension.",
-          },
-          {
-            id: "q27",
-            question:
-              "Nursing preparation for a client undergoing electroconvulsive therapy (ECT) resemble those used for:",
-            choices: [
-              "General anesthesia",
-              "Cardiac stress testing",
-              "Neurologic examination",
-              "Physical therapy",
-            ],
-            answer: 0,
-            rationale:
-              "The nurse should prepare a client for ECT in a manner similar to that for general anesthesia. 517",
-          },
-          {
-            id: "q28",
-            question:
-              "Jose who is receiving monoamine oxidase inhibitor antidepressant should avoid tyramine, a compound found in which of the following foods?",
-            choices: [
-              "Figs and cream cheese",
-              "Fruits and yellow vegetables",
-              "Aged cheese and Chianti wine",
-              "Green leafy vegetables",
-            ],
-            answer: 2,
-            rationale: "Aged cheese and Chianti wine contain high concentrations of tyramine.",
-          },
-          {
-            id: "q29",
-            question:
-              "Erlinda, age 85, with major depression undergoes a sixth electroconvulsive therapy (ECT) treatment. When assessing the client immediately after ECT, the nurse expects to find:",
-            choices: [
-              "Permanent short-term memory loss and hypertension",
-              "Permanent long-term memory loss and hypomania",
-              "Transitory short-term memory loss and permanent long-term memory loss",
-              "Transitory short and long term memory loss and confusion",
-            ],
-            answer: 3,
-            rationale:
-              "ECT commonly causes transitory short and long term memory loss and confusion, especially in geriatric clients. It rarely results in permanent short and long term memory loss.",
-          },
-          {
-            id: "q30",
-            question:
-              "Barbara with bipolar disorder is being treated with lithium for the first time. Nurse Clint should observe the client for which common adverse effect of lithium?",
-            choices: ["Polyuria", "Seizures", "Constipation", "Sexual dysfunction"],
-            answer: 0,
-            rationale:
-              "Polyuria commonly occurs early in the treatment with lithium and could result in fluid volume deficit.",
-          },
-          {
-            id: "q31",
-            question:
-              "Nurse Fred is assessing a client who has just been admitted to the ER department. Which signs would suggest an overdose of an antianxiety agent?",
-            choices: [
-              "Suspiciousness, dilated pupils and incomplete BP",
-              "Agitation, hyperactivity and grandiose ideation",
-              "Combativeness, sweating and confusion",
-              "Emotional lability, euphoria and impaired memory",
-            ],
-            answer: 3,
-            rationale:
-              "Signs of anxiety agent overdose include emotional lability, euphoria and impaired memory.",
-          },
-          {
-            id: "q32",
-            question:
-              "Discharge instructions for a male client receiving tricyclic antidepressants include which of the following information?",
-            choices: [
-              "Restrict fluids and sodium intake 514",
-              "Don’t consume alcohol",
-              "Discontinue if dry mouth and blurred vision occur",
-              "Restrict fluid and sodium intake",
-            ],
-            answer: 1,
-            rationale:
-              "Drinking alcohol can potentiate the sedating action of tricyclic antidepressants. Dry mouth and blurred vision are normal adverse effects of tricyclic antidepressants.",
-          },
-          {
-            id: "q33",
-            question:
-              "Important teaching for women in their childbearing years who are receiving antipsychotic medications includes which of the following?",
-            choices: [
-              "Increased incidence of dysmenorrhea while taking the drug",
-              "Occurrence of incomplete libido due to medication adverse effects",
-              "Continuing previous use of contraception during periods of amenorrhea",
-              "Instruction that amenorrhea is irreversible",
-            ],
-            answer: 2,
-            rationale:
-              "Women may experience amenorrhea, which is reversible, while taking antipsychotics. Amenorrhea doesn’t indicate cessation of ovulation thus, the client can still be pregnant.",
-          },
-          {
-            id: "q34",
-            question:
-              "A client refuses to remain on psychotropic medications after discharge from an inpatient psychiatric unit. Which information should the community health nurse assess first during the initial follow-up with this client?",
-            choices: [
-              "Income level and living arrangements",
-              "Involvement of family and support systems",
-              "Reason for inpatient admission",
-              "Reason for refusal to take medications",
-            ],
-            answer: 3,
-            rationale:
-              "The first are for assessment would be the client’s reason for refusing medication. The client may not understand the purpose for the medication, may be experiencing distressing side effects, or may be concerned about the cost of medicine. In any case, the nurse cannot provide appropriate intervention before assessing the client’s problem with the medication. The patient’s income level, living arrangements, and involvement of family and support systems are relevant issues following determination of the client’s reason for refusing medication. The nurse providing follow-up care would have access to the client’s medical record and should already know the reason for inpatient admission.",
-          },
-          {
-            id: "q35",
-            question:
-              "The nurse understands that the therapeutic effects of typical antipsychotic medications are associated with which neurotransmitter change?",
-            choices: [
-              "Decreased dopamine level",
-              "Increased acetylcholine level",
-              "Stabilization of serotonin",
-              "Stimulation of GABA",
-            ],
-            answer: 0,
-            rationale:
-              "Excess dopamine is thought to be the chemical cause for psychotic thinking. The typical antipsychotics act to block dopamine receptors and therefore decrease the amount of neurotransmitter at the synapses. The typical antipsychotics do not increase acetylcholine, stabilize serotonin, stimulate GABA.",
-          },
-          {
-            id: "q36",
-            question:
-              "Which of the following best explains why tricyclic antidepressants are used with caution in elderly patients?",
-            choices: [
-              "Central Nervous System effects",
-              "Cardiovascular system effects",
-              "Gastrointestinal system effects",
-              "Serotonin syndrome effects",
-            ],
-            answer: 1,
-            rationale:
-              "The TCAs affect norepinephrine as well as other neurotransmitters, and thus have significant cardiovascular side effects. Therefore, they are used with caution in elderly clients who may have increased risk factors for cardiac problems because of their age and other medical conditions. The remaining side effects would apply to any client taking a TCA and are not particular to an elderly person.",
-          },
-          {
-            id: "q37",
-            question:
-              "A client with depressive symptoms is given prescribed medications and talks with his therapist about his belief that he is worthless and unable to cope with life. Psychiatric care in this treatment plan is based on which framework?",
-            choices: [
-              "Behavioral framework",
-              "Cognitive framework",
-              "Interpersonal framework",
-              "Psychodynamic framework",
-            ],
-            answer: 1,
-            rationale:
-              "Cognitive thinking therapy focuses on the client’s misperceptions about self, others and the world that impact functioning and contribute to symptoms. Using medications to alter neurotransmitter activity is a psychobiologic approach to treatment. The other answer choices are frameworks for care, but hey are not applicable to this situation.",
-          },
-          {
-            id: "q38",
-            question:
-              "A nurse who explains that a client’s psychotic behavior is unconsciously motivated understands that the client’s disordered behavior arises from which of the following?",
-            choices: [
-              "Abnormal thinking",
-              "Altered neurotransmitters",
-              "Internal needs 515",
-              "Response to stimuli",
-            ],
-            answer: 2,
-            rationale:
-              "The concept that behavior is motivated and has meaning comes from the psychodynamic framework. According to this perspective, behavior arises from internal wishes or needs. Much of what motivates behavior comes from the unconscious. The remaining responses do not address the internal forces thought to motivate behavior.",
-          },
-          {
-            id: "q39",
-            question:
-              "A client with depression has been hospitalized for treatment after taking a leave of absence from work. The client’s employer expects the client to return to work following inpatient treatment. The client tells the nurse, “I’m no good. I’m a failure”. According to cognitive theory, these statements reflect:",
-            choices: [
-              "Learned behavior",
-              "Punitive superego and decreased self-esteem",
-              "Faulty thought processes that govern behavior",
-              "Evidence of difficult relationships in the work environment",
-            ],
-            answer: 2,
-            rationale:
-              "The client is demonstrating faulty thought processes that are negative and that govern his behavior in his work situation – issues that are typically examined using a cognitive theory approach. Issues involving learned behavior are best explored through behavior theory, not cognitive theory. Issues involving ego development are the focus of psychoanalytic theory. Option 4 is incorrect because there is no evidence in this situation that the client has conflictual relationships in the work environment.",
-          },
-          {
-            id: "q40",
-            question:
-              "The nurse describes a client as anxious. Which of the following statement about anxiety is true?",
-            choices: [
-              "Anxiety is usually pathological",
-              "Anxiety is directly observable",
-              "Anxiety is usually harmful",
-              "Anxiety is a response to a threat",
-            ],
-            answer: 3,
-            rationale:
-              "Anxiety is a response to a threat arising from internal or external stimuli.",
-          },
-          {
-            id: "q41",
-            question:
-              "A client with a phobic disorder is treated by systematic desensitization. The nurse understands that this approach will do which of the following?",
-            choices: [
-              "Help the client execute actions that are feared",
-              "Help the client develop insight into irrational fears",
-              "Help the client substitutes one fear for another",
-              "Help the client decrease anxiety",
-            ],
-            answer: 0,
-            rationale:
-              "Systematic desensitization is a behavioral therapy technique that helps clients with irrational fears and avoidance behavior to face the thing they fear, without experiencing anxiety. There is no attempt to promote insight with this procedure, and the client will not be taught to substitute one fear for another. Although the client’s anxiety may decrease with successful confrontation of irrational fears, the purpose of the procedure is specifically related to performing activities that typically are avoided as part of the phobic response.",
-          },
-          {
-            id: "q42",
-            question:
-              "Which client outcome would best indicate successful treatment for a client with an antisocial personality disorder?",
-            choices: [
-              "The client exhibits charming behavior when around authority figures",
-              "The client has decreased episodes of impulsive behaviors",
-              "The client makes statements of self-satisfaction",
-              "The client’s statements indicate no remorse for behaviors",
-            ],
-            answer: 1,
-            rationale:
-              "A client with antisocial personality disorder typically has frequent episodes of acting impulsively with poor ability to delay self-gratification. Therefore, decreased frequency of impulsive behaviors would be evidence of improvement. Charming behavior when around authority figures and statements indicating no remorse are examples of symptoms typical of someone with this disorder and would not indicate successful treatment. Selfsatisfaction would be viewed as a positive change if the client expresses low self-esteem; however this is not a characteristic of a client with antisocial personality disorder.",
-          },
-          {
-            id: "q43",
-            question:
-              "The nurse is caring for a client with an autoimmune disorder at a medical clinic, where alternative medicine is used as an adjunct to traditional therapies. Which information should the nurse teach the client to help foster a sense of control over his symptoms?",
-            choices: [
-              "Pathophysiology of disease process",
-              "Principles of good nutrition",
-              "Side effects of medications",
-              "Stress management techniques",
-            ],
-            answer: 3,
-            rationale:
-              "In autoimmune disorders, stress and the response to stress can exacerbate symptoms. Stress management techniques can help the client reduce the psychological response to stress, which in turn 517 518 will help reduce the physiologic stress response. This will afford the client an increased sense of control over his symptoms. The nurse can address the remaining answer choices in her teaching about the client’s disease and treatment; however, knowledge alone will not help the client to manage his stress effectively enough to control symptoms.",
-          },
-          {
-            id: "q44",
-            question:
-              "Which of the following is the most distinguishing feature of a client with an antisocial personality disorder?",
-            choices: [
-              "Attention to detail and order",
-              "Bizarre mannerisms and thoughts",
-              "Submissive and dependent behavior",
-              "Disregard for social and legal norms",
-            ],
-            answer: 3,
-            rationale:
-              "Disregard for established rules of society is the most common characteristic of a client with antisocial personality disorder. Attention to detail and order is characteristic of someone with obsessive compulsive disorder. Bizarre mannerisms and thoughts are characteristics of a client with schizoid or schizotypal disorder. Submissive and dependent behaviors are characteristic of someone with a dependent personality.",
-          },
-          {
-            id: "q45",
-            question:
-              "Which nursing diagnosis is most appropriate for a client with anorexia nervosa who expresses feelings of guilt about not meeting family expectations?",
-            choices: ["Anxiety", "Disturbed body image", "Defensive coping", "Powerlessness"],
-            answer: 3,
-            rationale:
-              "The client with anorexia typically feels powerless, with a sense of having little control over any aspect of life besides eating behavior. Often, parental expectations and standards are quite high and lead to the clients’ sense of guilt over not measuring up.",
-          },
-          {
-            id: "q46",
-            question:
-              "A nurse is evaluating therapy with the family of a client with anorexia nervosa. Which of the following would indicate that the therapy was successful?",
-            choices: [
-              "The parents reinforced increased decision making by the client",
-              "The parents clearly verbalize their expectations for the client",
-              "The client verbalizes that family meals are now enjoyable",
-              "The client tells her parents about feelings of lowself esteem",
-            ],
-            answer: 0,
-            rationale:
-              "One of the core issues concerning the family of a client with anorexia is control. The family’s acceptance of the client’s ability to make independent decisions is key to successful family intervention. Although the remaining options may occur during the process of therapy, they would not necessarily indicate a successful outcome; the central family issues of dependence and independence are not addresses on these responses.",
-          },
-          {
-            id: "q47",
-            question:
-              "A client with dysthymic disorder reports to a nurse that his life is hopeless and will never improve in the future. How can the nurse best respond using a cognitive approach?",
-            choices: [
-              "Agree with the client’s painful feelings",
-              "Challenge the accuracy of the client’s belief",
-              "Deny that the situation is hopeless",
-              "Present a cheerful attitude",
-            ],
-            answer: 1,
-            rationale:
-              "Use of cognitive techniques allows the nurse to help the client recognize that this negative beliefs may be distortions and that, by changing his thinking, he can adopt more positive beliefs that are realistic and hopeful. Agreeing with the client’s feelings and presenting a cheerful attitude are not consistent with a cognitive approach and would not be helpful in this situation. Denying the client’s feelings is belittling and may convey that the nurse does not understand the depth of the client’s distress.",
-          },
-          {
-            id: "q48",
-            question:
-              "A client with major depression has not verbalized problem areas to staff or peers since admission to a psychiatric unit. Which activity should the nurse recommend to help this client express himself?",
-            choices: [
-              "Art therapy in a small group",
-              "Basketball game with peers on the unit",
-              "Reading a self-help book on depression",
-              "Watching movie with the peer group",
-            ],
-            answer: 0,
-            rationale:
-              "Art therapy provides a nonthreatening vehicle for the expression of feelings, and use of a small group will help the client become comfortable with peers in a group setting. Basketball is a competitive game that requires energy; the client with major depression is not likely to participate in this activity. Recommending that the client read a self-help book may increase, not decrease his isolation. Watching movie with a peer group does not guarantee that interaction will occur; therefore, the client may remain isolated. 518",
-          },
-          {
-            id: "q49",
-            question:
-              "The home health psychiatric nurse visits a client with chronic schizophrenia who was recently discharged after a prolong stay in a state hospital. The client lives in a boarding home, reports no family involvement, and has little social interaction. The nurse plan to refer the client to a day treatment program in order to help him with:",
-            choices: [
-              "Managing his hallucinations",
-              "Medication teaching",
-              "Social skills training",
-              "Vocational training",
-            ],
-            answer: 2,
-            rationale:
-              "Day treatment programs provide clients with chronic, persistent mental illness training in social skills, such as meeting and greeting people, asking questions or directions, placing an order in a restaurant, taking turns in a group setting activity. Although management of hallucinations and medication teaching may also be part of the program offered in a day treatment, the nurse is referring the client in this situation because of his need for socialization skills. Vocational training generally takes place in a rehabilitation facility; the client described in this situation would not be a candidate for this service.",
-          },
-          {
-            id: "q50",
-            question: "Which activity would be most appropriate for a severely withdrawn client?",
-            choices: [
-              "Art activity with a staff member",
-              "Board game with a small group of clients",
-              "Team sport in the gym",
-              "Watching TV in the dayroom 515 516",
-            ],
-            answer: 0,
-            rationale:
-              "The best approach with a withdrawn client is to initiate brief, nondemanding activities on a one-toone basis. This approach gives the nurse an opportunity to establish a trusting relationship with the client. A board game with a group clients or playing a team sport in the gym may overwhelm a severely withdrawn client. Watching TV is a solitary activity that will reinforce the client’s withdrawal from others. 519 in both government and private hospitals D. Income tax which paid every March 15 and professional tax which is paid every January 31.",
+              "In an emergency, life-saving facts are obtained first; the name and amount of medication ingested are of utmost importance in treating this potentially life-threatening situation.",
           },
         ],
       },
@@ -13641,9 +11001,9 @@ export const subjects: Subject[] = [
         ],
       },
       {
-        id: "chn-community-health-nursing-part-2",
-        title: "COMMUNITY HEALTH NURSING Part 2",
-        description: "96 questions from the PNLE reviewer.",
+        id: "community-health-nursing-part-2",
+        title: "COMMUNITY HEALTH NURSING PART 2",
+        description: "148 questions from the PNLE reviewer.",
         questions: [
           {
             id: "q1",
@@ -13652,24 +11012,24 @@ export const subjects: Subject[] = [
               "To support and supplement the efforts of the medical profession in the promotion of health and prevention of illness",
               "To enhance the capacity of individuals, families and communities to cope with their health needs",
               "To increase the productivity of the people by providing them with services that will increase their level of health",
-              "To contribute to national development through promotion of family welfare, focusing particularly on mothers and children.",
+              "To contribute to national development through promotion of family welfare, focusing particularly on mothers and children",
             ],
             answer: 1,
             rationale:
-              "To enhance the capacity of individuals, families and communities to cope with their health needs To contribute to national development through promotion of family welfare, focusing particularly on mothers and children.",
+              "Community health nursing's primary goal is to build the capacity of individuals, families, and communities to manage their own health needs, rather than simply supporting other professions or specific programs.",
           },
           {
             id: "q2",
             question: "CHN is a community-based practice. Which best explains this statement?",
             choices: [
-              "The service is provided in the natural environment of people.",
-              "The nurse has to conduct community diagnosis to determine nursing needs and problems.",
-              "The services are based on the available resources within the community.",
-              "Priority setting is based on the magnitude of the health problems identified.",
+              "The service is provided in the natural environment of people",
+              "The nurse has to conduct community diagnosis to determine nursing needs and problems",
+              "The services are based on the available resources within the community",
+              "Priority setting is based on the magnitude of the health problems identified",
             ],
             answer: 0,
             rationale:
-              "The service is provided in the natural environment of people. Community-based practice means providing care to people in their own natural environments: the home, school and workplace, for example.",
+              "Community-based practice means providing care to people in their own natural environments, such as the home, school, and workplace.",
           },
           {
             id: "q3",
@@ -13683,7 +11043,7 @@ export const subjects: Subject[] = [
             ],
             answer: 2,
             rationale:
-              "Community diagnosis Population-focused nursing care means providing care based on the greater need of the majority of the population. The greater need is identified through community diagnosis. 454",
+              "Population-focused nursing care means providing care based on the greater need of the majority of the population, which is identified through community diagnosis.",
           },
           {
             id: "q4",
@@ -13697,10 +11057,18 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Location of the workplace in relation to health facilities Based on R.A. 1054, an occupational nurse must be employed when there are 30 to 100 employees and the workplace is more than 1 km. away from the nearest health center.",
+              "Under R.A. 1054, an occupational nurse must be employed when there are 30 to 100 employees and the workplace is more than 1 km away from the nearest health center.",
           },
           {
             id: "q5",
+            question:
+              "A business firm must employ an occupational health nurse when it has at least how many employees?",
+            choices: ["21", "101", "201", "301"],
+            answer: 1,
+            rationale: "This threshold of 101 employees is based on R.A. 1054.",
+          },
+          {
+            id: "q6",
             question:
               "When the occupational health nurse employs ergonomic principles, she is performing which of her roles?",
             choices: [
@@ -13711,24 +11079,94 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Environmental manager Ergonomics is improving efficiency of workers by improving the worker’s environment through appropriately designed furniture, for example.",
+              "Ergonomics improves the efficiency of workers by improving the worker's environment, such as through appropriately designed furniture, making this an environmental management function.",
           },
           {
-            id: "q6",
+            id: "q7",
             question:
-              "According to C.E.Winslow, which of the following is the goal of Public Health?",
+              "A garment factory does not have an occupational nurse. Who shall provide the occupational health needs of the factory workers?",
+            choices: [
+              "Occupational health nurse at the Provincial Health Office",
+              "Physician employed by the factory",
+              "Public health nurse of the RHU of their municipality",
+              "Rural sanitary inspector of the RHU of their municipality",
+            ],
+            answer: 2,
+            rationale:
+              "Based on R.A. 1054, the public health nurse of the RHU of the municipality provides occupational health services when a facility lacks its own occupational nurse.",
+          },
+          {
+            id: "q8",
+            question:
+              '"Public health services are given free of charge." Is this statement true or false?',
+            choices: [
+              "The statement is true; it is the responsibility of government to provide basic services",
+              "The statement is false; people pay indirectly for public health services",
+              "The statement may be true or false, depending on the specific service required",
+              "The statement may be true or false, depending on policies of the government concerned",
+            ],
+            answer: 1,
+            rationale:
+              "Community health services, including public health services, are pre-paid services, for example through taxation.",
+          },
+          {
+            id: "q9",
+            question:
+              "According to C.E. Winslow, which of the following is the goal of Public Health?",
             choices: [
               "For people to attain their birthrights of health and longevity",
               "For promotion of health and prevention of disease",
               "For people to have access to basic health services",
               "For people to be organized in their health efforts",
             ],
-            answer: 3,
+            answer: 0,
             rationale:
-              "The worth and dignity of man This is a direct quote from Dr. Margaret Shetland’s statements on Public Health Nursing.",
+              "According to Winslow, all public health efforts are directed toward helping people realize their birthrights of health and longevity.",
           },
           {
-            id: "q7",
+            id: "q10",
+            question:
+              "We say that a Filipino has attained longevity when he is able to reach the average lifespan of Filipinos. What other statistic may be used to determine attainment of longevity?",
+            choices: [
+              "Age-specific mortality rate",
+              "Proportionate mortality rate",
+              "Swaroop's index",
+              "Case fatality rate",
+            ],
+            answer: 2,
+            rationale:
+              "Swaroop's index is the percentage of deaths aged 50 years or older; its inverse represents the percentage of untimely deaths (those who died younger than 50).",
+          },
+          {
+            id: "q11",
+            question:
+              "Which of the following is the most prominent feature of public health nursing?",
+            choices: [
+              "It involves providing home care to sick people who are not confined in the hospital",
+              "Services are provided free of charge to people within the catchment area",
+              "The public health nurse functions as part of a team providing public health nursing services",
+              "Public health nursing focuses on preventive, not curative, services",
+            ],
+            answer: 3,
+            rationale:
+              "The catchment area in PHN consists of a residential community, many of whom are well individuals with greater need for preventive rather than curative services.",
+          },
+          {
+            id: "q12",
+            question:
+              "According to Margaret Shetland, the philosophy of public health nursing is based on which of the following?",
+            choices: [
+              "Health and longevity as birthrights",
+              "The mandate of the state to protect the birthrights of its citizens",
+              "Public health nursing as a specialized field of nursing",
+              "The worth and dignity of man",
+            ],
+            answer: 3,
+            rationale:
+              "This is a direct reflection of Dr. Margaret Shetland's statements on the philosophy of Public Health Nursing.",
+          },
+          {
+            id: "q13",
             question: "Which of the following is the mission of the Department of Health?",
             choices: [
               "Health for all Filipinos",
@@ -13736,56 +11174,55 @@ export const subjects: Subject[] = [
               "Improve the general health status of the population",
               "Health in the hands of the Filipino people by the year 2020",
             ],
-            answer: 0,
+            answer: 1,
             rationale:
-              "For people to attain their birthrights of health and longevity According to Winslow, all public health efforts are for people to realize their birthrights of health and longevity.",
+              "Ensuring the accessibility and quality of health care reflects the DOH's stated mission.",
           },
           {
-            id: "q8",
+            id: "q14",
             question: "Region IV Hospital is classified as what level of facility?",
             choices: ["Primary", "Secondary", "Intermediate", "Tertiary"],
-            answer: 2,
+            answer: 3,
             rationale:
-              "Swaroop’s index Swaroop’s index is the percentage of the deaths aged 50 years or older. Its inverse represents the percentage of untimely deaths (those who died younger than 50 years). Answer: (D) Tertiary Regional hospitals are tertiary facilities because they serve as training hospitals for the region.",
+              "Regional hospitals are tertiary facilities because they serve as training hospitals for the region.",
           },
           {
-            id: "q9",
-            question:
-              "Which of the following is the most prominent feature of public health nursing? 455 456 15. Which is true of primary facilities?",
+            id: "q15",
+            question: "Which is true of primary facilities?",
             choices: [
-              "They are usually government-run.",
-              "Their services are provided on an out-patient basis.",
-              "They are training facilities for health professionals.",
-              "A community hospital is an example of this level of health facilities.",
+              "They are usually government-run",
+              "Their services are provided on an out-patient basis",
+              "They are training facilities for health professionals",
+              "A community hospital is an example of this level of health facility",
             ],
             answer: 1,
             rationale:
-              "Their services are provided on an outpatient basis. Primary facilities government and non-government facilities that provide basic out-patient services.",
+              "Primary facilities are government and non-government facilities that provide basic out-patient services.",
           },
           {
-            id: "q10",
-            question: "Which is an example of the school nurse’s health care provider functions?",
+            id: "q16",
+            question: "Which is an example of the school nurse's health care provider functions?",
             choices: [
-              "Requesting for BCG from the RHU for school entrant immunization",
+              "Requesting BCG from the RHU for school entrant immunization",
               "Conducting random classroom inspection during a measles epidemic",
               "Taking remedial action on an accident hazard in the school playground",
               "Observing places in the school where pupils spend their free time",
             ],
             answer: 1,
             rationale:
-              "Conducting random classroom inspection during a measles epidemic Random classroom inspection is assessment of pupils/students and teachers for signs of a health problem prevalent in the community.",
+              "Random classroom inspection is a direct assessment of pupils and teachers for signs of a health problem prevalent in the community, which is a health care provider function.",
           },
           {
-            id: "q11",
+            id: "q17",
             question:
-              "When the nurse determines whether resources were maximized in implementing Ligtas Tigdas, she is evaluating",
+              "When the nurse determines whether resources were maximized in implementing Ligtas Tigdas, she is evaluating:",
             choices: ["Effectiveness", "Efficiency", "Adequacy", "Appropriateness"],
             answer: 1,
             rationale:
-              "Efficiency Efficiency is determining whether the goals were attained at the least possible cost.",
+              "Efficiency is determining whether the goals were attained at the least possible cost, which reflects resource maximization.",
           },
           {
-            id: "q12",
+            id: "q18",
             question:
               "You are a new B.S.N. graduate. You want to become a Public Health Nurse. Where will you apply?",
             choices: [
@@ -13796,24 +11233,24 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Rural Health Unit R.A. 7160 devolved basic health services to local government units (LGU’s ). The public health nurse is an employee of the LGU. 456",
+              "R.A. 7160 devolved basic health services to local government units, and the public health nurse is an employee of the LGU, working at the Rural Health Unit.",
           },
           {
-            id: "q13",
+            id: "q19",
             question:
               "R.A. 7160 mandates devolution of basic services from the national government to local government units. Which of the following is the major goal of devolution?",
             choices: [
               "To strengthen local government units",
               "To allow greater autonomy to local government units",
-              "To empower the people and promote their selfreliance",
+              "To empower the people and promote their self-reliance",
               "To make basic services more accessible to the people",
             ],
             answer: 2,
             rationale:
-              "To empower the people and promote their self-reliance People empowerment is the basic motivation behind devolution of basic services to LGU’s.",
+              "People empowerment is the basic motivation behind devolving basic services to LGUs.",
           },
           {
-            id: "q14",
+            id: "q20",
             question: "Who is the Chairman of the Municipal Health Board?",
             choices: [
               "Mayor",
@@ -13823,19 +11260,19 @@ export const subjects: Subject[] = [
             ],
             answer: 0,
             rationale:
-              "Mayor The local executive serves as the chairman of the Municipal Health Board.",
+              "The local executive (Mayor) serves as the chairman of the Municipal Health Board.",
           },
           {
-            id: "q15",
+            id: "q21",
             question:
               "Which level of health facility is the usual point of entry of a client into the health care delivery system?",
             choices: ["Primary", "Secondary", "Intermediate", "Tertiary"],
             answer: 0,
             rationale:
-              "Primary The entry of a person into the health care delivery system is usually through a consultation in out-patient services.",
+              "Entry into the health care delivery system is usually through a consultation at a primary out-patient facility.",
           },
           {
-            id: "q16",
+            id: "q22",
             question:
               "The public health nurse is the supervisor of rural health midwives. Which of the following is a supervisory function of the public health nurse?",
             choices: [
@@ -13846,51 +11283,88 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Providing technical guidance to the midwife The nurse provides technical guidance to the midwife in the care of clients, particularly in the implementation of 457 management guidelines, as in Integrated Management of Childhood Illness. Diseases, enacted in 1929, mandated the reporting of diseases listed in the law to the nearest health station.",
+              "The nurse provides technical guidance to the midwife in client care, particularly in implementing management guidelines such as Integrated Management of Childhood Illness.",
           },
           {
-            id: "q17",
+            id: "q23",
             question:
-              "According to Freeman and Heinrich, community health nursing is a developmental service. Which of the following best illustrates this statement?",
+              "One of the participants in a hilot training class asked you to whom she should refer a patient in labor who develops a complication. You will answer, to the:",
             choices: [
-              "The community health nurse continuously develops himself personally and professionally.",
-              "Health education and community organizing are necessary in providing community health services.",
-              "Community health nursing is intended primarily for health promotion and prevention and treatment of disease.",
-              "The goal of community health nursing is to provide nursing services to people in their own places of residence.",
+              "Public Health Nurse",
+              "Rural Health Midwife",
+              "Municipal Health Officer",
+              "Any of these health professionals",
             ],
             answer: 2,
             rationale:
-              "Municipal Health Officer A public health nurse and rural health midwife can provide care during normal childbirth. A physician should attend to a woman with a complication during labor.",
+              "A public health nurse and rural health midwife can attend normal childbirth, but a physician (Municipal Health Officer) should attend a woman with a labor complication.",
           },
           {
-            id: "q18",
+            id: "q24",
             question:
               "You are the public health nurse in a municipality with a total population of about 20,000. There are 3 rural health midwives among the RHU personnel. How many more midwife items will the RHU need?",
-            choices: ["1", "2", "3", "The RHU does not need any more midwife item."],
-            answer: 1,
+            choices: ["1", "2", "3", "The RHU does not need any more midwife item"],
+            answer: 0,
             rationale:
-              "Health education and community organizing are necessary in providing community health services. The community health nurse develops the health capability of people through health education and community organizing activities.",
+              "Each rural health midwife is given a population assignment of about 5,000, so 20,000 people would need 4 midwives, meaning 1 more is needed.",
           },
           {
-            id: "q19",
+            id: "q25",
             question:
-              "The public health nurse is responsible for presenting the municipal health statistics using graphs and tables. To compare the frequency of the leading causes of mortality in the municipality, which graph will you prepare?",
-            choices: ["Line", "Bar", "Pie", "Scatter diagram"],
+              "If the RHU needs additional midwife items, you will submit the request for additional midwife items for approval to the:",
+            choices: [
+              "Rural Health Unit",
+              "District Health Office",
+              "Provincial Health Office",
+              "Municipal Health Board",
+            ],
             answer: 3,
             rationale:
-              "Municipal Health Board As mandated by R.A. 7160, basic health services have been devolved from the national government to local government units.",
+              "As mandated by R.A. 7160, basic health services have been devolved from the national government to local government units, with the Municipal Health Board approving such requests.",
           },
           {
-            id: "q20",
+            id: "q26",
             question:
               "As an epidemiologist, the nurse is responsible for reporting cases of notifiable diseases. What law mandates reporting of cases of notifiable diseases?",
             choices: ["Act 3573", "R.A. 3753", "R.A. 1054", "R.A. 1082"],
-            answer: 1,
+            answer: 0,
             rationale:
-              "Bar A bar graph is used to present comparison of values, a line graph for trends over time or age, a pie graph for population composition or distribution, and a scatter diagram for correlation of two variables. Answer: (A) Act 3573 Act 3573, the Law on Reporting of Communicable 457 458",
+              "Act 3573, the Law on Reporting of Communicable Diseases enacted in 1929, mandated the reporting of listed diseases to the nearest health station.",
           },
           {
-            id: "q21",
+            id: "q27",
+            question:
+              "According to Freeman and Heinrich, community health nursing is a developmental service. Which of the following best illustrates this statement?",
+            choices: [
+              "The community health nurse continuously develops himself personally and professionally",
+              "Health education and community organizing are necessary in providing community health services",
+              "Community health nursing is intended primarily for health promotion and prevention and treatment of disease",
+              "The goal of community health nursing is to provide nursing services to people in their own places of residence",
+            ],
+            answer: 1,
+            rationale:
+              "The community health nurse develops the health capability of people through health education and community organizing activities, reflecting its developmental nature.",
+          },
+          {
+            id: "q28",
+            question:
+              "Which disease was declared through Presidential Proclamation No. 4 as a target for eradication in the Philippines?",
+            choices: ["Poliomyelitis", "Measles", "Rabies", "Neonatal tetanus"],
+            answer: 1,
+            rationale:
+              "Presidential Proclamation No. 4 established the Ligtas Tigdas Program, targeting measles for eradication.",
+          },
+          {
+            id: "q29",
+            question:
+              "The public health nurse is responsible for presenting the municipal health statistics using graphs and tables. To compare the frequency of the leading causes of mortality in the municipality, which graph will you prepare?",
+            choices: ["Line", "Bar", "Pie", "Scatter diagram"],
+            answer: 1,
+            rationale:
+              "A bar graph is used to present comparison of values, unlike a line graph for trends, a pie graph for composition, or a scatter diagram for correlation.",
+          },
+          {
+            id: "q30",
             question:
               "Which step in community organizing involves training of potential leaders in the community?",
             choices: [
@@ -13901,10 +11375,10 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Core group formation In core group formation, the nurse is able to transfer the technology of community organizing to the potential or informal community leaders through a training program.",
+              "In core group formation, the nurse transfers the technology of community organizing to potential or informal community leaders through a training program.",
           },
           {
-            id: "q22",
+            id: "q31",
             question: "In which step are plans formulated for solving community problems?",
             choices: [
               "Mobilization",
@@ -13914,102 +11388,157 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Community organization Community organization is the step when community assemblies take place. During the community assembly, the people may opt to formalize the community organization and make plans for community action to resolve a community health problem.",
+              "Community organization is the step when community assemblies take place, where the people may formalize the organization and make plans for community action.",
           },
           {
-            id: "q23",
+            id: "q32",
             question:
               "The public health nurse takes an active role in community participation. What is the primary goal of community organizing?",
             choices: [
               "To educate the people regarding community health problems",
               "To mobilize the people to resolve community health problems",
-              "To maximize the community’s resources in dealing with health problems",
-              "To maximize the community’s resources in dealing with health problems",
+              "To maximize the community's resources in dealing with health problems",
+              "To develop the community's leadership structure",
             ],
-            answer: 3,
+            answer: 2,
             rationale:
-              "To maximize the community’s resources in dealing with health problems Community organizing is a developmental service, with the goal of developing the people’s self-reliance in dealing with community health problems. A, B and C are objectives of contributory objectives to this goal.",
+              "Community organizing is a developmental service, with the ultimate goal of developing the people's self-reliance and maximizing the community's resources in dealing with health problems.",
           },
           {
-            id: "q24",
-            question: "An indicator of success in community organizing is when people are able to",
+            id: "q33",
+            question: "An indicator of success in community organizing is when people are able to:",
             choices: [
               "Participate in community activities for the solution of a community problem",
               "Implement activities for the solution of the community problem",
-              "Plan activities for the solution of the community 458 problem",
+              "Plan activities for the solution of the community problem",
               "Identify the health problem as a common concern",
             ],
             answer: 0,
             rationale:
-              "Participate in community activities for the solution of a community problem Participation in community activities in resolving a community problem may be in any of the processes mentioned in the other choices.",
+              "Participation in community activities to resolve a community problem may encompass any of the other processes mentioned, making it the best overall indicator of success.",
           },
           {
-            id: "q25",
+            id: "q34",
             question:
               "Tertiary prevention is needed in which stage of the natural history of disease?",
             choices: ["Pre-pathogenesis", "Pathogenesis", "Prodromal", "Terminal"],
             answer: 3,
             rationale:
-              "Terminal Tertiary prevention involves rehabilitation, prevention of permanent disability and disability limitation appropriate for convalescents, the disabled, complicated cases and the terminally ill (those in the terminal stage of a disease)",
+              "Tertiary prevention involves rehabilitation, prevention of permanent disability, and disability limitation, appropriate for convalescents, the disabled, complicated cases, and the terminally ill.",
           },
           {
-            id: "q26",
+            id: "q35",
             question: "Isolation of a child with measles belongs to what level of prevention?",
             choices: ["Primary", "Secondary", "Intermediate", "Tertiary"],
             answer: 0,
             rationale:
-              "Primary The purpose of isolating a client with a communicable disease is to protect those who are not sick (specific disease prevention).",
+              "The purpose of isolating a client with a communicable disease is to protect those who are not sick, which is specific disease prevention (primary prevention).",
           },
           {
-            id: "q27",
-            question: "On the other hand, Operation Timbang is prevention.",
+            id: "q36",
+            question: "On the other hand, Operation Timbang is ___ prevention.",
             choices: ["Primary", "Secondary", "Intermediate", "Tertiary"],
             answer: 1,
             rationale:
-              "Secondary Operation Timbang is done to identify members of the susceptible population who are malnourished. Its purpose is early diagnosis and, subsequently, prompt treatment.",
+              "Operation Timbang identifies malnourished members of the susceptible population for early diagnosis and prompt treatment, which is secondary prevention.",
           },
           {
-            id: "q28",
-            question: "Which is CONTRARY to the principles in planning a home visit?",
+            id: "q37",
+            question:
+              "Which type of family-nurse contact will provide you with the best opportunity to observe family dynamics?",
             choices: [
-              "A home visit should have a purpose or objective.",
-              "The plan should revolve around family health needs.",
-              "A home visit should be conducted in the manner prescribed by the RHU.",
-              "Planning of continuing care should involve a responsible family member.",
+              "Clinic consultation",
+              "Group conference",
+              "Home visit",
+              "Written communication",
             ],
             answer: 2,
             rationale:
-              "Home visit Dynamics of family relationships can best be observed in the family’s natural environment, which is the home.",
+              "Dynamics of family relationships can best be observed in the family's natural environment, which is the home.",
           },
           {
-            id: "q29",
+            id: "q38",
             question:
-              "The typology of family nursing problems is used in the statement of nursing diagnosis in the care of families. The youngest child of the de los Reyes family has been diagnosed as mentally retarded. This is classified as a",
-            choices: ["Health threat", "Health deficit", "Foreseeable crisis", "Stress point"],
-            answer: 2,
-            rationale:
-              "A home visit should be conducted in the manner prescribed by the RHU. The home visit plan should be flexible and practical, depending on factors, such as the family’s needs and the resources available to the nurse and the family.",
-          },
-          {
-            id: "q30",
-            question:
-              "The de los Reyes couple have a 6-year old child entering school for the first time. The de los Reyes family has a",
+              "The typology of family nursing problems is used in the statement of nursing diagnosis in the care of families. The youngest child of the de los Reyes family has been diagnosed as mentally retarded. This is classified as a:",
             choices: ["Health threat", "Health deficit", "Foreseeable crisis", "Stress point"],
             answer: 1,
             rationale:
-              "Should minimize if not totally prevent the spread of infection. Bag technique is performed before and after handling a client in the home to prevent transmission of infection to and from the client. Answer: (C) Foreseeable crisis Entry of the 6-year old into school is an anticipated period of unusual demand on the family.",
+              "Failure of a family member to develop according to what is expected, as in mental retardation, is classified as a health deficit.",
           },
           {
-            id: "q31",
+            id: "q39",
+            question:
+              "The de los Reyes couple have a 6-year old child entering school for the first time. The de los Reyes family has a:",
+            choices: ["Health threat", "Health deficit", "Foreseeable crisis", "Stress point"],
+            answer: 2,
+            rationale:
+              "Entry of the 6-year old into school is an anticipated period of unusual demand on the family, characterizing a foreseeable crisis.",
+          },
+          {
+            id: "q40",
+            question: "Which of the following is an advantage of a home visit?",
+            choices: [
+              "It allows the nurse to provide nursing care to a greater number of people",
+              "It provides an opportunity to do first-hand appraisal of the home situation",
+              "It allows sharing of experiences among people with similar health problems",
+              "It develops the family's initiative in providing for health needs of its members",
+            ],
+            answer: 1,
+            rationale:
+              "A home visit lets the nurse directly assess the actual home environment. Choice A is not correct since a home visit requires significant time per family; choice C describes a group conference advantage, and choice D describes a clinic consultation.",
+          },
+          {
+            id: "q41",
+            question: "Which is CONTRARY to the principles in planning a home visit?",
+            choices: [
+              "A home visit should have a purpose or objective",
+              "The plan should revolve around family health needs",
+              "A home visit should be conducted in the manner prescribed by the RHU",
+              "Planning of continuing care should involve a responsible family member",
+            ],
+            answer: 2,
+            rationale:
+              "The home visit plan should be flexible and practical, depending on factors like the family's needs and available resources, not rigidly prescribed.",
+          },
+          {
+            id: "q42",
+            question:
+              "The PHN bag is an important tool in providing nursing care during a home visit. The most important principle of bag technique states that it:",
+            choices: [
+              "Should save time and effort",
+              "Should minimize if not totally prevent the spread of infection",
+              "Should not overshadow concern for the patient and his family",
+              "May be done in a variety of ways depending on the home situation",
+            ],
+            answer: 1,
+            rationale:
+              "Bag technique is performed before and after handling a client in the home to prevent transmission of infection to and from the client.",
+          },
+          {
+            id: "q43",
+            question:
+              "To maintain the cleanliness of the bag and its contents, which of the following must the nurse do?",
+            choices: [
+              "Wash his/her hands before and after providing nursing care to the family members",
+              "In the care of family members, as much as possible, use only articles taken from the bag",
+              "Put on an apron to protect her uniform and fold it with the right side out before putting it back into the bag",
+              "At the end of the visit, fold the lining on which the bag was placed, ensuring that the contaminated side is on the outside",
+            ],
+            answer: 0,
+            rationale:
+              "Handwashing before and after care is the correct hygiene principle. Choice B contradicts encouraging use of the family's own resources, and choices C and D violate asepsis by not confining the contaminated surface.",
+          },
+          {
+            id: "q44",
             question:
               "The public health nurse conducts a study on the factors contributing to the high mortality rate due to heart disease in the municipality where she works. Which branch of epidemiology does the nurse practice in this situation?",
             choices: ["Descriptive", "Analytical", "Therapeutic", "Evaluation"],
             answer: 1,
             rationale:
-              "Analytical Analytical epidemiology is the study of factors or determinants affecting the patterns of occurrence and distribution of disease in a community.",
+              "Analytical epidemiology is the study of factors or determinants affecting the patterns of occurrence and distribution of disease in a community.",
           },
           {
-            id: "q32",
+            id: "q45",
             question: "Which of the following is a function of epidemiology?",
             choices: [
               "Identifying the disease condition based on manifestations presented by a client",
@@ -14019,10 +11548,10 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Evaluating the effectiveness of the implementation of the Integrated Management of Childhood Illness Epidemiology is used in the assessment of a community or evaluation of interventions in community health practice.",
+              "Epidemiology is used in the assessment of a community or evaluation of interventions in community health practice, such as evaluating IMCI implementation.",
           },
           {
-            id: "q33",
+            id: "q46",
             question:
               "Which of the following is an epidemiologic function of the nurse during an epidemic?",
             choices: [
@@ -14033,11 +11562,11 @@ export const subjects: Subject[] = [
             ],
             answer: 2,
             rationale:
-              "Participating in the investigation to determine the source of the epidemic Epidemiology is the study of patterns of occurrence and distribution of disease in the community, as well as the factors that affect disease patterns. The purpose of an epidemiologic investigation is to identify the source of an epidemic, i.e., what brought about the epidemic. 460",
+              "The purpose of an epidemiologic investigation is to identify the source of an epidemic, i.e., what brought about the epidemic.",
           },
           {
-            id: "q34",
-            question: "The primary purpose of conducting an epidemiologic investigation is to",
+            id: "q47",
+            question: "The primary purpose of conducting an epidemiologic investigation is to:",
             choices: [
               "Delineate the etiology of the epidemic",
               "Encourage cooperation and support of the community",
@@ -14046,23 +11575,23 @@ export const subjects: Subject[] = [
             ],
             answer: 0,
             rationale:
-              "Delineate the etiology of the epidemic Delineating the etiology of an epidemic is identifying its source.",
+              "Delineating the etiology of an epidemic means identifying its source, which is the primary purpose of an epidemiologic investigation.",
           },
           {
-            id: "q35",
+            id: "q48",
             question: "Which is a characteristic of person-to-person propagated epidemics?",
             choices: [
-              "There are more cases of the disease than expected.",
-              "The disease must necessarily be transmitted through a vector.",
-              "The spread of the disease can be attributed to a common vehicle.",
-              "There is a gradual build up of cases before the epidemic becomes easily noticeable.",
+              "There are more cases of the disease than expected",
+              "The disease must necessarily be transmitted through a vector",
+              "The spread of the disease can be attributed to a common vehicle",
+              "There is a gradual build up of cases before the epidemic becomes easily noticeable",
             ],
             answer: 3,
             rationale:
-              "There is a gradual build up of cases before the epidemic becomes easily noticeable. A gradual or insidious onset of the epidemic is usually observable in person-to-person propagated epidemics.",
+              "A gradual or insidious onset of the epidemic is usually observable in person-to-person propagated epidemics.",
           },
           {
-            id: "q36",
+            id: "q49",
             question:
               "In the investigation of an epidemic, you compare the present frequency of the disease with the usual frequency at this time of the year in this community. This is done during which stage of the investigation?",
             choices: [
@@ -14073,44 +11602,107 @@ export const subjects: Subject[] = [
             ],
             answer: 0,
             rationale:
-              "Establishing the epidemic Establishing the epidemic is determining whether there is an epidemic or not. This is done by comparing the present number of cases with the usual number of cases of the disease at the same time of the year, as well as establishing the relatedness of the cases of the disease.",
+              "Establishing the epidemic involves determining whether there is an epidemic by comparing the present number of cases with the usual number at the same time of year.",
           },
           {
-            id: "q37",
+            id: "q50",
             question:
-              "The number of cases of Dengue fever usually increases towards the end of the rainy season. This pattern of occurrence of Dengue fever is best described as",
+              "The number of cases of Dengue fever usually increases towards the end of the rainy season. This pattern of occurrence of Dengue fever is best described as:",
             choices: [
               "Epidemic occurrence",
               "Cyclical variation",
               "Sporadic occurrence",
-              "Secular variation 461 diagnostic examination? A. Effectiveness B. Efficacy C. Specificity D. Sensitivity",
+              "Secular variation",
             ],
             answer: 1,
             rationale:
-              "Cyclical variation A cyclical variation is a periodic fluctuation in the number of cases of a disease in the community.",
+              "A cyclical variation is a periodic fluctuation in the number of cases of a disease in the community.",
           },
           {
-            id: "q38",
+            id: "q51",
             question:
-              "In the year 1980, the World Health Organization declared the Philippines, together with some other countries in the Western Pacific Region, “free” of which disease?",
+              'In the year 1980, the World Health Organization declared the Philippines, together with some other countries in the Western Pacific Region, "free" of which disease?',
             choices: ["Pneumonic plague", "Poliomyelitis", "Small pox", "Anthrax"],
-            answer: 3,
+            answer: 2,
             rationale:
-              "Sensitivity Sensitivity is the capacity of a diagnostic examination to detect cases of the disease. If a test is 100% sensitive, all the cases tested will have a positive result, i.e., there will be no false negative results.",
+              "The last documented case of smallpox was in 1977 in Somalia, and the region was subsequently declared free of the disease.",
           },
           {
-            id: "q39",
+            id: "q52",
             question:
-              "In traditional Chinese medicine, the yielding, negative and feminine force is termed",
+              "In the census of the Philippines in 1995, there were about 35,299,000 males and about 34,968,000 females. What is the sex ratio?",
+            choices: ["99.06:100", "100.94:100", "50.23%", "49.76%"],
+            answer: 1,
+            rationale:
+              "Sex ratio is the number of males for every 100 females in the population, computed here as 100.94:100.",
+          },
+          {
+            id: "q53",
+            question:
+              "Primary health care is a total approach to community development. Which of the following is an indicator of success in the use of the primary health care approach?",
+            choices: [
+              "Health services are provided free of charge to individuals and families",
+              "Local officials are empowered as the major decision makers in matters of health",
+              "Health workers are able to provide care based on identified health needs of the people",
+              "Health programs are sustained according to the level of development of the community",
+            ],
+            answer: 3,
+            rationale:
+              "Primary health care is essential health care that can be sustained at all stages of development of the community.",
+          },
+          {
+            id: "q54",
+            question:
+              "Sputum examination is the major screening tool for pulmonary tuberculosis. Clients would sometimes get false negative results in this exam. This means that the test is not perfect in terms of which characteristic of a diagnostic examination?",
+            choices: ["Effectiveness", "Efficacy", "Specificity", "Sensitivity"],
+            answer: 3,
+            rationale:
+              "Sensitivity is the capacity of a diagnostic examination to detect true cases of disease; a 100% sensitive test yields no false negatives.",
+          },
+          {
+            id: "q55",
+            question:
+              "Use of appropriate technology requires knowledge of indigenous technology. Which medicinal herb is given for fever, headache and cough?",
+            choices: ["Sambong", "Tsaang gubat", "Akapulko", "Lagundi"],
+            answer: 3,
+            rationale:
+              "Lagundi is used for fever, headache, and cough; sambong is a diuretic, tsaang gubat relieves diarrhea, and akapulko has antifungal properties.",
+          },
+          {
+            id: "q56",
+            question:
+              "What law created the Philippine Institute of Traditional and Alternative Health Care?",
+            choices: ["R.A. 8423", "R.A. 4823", "R.A. 2483", "R.A. 3482"],
+            answer: 0,
+            rationale:
+              "R.A. 8423 created the Philippine Institute of Traditional and Alternative Health Care.",
+          },
+          {
+            id: "q57",
+            question:
+              "In traditional Chinese medicine, the yielding, negative and feminine force is termed:",
             choices: ["Yin", "Yang", "Qi", "Chai"],
-            answer: 3,
+            answer: 0,
             rationale:
-              "Health programs are sustained according to the level of development of the community. Primary health care is essential health care that can be sustained in all stages of development of the community. Answer: (A) Yin Yang is the male dominating, positive and masculine force.",
+              "Yin represents the yielding, negative, feminine force, while Yang represents the dominating, positive, masculine force.",
           },
           {
-            id: "q40",
+            id: "q58",
             question:
-              "Sputum examination is the major screening tool for pulmonary tuberculosis. Clients would sometimes get false negative results in this exam. This means that the test is not perfect in terms of which characteristic of a 461 462 Answer: (B) Letter of Instruction No. 949 Letter of Instruction 949 was issued by then President Ferdinand Marcos, directing the formerly called Ministry of Health, now the Department of Health, to utilize Primary Health Care approach in planning and implementing health programs. 59. Which of the following demonstrates intersectoral linkages?",
+              "What is the legal basis for Primary Health Care approach in the Philippines?",
+            choices: [
+              "Alma Ata Declaration on PHC",
+              "Letter of Instruction No. 949",
+              "Presidential Decree No. 147",
+              "Presidential Decree 996",
+            ],
+            answer: 1,
+            rationale:
+              "Letter of Instruction 949 was issued by then-President Marcos, directing the Ministry (now Department) of Health to adopt the Primary Health Care approach.",
+          },
+          {
+            id: "q59",
+            question: "Which of the following demonstrates intersectoral linkages?",
             choices: [
               "Two-way referral system",
               "Team approach",
@@ -14119,33 +11711,42 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Cooperation between the PHN and public school teacher Intersectoral linkages refer to working relationships between the health sector and other sectors involved in community development.",
+              "Intersectoral linkages refer to working relationships between the health sector and other sectors involved in community development, such as education.",
           },
           {
-            id: "q41",
+            id: "q60",
             question:
               "The municipality assigned to you has a population of about 20,000. Estimate the number of 1-4 year old children who will be given Retinol capsule 200,000 I.U. every 6 months.",
             choices: ["1,500", "1,800", "2,000", "2,300"],
             answer: 3,
             rationale:
-              "2,300 Based on the Philippine population composition, to estimate the number of 1-4 year old children, multiply total population by 11.5%.",
+              "To estimate the number of 1-4 year old children, multiply the total population by 11.5%, giving approximately 2,300.",
           },
           {
-            id: "q42",
+            id: "q61",
             question:
               "Estimate the number of pregnant women who will be given tetanus toxoid during an immunization outreach activity in a barangay with a population of about 1,500.",
+            choices: ["265", "300", "375", "400"],
+            answer: 0,
+            rationale:
+              "To estimate the number of pregnant women, multiply the total population by 3.5%, giving approximately 265.",
+          },
+          {
+            id: "q62",
+            question:
+              "To describe the sex composition of the population, which demographic tool may be used?",
             choices: [
-              "265",
-              "300",
-              "375",
-              "400 C. Population pyramid D. Any of these may be used.",
+              "Sex ratio",
+              "Sex proportion",
+              "Population pyramid",
+              "Any of these may be used",
             ],
             answer: 3,
             rationale:
-              "Any of these may be used. Sex ratio and sex proportion are used to determine the sex composition of a population. A population pyramid is used to present the composition of a population by age and sex.",
+              "Sex ratio, sex proportion, and population pyramid can all be used to describe the sex composition of a population.",
           },
           {
-            id: "q43",
+            id: "q63",
             question: "Which of the following is a natality rate?",
             choices: [
               "Crude birth rate",
@@ -14154,19 +11755,18 @@ export const subjects: Subject[] = [
               "General fertility rate",
             ],
             answer: 0,
-            rationale: "Crude birth rate Natality means birth. A natality rate is a birth rate.",
+            rationale: "Natality means birth, and the crude birth rate is a natality rate.",
           },
           {
-            id: "q44",
+            id: "q64",
             question:
               "You are computing the crude death rate of your municipality, with a total population of about 18,000, for last year. There were 94 deaths. Among those who died, 20 died because of diseases of the heart and 32 were aged 50 years or older. What is the crude death rate?",
             choices: ["4.2/1,000", "5.2/1,000", "6.3/1,000", "7.3/1,000"],
             answer: 1,
-            rationale:
-              "5.2/1,000 To compute crude death rate divide total number of deaths (94) by total population (18,000) and multiply by 1,000.",
+            rationale: "Crude death rate = (94 deaths / 18,000 population) × 1,000 ≈ 5.2/1,000.",
           },
           {
-            id: "q45",
+            id: "q65",
             question:
               "Knowing that malnutrition is a frequent community health problem, you decided to conduct nutritional assessment. What population is particularly susceptible to protein energy malnutrition (PEM)?",
             choices: [
@@ -14175,39 +11775,79 @@ export const subjects: Subject[] = [
               "1-4 year old children",
               "School age children",
             ],
-            answer: 0,
-            rationale:
-              "265 To estimate the number of pregnant women, multiply the total population by 3.5%. Answer: (C) 1-4 year old children Preschoolers are the most susceptible to PEM because they have generally been weaned. Also, this is the population who, unable to feed themselves, are often the victims of poor intrafamilial food distribution.",
-          },
-          {
-            id: "q46",
-            question:
-              "You will gather data for nutritional assessment of a purok. You will gather information only from families with members who belong to the target population for PEM. What method of data gathering is best for this purpose?",
-            choices: ["Census", "Survey", "Record review", "Review of civil registry"],
             answer: 2,
             rationale:
-              "Swaroop’s index Swaroop’s index is the proportion of deaths aged 50 years and above. The higher the Swaroop’s index of a population, the greater the proportion of the deaths who were able to reach the age of at least 50 years, i.e., more people grew old before they died.",
+              "Preschoolers (1-4 year olds) are most susceptible to PEM because they have generally been weaned and, unable to feed themselves, are often victims of poor intrafamilial food distribution.",
           },
           {
-            id: "q47",
+            id: "q66",
+            question:
+              "Which statistic can give the most accurate reflection of the health status of a community?",
+            choices: [
+              "1-4 year old age-specific mortality rate",
+              "Infant mortality rate",
+              "Swaroop's index",
+              "Crude death rate",
+            ],
+            answer: 2,
+            rationale:
+              "Swaroop's index reflects the proportion of deaths aged 50 and above, with a higher index indicating more people grew old before dying, reflecting overall community health status.",
+          },
+          {
+            id: "q67",
             question:
               "In the past year, Barangay A had an average population of 1655. 46 babies were born in that year, 2 of whom died less than 4 weeks after they were born. There were 4 recorded stillbirths. What is the neonatal mortality rate?",
             choices: ["27.8/1,000", "43.5/1,000", "86.9/1,000", "130.4/1,000"],
             answer: 1,
             rationale:
-              "Survey A survey, also called sample survey, is data gathering about a sample of the population.",
+              "Neonatal mortality rate = (2 neonatal deaths / 46 live births) × 1,000 ≈ 43.5/1,000.",
           },
           {
-            id: "q48",
-            question:
-              "In the conduct of a census, the method of population assignment based on the actual physical location of the people is termed",
-            choices: ["De jure", "De locus", "De facto", "De novo"],
+            id: "q68",
+            question: "Which statistic best reflects the nutritional status of a population?",
+            choices: [
+              "1-4 year old age-specific mortality rate",
+              "Proportionate mortality rate",
+              "Infant mortality rate",
+              "Swaroop's index",
+            ],
+            answer: 0,
+            rationale:
+              "Since preschoolers are most susceptible to malnutrition's effects, a population with poor nutritional status will most likely have a high 1-4 year old age-specific (child) mortality rate.",
+          },
+          {
+            id: "q69",
+            question: "What numerator is used in computing general fertility rate?",
+            choices: [
+              "Estimated midyear population",
+              "Number of registered live births",
+              "Number of pregnancies in the year",
+              "Number of females of reproductive age",
+            ],
             answer: 1,
             rationale:
-              "43.5/1,000 To compute for neonatal mortality rate, divide the number of babies who died before reaching the age of 28 days by the total number of live births, then multiply by 1,000. Answer: (C) De facto The other method of population assignment, de jure, is based on the usual place of residence of the people.",
+              "General/total fertility rate is computed by dividing the number of registered live births by the number of females of reproductive age (15-45), then multiplying by 1,000.",
           },
           {
-            id: "q49",
+            id: "q70",
+            question:
+              "You will gather data for nutritional assessment of a purok. You will gather information only from families with members who belong to the target population for PEM. What method of data gathering is best for this purpose?",
+            choices: ["Census", "Survey", "Record review", "Review of civil registry"],
+            answer: 1,
+            rationale:
+              "A survey, or sample survey, involves gathering data about a specific sample of the population, matching this targeted data collection need.",
+          },
+          {
+            id: "q71",
+            question:
+              "In the conduct of a census, the method of population assignment based on the actual physical location of the people is termed:",
+            choices: ["De jure", "De locus", "De facto", "De novo"],
+            answer: 2,
+            rationale:
+              "De facto population assignment is based on actual physical location, while de jure is based on the usual place of residence.",
+          },
+          {
+            id: "q72",
             question:
               "The Field Health Services and Information System (FHSIS) is the recording and reporting system in public health care in the Philippines. The Monthly Field Health Service Activity Report is a form used in which of the components of the FHSIS?",
             choices: [
@@ -14218,10 +11858,10 @@ export const subjects: Subject[] = [
             ],
             answer: 0,
             rationale:
-              "1-4 year old age-specific mortality rate Since preschoolers are the most susceptible to the effects of malnutrition, a population with poor nutritional status will most likely have a high 1-4 year old age-specific mortality rate, also known as child mortality rate. Answer: (A) Tally report A tally report is prepared monthly or quarterly by the RHU personnel and transmitted to the Provincial Health Office.",
+              "A tally report is prepared monthly or quarterly by RHU personnel and transmitted to the Provincial Health Office.",
           },
           {
-            id: "q50",
+            id: "q73",
             question:
               "To monitor clients registered in long-term regimens, such as the Multi-Drug Therapy, which component will be most useful?",
             choices: [
@@ -14230,21 +11870,21 @@ export const subjects: Subject[] = [
               "Target/client list",
               "Individual health record",
             ],
-            answer: 1,
+            answer: 2,
             rationale:
-              "Number of registered live births To compute for general or total fertility rate, divide the number of registered live births by the number of females of reproductive age (15-45 years), then multiply by 1,000. Answer: (C) Target/client list The MDT Client List is a record of clients enrolled in MDT 463 464 and other relevant data, such as dates when clients collected their monthly supply of drugs.",
+              "The MDT Client List records clients enrolled in MDT along with relevant data, such as dates when clients collected their monthly drug supply.",
           },
           {
-            id: "q51",
+            id: "q74",
             question:
               "Civil registries are important sources of data. Which law requires registration of births within 30 days from the occurrence of the birth?",
             choices: ["P.D. 651", "Act 3573", "R.A. 3753", "R.A. 3375"],
             answer: 0,
             rationale:
-              "P.D. 651 P.D. 651 amended R.A. 3753, requiring the registry of births within 30 days from their occurrence.",
+              "P.D. 651 amended R.A. 3753, requiring the registration of births within 30 days from their occurrence.",
           },
           {
-            id: "q52",
+            id: "q75",
             question: "Which of the following professionals can sign the birth certificate?",
             choices: [
               "Public health nurse",
@@ -14254,10 +11894,10 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Any of these health professionals D. R.A. 3753 states that any birth attendant may sign the certificate of live birth.",
+              "R.A. 3753 states that any birth attendant may sign the certificate of live birth.",
           },
           {
-            id: "q53",
+            id: "q76",
             question:
               "Which criterion in priority setting of health problems is used only in community health care?",
             choices: [
@@ -14268,24 +11908,24 @@ export const subjects: Subject[] = [
             ],
             answer: 2,
             rationale:
-              "Magnitude of the health problem Magnitude of the problem refers to the percentage of the population affected by a health problem. The other choices are criteria considered in both family and community health care.",
+              "Magnitude of the problem refers to the percentage of the population affected, a criterion used specifically in community (not individual family) health care priority setting.",
           },
           {
-            id: "q54",
+            id: "q77",
             question:
               "The Sentrong Sigla Movement has been launched to improve health service delivery. Which of the following is/are true of this movement?",
             choices: [
-              "This is a project spearheaded by local government units.",
-              "It is a basis for increasing funding from local government units.",
-              "It encourages health centers to focus on disease prevention and control.",
-              "Its main strategy is certification of health centers able to comply with standards.",
+              "This is a project spearheaded by local government units",
+              "It is a basis for increasing funding from local government units",
+              "It encourages health centers to focus on disease prevention and control",
+              "Its main strategy is certification of health centers able to comply with standards",
             ],
             answer: 3,
             rationale:
-              "Its main strategy is certification of health 464 centers able to comply with standards. Sentrong Sigla Movement is a joint project of the DOH and local government units. Its main strategy is certification of health centers that are able to comply with standards set by the DOH.",
+              "The Sentrong Sigla Movement is a joint project of the DOH and local government units, with its main strategy being certification of health centers meeting DOH standards.",
           },
           {
-            id: "q55",
+            id: "q78",
             question:
               "Which of the following women should be considered as special targets for family planning?",
             choices: [
@@ -14296,10 +11936,10 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Those who just had a delivery within the past 15 months The ideal birth spacing is at least two years. 15 months plus 9 months of pregnancy = 2 years.",
+              "The ideal birth spacing is at least two years; 15 months plus 9 months of pregnancy equals 2 years, making recent deliveries within 15 months a special target for spacing counseling.",
           },
           {
-            id: "q56",
+            id: "q79",
             question:
               "Freedom of choice is one of the policies of the Family Planning Program of the Philippines. Which of the following illustrates this principle?",
             choices: [
@@ -14310,38 +11950,75 @@ export const subjects: Subject[] = [
             ],
             answer: 2,
             rationale:
-              "Adequate information for couples regarding the different methods To enable the couple to choose freely among different methods of family planning, they must be given full information regarding the different methods that are available to them, considering the availability of quality services that can support their choice.",
+              "To enable couples to choose freely among family planning methods, they must be given full, adequate information about the different methods available.",
           },
           {
-            id: "q57",
+            id: "q80",
             question:
               "A woman, 6 months pregnant, came to the center for consultation. Which of the following substances is contraindicated?",
             choices: [
               "Tetanus toxoid",
               "Retinol 200,000 IU",
               "Ferrous sulfate 200 mg",
-              "Potassium iodate 200 mg. capsule",
+              "Potassium iodate 200 mg capsule",
             ],
             answer: 1,
             rationale:
-              "Retinol 200,000 IU Retinol 200,000 IU is a form of megadose Vitamin A. This may have a teratogenic effect. 465",
+              "Retinol 200,000 IU is a megadose of Vitamin A that may have a teratogenic effect and is contraindicated during pregnancy.",
           },
           {
-            id: "q58",
+            id: "q81",
             question:
               "During prenatal consultation, a client asked you if she can have her delivery at home. After history taking and physical examination, you advised her against a home delivery. Which of the following findings disqualifies her for a home delivery?",
             choices: [
-              "Her OB score is G5P3.",
-              "She has some palmar pallor.",
-              "Her blood pressure is 130/80.",
-              "Her baby is in cephalic presentation.",
+              "Her OB score is G5P3",
+              "She has some palmar pallor",
+              "Her blood pressure is 130/80",
+              "Her baby is in cephalic presentation",
+            ],
+            answer: 0,
+            rationale:
+              "Only women with fewer than 5 pregnancies are qualified for a home delivery, so a G5P3 score disqualifies her.",
+          },
+          {
+            id: "q82",
+            question:
+              "Inadequate intake by the pregnant woman of which vitamin may cause neural tube defects?",
+            choices: ["Niacin", "Riboflavin", "Folic acid", "Thiamine"],
+            answer: 2,
+            rationale:
+              "The incidence of neural tube defects can be reduced drastically if pregnant women have adequate folic acid intake.",
+          },
+          {
+            id: "q83",
+            question:
+              "You are in a client's home to attend to a delivery. Which of the following will you do first?",
+            choices: [
+              "Set up the sterile area",
+              "Put on a clean gown or apron",
+              "Cleanse the client's vulva with soap and water",
+              "Note the interval, duration and intensity of labor contractions",
             ],
             answer: 3,
             rationale:
-              "Explain to her that putting the baby to breast will lessen blood loss after delivery. Suckling of the nipple stimulates the release of oxytocin by the posterior pituitary gland, which causes uterine contraction. Lactation begins 1 to 3 days after delivery. Nipple stretching exercises are done when the nipples are flat or inverted. Frequent washing dries up the nipples, making them prone to the formation of fissures.",
+              "Assessment should be done first to determine whether the woman is having true labor and, if so, what stage of labor she is in.",
           },
           {
-            id: "q59",
+            id: "q84",
+            question:
+              "In preparing a primigravida for breastfeeding, which of the following will you do?",
+            choices: [
+              "Tell her that lactation begins within a day after delivery",
+              "Teach her nipple stretching exercises if her nipples are everted",
+              "Instruct her to wash her nipples before and after each breastfeeding",
+              "Explain to her that putting the baby to breast will lessen blood loss after delivery",
+            ],
+            answer: 3,
+            rationale:
+              "Suckling stimulates release of oxytocin, causing uterine contraction and lessening postpartum blood loss. Lactation actually begins 1-3 days after delivery, nipple stretching is for flat/inverted nipples, and frequent washing dries and cracks nipples.",
+          },
+          {
+            id: "q85",
             question:
               "A primigravida is instructed to offer her breast to the baby for the first time within 30 minutes after delivery. What is the purpose of offering the breast this early?",
             choices: [
@@ -14350,127 +12027,229 @@ export const subjects: Subject[] = [
               "To make sure that the baby is able to get the colostrum",
               "To allow the woman to practice breastfeeding in the presence of the health worker",
             ],
-            answer: 0,
-            rationale:
-              "Her OB score is G5P3. Only women with less than 5 pregnancies are qualified for a home delivery. It is also advisable for a primigravida to have delivery at a childbirth facility.",
-          },
-          {
-            id: "q60",
-            question:
-              "Inadequate intake by the pregnant woman of which vitamin may cause neural tube defects?",
-            choices: ["Niacin", "Riboflavin", "Folic acid", "Thiamine"],
             answer: 1,
             rationale:
-              "To stimulate milk production by the mammary acini Suckling of the nipple stimulates prolactin reflex (the release of prolactin by the anterior pituitary gland), which initiates lactation. Answer: (C) Folic acid It is estimated that the incidence of neural tube defects can be reduced drastically if pregnant women have an adequate intake of folic acid.",
+              "Suckling of the nipple stimulates the prolactin reflex (release of prolactin by the anterior pituitary), which initiates milk production.",
           },
           {
-            id: "q61",
+            id: "q86",
+            question:
+              'In a mothers\' class, you discuss proper breastfeeding technique. Which of these is a sign that the baby has "latched on" to the breast properly?',
+            choices: [
+              "The baby takes shallow, rapid sucks",
+              "The mother does not feel nipple pain",
+              "The baby's mouth is only partly open",
+              "Only the mother's nipple is inside the baby's mouth",
+            ],
+            answer: 1,
+            rationale:
+              "A properly latched baby takes deep, slow sucks with a wide-open mouth and most of the areola inside — and importantly, the mother does not feel nipple pain.",
+          },
+          {
+            id: "q87",
+            question:
+              "You explain to a breastfeeding mother that breast milk is sufficient for all of the baby's nutrient needs only up to ___.",
+            choices: ["3 months", "6 months", "1 year", "2 years"],
+            answer: 1,
+            rationale:
+              "After 6 months, the baby's nutrient needs, especially iron requirements, can no longer be provided by breast milk alone.",
+          },
+          {
+            id: "q88",
             question: "What is given to a woman within a month after the delivery of a baby?",
             choices: [
               "Malunggay capsule",
-              "Ferrous sulfate 100 mg. OD",
+              "Ferrous sulfate 100 mg OD",
               "Retinol 200,000 I.U., 1 capsule",
               "Potassium iodate 200 mg, 1 capsule",
             ],
             answer: 2,
             rationale:
-              "Retinol 200,000 I.U., 1 capsule A capsule of Retinol 200,000 IU is given within 1 month after delivery. Potassium iodate is given during pregnancy; malunggay capsule is not routinely administered after delivery; and ferrous sulfate is taken for two months after delivery.",
+              "A capsule of Retinol 200,000 IU is given within 1 month after delivery; potassium iodate is given during pregnancy, and ferrous sulfate is taken for two months postpartum.",
           },
           {
-            id: "q62",
+            id: "q89",
             question:
               "Which biological used in Expanded Program on Immunization (EPI) is stored in the freezer?",
             choices: ["DPT", "Tetanus toxoid", "Measles vaccine", "Hepatitis B vaccine"],
             answer: 2,
             rationale:
-              "Measles vaccine Among the biologicals used in the Expanded Program on Immunization, measles vaccine and OPV are highly sensitive to heat, requiring storage in the freezer.",
+              "Among EPI biologicals, measles vaccine and OPV are highly sensitive to heat and require freezer storage.",
           },
           {
-            id: "q63",
+            id: "q90",
             question: "Unused BCG should be discarded how many hours after reconstitution?",
             choices: ["2", "4", "6", "At the end of the day"],
             answer: 1,
             rationale:
-              "4 While the unused portion of other biologicals in EPI may be given until the end of the day, only BCG is discarded 4 hours after reconstitution. This is why BCG immunization is scheduled only in the morning.",
+              "Unlike other EPI biologicals which may be used until end of day, BCG is discarded 4 hours after reconstitution, which is why BCG is scheduled only in the morning.",
           },
           {
-            id: "q64",
+            id: "q91",
+            question:
+              "In immunizing school entrants with BCG, you are not obliged to secure parental consent. This is because of which legal document?",
+            choices: [
+              "P.D. 996",
+              "R.A. 7846",
+              "Presidential Proclamation No. 6",
+              "Presidential Proclamation No. 46",
+            ],
+            answer: 0,
+            rationale:
+              "Presidential Decree 996, enacted in 1976, made EPI immunization compulsory for children under 8 years of age.",
+          },
+          {
+            id: "q92",
             question: "Which immunization produces a permanent scar?",
             choices: ["DPT", "BCG", "Measles vaccination", "Hepatitis B vaccination"],
             answer: 1,
             rationale:
-              "BCG BCG causes the formation of a superficial abscess, which begins 2 weeks after immunization. The abscess heals without treatment, with the formation of a permanent scar.",
+              "BCG causes formation of a superficial abscess beginning 2 weeks after immunization, which heals leaving a permanent scar.",
           },
           {
-            id: "q65",
+            id: "q93",
             question:
               "A 4-week old baby was brought to the health center for his first immunization. Which can be given to him?",
             choices: ["DPT1", "OPV1", "Infant BCG", "Hepatitis B vaccine 1"],
             answer: 2,
             rationale:
-              "Infant BCG Infant BCG may be given at birth. All the other immunizations mentioned can be given at 6 weeks of age.",
+              "Infant BCG may be given at birth, while the other immunizations mentioned are typically given starting at 6 weeks of age.",
           },
           {
-            id: "q66",
-            question: "You will not give DPT 2 if the mother says that the infant had",
+            id: "q94",
+            question: "You will not give DPT 2 if the mother says that the infant had:",
             choices: [
-              "Seizures a day after DPT 1.",
-              "Fever for 3 days after DPT 1.",
-              "Abscess formation after DPT 1.",
-              "Local tenderness for 3 days after DPT 1.",
+              "Seizures a day after DPT 1",
+              "Fever for 3 days after DPT 1",
+              "Abscess formation after DPT 1",
+              "Local tenderness for 3 days after DPT 1",
             ],
             answer: 0,
             rationale:
-              "Seizures a day after DPT 1. Seizures within 3 days after administration of DPT is an indication of hypersensitivity to pertussis vaccine, a component of DPT. This is considered a specific contraindication to subsequent doses of DPT.",
+              "Seizures within 3 days of DPT administration indicate hypersensitivity to the pertussis component, which is a specific contraindication to subsequent DPT doses.",
           },
           {
-            id: "q67",
+            id: "q95",
             question:
-              "A 2-month old infant was brought to the health center for immunization. During assessment, the infant’s temperature registered at 38.1°C. Which is the best course of action that you will take?",
+              "A 2-month old infant was brought to the health center for immunization. During assessment, the infant's temperature registered at 38.1°C. Which is the best course of action that you will take?",
             choices: [
-              "Go on with the infant’s immunizations.",
-              "Give Paracetamol and wait for his fever to subside.",
-              "Refer the infant to the physician for further assessment.",
-              "Advise the infant’s mother to bring him back for immunization when he is well.",
+              "Go on with the infant's immunizations",
+              "Give Paracetamol and wait for his fever to subside",
+              "Refer the infant to the physician for further assessment",
+              "Advise the infant's mother to bring him back for immunization when he is well",
             ],
             answer: 0,
             rationale:
-              "Go on with the infant’s immunizations. In the EPI, fever up to 38.5°C is not a contraindication to immunization. Mild acute respiratory tract infection, 467 simple diarrhea and malnutrition are not contraindications either. Answers A, C and D are done for a client classified as having pneumonia.",
+              "In EPI, fever up to 38.5°C is not a contraindication to immunization, nor are mild acute respiratory infection, simple diarrhea, or malnutrition.",
           },
           {
-            id: "q68",
+            id: "q96",
+            question:
+              "A pregnant woman had just received her 4th dose of tetanus toxoid. Subsequently, her baby will have protection against tetanus for how long?",
+            choices: ["1 year", "3 years", "10 years", "Lifetime"],
+            answer: 0,
+            rationale:
+              "The baby receives passive natural immunity via placental antibody transfer lasting about 1 year, while the mother's active immunity from TT4 lasts about 10 years.",
+          },
+          {
+            id: "q97",
+            question:
+              "A 4-month old infant was brought to the health center because of cough. Her respiratory rate is 42/minute. Using the Integrated Management of Child Illness (IMCI) guidelines of assessment, her breathing is considered:",
+            choices: ["Fast", "Slow", "Normal", "Insignificant"],
+            answer: 2,
+            rationale:
+              "In IMCI, a respiratory rate of 50/minute or more is considered fast breathing for an infant aged 2 to 12 months, so 42/minute is normal.",
+          },
+          {
+            id: "q98",
             question:
               "Which of the following signs will indicate that a young child is suffering from severe pneumonia?",
             choices: ["Dyspnea", "Wheezing", "Fast breathing", "Chest indrawing"],
             answer: 3,
             rationale:
-              "Chest indrawing In IMCI, chest indrawing is used as the positive sign of dyspnea, indicating severe pneumonia.",
+              "In IMCI, chest indrawing is used as the positive sign of dyspnea indicating severe pneumonia.",
           },
           {
-            id: "q69",
+            id: "q99",
             question:
-              "A 1 ½ year old child was classified as having 3rd degree protein energy malnutrition, kwashiorkor. Which of the following signs will be most apparent in this child?",
+              "Using IMCI guidelines, you classify a child as having severe pneumonia. What is the best management for the child?",
+            choices: [
+              "Prescribe an antibiotic",
+              "Refer him urgently to the hospital",
+              "Instruct the mother to increase fluid intake",
+              "Instruct the mother to continue breastfeeding",
+            ],
+            answer: 1,
+            rationale:
+              "Severe pneumonia requires urgent referral to a hospital; the other measures are appropriate for a child classified only with (non-severe) pneumonia.",
+          },
+          {
+            id: "q100",
+            question:
+              "A 5-month old infant was brought by his mother to the health center because of diarrhea occurring 4 to 5 times a day. His skin goes back slowly after a skin pinch and his eyes are sunken. Using the IMCI guidelines, you will classify this infant in which category?",
+            choices: [
+              "No signs of dehydration",
+              "Some dehydration",
+              "Severe dehydration",
+              "The data is insufficient",
+            ],
+            answer: 1,
+            rationale:
+              "A child with diarrhea showing 2 or more signs — sunken eyes and slow skin pinch recoil — is classified as having SOME DEHYDRATION per IMCI guidelines.",
+          },
+          {
+            id: "q101",
+            question:
+              "Based on assessment, you classified a 3-month old infant with the chief complaint of diarrhea in the category of SOME DEHYDRATION. Based on IMCI management guidelines, which of the following will you do?",
+            choices: [
+              "Bring the infant to the nearest facility where IV fluids can be given",
+              "Supervise the mother in giving 200 to 400 ml of Oresol in 4 hours",
+              "Give the infant's mother instructions on home management",
+              "Keep the infant in your health center for close observation",
+            ],
+            answer: 1,
+            rationale:
+              "SOME DEHYDRATION is treated with Oresol administration over 4 hours, with the amount best computed based on the child's weight (75 ml/kg body weight).",
+          },
+          {
+            id: "q102",
+            question:
+              "A mother is using Oresol in the management of diarrhea of her 3-year old child. She asked you what to do if her child vomits. You will tell her to:",
+            choices: [
+              "Bring the child to the nearest hospital for further assessment",
+              "Bring the child to the health center for intravenous fluid therapy",
+              "Bring the child to the health center for assessment by the physician",
+              "Let the child rest for 10 minutes then continue giving Oresol more slowly",
+            ],
+            answer: 3,
+            rationale:
+              "Unless the child vomits persistently (everything taken in, requiring urgent referral), vomiting during Oresol therapy is managed by letting the child rest for 10 minutes then continuing Oresol more slowly.",
+          },
+          {
+            id: "q103",
+            question:
+              "A 1½ year old child was classified as having 3rd degree protein energy malnutrition, kwashiorkor. Which of the following signs will be most apparent in this child?",
             choices: ["Voracious appetite", "Wasting", "Apathy", "Edema"],
             answer: 3,
             rationale:
-              "Edema Edema, a major sign of kwashiorkor, is caused by decreased colloidal osmotic pressure of the blood brought about by hypoalbuminemia. Decreased blood albumin level is due a protein-deficient diet.",
+              "Edema, a major sign of kwashiorkor, is caused by decreased colloidal osmotic pressure of the blood from hypoalbuminemia due to a protein-deficient diet.",
           },
           {
-            id: "q70",
+            id: "q104",
             question:
-              "Assessment of a 2-year old child revealed “baggy pants”. Using the IMCI guidelines, how will you manage this child?",
+              'Assessment of a 2-year old child revealed "baggy pants". Using the IMCI guidelines, how will you manage this child?',
             choices: [
-              "Refer the child urgently to a hospital for confinement.",
-              "Coordinate with the social worker to enroll the child in a feeding program.",
-              "Make a teaching plan for the mother, focusing on menu planning for her child.",
-              "Assess and treat the child for health problems like infections and intestinal parasitism.",
+              "Refer the child urgently to a hospital for confinement",
+              "Coordinate with the social worker to enroll the child in a feeding program",
+              "Make a teaching plan for the mother, focusing on menu planning for her child",
+              "Assess and treat the child for health problems like infections and intestinal parasitism",
             ],
             answer: 0,
             rationale:
-              "Refer the child urgently to a hospital for confinement. “Baggy pants” is a sign of severe marasmus. The best management is urgent referral to a hospital.",
+              '"Baggy pants" is a sign of severe marasmus, and the best management is urgent referral to a hospital.',
           },
           {
-            id: "q71",
+            id: "q105",
             question:
               "During the physical examination of a young child, what is the earliest sign of xerophthalmia that you may observe?",
             choices: [
@@ -14481,51 +12260,65 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Conjunctival xerosis The earliest sign of Vitamin A deficiency (xerophthalmia) is night blindness. However, this is a functional change, 468 which is not observable during physical examination.The earliest visible lesion is conjunctival xerosis or dullness of the conjunctiva due to inadequate tear production.",
+              "While night blindness is the earliest functional sign of Vitamin A deficiency, it is not observable on exam; conjunctival xerosis is the earliest visible lesion.",
           },
           {
-            id: "q72",
+            id: "q106",
             question:
               "To prevent xerophthalmia, young children are given Retinol capsule every 6 months. What is the dose given to preschoolers?",
             choices: ["10,000 IU", "20,000 IU", "100,000 IU", "200,000 IU"],
             answer: 3,
             rationale:
-              "200,000 IU Preschoolers are given Retinol 200,000 IU every 6 months. 100,000 IU is given once to infants aged 6 to 12 months. The dose for pregnant women is 10,000 IU.",
+              "Preschoolers are given Retinol 200,000 IU every 6 months, while 100,000 IU is given once to infants aged 6-12 months and 10,000 IU to pregnant women.",
           },
           {
-            id: "q73",
+            id: "q107",
             question:
               "The major sign of iron deficiency anemia is pallor. What part is best examined for pallor?",
             choices: ["Palms", "Nailbeds", "Around the lips", "Lower conjunctival sac"],
             answer: 0,
             rationale:
-              "Palms The anatomic characteristics of the palms allow a reliable and convenient basis for examination for pallor.",
+              "The anatomic characteristics of the palms allow a reliable and convenient basis for examination for pallor.",
           },
           {
-            id: "q74",
+            id: "q108",
             question:
               "Food fortification is one of the strategies to prevent micronutrient deficiency conditions. R.A. 8976 mandates fortification of certain food items. Which of the following is among these food items?",
             choices: ["Sugar", "Bread", "Margarine", "Filled milk"],
             answer: 0,
             rationale:
-              "Sugar R.A. 8976 mandates fortification of rice, wheat flour, sugar and cooking oil with Vitamin A, iron and/or iodine.",
+              "R.A. 8976 mandates fortification of rice, wheat flour, sugar, and cooking oil with Vitamin A, iron, and/or iodine.",
           },
           {
-            id: "q75",
+            id: "q109",
             question:
               "What is the best course of action when there is a measles epidemic in a nearby municipality?",
             choices: [
-              "Give measles vaccine to babies aged 6 to 8 months.",
+              "Give measles vaccine to babies aged 6 to 8 months",
               "Give babies aged 6 to 11 months one dose of 100,000 I.U. of Retinol",
-              "Instruct mothers to keep their babies at home to prevent disease transmission.",
-              "Instruct mothers to feed their babies adequately to enhance their babies’ resistance.",
+              "Instruct mothers to keep their babies at home to prevent disease transmission",
+              "Instruct mothers to feed their babies adequately to enhance their babies' resistance",
             ],
             answer: 0,
             rationale:
-              "Give measles vaccine to babies aged 6 to 8 months. 469 Ordinarily, measles vaccine is given at 9 months of age. During an impending epidemic, however, one dose may be given to babies aged 6 to 8 months. The mother is instructed that the baby needs another dose when the baby is 9 months old.",
+              "During an impending epidemic, an early dose of measles vaccine may be given to babies aged 6 to 8 months, with another dose given when the baby turns 9 months.",
           },
           {
-            id: "q76",
+            id: "q110",
+            question:
+              "A mother brought her daughter, 4 years old, to the RHU because of cough and colds. Following the IMCI assessment guide, which of the following is a danger sign that indicates the need for urgent referral to a hospital?",
+            choices: [
+              "Inability to drink",
+              "High grade fever",
+              "Signs of severe dehydration",
+              "Cough for more than 30 days",
+            ],
+            answer: 0,
+            rationale:
+              "A sick child aged 2 months to 5 years must be referred urgently if he/she is not able to feed or drink, vomits everything, has convulsions, or is abnormally sleepy or difficult to awaken.",
+          },
+          {
+            id: "q111",
             question:
               "Management of a child with measles includes the administration of which of the following?",
             choices: [
@@ -14534,12 +12327,75 @@ export const subjects: Subject[] = [
               "Tetracycline eye ointment for corneal opacity",
               "Retinol capsule regardless of when the last dose was given",
             ],
-            answer: 2,
+            answer: 3,
             rationale:
-              "Determining whether a place is endemic or not This is diagnostic and therefore secondary level prevention. The other choices are for primary prevention. Answer: (D) Retinol capsule regardless of when the last dose was given An infant 6 to 12 months classified as a case of measles is given Retinol 100,000 IU; a child is given 200,000 IU regardless of when the last dose was given.",
+              "A child classified as a case of measles is given Retinol 200,000 IU regardless of when the last dose was given (100,000 IU for infants 6-12 months).",
           },
           {
-            id: "q77",
+            id: "q112",
+            question:
+              "A mother brought her 10 month old infant for consultation because of fever, which started 4 days prior to consultation. To determine malaria risk, what will you do?",
+            choices: [
+              "Do a tourniquet test",
+              "Ask where the family resides",
+              "Get a specimen for blood smear",
+              "Ask if the fever is present everyday",
+            ],
+            answer: 1,
+            rationale:
+              "Because malaria is endemic to certain areas, the first step to determine risk is asking where the family resides, and if not endemic, whether they traveled to an endemic area recently.",
+          },
+          {
+            id: "q113",
+            question:
+              "The following are strategies implemented by the Department of Health to prevent mosquito-borne diseases. Which of these is most effective in the control of Dengue fever?",
+            choices: [
+              "Stream seeding with larva-eating fish",
+              "Destroying breeding places of mosquitoes",
+              "Chemoprophylaxis of non-immune persons going to endemic areas",
+              "Teaching people in endemic areas to use chemically treated mosquito nets",
+            ],
+            answer: 1,
+            rationale:
+              "Aedes aegypti, the Dengue vector, breeds in stagnant clear water and feeds during the day, so destroying its breeding places is the most effective control strategy.",
+          },
+          {
+            id: "q114",
+            question: "Secondary prevention for malaria includes:",
+            choices: [
+              "Planting of neem or eucalyptus trees",
+              "Residual spraying of insecticides at night",
+              "Determining whether a place is endemic or not",
+              "Growing larva-eating fish in mosquito breeding places",
+            ],
+            answer: 2,
+            rationale:
+              "Determining endemicity is diagnostic in nature and therefore a secondary level prevention measure, while the other options are primary prevention.",
+          },
+          {
+            id: "q115",
+            question: "Scotch tape swab is done to check for which intestinal parasite?",
+            choices: ["Ascaris", "Pinworm", "Hookworm", "Schistosoma"],
+            answer: 1,
+            rationale:
+              "Pinworm ova are deposited around the anal orifice, which the scotch tape swab technique is designed to detect.",
+          },
+          {
+            id: "q116",
+            question:
+              "Which of the following signs indicates the need for sputum examination for AFB?",
+            choices: [
+              "Hematemesis",
+              "Fever for 1 week",
+              "Cough for 3 weeks",
+              "Chest pain for 1 week",
+            ],
+            answer: 2,
+            rationale:
+              "A client is considered a PTB suspect with cough of 2 weeks or more, so a cough for 3 weeks meets this threshold for sputum examination.",
+          },
+          {
+            id: "q117",
             question: "Which clients are considered targets for DOTS Category I?",
             choices: [
               "Sputum negative cavitary cases",
@@ -14549,10 +12405,10 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Clients diagnosed for the first time through a positive sputum exam Category I is for new clients diagnosed by sputum examination and clients diagnosed to have a serious form of extrapulmonary tuberculosis, such as TB osteomyelitis.",
+              "Category I is for new clients diagnosed by sputum examination, as well as those with serious forms of extrapulmonary TB such as TB osteomyelitis.",
           },
           {
-            id: "q78",
+            id: "q118",
             question:
               "To improve compliance to treatment, what innovation is being implemented in DOTS?",
             choices: [
@@ -14563,10 +12419,24 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Having the health worker or a responsible family member monitor drug intake Directly Observed Treatment Short Course is so-called because a treatment partner, preferably a health worker accessible to the client, monitors the client’s compliance to the treatment.",
+              "Directly Observed Treatment Short course involves a treatment partner, preferably a health worker, monitoring the client's compliance with medication intake.",
           },
           {
-            id: "q79",
+            id: "q119",
+            question:
+              "Diagnosis of leprosy is highly dependent on recognition of symptoms. Which of the following is an early sign of leprosy?",
+            choices: [
+              "Macular lesions",
+              "Inability to close eyelids",
+              "Thickened painful nerves",
+              "Sinking of the nosebridge",
+            ],
+            answer: 2,
+            rationale:
+              "Leprosy lesions involve a change in skin color and loss of sensation, sweating, and hair growth, with thickened painful nerves as an early sign; lagophthalmos and nosebridge sinking are late symptoms.",
+          },
+          {
+            id: "q120",
             question:
               "Which of the following clients should be classified as a case of multibacillary leprosy?",
             choices: [
@@ -14577,10 +12447,10 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "5 skin lesions, positive slit skin smear A multibacillary leprosy case is one who has a positive slit skin smear and at least 5 skin lesions.",
+              "A multibacillary leprosy case is one with a positive slit skin smear and at least 5 skin lesions.",
           },
           {
-            id: "q80",
+            id: "q121",
             question:
               "In the Philippines, which condition is the most frequent cause of death associated with schistosomiasis?",
             choices: [
@@ -14591,10 +12461,10 @@ export const subjects: Subject[] = [
             ],
             answer: 1,
             rationale:
-              "Liver cirrhosis The etiologic agent of schistosomiasis in the Philippines is Schistosoma japonicum, which affects the small intestine and the liver. Liver damage is a consequence of fibrotic reactions to schistosoma eggs in the liver.",
+              "Schistosoma japonicum, the etiologic agent in the Philippines, causes liver damage from fibrotic reactions to eggs in the liver, leading to cirrhosis.",
           },
           {
-            id: "q81",
+            id: "q122",
             question:
               "What is the most effective way of controlling schistosomiasis in an endemic area?",
             choices: [
@@ -14605,56 +12475,124 @@ export const subjects: Subject[] = [
             ],
             answer: 2,
             rationale:
-              "Proper use of sanitary toilets The ova of the parasite get out of the human body together with feces. Cutting the cycle at this stage is the most effective way of preventing the spread of the disease to susceptible hosts.",
+              "Since ova exit the body via feces, proper use of sanitary toilets cuts the transmission cycle at this stage, making it the most effective control measure.",
           },
           {
-            id: "q82",
+            id: "q123",
             question:
-              "When residents obtain water from an artesian well in the neighborhood, the level of this approved type of water facility is",
+              "When residents obtain water from an artesian well in the neighborhood, the level of this approved type of water facility is:",
             choices: ["I", "II", "III", "IV"],
-            answer: 2,
+            answer: 1,
             rationale:
-              "Thickened painful nerves The lesion of leprosy is not macular. It is characterized by a change in skin color (either reddish or whitish) and loss of sensation, sweating and hair growth over the lesion. Inability to close the eyelids (lagophthalmos) and sinking of the nosebridge are late symptoms. Answer: (B) II A communal faucet or water standpost is classified as Level II. 470",
+              "A communal faucet or water standpost, such as an artesian well used by a neighborhood, is classified as Level II.",
           },
           {
-            id: "q83",
+            id: "q124",
             question:
-              "A 3-year old child was brought by his mother to the health center because of fever of 4-day duration. The child had a positive tourniquet test result. In the absence of other signs, which is the most appropriate measure that the PHN may carry out to prevent Dengue shock syndrome?",
+              "For prevention of hepatitis A, you decided to conduct health education activities. Which of the following is IRRELEVANT?",
             choices: [
-              "Insert an NGT and give fluids per NGT.",
-              "Instruct the mother to give the child Oresol.",
-              "Start the patient on intravenous fluids STAT.",
-              "Refer the client to the physician for appropriate management.",
+              "Use of sterile syringes and needles",
+              "Safe food preparation and food handling by vendors",
+              "Proper disposal of human excreta and personal hygiene",
+              "Immediate reporting of water pipe leaks and illegal water connections",
             ],
             answer: 0,
             rationale:
-              "DPT DPT is sensitive to freezing. The appropriate storage temperature of DPT is 2 to 8° C only. OPV and measles vaccine are highly sensitive to heat and require freezing. MMR is not an immunization in the Expanded Program on Immunization.",
+              "Hepatitis A is transmitted through the fecal-oral route, while Hepatitis B is transmitted through infected body secretions, making sterile syringe use irrelevant to Hepatitis A prevention.",
           },
           {
-            id: "q84",
+            id: "q126",
+            question:
+              "Which biological used in Expanded Program on Immunization (EPI) should NOT be stored in the freezer?",
+            choices: ["DPT", "Oral polio vaccine", "Measles vaccine", "MMR"],
+            answer: 0,
+            rationale:
+              "DPT is sensitive to freezing and should be stored only at 2-8°C, unlike OPV and measles vaccine, which are heat-sensitive and require freezer storage.",
+          },
+          {
+            id: "q127",
             question:
               "You will conduct outreach immunization in a barangay with a population of about 1500. Estimate the number of infants in the barangay.",
             choices: ["45", "50", "55", "60"],
-            answer: 1,
+            answer: 0,
             rationale:
-              "Instruct the mother to give the child Oresol. Since the child does not manifest any other danger sign, maintenance of fluid balance and replacement of fluid loss may be done by giving the client Oresol. Answer: (A) 45 To estimate the number of infants, multiply total population by 3%.",
+              "To estimate the number of infants, multiply the total population by 3%, giving approximately 45.",
           },
           {
-            id: "q85",
+            id: "q128",
+            question:
+              "In Integrated Management of Childhood Illness, severe conditions generally require urgent referral to a hospital. Which of the following severe conditions DOES NOT always require urgent referral to a hospital?",
+            choices: [
+              "Mastoiditis",
+              "Severe dehydration",
+              "Severe pneumonia",
+              "Severe febrile disease",
+            ],
+            answer: 1,
+            rationale:
+              "Severe dehydration is managed with a priority order of IV fluids, referral if IV cannot start within 30 minutes, then Oresol via NGT or orally; urgent referral is only needed when these measures aren't possible or effective.",
+          },
+          {
+            id: "q129",
+            question:
+              "A client was diagnosed as having Dengue fever. You will say that there is slow capillary refill when the color of the nailbed that you pressed does not return within how many seconds?",
+            choices: ["3", "5", "8", "10"],
+            answer: 0,
+            rationale:
+              "Adequate blood supply allows the color of the nailbed to return within 3 seconds; a longer delay indicates slow capillary refill.",
+          },
+          {
+            id: "q130",
+            question:
+              "A 3-year old child was brought by his mother to the health center because of fever of 4-day duration. The child had a positive tourniquet test result. In the absence of other signs, which is the most appropriate measure that the PHN may carry out to prevent Dengue shock syndrome?",
+            choices: [
+              "Insert an NGT and give fluids per NGT",
+              "Instruct the mother to give the child Oresol",
+              "Start the patient on intravenous fluids STAT",
+              "Refer the client to the physician for appropriate management",
+            ],
+            answer: 1,
+            rationale:
+              "Since the child shows no other danger sign, maintaining fluid balance with Oresol is sufficient to help prevent Dengue shock syndrome at this stage.",
+          },
+          {
+            id: "q131",
+            question:
+              "The pathognomonic sign of measles is Koplik's spot. You may see Koplik's spot by inspecting the ___.",
+            choices: [
+              "Nasal mucosa",
+              "Buccal mucosa",
+              "Skin on the abdomen",
+              "Skin on the antecubital surface",
+            ],
+            answer: 1,
+            rationale:
+              "Koplik's spots may be seen on the mucosa of the mouth or throat (buccal mucosa).",
+          },
+          {
+            id: "q132",
+            question: "Among the following diseases, which is airborne?",
+            choices: ["Viral conjunctivitis", "Acute poliomyelitis", "Diphtheria", "Measles"],
+            answer: 3,
+            rationale:
+              "Measles is airborne, unlike viral conjunctivitis (contact with eye discharge), poliomyelitis (fecal-oral/throat secretion contact), or diphtheria (direct/indirect contact with respiratory secretions).",
+          },
+          {
+            id: "q133",
             question:
               "Among children aged 2 months to 3 years, the most prevalent form of meningitis is caused by which microorganism?",
             choices: [
               "Hemophilus influenzae",
               "Morbillivirus",
-              "Steptococcus pneumoniae",
+              "Streptococcus pneumoniae",
               "Neisseria meningitidis",
             ],
             answer: 0,
             rationale:
-              "Hemophilus influenzae Hemophilus meningitis is unusual over the age of 5 years. In developing countries, the peak incidence is in children less than 6 months of age. Morbillivirus is the etiology of measles. Streptococcus pneumoniae and Neisseria meningitidis may cause meningitis, but age distribution is not specific in young children.",
+              "Hemophilus influenzae meningitis is unusual over age 5, with peak incidence in developing countries among children under 6 months, making it the most prevalent cause in this young age group.",
           },
           {
-            id: "q86",
+            id: "q134",
             question:
               "Human beings are the major reservoir of malaria. Which of the following strategies in malaria control is based on this fact?",
             choices: [
@@ -14665,10 +12603,10 @@ export const subjects: Subject[] = [
             ],
             answer: 3,
             rationale:
-              "Zooprophylaxis Zooprophylaxis is done by putting animals like cattle or dogs close to windows or doorways just before nightfall. The Anopheles mosquito takes his blood meal from the animal and goes back to its breeding place, thereby preventing infection of humans.",
+              "Zooprophylaxis places animals near windows/doorways so the Anopheles mosquito feeds on the animal instead of humans, based on the fact that humans are the major reservoir.",
           },
           {
-            id: "q87",
+            id: "q135",
             question:
               "The use of larvivorous fish in malaria control is the basis for which strategy of malaria control?",
             choices: [
@@ -14679,10 +12617,10 @@ export const subjects: Subject[] = [
             ],
             answer: 0,
             rationale:
-              "Stream seeding Stream seeding is done by putting tilapia fry in streams or other bodies of water identified as breeding places of the Anopheles mosquito 472",
+              "Stream seeding involves putting tilapia fry (larva-eating fish) into streams or bodies of water identified as Anopheles mosquito breeding places.",
           },
           {
-            id: "q88",
+            id: "q136",
             question:
               "Mosquito-borne diseases are prevented mostly with the use of mosquito control measures. Which of the following is NOT appropriate for malaria control?",
             choices: [
@@ -14693,99 +12631,163 @@ export const subjects: Subject[] = [
             ],
             answer: 2,
             rationale:
-              "Destruction of breeding places of the mosquito vector Anopheles mosquitoes breed in slow-moving, clear water, such as mountain streams.",
+              "Anopheles mosquitoes breed in slow-moving, clear water like mountain streams, making outright destruction of these natural breeding places impractical compared to the other measures.",
           },
           {
-            id: "q89",
+            id: "q137",
             question:
-              "A 4-year old client was brought to the health center with the chief complaint of severe diarrhea and the passage of “rice water” stools. The client is most probably suffering from which condition?",
+              'A 4-year old client was brought to the health center with the chief complaint of severe diarrhea and the passage of "rice water" stools. The client is most probably suffering from which condition?',
             choices: ["Giardiasis", "Cholera", "Amebiasis", "Dysentery"],
             answer: 1,
             rationale:
-              "Cholera Passage of profuse watery stools is the major symptom of cholera. Both amebic and bacillary dysentery are characterized by the presence of blood and/or mucus in the stools. Giardiasis is characterized by fat malabsorption and, therefore, steatorrhea.",
+              "Passage of profuse, watery 'rice water' stools is the major symptom of cholera, unlike dysentery (blood/mucus in stool) or giardiasis (steatorrhea from fat malabsorption).",
           },
           {
-            id: "q90",
+            id: "q138",
             question:
-              "In the Philippines, which specie of schistosoma is endemic in certain regions?",
+              "In the Philippines, which species of schistosoma is endemic in certain regions?",
             choices: ["S. mansoni", "S. japonicum", "S. malayensis", "S. haematobium"],
             answer: 1,
             rationale:
-              "S. japonicum S. mansoni is found mostly in Africa and South America; S. haematobium in Africa and the Middle East; and S. malayensis only in peninsular Malaysia.",
+              "S. japonicum is endemic in the Philippines; S. mansoni occurs mostly in Africa/South America, S. haematobium in Africa/Middle East, and S. malayensis only in peninsular Malaysia.",
           },
           {
-            id: "q91",
+            id: "q139",
             question:
               "A 32-year old client came for consultation at the health center with the chief complaint of fever for a week. Accompanying symptoms were muscle pains and body malaise. A week after the start of fever, the client noted yellowish discoloration of his sclera. History showed that he waded in flood waters about 2 weeks before the onset of symptoms. Based on his history, which disease condition will you suspect?",
-            choices: [
-              "Hepatitis A",
-              "Hepatitis B 473",
-              "Tetanus",
-              "Leptospirosis Transmission occurs mostly through sexual intercourse and exposure to blood or tissues.",
-            ],
+            choices: ["Hepatitis A", "Hepatitis B", "Tetanus", "Leptospirosis"],
             answer: 3,
             rationale:
-              "Leptospirosis Leptospirosis is transmitted through contact with the skin or mucous membrane with water or moist soil contaminated with urine of infected animals, like rats.",
+              "Leptospirosis is transmitted through contact with skin or mucous membranes with water or moist soil contaminated with infected animal urine, consistent with wading in floodwaters.",
           },
           {
-            id: "q92",
+            id: "q140",
             question:
               "MWSS provides water to Manila and other cities in Metro Manila. This is an example of which level of water facility?",
             choices: ["I", "II", "III", "IV"],
-            answer: 1,
+            answer: 2,
             rationale:
-              "Infectious mononucleosis Cytomegalovirus disease is an acute viral disease characterized by fever, sore throat and lymphadenopathy. Answer: (C) III Waterworks systems, such as MWSS, are classified as level III.",
+              "Waterworks systems, such as MWSS, are classified as Level III water facilities.",
           },
           {
-            id: "q93",
+            id: "q141",
             question:
-              "A barangay had an outbreak of German measles. To prevent congenital rubella, what is the BEST advice that you can give to women in the first trimester of pregnancy in the barangay? Answer: (A) Being faithful to a single sexual partner Sexual fidelity rules out the possibility of getting the disease by sexual contact with another infected person. 473 474",
+              "You are the PHN in the city health center. A client underwent screening for AIDS using ELISA. His result was positive. What is the best course of action that you may take?",
             choices: [
-              "Advice them on the signs of German measles.",
-              "Avoid crowded places, such as markets and moviehouses.",
-              "Consult at the health center where rubella vaccine may be given.",
-              "Consult a physician who may give them rubella immunoglobulin.",
+              "Get a thorough history of the client, focusing on the practice of high risk behaviors",
+              "Ask the client to be accompanied by a significant person before revealing the result",
+              "Refer the client to the physician since he is the best person to reveal the result to the client",
+              "Refer the client for a supplementary test, such as Western blot, since the ELISA result may be false",
             ],
             answer: 3,
             rationale:
-              "Consult a physician who may give them rubella immunoglobulin. Rubella vaccine is made up of attenuated German measles viruses. This is contraindicated in pregnancy. Immune globulin, a specific prophylactic against German measles, may be given to pregnant women.",
+              "A reactive ELISA result must be confirmed with a more specific test, such as Western blot, since a negative supplementary test would indicate the initial ELISA result was false.",
           },
           {
-            id: "q94",
-            question:
-              "You were invited to be the resource person in a training class for food handlers. Which of the following would you emphasize regarding prevention of staphylococcal food poisoning?",
+            id: "q142",
+            question: "Which is the BEST control measure for AIDS?",
             choices: [
-              "All cooking and eating utensils must be thoroughly washed.",
-              "Food must be cooked properly to destroy staphylococcal microorganisms.",
-              "Food handlers and food servers must have a negative stool examination result.",
-              "Proper handwashing during food preparation is the best way of preventing the condition.",
-            ],
-            answer: 3,
-            rationale:
-              "Proper handwashing during food preparation is the best way of preventing the condition. Symptoms of this food poisoning are due to staphylococcal enterotoxin, not the microorganisms themselves. Contamination is by food handling by persons with staphylococcal skin or eye infections.",
-          },
-          {
-            id: "q95",
-            question:
-              "In a mothers’ class, you discussed childhood diseases such as chicken pox. Which of the following statements about chicken pox is correct?",
-            choices: [
-              "The older one gets, the more susceptible he becomes to the complications of chicken pox.",
-              "A single attack of chicken pox will prevent future episodes, including conditions such as shingles.",
-              "To prevent an outbreak in the community, quarantine may be imposed by health authorities.",
-              "Chicken pox vaccine is best given when there is an impending outbreak in the community.",
+              "Being faithful to a single sexual partner",
+              "Using a condom during each sexual contact",
+              "Avoiding sexual contact with commercial sex workers",
+              "Making sure that one's sexual partner does not have signs of AIDS",
             ],
             answer: 0,
             rationale:
-              "The older one gets, the more susceptible he becomes to the complications of chicken pox. Chicken pox is usually more severe in adults than in 474 children. Complications, such as pneumonia, are higher in incidence in adults.",
+              "Sexual fidelity to a single, uninfected partner rules out the possibility of contracting the disease through sexual contact with another infected person.",
           },
           {
-            id: "q96",
+            id: "q143",
+            question:
+              "The most frequent causes of death among clients with AIDS are opportunistic diseases. Which of the following opportunistic infections is characterized by tonsillopharyngitis?",
+            choices: [
+              "Respiratory candidiasis",
+              "Infectious mononucleosis",
+              "Cytomegalovirus disease",
+              "Pneumocystis carinii pneumonia",
+            ],
+            answer: 1,
+            rationale:
+              "Infectious mononucleosis is characterized by tonsillopharyngitis, distinguishing it from cytomegalovirus disease, which presents with fever, sore throat, and lymphadenopathy.",
+          },
+          {
+            id: "q144",
+            question:
+              "To determine possible sources of sexually transmitted infections, which is the BEST method that may be undertaken by the public health nurse?",
+            choices: [
+              "Contact tracing",
+              "Community survey",
+              "Mass screening tests",
+              "Interview of suspects",
+            ],
+            answer: 0,
+            rationale:
+              "Contact tracing is the most practical and reliable method of finding possible sources of person-to-person transmitted infections, such as STIs.",
+          },
+          {
+            id: "q145",
+            question:
+              "Antiretroviral agents, such as AZT, are used in the management of AIDS. Which of the following is NOT an action expected of these drugs?",
+            choices: [
+              "They prolong the life of the client with AIDS",
+              "They reduce the risk of opportunistic infections",
+              "They shorten the period of communicability of the disease",
+              "They are able to bring about a cure of the disease condition",
+            ],
+            answer: 3,
+            rationale:
+              "There is no known cure for AIDS; antiretroviral agents reduce the risk of opportunistic infections and prolong life but do not cure the underlying immunodeficiency.",
+          },
+          {
+            id: "q146",
+            question:
+              "A barangay had an outbreak of German measles. To prevent congenital rubella, what is the BEST advice that you can give to women in the first trimester of pregnancy in the barangay?",
+            choices: [
+              "Advise them on the signs of German measles",
+              "Avoid crowded places, such as markets and moviehouses",
+              "Consult at the health center where rubella vaccine may be given",
+              "Consult a physician who may give them rubella immunoglobulin",
+            ],
+            answer: 3,
+            rationale:
+              "Rubella vaccine, made of attenuated virus, is contraindicated in pregnancy; rubella immunoglobulin is the appropriate prophylactic instead.",
+          },
+          {
+            id: "q147",
+            question:
+              "You were invited to be the resource person in a training class for food handlers. Which of the following would you emphasize regarding prevention of staphylococcal food poisoning?",
+            choices: [
+              "All cooking and eating utensils must be thoroughly washed",
+              "Food must be cooked properly to destroy staphylococcal microorganisms",
+              "Food handlers and food servers must have a negative stool examination result",
+              "Proper handwashing during food preparation is the best way of preventing the condition",
+            ],
+            answer: 3,
+            rationale:
+              "Symptoms of staphylococcal food poisoning are due to enterotoxin, not the organisms themselves, and contamination stems from food handling by infected persons — making proper handwashing the key preventive measure.",
+          },
+          {
+            id: "q148",
+            question:
+              "In a mothers' class, you discussed childhood diseases such as chicken pox. Which of the following statements about chicken pox is correct?",
+            choices: [
+              "The older one gets, the more susceptible he becomes to the complications of chicken pox",
+              "A single attack of chicken pox will prevent future episodes, including conditions such as shingles",
+              "To prevent an outbreak in the community, quarantine may be imposed by health authorities",
+              "Chicken pox vaccine is best given when there is an impending outbreak in the community",
+            ],
+            answer: 0,
+            rationale:
+              "Chicken pox is usually more severe in adults than children, with complications such as pneumonia occurring at higher rates in adults.",
+          },
+          {
+            id: "q149",
             question:
               "Complications to infectious parotitis (mumps) may be serious in which type of clients?",
             choices: ["Pregnant women", "Elderly clients", "Young adult males", "Young infants"],
             answer: 2,
             rationale:
-              "Young adult males Epididymitis and orchitis are possible complications of mumps. In post-adolescent males, bilateral inflammation of the testes and epididymis may cause sterility. 475",
+              "Epididymitis and orchitis are possible complications of mumps in post-adolescent males, where bilateral testicular/epididymal inflammation may cause sterility.",
           },
         ],
       },
