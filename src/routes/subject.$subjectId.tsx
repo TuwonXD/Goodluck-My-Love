@@ -18,9 +18,7 @@ export const Route = createFileRoute("/subject/$subjectId")({
       },
       {
         name: "description",
-        content:
-          loaderData?.subject.description ??
-          "Choose a test bank and start reviewing.",
+        content: loaderData?.subject.description ?? "Choose a test bank and start reviewing.",
       },
     ],
   }),
@@ -65,9 +63,7 @@ function SubjectPage() {
                   <ListChecks className="h-5 w-5" />
                 </span>
                 <div className="min-w-0 flex-1">
-                  <h3 className="truncate font-display text-base font-semibold">
-                    {b.title}
-                  </h3>
+                  <h3 className="truncate font-display text-base font-semibold">{b.title}</h3>
                   <p className="mt-0.5 truncate text-sm text-muted-foreground">
                     {b.questions.length} questions · {b.description}
                   </p>

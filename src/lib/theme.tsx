@@ -10,10 +10,10 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
-    const stored = (typeof window !== "undefined" && localStorage.getItem("gml-theme")) as Theme | null;
+    const stored =
+      typeof window !== "undefined" ? (localStorage.getItem("gml-theme") as Theme | null) : null;
     const prefersDark =
-      typeof window !== "undefined" &&
-      window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      typeof window !== "undefined" && window.matchMedia?.("(prefers-color-scheme: dark)").matches;
     const initial: Theme = stored ?? (prefersDark ? "dark" : "light");
     setTheme(initial);
   }, []);
@@ -23,7 +23,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     root.classList.toggle("dark", theme === "dark");
     try {
       localStorage.setItem("gml-theme", theme);
-    } catch {}
+    } catch {
+      // ignore localStorage errors in private browsing
+    }
   }, [theme]);
 
   return (

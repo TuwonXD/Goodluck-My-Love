@@ -1,10 +1,10 @@
 import { n as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as Route } from "./quiz._subjectId._bankId-dgrBI4MM.mjs";
+import { t as Route } from "./quiz._subjectId._bankId-CC1-yPkH.mjs";
 import { a as Play, f as ArrowLeft, i as RotateCcw, l as Check, r as Sparkles, t as X } from "../_libs/lucide-react.mjs";
-import { t as SiteHeader } from "./site-header-BK4r93CF.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/quiz._subjectId._bankId-DYmYvn01.js
+import { t as SiteHeader } from "./site-header-yc62pHdz.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/quiz._subjectId._bankId-DLjwQC_k.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function CorrectAnswerVideoModal({ onContinue }) {

@@ -16,54 +16,47 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
-	"/assets/arrow-left-Bldbt1Nb.js": {
+	"/assets/arrow-left-BdVY8twR.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"a0-4fSm6GPc919Bep+Rba93jpIIrto\"",
-		"mtime": "2026-08-27T09:16:17.749Z",
+		"etag": "\"a0-rE5q90EKMS6P9peyx68nEcWa4aY\"",
+		"mtime": "2026-08-27T09:24:35.177Z",
 		"size": 160,
-		"path": "../public/assets/arrow-left-Bldbt1Nb.js"
+		"path": "../public/assets/arrow-left-BdVY8twR.js"
 	},
-	"/assets/arrow-right-BOLg75rj.js": {
+	"/assets/arrow-right-9Cr-Auoq.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"a0-+fmznibi4NcHrEzKPy07CNs18Cs\"",
-		"mtime": "2026-08-27T09:16:17.750Z",
+		"etag": "\"a0-cHju4Gu+6acz2tvqXHoSPO0wiAs\"",
+		"mtime": "2026-08-27T09:24:35.182Z",
 		"size": 160,
-		"path": "../public/assets/arrow-right-BOLg75rj.js"
+		"path": "../public/assets/arrow-right-9Cr-Auoq.js"
 	},
-	"/assets/quiz._subjectId._bankId-ChSuUcE9.js": {
+	"/assets/index-BUtuylYB.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"29f2-DqmU+RyitSDgC9btllzUIl0n/NU\"",
-		"mtime": "2026-08-27T09:16:17.787Z",
-		"size": 10738,
-		"path": "../public/assets/quiz._subjectId._bankId-ChSuUcE9.js"
-	},
-	"/assets/site-header-Cr8OiIZO.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"b90-53zLR1XEzG/X02/wTuVnvI9rRVs\"",
-		"mtime": "2026-08-27T09:16:17.789Z",
-		"size": 2960,
-		"path": "../public/assets/site-header-Cr8OiIZO.js"
-	},
-	"/assets/index-DqAZaj15.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"4c18c-EjPZ4VbzMqN1Y0v7eOnrjgJ5rg4\"",
-		"mtime": "2026-08-27T09:16:17.748Z",
+		"etag": "\"4c18c-WK6SV6GLBxs2Rd9lPuz+x+GhuXU\"",
+		"mtime": "2026-08-27T09:24:35.176Z",
 		"size": 311692,
-		"path": "../public/assets/index-DqAZaj15.js"
+		"path": "../public/assets/index-BUtuylYB.js"
 	},
-	"/assets/routes-DjX_nVt3.js": {
+	"/assets/quiz._subjectId._bankId-DlrFDEpa.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"acc-boy9+ZwlWxicyIi6DSAgk4lBB9k\"",
-		"mtime": "2026-08-27T09:16:17.788Z",
+		"etag": "\"29f2-szqRadmzt4pyjwTAHElMeIO/kdw\"",
+		"mtime": "2026-08-27T09:24:35.189Z",
+		"size": 10738,
+		"path": "../public/assets/quiz._subjectId._bankId-DlrFDEpa.js"
+	},
+	"/assets/routes-IUrdgrn4.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"acc-kjEJwz/wXloj769wAAigGbELQh8\"",
+		"mtime": "2026-08-27T09:24:35.206Z",
 		"size": 2764,
-		"path": "../public/assets/routes-DjX_nVt3.js"
+		"path": "../public/assets/routes-IUrdgrn4.js"
 	},
-	"/assets/subject._subjectId-Bac6KfmK.js": {
+	"/assets/site-header-BmtBp_pC.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"8e1-RS2wXp9eboZXp/nNJ15Ge16cZdc\"",
-		"mtime": "2026-08-27T09:16:17.790Z",
-		"size": 2273,
-		"path": "../public/assets/subject._subjectId-Bac6KfmK.js"
+		"etag": "\"b90-CHZrpW2gcHxCRZsv/ngz92/1pa8\"",
+		"mtime": "2026-08-27T09:24:35.207Z",
+		"size": 2960,
+		"path": "../public/assets/site-header-BmtBp_pC.js"
 	},
 	"/stetheshearticon.png": {
 		"type": "image/png",
@@ -72,19 +65,26 @@ var public_assets_data_default = {
 		"size": 123263,
 		"path": "../public/stetheshearticon.png"
 	},
+	"/assets/subject._subjectId-CZqUtt6t.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"8e1-TC87dwv0mPPSG7T7hOZhBFqd0cg\"",
+		"mtime": "2026-08-27T09:24:35.209Z",
+		"size": 2273,
+		"path": "../public/assets/subject._subjectId-CZqUtt6t.js"
+	},
 	"/assets/styles-B1VoRhVK.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"12ebd-qCPiV3JnyZ329EaeYuHOwwKLn5o\"",
-		"mtime": "2026-08-27T09:16:17.792Z",
+		"mtime": "2026-08-27T09:24:35.211Z",
 		"size": 77501,
 		"path": "../public/assets/styles-B1VoRhVK.css"
 	},
-	"/assets/quiz-data-Bilbz_c1.js": {
+	"/assets/quiz-data-CLJbJZz_.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"9b0aa-40CsWhDcyAEte3Q5w0PMPuYU5pk\"",
-		"mtime": "2026-08-27T09:16:17.786Z",
-		"size": 635050,
-		"path": "../public/assets/quiz-data-Bilbz_c1.js"
+		"etag": "\"9b0ae-6sDIDQSlgaIFalnkvMZ1IYEE0V8\"",
+		"mtime": "2026-08-27T09:24:35.186Z",
+		"size": 635054,
+		"path": "../public/assets/quiz-data-CLJbJZz_.js"
 	},
 	"/correct-answer.mp4": {
 		"type": "video/mp4",

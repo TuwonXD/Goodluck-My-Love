@@ -1,7 +1,7 @@
-import { n as findSubject, t as findBank } from "./quiz-data-WZxuSPLM.js";
-import { createFileRoute, lazyRouteComponent, notFound } from "@tanstack/react-router";
-//#region src/routes/quiz.$subjectId.$bankId.tsx
-var $$splitComponentImporter = () => import("./quiz._subjectId._bankId-DYmYvn01.js");
+import { n as findBank, r as findSubject } from "./quiz-data-CBcWSCpW.mjs";
+import { A as notFound, f as lazyRouteComponent, p as createFileRoute } from "../_libs/@tanstack/react-router+[...].mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/quiz._subjectId._bankId-CC1-yPkH.js
+var $$splitComponentImporter = () => import("./quiz._subjectId._bankId-DLjwQC_k.mjs");
 /** Fisher-Yates shuffle — returns a new array, doesn't mutate the input. */
 var Route = createFileRoute("/quiz/$subjectId/$bankId")({
 	loader: ({ params }) => {

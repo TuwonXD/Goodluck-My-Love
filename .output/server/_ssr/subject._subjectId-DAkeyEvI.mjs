@@ -1,9 +1,9 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { d as ArrowRight, f as ArrowLeft, s as ListChecks } from "../_libs/lucide-react.mjs";
-import { t as SiteHeader } from "./site-header-BK4r93CF.mjs";
-import { t as Route } from "./subject._subjectId-DoKWhq87.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/subject._subjectId-DCkB8D2d.js
+import { t as SiteHeader } from "./site-header-yc62pHdz.mjs";
+import { t as Route } from "./subject._subjectId-Dqot0f3y.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/subject._subjectId-DAkeyEvI.js
 var import_jsx_runtime = require_jsx_runtime();
 function SubjectPage() {
 	const { subject } = Route.useLoaderData();

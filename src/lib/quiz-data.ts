@@ -5571,7 +5571,6 @@ export const subjects: Subject[] = [
           },
         ],
       },
-      
     ],
   },
   {

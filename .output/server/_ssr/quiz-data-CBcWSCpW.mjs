@@ -1,24 +1,26 @@
-import { createContext, useContext, useEffect, useState } from "react";
-import { jsx } from "react/jsx-runtime";
-//#region src/lib/theme.tsx
-var ThemeContext = createContext({
+import { n as __toESM } from "../_runtime.mjs";
+import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tanstack__react-query.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/quiz-data-CBcWSCpW.js
+var import_react = /* @__PURE__ */ __toESM(require_react());
+var import_jsx_runtime = require_jsx_runtime();
+var ThemeContext = (0, import_react.createContext)({
 	theme: "light",
 	toggle: () => {}
 });
 function ThemeProvider({ children }) {
-	const [theme, setTheme] = useState("light");
-	useEffect(() => {
-		const stored = typeof window !== "undefined" && localStorage.getItem("gml-theme");
+	const [theme, setTheme] = (0, import_react.useState)("light");
+	(0, import_react.useEffect)(() => {
+		const stored = typeof window !== "undefined" ? localStorage.getItem("gml-theme") : null;
 		const prefersDark = typeof window !== "undefined" && window.matchMedia?.("(prefers-color-scheme: dark)").matches;
 		setTheme(stored ?? (prefersDark ? "dark" : "light"));
 	}, []);
-	useEffect(() => {
+	(0, import_react.useEffect)(() => {
 		document.documentElement.classList.toggle("dark", theme === "dark");
 		try {
 			localStorage.setItem("gml-theme", theme);
 		} catch {}
 	}, [theme]);
-	return /* @__PURE__ */ jsx(ThemeContext.Provider, {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ThemeContext.Provider, {
 		value: {
 			theme,
 			toggle: () => setTheme((t) => t === "dark" ? "light" : "dark")
@@ -26,9 +28,7 @@ function ThemeProvider({ children }) {
 		children
 	});
 }
-var useTheme = () => useContext(ThemeContext);
-//#endregion
-//#region src/lib/quiz-data.ts
+var useTheme = () => (0, import_react.useContext)(ThemeContext);
 var subjects = [
 	{
 		id: "msn",
@@ -14477,4 +14477,4 @@ function findBank(subjectId, bankId) {
 	return findSubject(subjectId)?.banks.find((b) => b.id === bankId);
 }
 //#endregion
-export { useTheme as a, ThemeProvider as i, findSubject as n, subjects as r, findBank as t };
+export { useTheme as a, subjects as i, findBank as n, findSubject as r, ThemeProvider as t };

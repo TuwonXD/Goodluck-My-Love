@@ -1,7 +1,7 @@
-import { n as findSubject } from "./quiz-data-WZxuSPLM.js";
-import { createFileRoute, lazyRouteComponent, notFound } from "@tanstack/react-router";
-//#region src/routes/subject.$subjectId.tsx
-var $$splitComponentImporter = () => import("./subject._subjectId-DCkB8D2d.js");
+import { r as findSubject } from "./quiz-data-CBcWSCpW.mjs";
+import { A as notFound, f as lazyRouteComponent, p as createFileRoute } from "../_libs/@tanstack/react-router+[...].mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/subject._subjectId-Dqot0f3y.js
+var $$splitComponentImporter = () => import("./subject._subjectId-DAkeyEvI.mjs");
 var Route = createFileRoute("/subject/$subjectId")({
 	loader: ({ params }) => {
 		const subject = findSubject(params.subjectId);
