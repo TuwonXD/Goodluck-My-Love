@@ -1,7 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, ListChecks } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
-import { Skeleton } from "@/components/ui/skeleton";
 import { findSubject, type TestBank } from "@/lib/quiz-data";
 
 export const Route = createFileRoute("/subject/$subjectId")({
@@ -26,7 +25,6 @@ export const Route = createFileRoute("/subject/$subjectId")({
     ],
   }),
   component: SubjectPage,
-  pendingComponent: SubjectSkeleton,
 });
 
 function SubjectPage() {
@@ -76,39 +74,6 @@ function SubjectPage() {
                 </div>
                 <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:text-primary" />
               </Link>
-            </li>
-          ))}
-        </ul>
-      </main>
-    </div>
-  );
-}
-
-function SubjectSkeleton() {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteHeader />
-      <main className="mx-auto max-w-3xl px-5 pb-24 pt-8">
-        <Skeleton className="h-4 w-24" />
-
-        <header className="mt-6 mb-8">
-          <Skeleton className="mb-2 h-3 w-20" />
-          <Skeleton className="h-9 w-2/3" />
-          <Skeleton className="mt-3 h-4 w-full max-w-lg" />
-        </header>
-
-        <Skeleton className="mb-3 h-5 w-28" />
-        <ul className="space-y-3">
-          {Array.from({ length: 4 }).map((_, i) => (
-            <li
-              key={i}
-              className="flex items-center gap-4 rounded-2xl border border-border bg-card p-4"
-            >
-              <Skeleton className="h-11 w-11 shrink-0 rounded-xl" />
-              <div className="min-w-0 flex-1 space-y-2">
-                <Skeleton className="h-4 w-2/3" />
-                <Skeleton className="h-3 w-1/2" />
-              </div>
             </li>
           ))}
         </ul>
