@@ -3,7 +3,7 @@ import type { Subject } from "./types";
 export const fonSubject: Subject = {
   id: "fon",
   name: "Fundamentals of Nursing",
-  short: "Fundamentals",
+  short: "Funda",
   description: "Core concepts, nursing process, leadership, research and basic skills.",
   banks: [
     {

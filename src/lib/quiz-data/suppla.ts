@@ -2,7 +2,7 @@ import type { Subject } from "./types";
 
 export const supplaSubject: Subject = {
   id: "suppla",
-  name: "SUPPLEMENTALS",
+  name: "Supplementals",
   short: "Suppla",
   description:
     "Basic nursing concepts, legal and ethical issues, research, leadership and management.",
@@ -1773,6 +1773,1222 @@ export const supplaSubject: Subject = {
           ],
           answer: 3,
           rationale: "Most breast tumors are found in the upper outer quadrant.",
+        },
+        {
+          id: "q151",
+          question:
+            "A patient with acute renal failure is recovering and asks the nurse, 'Will my kidneys ever function normally again?' Nurse Chloe's response is based on the knowledge that the patient's renal status will most likely:",
+          choices: [
+            "Continue to improve over a period of weeks",
+            "Result in the need for permanent hemodialysis",
+            "Improve only if the patient receives renal transplant",
+            "Result in end-stage renal failure",
+          ],
+          answer: 0,
+          rationale:
+            "In most cases, acute renal failure is reversible, with kidney function returning to normal over weeks.",
+        },
+        {
+          id: "q152",
+          question:
+            "Nurse Joy is a hemodialysis nurse. She knows that the one of the most commonly used sites for AV fistula creation include:",
+          choices: [
+            "Radial artery & Basilic vein",
+            "Femoral artery & Saphenous vein",
+            "Subclavian artery & External jugular vein",
+            "Brachial artery & Cephalic vein",
+          ],
+          answer: 3,
+          rationale:
+            "The brachial artery and cephalic vein are commonly used for AV fistula creation.",
+        },
+        {
+          id: "q153",
+          question:
+            "A patient came in due to a diagnosis of acute renal failure. What is the early sign indicating that acute renal failure is present?",
+          choices: [
+            "Generalized edema",
+            "Hypertension",
+            "Decreased urine output",
+            "Elevated creatinine and BUN levels",
+          ],
+          answer: 2,
+          rationale:
+            "Decreased urine output (oliguria) is often an early sign of acute renal failure.",
+        },
+        {
+          id: "q154",
+          question:
+            "Nurse Kate is managing an emergency patient who is a motor-vehicle accident victim. EMT reports indicate the patient has lost approximately 2000 mL of blood. Vital signs are: BP: 70/50 mmHg, HR: 132 bpm, RR: 31 cpm. This clinical picture is indicative of which type of kidney injury?",
+          choices: ["Pre-renal", "Intra-renal", "Post-renal", "Para-renal"],
+          answer: 0,
+          rationale:
+            "Hypovolemic shock from blood loss leads to decreased renal perfusion, causing pre-renal kidney injury.",
+        },
+        {
+          id: "q155",
+          question:
+            "Nurse Alyssa is a hemodialysis nurse. She is doing her rounds when she observes a nursing student assisting one of her patients. The patient has an arteriovenous (AV) fistula in the left upper extremity. Nurse Alyssa knows that she must immediately intervene if she notices which of the following being done to the patient?",
+          choices: [
+            "Educating the patient to avoid tight clothing on the left arm",
+            "Performing phlebotomy at the left arm",
+            "Taking blood pressure at the right arm",
+            "Palpating for a thrill over the fistula site",
+          ],
+          answer: 1,
+          rationale: "Phlebotomy should not be performed on an arm with an AV fistula.",
+        },
+        {
+          id: "q156",
+          question:
+            "Nurse Micah is a hemodialysis nurse. During dialysis, she asks the novice nurses on how to best position a patient if air embolism occurs. The novice nurses are correct if they answer:",
+          choices: [
+            "Trendelenburg's on the left side",
+            "Trendelenburg's on the right side",
+            "Reverse Trendelenburg's on the left side",
+            "Reverse Trendelenburg's on the right side",
+          ],
+          answer: 1,
+          rationale:
+            "For an air embolism, the patient should be placed in the left lateral Trendelenburg position to trap air in the right atrium.",
+        },
+        {
+          id: "q157",
+          question:
+            "Nurse Joan is a hemodialysis nurse. Her patient is diagnosed with chronic renal failure and is scheduled for hemodialysis that morning. Nurse Joan saw in the chart that the patient is due to receive a daily dose of enalapril (Vasotec). She plans to administer this medication:",
+          choices: [
+            "During dialysis",
+            "The day after dialysis",
+            "Just before dialysis",
+            "Upon return from dialysis",
+          ],
+          answer: 3,
+          rationale:
+            "Many antihypertensives are given after dialysis to prevent hypotension during the procedure.",
+        },
+        {
+          id: "q158",
+          question:
+            "Nurse Kian is a hemodialysis nurse. His patient, who has just returned from a dialysis session, begins to complain of headache, nausea, and appears restless. What is the priority nursing action?",
+          choices: [
+            "Monitor the patient's vital signs",
+            "Elevate the head of bed, until patient is comfortable",
+            "Assess fistula site and dressing",
+            "Notify the physician",
+          ],
+          answer: 0,
+          rationale:
+            "The patient is showing signs of a complication, such as hypotension or disequilibrium syndrome. The priority is to assess vital signs.",
+        },
+        {
+          id: "q159",
+          question:
+            "Nurse Chloe is assigned as the head nurse for the pediatric ward. One of their patients is diagnosed with acute glomerulonephritis (AGN). She knows that the presence of which of the following findings supports the diagnosis?",
+          choices: [
+            "History of impetigo 2 weeks prior",
+            "History of bladder infection 6 weeks prior",
+            "Family history of chickenpox",
+            "Family history of kidney disease",
+          ],
+          answer: 0,
+          rationale:
+            "AGN is often preceded by a group A streptococcal infection, such as impetigo, 1-2 weeks prior.",
+        },
+        {
+          id: "q160",
+          question:
+            "Nurse Paul is a pediatric nurse. He is assessing a child recently diagnosed with acute glomerulonephritis. Which of the following clinical findings is most characteristic of this condition?",
+          choices: [
+            "Low urinary specific gravity",
+            "Cola-colored urine",
+            "Hypotension",
+            "Low BUN levels",
+          ],
+          answer: 1,
+          rationale:
+            "Cola-colored or tea-colored urine (hematuria) is characteristic of acute glomerulonephritis.",
+        },
+        {
+          id: "q161",
+          question:
+            "Nurse Rhea is conducting her rounds in the cardiovascular unit. One of her patients is diagnosed with myocardial infarction. Which of the following is NOT a typical ECG manifestation of myocardial infarction?",
+          choices: [
+            "T-wave inversion",
+            "Presence of Q-wave",
+            "Delta waves",
+            "ST-segment elevation",
+          ],
+          answer: 2,
+          rationale: "Delta waves are characteristic of Wolff-Parkinson-White syndrome, not MI.",
+        },
+        {
+          id: "q162",
+          question:
+            "Nurse Rhea responds to a call bell in the cardiovascular unit. Her patient, diagnosed with acute myocardial infarction (MI), reports severe chest pain and anxiety. She knows that the most effective intervention to relieve pain and anxiety in this situation is:",
+          choices: [
+            "Oxygen administration",
+            "Nitroglycerin administration",
+            "Morphine administration",
+            "Positioning to High Fowler",
+          ],
+          answer: 2,
+          rationale:
+            "Morphine is the drug of choice for pain and anxiety in MI because it reduces pain and anxiety and decreases preload and afterload.",
+        },
+        {
+          id: "q163",
+          question:
+            "Nurse Maria is assigned as the medication nurse for the next shift. While reviewing drug classifications, she encounters a patient prescribed a calcium channel blocker. Which of the following drugs belongs to this classification?",
+          choices: [
+            "Sumatriptan (Imitrex)",
+            "Cromolyn sodium (Nasalcom)",
+            "Enalapril (Vasotec)",
+            "Verapamil (Isoptin)",
+          ],
+          answer: 3,
+          rationale: "Verapamil is a calcium channel blocker.",
+        },
+        {
+          id: "q164",
+          question:
+            "As Nurse Maria continues medication preparation, she reviews drugs used for gastrointestinal conditions. Which of the following medications is classified as a proton pump inhibitor (PPI)?",
+          choices: [
+            "Aripiprazole (Abilify)",
+            "Methimazole (Tapazole)",
+            "Pantoprazole (Pantoloc)",
+            "Metronidazole (Flagyl)",
+          ],
+          answer: 2,
+          rationale: "Pantoprazole is a proton pump inhibitor.",
+        },
+        {
+          id: "q165",
+          question:
+            "Nurse Lara is monitoring a patient diagnosed with a ruptured appendix for signs of peritonitis. The nurse would assess for which manifestations of this complication?",
+          choices: [
+            "Bradycardia",
+            "Subnormal temperature",
+            "Rigid, board-like abdomen",
+            "Hyperactive bowel sounds",
+          ],
+          answer: 2,
+          rationale: "A rigid, board-like abdomen is a classic sign of peritonitis.",
+        },
+        {
+          id: "q166",
+          question:
+            "Nurse Angela prepares the medication for various patients in the medical ward. She knows that this is the reason why suppositories are contraindicated in patients with cardiac disorders.",
+          choices: [
+            "They can lead to increased cardiac workload",
+            "They are poorly absorbed in cardiac patients",
+            "They can cause bradycardia through vagal stimulation",
+            "They can cause trigger sympathetic response",
+          ],
+          answer: 2,
+          rationale: "Rectal administration can cause vagal stimulation and bradycardia.",
+        },
+        {
+          id: "q167",
+          question:
+            "Nurse Janiz is preparing medications for the cardiovascular unit. The doctor's order indicates Lasix 30mg IV push, and the available stock is 20mg / 2mL. How many milliliters should the nurse prepare?",
+          choices: ["3mL", "3.5mL", "2mL", "2.5mL"],
+          answer: 0,
+          rationale: "Dose ordered: 30mg. Stock: 20mg/2mL (10mg/mL). 30mg / 10mg/mL = 3mL.",
+        },
+        {
+          id: "q168",
+          question:
+            "Nurse Jane is assigned to the surgical ward and is caring for a patient who underwent a mastectomy of the left breast. Which of the following is the MOST appropriate health teaching to provide?",
+          choices: [
+            "Avoid using the right arm for any blood pressure measurements or venipuncture.",
+            "Encourage heavy lifting exercises to strengthen the affected arm.",
+            "Elevate the left arm and perform gentle range of motion exercises.",
+            "Keep the left arm in a dependent position to promote blood flow.",
+          ],
+          answer: 2,
+          rationale:
+            "Gentle range of motion and elevation of the affected arm promotes circulation and reduces lymphedema.",
+        },
+        {
+          id: "q169",
+          question:
+            "A patient has undergone mastectomy. The nurse determines that the patient is having the most difficulty adjusting to the loss of the breast if which behavior is observed?",
+          choices: [
+            "Requires help with sponge bathing",
+            "Refuses to look at the dressing",
+            "Asks that the nurse limit visitors to family only",
+            "Dresses in a loose nightgown from home",
+          ],
+          answer: 1,
+          rationale:
+            "Refusing to look at the dressing indicates a significant difficulty in accepting the loss.",
+        },
+        {
+          id: "q170",
+          question:
+            "Nurse John works in the oncology ward of a tertiary hospital. He is educating a patient about early detection of colorectal cancer. He knows that the definitive screening test for colorectal cancer is:",
+          choices: [
+            "Colonoscopy",
+            "Carcinoembryonic Antigen",
+            "Computed Tomography",
+            "Sigmoidoscopy",
+          ],
+          answer: 0,
+          rationale: "Colonoscopy is the definitive screening test for colorectal cancer.",
+        },
+        {
+          id: "q171",
+          question:
+            "Nurse Ivy works in the oncology ward of a tertiary hospital. She is educating the patients regarding prostate cancer. She knows that the confirmatory test for cancer is:",
+          choices: [
+            "Biopsy",
+            "Digital rectal examination (DRE)",
+            "Serum prostate-specific antigen (PSA) test",
+            "Transrectal Ultrasound",
+          ],
+          answer: 0,
+          rationale: "A biopsy is the only definitive or confirmatory test for cancer.",
+        },
+        {
+          id: "q172",
+          question:
+            "Nurse Yuji is conducting health education in the community. He is correct when he mentions that this type of cancer is the most commonly diagnosed cancer among males?",
+          choices: ["Lung cancer", "Liver cancer", "Prostate cancer", "Colorectal cancer"],
+          answer: 2,
+          rationale:
+            "Prostate cancer is the most commonly diagnosed cancer in males (excluding skin cancers).",
+        },
+        {
+          id: "q173",
+          question:
+            "Nurse Yuji is conducting health education in the community. He continues on to state that which of the following is a non-modifiable risk factor that increases a person's risk for developing breast cancer?",
+          choices: ["Unhealthy diet", "Genetics", "Emotional stress", "Obesity"],
+          answer: 1,
+          rationale: "Genetics (e.g., BRCA mutations) is a non-modifiable risk factor.",
+        },
+        {
+          id: "q174",
+          question:
+            "Nurse Izzy is an oncology nurse. She knows that this is one of the symptoms that warrant an immediate check-up with a physician, as cancer may be suspected:",
+          choices: [
+            "Unexplained weight gain",
+            "Frequent headaches",
+            "Hoarseness of voice that lasts a few weeks",
+            "Mild fatigue after exercise",
+          ],
+          answer: 2,
+          rationale: "Hoarseness lasting more than a few weeks can be a sign of laryngeal cancer.",
+        },
+        {
+          id: "q175",
+          question:
+            "Nurse Luna is a novice perioperative nurse. During a case orientation, the head nurse asks her, 'Who is mainly responsible for counting surgical sponges and instruments before and after the procedure?' What is the correct response?",
+          choices: ["Circulating Nurse", "Surgeon", "Anesthesiologist", "Scrub Nurse"],
+          answer: 3,
+          rationale:
+            "The scrub nurse is primarily responsible for counting sponges and instruments.",
+        },
+        {
+          id: "q176",
+          question:
+            "Nurse Margaux is a perioperative nurse. The anesthesiologist orders for an administration of atropine sulfate to reduce the pre-operative client's secretions before the surgery. The nurse administers atropine during which of the following time periods?",
+          choices: [
+            "Before the client is wheeled into the operating room",
+            "10-20 minutes before the induction of anesthesia",
+            "20-30 minutes before the induction of anesthesia",
+            "30-40 minutes before the induction of anesthesia",
+          ],
+          answer: 2,
+          rationale:
+            "Atropine is typically given 30-60 minutes before surgery, or 20-30 minutes before induction.",
+        },
+        {
+          id: "q177",
+          question:
+            "Nurse Christina is a perioperative nurse. She knows that this is the reason why skin preparation is necessary before the surgery begins.",
+          choices: [
+            "To reduce skin moisture prior to incision",
+            "To eliminate resident and transient microorganisms",
+            "To increase blood circulation to the surgical site",
+            "To remove dead skin cells and promote faster healing",
+          ],
+          answer: 1,
+          rationale: "Skin preparation aims to reduce the number of microorganisms on the skin.",
+        },
+        {
+          id: "q178",
+          question:
+            "Nurse Alex is preparing for an upcoming surgery. Upon arrival of the patient at the OR suite, he ensures that this responsibility of his as the circulating nurse is accomplished:",
+          choices: [
+            "Ensure that appropriate consents are signed, with proper dates, and present in the chart",
+            "Assist in maintaining the sterility of the operative field",
+            "Perform the surgical incision under the direction of the surgeon",
+            "Administer anesthesia and monitor patient's vital signs throughout the procedure",
+          ],
+          answer: 0,
+          rationale:
+            "Ensuring proper consents are signed and present is a key responsibility of the circulating nurse.",
+        },
+        {
+          id: "q179",
+          question:
+            "Nurse Gabbi is a community health nurse in a remote rural setting. A patient named Mang Juan arrives for suture removal after an operation performed in a distant hospital. After assessing the wound and identifying an interrupted suture pattern, who among the following professionals is authorized to perform suture removal in the primary care setting?",
+          choices: ["RH Doctor", "RH Nurse", "Midwife", "Surgeon"],
+          answer: 1,
+          rationale: "Nurses are authorized to remove sutures in a primary care setting.",
+        },
+        {
+          id: "q180",
+          question:
+            "Nurse Luke is the infection control nurse in a tertiary hospital. During his rounds, he observes a novice nurse preparing to dispose of used gloves and soiled bandages after a wound dressing. He intervenes and asks, 'Where should these contaminated materials be discarded?'",
+          choices: ["Black waste bag", "Red waste bag", "Green waste bag", "Yellow waste bag"],
+          answer: 1,
+          rationale:
+            "Contaminated materials that are potentially infectious should be disposed of in a red waste bag.",
+        },
+        {
+          id: "q181",
+          question:
+            "During an orientation on proper hospital waste segregation, Nurse Luke asked, 'Where should you discard paper waste materials from the hospital's administrative office?'",
+          choices: ["Black container", "Red container", "Green container", "Yellow container"],
+          answer: 0,
+          rationale:
+            "Non-contaminated, non-infectious waste like paper is disposed of in a black container.",
+        },
+        {
+          id: "q182",
+          question:
+            "Nurse Sally is a pediatric nurse in the National Children's Hospital. One of her patients, a 9-month-old infant, is scheduled to receive the MMR (Measles, Mumps, and Rubella) vaccine. Which of the following is the appropriate landmark/site for administering this vaccine?",
+          choices: [
+            "Deltoid muscle",
+            "Dorsogluteal site",
+            "Hochstetter's site",
+            "Anterolateral thigh",
+          ],
+          answer: 3,
+          rationale:
+            "For an infant, the anterolateral thigh is the preferred site for IM injections.",
+        },
+        {
+          id: "q183",
+          question:
+            "Nurse Louis is a nurse assigned in the burn unit. He knows that the presence of the following condition in the early stages of burns can potentially lead to cardiac arrest:",
+          choices: ["Hypokalemia", "Hyperkalemia", "Hypocalcemia", "Hyponatremia"],
+          answer: 1,
+          rationale:
+            "Hyperkalemia can occur due to cell destruction and can lead to cardiac arrest.",
+        },
+        {
+          id: "q184",
+          question:
+            "Nurse Kathleen is caring for a patient with extensive second-degree burns over 30% of the body surface area. She notes that the patient's blood pressure is dropping and the patient's urine output has significantly decreased. She recalls that this occurs during which phase of burn injury:",
+          choices: [
+            "Emergent (Resuscitative) Phase",
+            "Acute Phase",
+            "Rehabilitation Phase",
+            "Hypermetabolic Phase",
+          ],
+          answer: 0,
+          rationale:
+            "Hypotension and decreased urine output are signs of hypovolemic shock during the emergent/resuscitative phase.",
+        },
+        {
+          id: "q185",
+          question:
+            "Nurse Jerry is assigned in a burn unit. A patient is scheduled for hydrotherapy for a burn dressing change. Which action would the nurse take to ensure that the patient is comfortable during the procedure?",
+          choices: [
+            "Ensure that the patient is appropriately dressed",
+            "Administer an opioid analgesic 30-60 minutes before therapy",
+            "Send dressing supplies with the patient to hydrotherapy.",
+            "Administer the intravenous antibiotic 30 minutes before therapy",
+          ],
+          answer: 1,
+          rationale: "Administration of an analgesic before hydrotherapy will help manage pain.",
+        },
+        {
+          id: "q186",
+          question:
+            "Nurse Tom works at the endocrinology unit of the medical ward. Majority of the patients are diagnosed with diabetes mellitus. Nurse Tom is correct when he teaches the novice nurses that all of these insulins have a peak time, except:",
+          choices: ["Regular insulin", "NPH insulin", "Lispro", "Glargine"],
+          answer: 3,
+          rationale: "Insulin glargine (Lantus) is a long-acting insulin with no pronounced peak.",
+        },
+        {
+          id: "q187",
+          question:
+            "Nurse Tom continues teaching the newly-hired nurses. He is correct when he states the difference between Somogyi, Dawn, and Waning Phenomenon. Which of the following statements are correct?",
+          choices: [
+            "i. Somogyi Effect is rebound hyperglycemia that occurs after a hypoglycemic episode, usually during the night.\nii. Dawn Phenomenon is early morning hyperglycemia due to normal circadian hormone release, not preceded by hypoglycemia.\niii. Waning Phenomenon is a progressive rise in blood glucose overnight due to insufficient ensuing insulin dosing.",
+            "Only I is correct",
+            "Only II is correct",
+            "Only III is correct",
+            "All statements are correct",
+          ],
+          answer: 3,
+          rationale: "All three statements correctly describe the different phenomena.",
+        },
+        {
+          id: "q188",
+          question:
+            "Nurse Victoria is preparing to check the capillary blood glucose of her patients. She performs the steps of proper handwashing. Which comes first?",
+          choices: [
+            "Apply soap and lather thoroughly",
+            "Wet hands with water",
+            "Rinse hands with water",
+            "Dry hands with a clean towel",
+          ],
+          answer: 1,
+          rationale: "The first step in proper handwashing is to wet the hands with water.",
+        },
+        {
+          id: "q189",
+          question:
+            "Nurse Gladys is on duty in the emergency room when a patient suddenly arrives with complaints of vomiting large amounts of bright red blood. Which of the following should be the nurse's initial action?",
+          choices: [
+            "Give ice chips",
+            "Start an intravenous line",
+            "Notify the physician",
+            "Position to High Fowler's",
+          ],
+          answer: 3,
+          rationale:
+            "Positioning the patient to High Fowler's or semi-Fowler's helps prevent aspiration.",
+        },
+        {
+          id: "q190",
+          question:
+            "Nurse Meredith is caring for a client with a long-term history of immunodeficiency syndrome (AIDS) for early signs of Kaposi's sarcoma. The nurse observes the patient for:",
+          choices: [
+            "White patches on the tongue that can be scraped off",
+            "Generalized lymphadenopathy",
+            "Sudden weight loss of 3 lbs. in a week",
+            "Presence of purple, non-blanching lesions on the upper arm",
+          ],
+          answer: 3,
+          rationale:
+            "Kaposi's sarcoma presents as purple or brownish, non-blanching lesions on the skin.",
+        },
+        {
+          id: "q191",
+          question:
+            "Nurse Haylee is assigned to the orthopedic ward. One of her patients, diagnosed with osteoarthritis, complains of bony nodules on the distal interphalangeal joints of the fingers. Nurse Haylee correctly identifies these nodules as:",
+          choices: ["Swan neck", "Boutonniere", "Heberden's nodes", "Bouchard's nodes"],
+          answer: 2,
+          rationale: "Heberden's nodes are bony enlargements on the distal interphalangeal joints.",
+        },
+        {
+          id: "q192",
+          question:
+            "Nurse Carrie is caring for a patient in Buck's traction for a lower extremity fracture. The patient tells the nurse, 'I want to move up in bed on my own.' Which of the following is the most appropriate instruction the nurse should give the patient?",
+          choices: [
+            "Slide up the bed using your elbows and heels",
+            "Call the nurse to assist you before moving",
+            "Bend your knees and push yourself upward",
+            "Use the overhead trapeze to lift your body",
+          ],
+          answer: 1,
+          rationale: "The patient should call for assistance to prevent altering the traction.",
+        },
+        {
+          id: "q193",
+          question: "The presence of rheumatoid nodules indicates:",
+          choices: ["Early-stage RA", "Late-stage OA", "Advanced RA", "Metabolic arthritis"],
+          answer: 2,
+          rationale: "Rheumatoid nodules are associated with advanced or severe RA.",
+        },
+        {
+          id: "q194",
+          question: "A nurse is teaching joint protection. Which statement shows understanding?",
+          choices: [
+            '"I\'ll push heavy items to avoid strain."',
+            '"I\'ll bend knees when lifting."',
+            '"I\'ll use a tight grip to avoid dropping things."',
+            '"I\'ll carry items with fingertips."',
+          ],
+          answer: 1,
+          rationale: "Bending the knees when lifting is a correct joint protection technique.",
+        },
+        {
+          id: "q195",
+          question: "Which exercise is appropriate during RA remission?",
+          choices: ["Weight lifting", "Passive ROM", "Swimming", "Jogging"],
+          answer: 2,
+          rationale:
+            "Swimming is a low-impact exercise that is generally safe during RA remission.",
+        },
+        {
+          id: "q196",
+          question: "What is the primary characteristic of diabetes mellitus?",
+          choices: [
+            "Inability to absorb glucose",
+            "High blood glucose levels due to insulin resistance or deficiency",
+            "Overproduction of insulin",
+            "Increased production of glucagon",
+          ],
+          answer: 1,
+          rationale:
+            "Diabetes mellitus is characterized by hyperglycemia resulting from insulin resistance or deficiency.",
+        },
+        {
+          id: "q197",
+          question: "Which of the following is the main goal in managing type 2 diabetes?",
+          choices: [
+            "Reduce insulin secretion",
+            "Enhance insulin sensitivity and lower blood glucose",
+            "Increase carbohydrate intake",
+            "Decrease physical activity",
+          ],
+          answer: 1,
+          rationale:
+            "Enhancing insulin sensitivity and lowering blood glucose is the goal of type 2 diabetes management.",
+        },
+        {
+          id: "q198",
+          question: "Which of the following is a long-acting insulin?",
+          choices: ["Insulin lispro", "Insulin glargine", "Regular insulin", "Insulin aspart"],
+          answer: 1,
+          rationale: "Insulin glargine is a long-acting insulin.",
+        },
+        {
+          id: "q199",
+          question:
+            "Which is a common complication of diabetes mellitus that may cause a loss of protective sensation?",
+          choices: ["Retinopathy", "Neuropathy", "Nephropathy", "Cardiomyopathy"],
+          answer: 1,
+          rationale: "Neuropathy causes loss of protective sensation (peripheral neuropathy).",
+        },
+        {
+          id: "q200",
+          question: "What is a common result of unmanaged diabetes over time?",
+          choices: [
+            "Decreased risk of infection",
+            "Increased risk of cardiovascular disease",
+            "Increased insulin sensitivity",
+            "Improved kidney function",
+          ],
+          answer: 1,
+          rationale: "Unmanaged diabetes increases the risk of cardiovascular disease.",
+        },
+        {
+          id: "q201",
+          question:
+            "Mr. Mamamow, an insurance agent was ordered by his physician to be admitted to the hospital for Coronary Artery Bypass Graft (CABG) due to three vessels blockage. As a nurse, you are aware that cardiac surgery is a source of stress to the patient and family. Which of the following strategies should the nurse implement FIRST to overcome this stress?",
+          choices: [
+            "Identify coping mechanisms helpful to the patient and family members.",
+            "Recognize fears and concerns regarding surgery and future health status.",
+            "Explore support system available during the entire hospitalization period.",
+            "Reinforce understanding of the surgical procedure hospitalization and recovery.",
+          ],
+          answer: 1,
+          rationale:
+            "The first step is to assess and recognize the patient and family's fears and concerns.",
+        },
+        {
+          id: "q202",
+          question:
+            "Mr. Mamamow, underwent an invasive diagnostic test to determine the location of the blockage which is needed for his CABG. This procedure is",
+          choices: [
+            "cardiac CT scan",
+            "carotid doppler",
+            "magnetic resonance imaging",
+            "cardiac catheterization",
+          ],
+          answer: 3,
+          rationale:
+            "Cardiac catheterization is the invasive diagnostic test used to locate blockages in the coronary arteries.",
+        },
+        {
+          id: "q203",
+          question:
+            "The nurse is teaching breathing exercises to Mr. Mamamow. At what phase of the peri-operative care is this BEST performed?",
+          choices: [
+            "After surgery when he is inside the recovery room.",
+            "Immediately after he has signed the informed consent.",
+            "During the briefing period prior to the surgical procedure.",
+            "When he is back to his room from the recovery unit.",
+          ],
+          answer: 2,
+          rationale:
+            "Pre-operative teaching of breathing exercises is best done during the briefing period before surgery.",
+        },
+        {
+          id: "q204",
+          question:
+            "Which of the following is a blood thinning drug and temporarily stopped by the physician prior to CABG due to possible bleeding.",
+          choices: ["Pradaxa", "Ibuprofen", "Paracetamol", "Toradol"],
+          answer: 0,
+          rationale:
+            "Pradaxa (dabigatran) is an anticoagulant that is usually stopped before surgery.",
+        },
+        {
+          id: "q205",
+          question:
+            "The nurse formulates a nursing diagnosis 'Decreased cardiac output R/T blood loss'. Which of the following is the highest priority nursing action?",
+          choices: [
+            "Auscultate for heart sounds and rhythm.",
+            "Assess peripheral pulses, pedal, tibial and radial.",
+            "Monitor EKG pattern for cardiac dysrhythmia.",
+            "Assess arterial blood pressure every 15 min. until stable.",
+          ],
+          answer: 3,
+          rationale:
+            "Assessing arterial blood pressure frequently is the priority to monitor hemodynamic stability.",
+        },
+        {
+          id: "q206",
+          question:
+            "PD Bang, 32 year old a government employee has been having abdominal pain which was on and off for almost 6 months. She has been having flatulence and recently lost weight because of vomiting. She consulted their office physician and she was suspected to be suffering from chronic pancreatitis. She was advised to be hospitalized for further work-up. You are the admitting Nurse when Ms. PD Bang arrived in the hospital. When doing a comprehensive pain assessment, you should conduct the procedure during the",
+          choices: [
+            "evaluation of nursing pain management",
+            "Initial contact with the patient",
+            "course of pain management",
+            "the time the physician instructed you to do",
+          ],
+          answer: 1,
+          rationale:
+            "A comprehensive pain assessment should be done during the initial contact with the patient.",
+        },
+        {
+          id: "q207",
+          question:
+            "When a patient is having pain due to Pancreatitis, you expect that the pain is located in the",
+          choices: [
+            "hypogastrium, right upper quadrant of the abdomen radiating to the left lumbar area",
+            "epigastrium, right upper quadrant of the abdomen radiating to the left lumbar area",
+            "hypogastrium, left upper quadrant of the abdomen radiating to the left lumbar area",
+            "epigastrium, left upper quadrant of the abdomen radiating to the left lumbar area",
+          ],
+          answer: 1,
+          rationale:
+            "Pancreatic pain is typically located in the epigastric region, radiating to the back or left lumbar area.",
+        },
+        {
+          id: "q208",
+          question:
+            "You are aware of several manifestations when a patient is in pain. Which of the following is a behavioral response to pain?",
+          choices: [
+            "Changes in skin color",
+            "Increase in blood pressure",
+            "depth in respiration.",
+            "Moaning and grimacing.",
+          ],
+          answer: 3,
+          rationale: "Moaning and grimacing are behavioral responses to pain.",
+        },
+        {
+          id: "q209",
+          question:
+            "When a patient is ordered corticosteroids, which of the following drugs will produce therapeutic effects of reducing pain?",
+          choices: ["Spironolactone", "Diazepam", "Atropine S04", "Prednisone"],
+          answer: 3,
+          rationale: "Prednisone is a corticosteroid used to reduce inflammation and pain.",
+        },
+        {
+          id: "q210",
+          question:
+            "When severe vomiting occurs in this patient, it results to what particular condition?",
+          choices: ["Hyperkalemia", "Hypocalcemia", "Alkalosis", "Acidosis"],
+          answer: 2,
+          rationale: "Vomiting leads to loss of stomach acid, causing metabolic alkalosis.",
+        },
+        {
+          id: "q211",
+          question:
+            "Which of the following statements is INCORRECT of collaboration in a health care setting?",
+          choices: [
+            "Trust and respect are core values of a collaborative organization.",
+            "A shared vision is essential for collaboration in any health care operations",
+            "Successful conflict resolution can help collaborative teams overcome differences",
+            "Interprofessional collaboration & multidisciplinary collaboration can be used interchangeably.",
+          ],
+          answer: 3,
+          rationale:
+            "Interprofessional and multidisciplinary collaboration are similar but not interchangeable; interprofessional involves more shared decision-making and teamwork.",
+        },
+        {
+          id: "q212",
+          question:
+            "Nurse Dasurb received an order from attending physician of patient Dawter who was having a severe abdominal pain of almost a double dose of morphine S04. The nurse consulted her unit manager and the pharmacist regarding the order which was also questioned. The nurse called the attention of the physician regarding the dose of the drug and changed the order to an acceptable level. What relevant principle of collaboration is applied in this case?",
+          choices: [
+            "I. Shared vision\nII. Respect and trust\nIII. Communication\nIV. Interpersonal relationship",
+            "I, II, III and IV",
+            "III and IV",
+            "I and II",
+            "I, II and III",
+          ],
+          answer: 0,
+          rationale:
+            "All principles are demonstrated: shared vision (patient safety), respect and trust (for the team), communication (with the physician and pharmacist), and interpersonal relationships (working with the team).",
+        },
+        {
+          id: "q213",
+          question:
+            "In a tertiary hospital where Gegee works as unit manager, an interdisciplinary team mode is adapted on collaboration of care. With this type of model, how is DECISION making made?",
+          choices: [
+            "Shared responsibility of the group for the problem-solving final decision.",
+            "One person makes the final decision for the treatment.",
+            "Partnership with the patient & team for the final decision.",
+            "All members work together for both alternative & final decisions.",
+          ],
+          answer: 0,
+          rationale:
+            "Interdisciplinary teams make decisions through shared responsibility and consensus.",
+        },
+        {
+          id: "q214",
+          question:
+            "Nurse Yowdawter, is a member of the Quality Assurance team of the hospital and has been always rated as very assertive. Which of the following is NOT a characteristic of an assertive person?",
+          choices: [
+            "Intervene with the situation calmly and confidently",
+            "She stands up with what she believes & push control on others",
+            "Articulate clearly the importance of nursing perspective.",
+            'Use "I" when stating thought and feelings & persuading others.',
+          ],
+          answer: 1,
+          rationale:
+            "Assertiveness is about standing up for oneself while respecting others, not pushing control on others.",
+        },
+        {
+          id: "q215",
+          question:
+            "A patient is going for a coronary arterial by-pass graft (CABG) due to a 4 blocked arterial blood vessels. A surgical team has been formed with the cardiac surgeon as the head. Who is the member of the health team that prepares the pre-operative orders for the patient?",
+          choices: ["Cardiologist", "Anesthesiologist", "Surgeon", "Medical Internist"],
+          answer: 0,
+          rationale:
+            "The cardiologist often prepares the pre-operative orders for a CABG procedure.",
+        },
+        {
+          id: "q216",
+          question:
+            "Rohee, 65 years old, came to the outpatient Clinic due to dyspnea, fever and on and off productive cough. He smokes one pack of cigarette per day for the last 30 years. The doctor ordered sputum examination, chest x-ray and blood culture. In collecting sputum specimens, the nurse should instruct Roy to",
+          choices: [
+            "breathe slowly, cough and expectorate into the specimen container",
+            "breathe deeply and cough, expectorate into the sputum container.",
+            "cough and expectorate saliva into the specimen container.",
+            "cough and expectorate into the specimen container.",
+          ],
+          answer: 1,
+          rationale:
+            "The client should be instructed to breathe deeply and cough to expectorate sputum from the lungs, not saliva.",
+        },
+        {
+          id: "q217",
+          question:
+            "The patient's diagnostic tests revealed he was positive for bacterial pneumonia. The MOST likely causative this type of pneumonia is",
+          choices: [
+            "legionella pneumoniae",
+            "mycoplasma pneumoniae",
+            "streptococcus pneumoniae",
+            "hemophilus pneumoniae",
+          ],
+          answer: 2,
+          rationale:
+            "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia.",
+        },
+        {
+          id: "q218",
+          question:
+            "The nurse did an admission procedure. The BEST position to be assumed by Rohee is",
+          choices: [
+            "left lateral position with the affected side inferior.",
+            "Semi-fowler at least 30 degrees.",
+            "Dorsal position with pillow under the chest",
+            "lying on his side, the affected side of the lungs should be superior.",
+          ],
+          answer: 1,
+          rationale:
+            "Semi-Fowler's position helps to facilitate breathing in a client with pneumonia.",
+        },
+        {
+          id: "q219",
+          question:
+            "When a patient is diagnosed to have pneumonia, the breath sounds detected by the nurse on auscultation of the affected area would be",
+          choices: [
+            "wheezing sounds",
+            "stridor",
+            "fine crackles",
+            "deep and low-pitched breath sounds",
+          ],
+          answer: 2,
+          rationale:
+            "Fine crackles are heard upon auscultation in the affected area of a patient with pneumonia.",
+        },
+        {
+          id: "q220",
+          question:
+            "When there is respiratory depression resulting from drug overdose, the nurse have to watch for which of the following?",
+          choices: ["Hyperventilation", "Tachypnea", "Biot's respiration", "Bradypnea"],
+          answer: 3,
+          rationale: "Respiratory depression results in a slow rate of breathing (bradypnea).",
+        },
+        {
+          id: "q221",
+          question:
+            "Ms. Noh, 66 year-old consulted the OPD due changes in energy level, fatigue and not able to tolerate performance of activities of daily living, The physician suspected that she has hypothyroidism disorder and advised admission for further work-up. When a patient is with hypothyroidism, the assessment findings of the nurse that is NOT present is",
+          choices: ["brittle nails", "hair loss", "dry skin", "fine tremors of hands"],
+          answer: 3,
+          rationale: "Fine tremors are associated with hyperthyroidism, not hypothyroidism.",
+        },
+        {
+          id: "q222",
+          question:
+            "In assessing the thyroid gland for size, shape, symmetry, consistency and presence of tenderness, the MOST appropriate examination modality is",
+          choices: ["auscultation", "percussion", "palpation", "inspection"],
+          answer: 2,
+          rationale:
+            "Palpation is used to assess the thyroid's size, shape, consistency, and tenderness.",
+        },
+        {
+          id: "q223",
+          question:
+            "After several thyroid diagnostic tests, Ms. Nohwas ordered to take thyroid hormone (Levothyroxine). Which of the following nursing actions is NOT ADVISABLE in administering this drug? The nurse should give",
+          choices: [
+            "A single dose daily before breakfast",
+            "a single dose daily after breakfast",
+            "it with a full glass of water",
+            "It without mixing with fruit juices",
+          ],
+          answer: 1,
+          rationale: "Levothyroxine should be given on an empty stomach, before breakfast.",
+        },
+        {
+          id: "q224",
+          question:
+            "In monitoring the effectiveness of the drug therapy, which of the following is NOT expected as a POSITIVE patient's outcome?",
+          choices: [
+            "regular bowel function",
+            "excessive sweating at night time",
+            "participates in self-care activities.",
+            "metabolism returns to normal",
+          ],
+          answer: 1,
+          rationale:
+            "Excessive sweating is not a positive outcome; it may indicate hyperthyroidism or an overdose.",
+        },
+        {
+          id: "q225",
+          question:
+            "The nurse is developing a nursing care plan for Ms. Noh. If the Nursing diagnosis is 'Activity intolerance R/T fatigue and depressed cognitive process', which of the following is an APPROPRIATE intervention?",
+          choices: [
+            "Increase mobility through early ambulation.",
+            "Allow self-care activities with active exercises.",
+            "Space nursing activities to promote rest and sleep.",
+            "Avoid a stimulating interesting conservation.",
+          ],
+          answer: 2,
+          rationale: "Spacing activities promotes rest and prevents overexertion.",
+        },
+        {
+          id: "q226",
+          question:
+            "Nurse Ravi is a unit manager in a tertiary hospital and conducts meeting regularly every two weeks to his staff to address PRIORITY affecting their services. Which of the following statements indicates an effective communication technique used by the unit manager to her staff?",
+          choices: [
+            '"We need to improve our nursing services; otherwise top management will take over".',
+            "\"Let's limit requesting supplies and equipment, our budget for our promotion might be affected.",
+            '"There are a lot of redundant position in our unit, there is a need to retrench some staff."',
+            '"We need to discuss strategic approaches to facilitate delivery of nursing service with less expenses on our consumers."',
+          ],
+          answer: 3,
+          rationale:
+            "This statement is positive, focuses on a solution, and involves the staff in a constructive discussion.",
+        },
+        {
+          id: "q227",
+          question:
+            "For the past 6 months, several nurses are resigning. Some have verbalized in the exit interview that they are not happy anymore. Which of the following descriptions manifest BEST, a nurse who has job satisfaction?",
+          choices: [
+            "Competitive, self-centered, euphoric.",
+            "Empowered, enthusiastic, ethical",
+            "Loner, egotistic, reactive.",
+            "Outgoing, sensitive, competitive.",
+          ],
+          answer: 1,
+          rationale:
+            "Empowered, enthusiastic, and ethical are characteristics of a satisfied and engaged nurse.",
+        },
+        {
+          id: "q228",
+          question:
+            "Delegation is a critical component of leadership and governance. Which of the following empowering activities should the unit manager applies in delegation?",
+          choices: [
+            "In delegation, facilitating professional growth and development of a staff is necessary.",
+            "When delegating a responsibility to a nursing staff, modification of standards of care is permitted.",
+            "Delegation of responsibility inpatient care has to start, from top management to the staff-nurse level",
+            "Delegation requires responsibility with corresponding accountability of a staff-nurse.",
+          ],
+          answer: 3,
+          rationale:
+            "Delegation involves transferring responsibility and accountability to the staff nurse.",
+        },
+        {
+          id: "q229",
+          question: "Nurse Lany is guided that the initial step of delegation is",
+          choices: [
+            "demonstrate the task and let the staff continue the next activities",
+            "assess the capability of the staff, change him if not performing",
+            "Determine the competency level of staff for the task being given",
+            "Explain the task to be done with the accompanying job description",
+          ],
+          answer: 2,
+          rationale: "The first step in delegation is to assess the competency of the staff.",
+        },
+        {
+          id: "q230",
+          question:
+            "The unit manager is planning to take her regular official business leave for the Year. She has written a letter of recommendation to her immediate supervisor for her assistant unit manager to assume her position while she is on leave. This is an example of delegation by",
+          choices: ["rank", "Authority", "Succession", "Responsibility"],
+          answer: 2,
+          rationale: "This is an example of succession planning.",
+        },
+        {
+          id: "q231",
+          question:
+            "Nurse Petron is on duty in the medical unit and has two patients for discharge. Shell, 38 year old diagnosed with Diabetes Mellitus and on insulin therapy for the first time and Caltex, 42 years old who had myocardial infarction (MI). When preparing a teaching plan for patient Shell, the following are the instructions provided to patients with Diabetes Mellitus. Which ONE of the teaching plan is considered NOT a PRIORITY concern when discussing the list with the patient?",
+          choices: [
+            "Diet and genetic counseling.",
+            "Exercise in extreme heat and cold.",
+            "Regular exercise, diet and medications.",
+            "Monitoring of blood sugar and urine ketones.",
+          ],
+          answer: 0,
+          rationale:
+            "Genetic counseling is not a priority concern for the initial management of a patient with diabetes mellitus.",
+        },
+        {
+          id: "q232",
+          question:
+            "Shell was taught by Nurse Petron on how to administer self-injection insulin and rotation sites with use of the chart every day till her discharge. The following is the procedure for the self-injection of insulin. Which of the following are the correct sequence in self administration of the drug?",
+          choices: [
+            "I. Inject the insulin, push the plunger all the way in\nII. With one hand stabilize the skin by spreading a large area\nIII. Pull the needle straight out of the skin and press cotton ball over injection site\nIV. Pick-up syringe with the other hand hold and insert needle to the skin.\nV. Dispose syringe in a hard plastic container.",
+            "I, IV, III, II and V",
+            "II, IV, I, III and V",
+            "III, II, I, V and II",
+            "IV, III, I, V and II",
+          ],
+          answer: 1,
+          rationale:
+            "The correct sequence is: II (stabilize skin), IV (insert needle), I (inject), III (withdraw), V (dispose).",
+        },
+        {
+          id: "q233",
+          question:
+            "The doctor ordered a low-saturated fat, low-cholesterol diet to patient Caltex who was also going home. From the following list of foods, which meals has to be included in the instructional plan of Nurse Petron to her patient?",
+          choices: [
+            "Pork steak, mixed vegetables with butter and cheese.",
+            "Hamburger, macaroni salad and milk shake.",
+            "Fried chicken, green beans, and skim milk.",
+            "Baked fish, green beans, coffee",
+          ],
+          answer: 3,
+          rationale:
+            "Baked fish, green beans, and coffee are all low in saturated fat and cholesterol.",
+        },
+        {
+          id: "q234",
+          question:
+            "Considering that patient Caltex is a post MI patient, she was taught by the nurse on home exercises on leg movements while resting on bed. The expected goal of this intervention is to",
+          choices: [
+            "facilitate better digestion of food.",
+            "prevent stasis of urine and stone formation",
+            "facilitate circulation for skin integrity",
+            "prevent venous stasis in the lower extremities",
+          ],
+          answer: 3,
+          rationale: "Leg exercises while resting help prevent venous stasis and thrombosis.",
+        },
+        {
+          id: "q235",
+          question:
+            "The resumption of sexual activity is an important activity that has to be included in the home instruction to be given to patient Caltex together with her husband. Which of the following is the SAFE period for an uncomplicated MI to resume sexual activity?",
+          choices: [
+            "One month after MI.",
+            "12 to 14 days after MI",
+            "Two months after MI",
+            "7 to 10 days after MI",
+          ],
+          answer: 1,
+          rationale:
+            "For an uncomplicated MI, sexual activity can usually be resumed 12-14 days after the event.",
+        },
+        {
+          id: "q236",
+          question:
+            "Horavi, a 22-yr old nurse graduate, passed the November 2018 Philippine Nurse Licensure Examination before her birthday which November 16. The scheduled oath-taking ceremony was set on January 6, 2019. To obtain her license to practice, she must do the following, EXCEPT:",
+          choices: [
+            "Must take the oath to any government official",
+            "Must register in the registration division of the PRC.",
+            "Must take the oath of professionals before any member of the PR-BON",
+            "Must be issued a certificate of registration (COR) and profession identification card (PIN).",
+          ],
+          answer: 0,
+          rationale:
+            "The oath must be taken before a member of the PRC or a notary public, not just any government official.",
+        },
+        {
+          id: "q237",
+          question: "Nurse Horavi has to renew her professional identification card on or before",
+          choices: ["January 6, 2021", "November 16, 2022", "November 16, 2021", "January 6, 2022"],
+          answer: 1,
+          rationale:
+            "The PRC ID expires on the birth month. Her birthday is in November, so it expires on November 16, 2022 (3 years from the date of issuance? The date of issuance is likely the oath-taking date? This is a common tricky question).",
+        },
+        {
+          id: "q238",
+          question:
+            "For Nurse Horav to continually practice nursing, she must satisfy the requirements set by the PRC and comply how many units of CPD upon renewal?",
+          choices: ["45 units", "10 units", "25 units", "15 units"],
+          answer: 0,
+          rationale: "The required CPD units for renewal is 45.",
+        },
+        {
+          id: "q239",
+          question:
+            "After 3 years being assigned in the Operating Room, Horav is interested to actively join which appropriate professional organization?",
+          choices: ["ORNAP", "NLGN", "ADPCN", "APO"],
+          answer: 0,
+          rationale:
+            "ORNAP (Operating Room Nurses Association of the Philippines) is the appropriate organization for an OR nurse.",
+        },
+        {
+          id: "q240",
+          question:
+            "What would Horav do to keep abreast with the latest trends in peri-operative nursing?",
+          choices: [
+            "Attend training and seminars",
+            "Perform researches",
+            "All of these",
+            "Pursue graduate studies",
+          ],
+          answer: 2,
+          rationale: "All options are ways to stay updated.",
+        },
+        {
+          id: "q241",
+          question:
+            "In assessing a patient suffering from peritonitis, which of the following manifestations is NOT likely to be present?",
+          choices: [
+            "Rebound tenderness",
+            "Abdominal guarding",
+            "Abdominal gas",
+            "Abdominal rigidity",
+          ],
+          answer: 2,
+          rationale: "Abdominal gas is not a typical sign of peritonitis.",
+        },
+        {
+          id: "q242",
+          question:
+            "The overall goals set by the members of the health team once the patient is admitted include which of the following?",
+          choices: [
+            "I. Relief of the abdominal pain\nII. Resolution of inflammation\nIII. Provision of normal nutritional status\nIV. Prevention from complications",
+            "I, II, III",
+            "I and II",
+            "II and III",
+            "III, III and IV",
+          ],
+          answer: 0,
+          rationale:
+            "All are goals: relief of pain, resolution of inflammation, normal nutrition, and prevention of complications.",
+        },
+        {
+          id: "q243",
+          question:
+            "Diagnostic tests were ordered to the patient which included: complete blood count (CBC) and abdominal CT scan. The primary purpose for ordering CT scan is to determine PRESENCE",
+          choices: ["Amylase content", "Bacteria", "Fluid shifts", "Abscess"],
+          answer: 3,
+          rationale: "CT scan is used to detect abscesses in peritonitis.",
+        },
+        {
+          id: "q244",
+          question:
+            "Which of the following drugs do you expect to be ordered by the physician for severe acute pain?",
+          choices: [
+            "Acetaminophen (Tylenol)",
+            "Levorphanol (Levo-Dromoran)",
+            "Percodan (Aspirin)",
+            "Codeine (Amberly)",
+          ],
+          answer: 1,
+          rationale: "Levorphanol is a strong opioid analgesic used for severe pain.",
+        },
+        {
+          id: "q245",
+          question:
+            "The physician ordered the patient for paracentesis. Which of the following pre-procedure nursing actions should the nurse perform EXCEPT",
+          choices: [
+            "Place him in upright position on the edge of the bed",
+            "Place him in low-lying position with knees straight",
+            "Check for the signed consent form",
+            "Instruct patient to urinate to empty bladder",
+          ],
+          answer: 1,
+          rationale:
+            "The patient should be positioned upright or sitting, not in a low-lying position.",
+        },
+        {
+          id: "q246",
+          question:
+            "Cassidy is an active member of the Quality Assurance (QA) team in a health facility where the major role is setting Quality Standards. Which of the following statements is TRUE of Quality Improvement?",
+          choices: [
+            "Focuses on the organizational structure than patient care.",
+            "Continually improve every process in the organization",
+            "Centered on people rather than processes.",
+            "An approach that is externally driven by the stakeholder.",
+          ],
+          answer: 1,
+          rationale:
+            "Quality Improvement is a continuous process of improving all aspects of the organization.",
+        },
+        {
+          id: "q247",
+          question:
+            "As a QA nurse, which of the following can Nurse Cassidy adopts as concurrent evaluation of patient's outcomes in the unit?",
+          choices: [
+            "I. Direct observation of patient's condition.\nII. Patient's interview in the unit.\nIII. Face to Face interview with nursing staff.\nIV. Nursing audit from the patient's chart.",
+            "III and IV",
+            "I, II and III",
+            "I, II, III and IV",
+            "I and II",
+          ],
+          answer: 2,
+          rationale: "All are methods of concurrent evaluation.",
+        },
+        {
+          id: "q248",
+          question:
+            "Nurse Cassidy distributed the patient satisfaction form to the admitted patients in the hospital, this tool is in compliance to the quality standards",
+          choices: ["human resource", "organizational structure", "patient care", "legal-ethical"],
+          answer: 2,
+          rationale: "Patient satisfaction is a measure of patient care quality.",
+        },
+        {
+          id: "q249",
+          question:
+            "The QA team was alerted by the Administration, that they have to anticipate for a possible earthquake in the forthcoming days. As part of Safe Practice Environment (SPE) standards, which of the following are to be priority attention by the team?",
+          choices: [
+            "I. Electrical wires\nII. Combustible materials\nIII. Entry, Exit of the building\nIV. Infected waste materials",
+            "I, II, III and IV",
+            "II and III",
+            "I and II",
+            "I, II and III",
+          ],
+          answer: 3,
+          rationale:
+            "For earthquake preparedness, priority is given to electrical wires, combustible materials, and entry/exit points.",
+        },
+        {
+          id: "q250",
+          question:
+            "The QA team has been bombarded by complaints of patients on their long waiting period in the OPD before the health care professionals are examining them. In response to the concern, which type of quality assessment should the team implement?",
+          choices: [
+            "Outcome evaluation",
+            "Process evaluation",
+            "Ongoing evaluation",
+            "Structure evaluation",
+          ],
+          answer: 1,
+          rationale:
+            "Process evaluation focuses on the flow and steps of a service, which directly addresses wait times.",
         },
       ],
     },
@@ -7361,6 +8577,4357 @@ export const supplaSubject: Subject = {
           answer: 1,
           rationale:
             "Poor judgment and impulsivity are hallmarks of antisocial personality disorder.",
+        },
+      ],
+    },
+    {
+      id: "set-5",
+      title: "SET 5",
+      description:
+        "Comprehensive nursing review covering medical-surgical, psychiatric, maternal and child health, and community health nursing concepts.",
+      questions: [
+        {
+          id: "q1",
+          question:
+            "In the shock/severe stage of leptospirosis, which manifestation is most associated with severe disease?",
+          choices: ["Jaundice", "Fever", "Nausea", "Bleeding"],
+          answer: 3,
+          rationale: "Bleeding is most associated with severe leptospirosis.",
+        },
+        {
+          id: "q2",
+          question: "Where do the skin manifestations/rash of measles typically start?",
+          choices: ["Neck", "Face", "Chest", "Hands"],
+          answer: 1,
+          rationale: "Measles rash typically starts on the face and spreads downward.",
+        },
+        {
+          id: "q3",
+          question: "Which is a clinical manifestation of acromegaly?",
+          choices: ["Truncal obesity", "Bull neck", "Striae", "Wide nose and lips"],
+          answer: 3,
+          rationale:
+            "Acromegaly causes enlargement of facial features including a wide nose and lips.",
+        },
+        {
+          id: "q4",
+          question:
+            "A patient is being bullied because of changes caused by her disease. What is the most appropriate nursing diagnosis?",
+          choices: [
+            "Altered mental status",
+            "Impaired skin integrity",
+            "Altered mobility related to fatigue",
+            "Disturbed body image",
+          ],
+          answer: 3,
+          rationale: "Bullying due to physical changes indicates disturbed body image.",
+        },
+        {
+          id: "q5",
+          question:
+            "Which medication among the following is most commonly used for pain/inflammation in rheumatoid arthritis?",
+          choices: ["Atropine sulfate", "Diclofenac", "Paracetamol", "Phenytoin"],
+          answer: 1,
+          rationale: "Diclofenac is an NSAID commonly used for pain and inflammation in RA.",
+        },
+        {
+          id: "q6",
+          question: "What is the normal percussion sound over healthy lung tissue?",
+          choices: ["Dull", "Flat", "Resonance", "Hyperresonant"],
+          answer: 2,
+          rationale: "Resonance is the normal percussion sound over healthy lung tissue.",
+        },
+        {
+          id: "q7",
+          question: "Which BP represents Stage 2 hypertension?",
+          choices: ["139/90", "100/80", "129/70", "90/70"],
+          answer: 0,
+          rationale: "139/90 mmHg represents Stage 2 hypertension.",
+        },
+        {
+          id: "q8",
+          question: "Which of the following cannot directly cause sepsis?",
+          choices: ["Direct intravascular access", "Gout", "Surgery", "Bacterial pneumonia"],
+          answer: 1,
+          rationale:
+            "Gout is an inflammatory disease, not an infection, and does not directly cause sepsis.",
+        },
+        {
+          id: "q9",
+          question: "A patient is advised to reduce 30 lb. How many kilograms is this?",
+          choices: ["12.5 kg", "11.5 kg", "14 kg", "17 kg"],
+          answer: 2,
+          rationale: "30 ÷ 2.2 = 13.64 kg ≈ 14 kg.",
+        },
+        {
+          id: "q10",
+          question:
+            "Prior to delivery, a mother is found to have genital herpes. What would you expect the physician to do?",
+          choices: [
+            "Cesarean delivery",
+            "Vaccinate the child after delivery",
+            "Vaccinate the mother immediately",
+            "Vaccinate the mother after delivery",
+          ],
+          answer: 0,
+          rationale:
+            "Cesarean delivery is indicated if active genital lesions are present at labor to prevent neonatal transmission.",
+        },
+        {
+          id: "q11",
+          question:
+            "A patient has DKA and is rushed to the hospital. What breathing pattern would you expect?",
+          choices: [
+            "Cheyne-Stokes respiration",
+            "Kussmaul respiration",
+            "Biot's respiration",
+            "Sleep apnea",
+          ],
+          answer: 1,
+          rationale: "Kussmaul respirations are deep, rapid breaths seen in DKA.",
+        },
+        {
+          id: "q12",
+          question:
+            "A patient has a blood glucose of 800mg/dL, labored/deep breathing, and ketones. What is the likely condition?",
+          choices: ["Diabetic coma", "Diabetic Ketoacidosis", "Diabetes Mellitus", "HHNS/HHS"],
+          answer: 1,
+          rationale: "High glucose, deep breathing, and ketones indicate DKA.",
+        },
+        {
+          id: "q13",
+          question:
+            "Upon arrival at the hospital with DKA, which regular insulin would you expect the physician to administer?",
+          choices: ["Humalog", "Glargine", "Humulin", "NPH"],
+          answer: 2,
+          rationale: "Humulin R (regular insulin) is given IV in DKA.",
+        },
+        {
+          id: "q14",
+          question: "What triage tag is assigned to a patient who requires immediate attention?",
+          choices: ["Green", "Yellow", "Red", "Black"],
+          answer: 2,
+          rationale: "Red triage tag indicates immediate (life-threatening) condition.",
+        },
+        {
+          id: "q15",
+          question: "In disaster management and preparedness, which stage is vital?",
+          choices: ["Preparedness", "Triaging", "Response", "All stages"],
+          answer: 3,
+          rationale: "All stages of disaster management are vital.",
+        },
+        {
+          id: "q16",
+          question: "During a disaster, what is the primary role of the nurse?",
+          choices: [
+            "Help patients with coping mechanisms",
+            "Triaging",
+            "Check availability of hospital supplies",
+            "Check whether equipment is functioning",
+          ],
+          answer: 1,
+          rationale: "The primary role of the nurse in a disaster is triaging.",
+        },
+        {
+          id: "q17",
+          question:
+            "When hospital beds and equipment are limited during a disaster, what is the ethical priority?",
+          choices: [
+            "Justice distribution",
+            "Greater good for the greater number of people",
+            "Nonmaleficence",
+            "Beneficence",
+          ],
+          answer: 1,
+          rationale: "The guiding principle is the greatest good for the greatest number.",
+        },
+        {
+          id: "q18",
+          question:
+            "After witnessing/escaping a mass killing, a 9-year-old develops frequent urination. What level of anxiety is the child experiencing?",
+          choices: ["Mild", "Moderate", "Severe", "Panic"],
+          answer: 1,
+          rationale: "Frequent urination is a sign of moderate anxiety.",
+        },
+        {
+          id: "q19",
+          question:
+            "After the traumatic event, a 10-year-old is restless, has difficulty breathing, and experiences chest pain. What level of anxiety is this?",
+          choices: ["Mild", "Moderate", "Severe", "Panic"],
+          answer: 2,
+          rationale: "Dyspnea and chest pain are signs of severe anxiety.",
+        },
+        {
+          id: "q20",
+          question:
+            "A 12-year-old is restless, fidgeting her hands, but her movements are still purposeful. What level of anxiety is she experiencing?",
+          choices: ["Mild", "Moderate", "Severe", "Panic"],
+          answer: 1,
+          rationale: "Restlessness with purposeful movements indicates moderate anxiety.",
+        },
+        {
+          id: "q21",
+          question:
+            "A hyperventilating patient has high blood pH and low PaCO2. What is the ABG interpretation?",
+          choices: [
+            "Metabolic acidosis",
+            "Respiratory acidosis",
+            "Metabolic alkalosis",
+            "Respiratory alkalosis",
+          ],
+          answer: 3,
+          rationale:
+            "Hyperventilation causes excessive CO2 elimination, leading to respiratory alkalosis.",
+        },
+        {
+          id: "q22",
+          question: "After intervention, the patient's pH is 7.44. What is the interpretation?",
+          choices: ["Compensating", "Normal", "Alkalosis", "Acidosis"],
+          answer: 1,
+          rationale: "A pH of 7.44 is within normal range (7.35-7.45).",
+        },
+        {
+          id: "q23",
+          question:
+            "A pregnant woman states that her husband is experiencing symptoms similar to hers. What symptom would you expect?",
+          choices: ["Always moody", "Nausea and vomiting", "Ambivalence", "Frequent urination"],
+          answer: 1,
+          rationale: "Couvade syndrome includes nausea and vomiting experienced by the partner.",
+        },
+        {
+          id: "q24",
+          question: "What is the causative agent of leptospirosis?",
+          choices: ["Virus", "Bacteria", "Fungus", "Parasite"],
+          answer: 1,
+          rationale: "Leptospirosis is caused by pathogenic Leptospira bacteria.",
+        },
+        {
+          id: "q25",
+          question:
+            "Who is accountable for counting instruments/equipment, sharps, and sponges in the operating room?",
+          choices: [
+            "Scrub nurse only",
+            "Circulating nurse only",
+            "Scrub nurse and circulating nurse together",
+            "Surgeon only",
+          ],
+          answer: 2,
+          rationale:
+            "The scrub person and circulating nurse perform and verify the surgical count together.",
+        },
+        {
+          id: "q26",
+          question:
+            "During which phase of COPAR does the community participate in identifying and analyzing its health problems, needs, and available resources?",
+          choices: [
+            "Pre-entry phase",
+            "Entry phase",
+            "Organization-building phase",
+            "Sustenance and strengthening phase",
+          ],
+          answer: 1,
+          rationale:
+            "The entry phase involves community participation in identifying and analyzing health problems.",
+        },
+        {
+          id: "q27",
+          question:
+            "Which of the following is NOT a standard color commonly used for healthcare waste segregation in Philippine healthcare facilities?",
+          choices: ["Pink", "Yellow", "Red", "Black"],
+          answer: 0,
+          rationale:
+            "Pink is not a standard color for healthcare waste segregation in the Philippines.",
+        },
+        {
+          id: "q28",
+          question:
+            "Which of the following is a major contributor to climate change that can adversely affect the health of Filipinos?",
+          choices: [
+            "Air pollution from fossil-fuel combustion",
+            "High heat index",
+            "Overcrowding",
+            "Poverty",
+          ],
+          answer: 0,
+          rationale:
+            "Air pollution from fossil-fuel combustion is a major contributor to climate change.",
+        },
+        {
+          id: "q29",
+          question: "What is the usual dose of Oral Polio Vaccine (OPV) administered to a child?",
+          choices: ["1 drop", "2 drops", "3 drops", "5 drops"],
+          answer: 1,
+          rationale: "The usual dose of OPV is 2 drops orally.",
+        },
+        {
+          id: "q30",
+          question: "What is the primary mode of transmission of poliomyelitis?",
+          choices: ["Airborne", "Fecal-oral", "Droplet", "Direct contact"],
+          answer: 1,
+          rationale: "Poliomyelitis is transmitted via fecal-oral route.",
+        },
+        {
+          id: "q31",
+          question:
+            "Which task is most appropriate for the registered nurse to delegate to a nursing aide/UAP?",
+          choices: [
+            "Initial patient assessment",
+            "Patient discharge teaching",
+            "Assisting a stable patient with bathing and hygiene",
+            "Evaluating the patient's response to medication",
+          ],
+          answer: 2,
+          rationale:
+            "Delegating routine, predictable tasks like bathing and hygiene is appropriate.",
+        },
+        {
+          id: "q32",
+          question: "What type of immunity results from vaccination?",
+          choices: ["Natural active", "Artificial active", "Natural passive", "Artificial passive"],
+          answer: 1,
+          rationale: "Vaccination provides artificially acquired active immunity.",
+        },
+        {
+          id: "q33",
+          question: "What is the antidote for magnesium sulfate toxicity?",
+          choices: ["Calcium gluconate", "Sodium bicarbonate", "Naloxone", "Vitamin K"],
+          answer: 0,
+          rationale: "Calcium gluconate is the antidote for magnesium sulfate toxicity.",
+        },
+        {
+          id: "q34",
+          question:
+            "Upon entering a patient's room, the nurse notices that a curtain is on fire. What sequence of actions should the nurse follow?",
+          choices: ["RACE", "PASS", "ABCDE", "CPR"],
+          answer: 0,
+          rationale: "RACE: Rescue, Alarm, Contain, Extinguish/Evacuate.",
+        },
+        {
+          id: "q35",
+          question:
+            "What is the primary mode of transmission of amoebiasis (Entamoeba histolytica)?",
+          choices: ["Fecal-oral", "Airborne", "Droplet", "Vector-borne"],
+          answer: 0,
+          rationale: "Amoebiasis is transmitted via fecal-oral route.",
+        },
+        {
+          id: "q36",
+          question: "What is the primary mode of transmission of German measles (rubella)?",
+          choices: ["Fecal-oral", "Respiratory droplets", "Airborne", "Direct contact"],
+          answer: 1,
+          rationale: "Rubella is transmitted via respiratory droplets.",
+        },
+        {
+          id: "q37",
+          question: "What is the mode of transmission of pulmonary tuberculosis (PTB)?",
+          choices: ["Fecal-oral", "Droplet", "Airborne", "Direct contact"],
+          answer: 2,
+          rationale: "PTB is transmitted via airborne route.",
+        },
+        {
+          id: "q38",
+          question: "Which findings should make the nurse suspect pulmonary tuberculosis?",
+          choices: [
+            "Persistent cough, weight loss, fever, night sweats",
+            "Headache, dizziness, nausea",
+            "Diarrhea, abdominal pain",
+            "Joint pain and swelling",
+          ],
+          answer: 0,
+          rationale:
+            "Classic symptoms of PTB include persistent cough, weight loss, fever, and night sweats.",
+        },
+        {
+          id: "q39",
+          question: "What is the difference between active and passive immunity?",
+          choices: [
+            "Active produces antibodies; passive receives antibodies",
+            "Passive produces antibodies; active receives antibodies",
+            "Both produce antibodies",
+            "Both receive antibodies",
+          ],
+          answer: 0,
+          rationale:
+            "Active immunity produces antibodies; passive immunity receives preformed antibodies.",
+        },
+        {
+          id: "q40",
+          question:
+            "Immediately after delivery, where should the nurse expect to palpate the uterine fundus?",
+          choices: [
+            "Below the umbilicus",
+            "At the level of the umbilicus",
+            "Above the umbilicus",
+            "At the symphysis pubis",
+          ],
+          answer: 1,
+          rationale:
+            "The fundus is at or near the level of the umbilicus immediately after delivery.",
+        },
+        {
+          id: "q41",
+          question: "Which maternal vital sign normally slightly increases during pregnancy?",
+          choices: ["Blood pressure", "Heart rate", "Respiratory rate", "Temperature"],
+          answer: 1,
+          rationale: "Heart rate normally slightly increases during pregnancy.",
+        },
+        {
+          id: "q42",
+          question: "What is a nursing audit?",
+          choices: [
+            "A systematic evaluation of nursing care and documentation",
+            "A financial review of hospital billing",
+            "A patient satisfaction survey",
+            "A medication inventory check",
+          ],
+          answer: 0,
+          rationale:
+            "A nursing audit is a systematic evaluation of nursing care and documentation.",
+        },
+        {
+          id: "q43",
+          question: "What is the difference between a concurrent and retrospective nursing audit?",
+          choices: [
+            "Concurrent is during care; retrospective is after care",
+            "Concurrent is after care; retrospective is during care",
+            "Both are after care",
+            "Both are during care",
+          ],
+          answer: 0,
+          rationale:
+            "Concurrent audit is conducted during care; retrospective audit is after discharge.",
+        },
+        {
+          id: "q44",
+          question: "What is performance appraisal in nursing management?",
+          choices: [
+            "A systematic evaluation of an employee's job performance",
+            "An evaluation of patient care quality",
+            "A financial review of the unit",
+            "A patient safety assessment",
+          ],
+          answer: 0,
+          rationale: "Performance appraisal evaluates an employee's job performance.",
+        },
+        {
+          id: "q45",
+          question: "Which primary tooth usually erupts first in an infant?",
+          choices: [
+            "Mandibular central incisors",
+            "Maxillary central incisors",
+            "Mandibular molars",
+            "Canines",
+          ],
+          answer: 0,
+          rationale: "Mandibular central incisors (lower central incisors) are the first to erupt.",
+        },
+        {
+          id: "q46",
+          question:
+            "A child develops periorbital edema, dark/cola-colored urine, decreased urine output, and hypertension following a recent streptococcal infection. What condition should the nurse suspect?",
+          choices: [
+            "Acute post-streptococcal glomerulonephritis",
+            "Nephrotic syndrome",
+            "Urinary tract infection",
+            "Acute kidney injury",
+          ],
+          answer: 0,
+          rationale:
+            "APSGN presents with periorbital edema, cola-colored urine, oliguria, and hypertension.",
+        },
+        {
+          id: "q47",
+          question:
+            "What should the nurse closely monitor in a child with acute glomerulonephritis?",
+          choices: [
+            "Blood pressure, urine output, daily weight",
+            "Temperature, heart rate, respiratory rate",
+            "Blood glucose, insulin levels",
+            "Calcium, phosphorus levels",
+          ],
+          answer: 0,
+          rationale: "Monitor blood pressure, urine output, and daily weight in APSGN.",
+        },
+        {
+          id: "q48",
+          question:
+            "What dietary modification may be prescribed for a child with acute glomerulonephritis and edema/hypertension?",
+          choices: [
+            "Sodium restriction",
+            "High protein diet",
+            "High potassium diet",
+            "Fluid restriction only",
+          ],
+          answer: 0,
+          rationale: "Sodium restriction is prescribed for edema and hypertension in APSGN.",
+        },
+        {
+          id: "q49",
+          question: "Which finding most reliably indicates true labor?",
+          choices: [
+            "Regular contractions with progressive cervical dilation",
+            "Irregular contractions",
+            "Bloody show",
+            "Rupture of membranes",
+          ],
+          answer: 0,
+          rationale: "Progressive cervical dilation with regular contractions confirms true labor.",
+        },
+        {
+          id: "q50",
+          question: "During which stage of childhood does the most rapid physical growth occur?",
+          choices: ["Infancy", "Early childhood", "Middle childhood", "Adolescence"],
+          answer: 0,
+          rationale: "The most rapid physical growth occurs during infancy.",
+        },
+        {
+          id: "q51",
+          question:
+            "During what age period does an infant's length increase at approximately 1 inch (2.5 cm) per month?",
+          choices: [
+            "First 6 months of infancy",
+            "Second 6 months of infancy",
+            "Second year of life",
+            "Third year of life",
+          ],
+          answer: 0,
+          rationale: "Infants grow about 1 inch per month during the first 6 months.",
+        },
+        {
+          id: "q52",
+          question: "Which part of the body is primarily affected in multiple myeloma?",
+          choices: ["Lungs", "Liver", "Kidneys", "Bone marrow"],
+          answer: 3,
+          rationale: "Multiple myeloma is a malignancy of plasma cells in the bone marrow.",
+        },
+        {
+          id: "q53",
+          question: "Which blood vessel is a common site of a peripheral arterial aneurysm?",
+          choices: ["Femoral artery", "Carotid artery", "Popliteal artery", "Subclavian artery"],
+          answer: 2,
+          rationale: "The popliteal artery is a common site of peripheral arterial aneurysm.",
+        },
+        {
+          id: "q54",
+          question: "Which position is appropriate after cataract surgery?",
+          choices: ["Supine", "Semi-Fowler's", "Prone", "Trendelenburg"],
+          answer: 1,
+          rationale:
+            "Semi-Fowler's position is appropriate after cataract surgery to reduce intraocular pressure.",
+        },
+        {
+          id: "q55",
+          question:
+            "Which activity should the patient avoid after cataract surgery because it can increase intraocular pressure (IOP)?",
+          choices: [
+            "Resting in a supine position",
+            "Walking slowly",
+            "Forceful coughing",
+            "Sitting upright",
+          ],
+          answer: 2,
+          rationale: "Forceful coughing can increase intraocular pressure.",
+        },
+        {
+          id: "q56",
+          question:
+            "Which type of anesthesia is commonly used during routine cardiac catheterization?",
+          choices: [
+            "General anesthesia",
+            "Local anesthesia",
+            "Regional anesthesia",
+            "Spinal anesthesia",
+          ],
+          answer: 1,
+          rationale: "Local anesthesia is commonly used during routine cardiac catheterization.",
+        },
+        {
+          id: "q57",
+          question:
+            "After removing a patient's colostomy appliance, which finding should the nurse expect in a healthy stoma?",
+          choices: [
+            "Moist, shiny, pink-to-red stoma",
+            "Dry, brownish stoma",
+            "Pale, bluish stoma",
+            "Swollen, purplish stoma",
+          ],
+          answer: 0,
+          rationale: "A healthy stoma should be moist, shiny, and pink-to-red in color.",
+        },
+        {
+          id: "q58",
+          question:
+            "Hypoventilation can cause respiratory acidosis. Which clinical manifestation would the nurse expect?",
+          choices: [
+            "Headache, confusion, decreased LOC",
+            "Hyperactivity, insomnia",
+            "Diarrhea, abdominal pain",
+            "Hypertension, tachycardia",
+          ],
+          answer: 0,
+          rationale:
+            "Respiratory acidosis causes headache, confusion, and decreased level of consciousness.",
+        },
+        {
+          id: "q59",
+          question: "How do the kidneys compensate for respiratory acidosis?",
+          choices: [
+            "Increase H+ excretion and increase HCO3- reabsorption",
+            "Decrease H+ excretion and decrease HCO3- reabsorption",
+            "Increase H+ reabsorption and decrease HCO3- excretion",
+            "No compensation occurs",
+          ],
+          answer: 0,
+          rationale: "The kidneys compensate by increasing H+ excretion and HCO3- reabsorption.",
+        },
+        {
+          id: "q60",
+          question:
+            "A patient asks, 'What does carcinoma in situ mean?' Which response by the nurse is correct?",
+          choices: [
+            "Malignant cells confined to the tissue where they originated",
+            "Cancer that has spread to distant organs",
+            "Cancer that has invaded surrounding tissue",
+            "A benign tumor",
+          ],
+          answer: 0,
+          rationale:
+            "Carcinoma in situ means malignant cells remain confined to their site of origin.",
+        },
+        {
+          id: "q61",
+          question:
+            "In addition to episodic vertigo and tinnitus, which manifestation is characteristic of Menière's disease?",
+          choices: ["Fluctuating hearing loss", "Headache", "Vision changes", "Chest pain"],
+          answer: 0,
+          rationale:
+            "Menière's disease includes fluctuating hearing loss with vertigo and tinnitus.",
+        },
+        {
+          id: "q62",
+          question:
+            "A patient reports an impaired sense of smell. Which cranial nerve should the nurse assess?",
+          choices: [
+            "Cranial Nerve I - Olfactory",
+            "Cranial Nerve II - Optic",
+            "Cranial Nerve VII - Facial",
+            "Cranial Nerve IX - Glossopharyngeal",
+          ],
+          answer: 0,
+          rationale: "The olfactory nerve (CN I) is responsible for the sense of smell.",
+        },
+        {
+          id: "q63",
+          question: "Which is the most important preventable risk factor for laryngeal cancer?",
+          choices: [
+            "Tobacco smoking",
+            "Alcohol consumption",
+            "Asbestos exposure",
+            "Human papillomavirus",
+          ],
+          answer: 0,
+          rationale:
+            "Tobacco smoking is the most important preventable risk factor for laryngeal cancer.",
+        },
+        {
+          id: "q64",
+          question:
+            "What is a common early warning sign of laryngeal cancer, particularly when the tumor involves the vocal cords?",
+          choices: [
+            "Persistent hoarseness",
+            "Lump in the neck",
+            "Difficulty swallowing",
+            "Ear pain",
+          ],
+          answer: 0,
+          rationale:
+            "Persistent hoarseness is an early sign of laryngeal cancer involving the vocal cords.",
+        },
+        {
+          id: "q65",
+          question:
+            "Which patient should the charge nurse assign to a newly licensed/inexperienced RN?",
+          choices: [
+            "Patient with a complicated/infected wound requiring extensive assessment",
+            "Patient with new swallowing difficulty and aspiration risk",
+            "Stable patient with predictable care needs",
+            "Unstable patient with rapidly changing vital signs",
+          ],
+          answer: 2,
+          rationale:
+            "Stable patients with predictable care needs are appropriate for new/inexperienced RNs.",
+        },
+        {
+          id: "q66",
+          question:
+            "A nurse is found legally/professionally liable for serious misconduct or malpractice. Which is NOT itself a typical disciplinary/legal penalty?",
+          choices: ["Revocation of license", "Suspension of license", "Imprisonment", "Bail bond"],
+          answer: 3,
+          rationale: "Bail is a legal mechanism, not a disciplinary penalty or punishment.",
+        },
+        {
+          id: "q67",
+          question:
+            "Which antimalarial drug is no longer recommended for routine treatment of P. falciparum malaria in areas with documented resistance?",
+          choices: ["Artemisinin", "Chloroquine", "Mefloquine", "Atovaquone-proguanil"],
+          answer: 1,
+          rationale:
+            "Chloroquine is no longer recommended for P. falciparum in areas with resistance.",
+        },
+        {
+          id: "q68",
+          question:
+            "What are the major effects of maternal cigarette smoking during pregnancy on the fetus?",
+          choices: [
+            "Fetal growth restriction and low birth weight",
+            "Congenital heart defects",
+            "Neural tube defects",
+            "Respiratory distress syndrome",
+          ],
+          answer: 0,
+          rationale: "Maternal smoking causes fetal growth restriction and low birth weight.",
+        },
+        {
+          id: "q69",
+          question: "What is the central concept of Sigmund Freud's Psychosexual Theory?",
+          choices: [
+            "Personality develops through stages focused on different erogenous zones",
+            "Personality develops through social interactions",
+            "Personality is determined by cognitive development",
+            "Personality is innate and unchanging",
+          ],
+          answer: 0,
+          rationale:
+            "Freud's theory focuses on psychosexual stages with different erogenous zones.",
+        },
+        {
+          id: "q70",
+          question: "What is the highest priority when caring for a patient with a tracheostomy?",
+          choices: [
+            "Maintain a patent airway",
+            "Suction as needed",
+            "Provide humidification",
+            "Secure the tracheostomy ties",
+          ],
+          answer: 0,
+          rationale: "Maintaining a patent airway is the highest priority.",
+        },
+        {
+          id: "q71",
+          question:
+            "Which complications should the nurse monitor for in a patient with a colostomy?",
+          choices: [
+            "Stomal ischemia/necrosis",
+            "Infections",
+            "Parastomal hernia",
+            "All of the above",
+          ],
+          answer: 3,
+          rationale: "All are potential complications of a colostomy.",
+        },
+        {
+          id: "q72",
+          question:
+            "A patient has a chest tube connected to a drainage system. What should the nurse have readily available at the bedside in case the tubing becomes accidentally disconnected?",
+          choices: ["Sterile water", "Normal saline", "Antibiotic ointment", "Extra tubing"],
+          answer: 0,
+          rationale: "Sterile water should be available for reconnecting the chest tube system.",
+        },
+        {
+          id: "q73",
+          question:
+            "Which ethical principle refers to the patient's right to make their own healthcare decisions?",
+          choices: ["Autonomy", "Beneficence", "Nonmaleficence", "Justice"],
+          answer: 0,
+          rationale: "Autonomy is the patient's right to make their own decisions.",
+        },
+        {
+          id: "q74",
+          question:
+            "Which ethical principle means doing good and acting in the patient's best interest?",
+          choices: ["Autonomy", "Beneficence", "Nonmaleficence", "Justice"],
+          answer: 1,
+          rationale: "Beneficence means doing good and acting in the patient's best interest.",
+        },
+        {
+          id: "q75",
+          question: "Which ethical principle means avoiding or preventing harm?",
+          choices: ["Autonomy", "Beneficence", "Nonmaleficence", "Justice"],
+          answer: 2,
+          rationale: "Nonmaleficence means avoiding or preventing harm.",
+        },
+        {
+          id: "q76",
+          question:
+            "Which ethical principle requires fair and equitable treatment and allocation of resources?",
+          choices: ["Autonomy", "Beneficence", "Nonmaleficence", "Justice"],
+          answer: 3,
+          rationale: "Justice requires fair and equitable treatment.",
+        },
+        {
+          id: "q77",
+          question:
+            "Which ethical principle means keeping promises and commitments to the patient?",
+          choices: ["Autonomy", "Beneficence", "Nonmaleficence", "Fidelity"],
+          answer: 3,
+          rationale: "Fidelity means keeping promises and commitments.",
+        },
+        {
+          id: "q78",
+          question: "How should unopened insulin be stored?",
+          choices: ["Refrigerated at 2-8°C", "At room temperature", "Frozen", "In direct sunlight"],
+          answer: 0,
+          rationale: "Unopened insulin should be refrigerated at 2-8°C.",
+        },
+        {
+          id: "q79",
+          question: "According to Patricia Benner, what characterizes a proficient nurse?",
+          choices: [
+            "Perceives clinical situations holistically",
+            "Uses rules and guidelines",
+            "Has no clinical experience",
+            "Relies on textbooks only",
+          ],
+          answer: 0,
+          rationale: "The proficient nurse perceives clinical situations as a whole.",
+        },
+        {
+          id: "q80",
+          question:
+            "Which antibiotic is commonly used for a localized superficial bacterial skin infection such as impetigo?",
+          choices: ["Topical mupirocin", "Oral amoxicillin", "Cephalexin", "Erythromycin"],
+          answer: 0,
+          rationale: "Topical mupirocin is used for localized impetigo.",
+        },
+        {
+          id: "q81",
+          question: "What is the causative agent of German measles?",
+          choices: ["Rubella virus", "Rubeola virus", "Varicella-zoster virus", "Parvovirus B19"],
+          answer: 0,
+          rationale: "German measles is caused by the rubella virus.",
+        },
+        {
+          id: "q82",
+          question: "What is the usual amount of blood lost during a normal menstrual period?",
+          choices: ["30-40 mL", "80-100 mL", "100-120 mL", "10-20 mL"],
+          answer: 0,
+          rationale: "Normal menstrual blood loss is approximately 30-40 mL per cycle.",
+        },
+        {
+          id: "q83",
+          question:
+            "What IV catheter size is generally preferred for blood transfusion in an adult?",
+          choices: ["18-20 gauge", "22-24 gauge", "14-16 gauge", "25 gauge"],
+          answer: 0,
+          rationale: "18-20 gauge is preferred for blood transfusion in adults.",
+        },
+        {
+          id: "q84",
+          question:
+            "Which type of touch is used when a nurse performs a procedure such as taking a blood pressure, changing a dressing, or assisting with hygiene?",
+          choices: [
+            "Functional-professional touch",
+            "Social-polite touch",
+            "Friendship-warmth touch",
+            "Love-intimacy touch",
+          ],
+          answer: 0,
+          rationale: "Functional-professional touch is used during procedures and care.",
+        },
+        {
+          id: "q85",
+          question:
+            "A nurse becomes excessively emotionally involved with a patient and even spends a day off personally comforting the patient. Which concept does this behavior demonstrate?",
+          choices: ["Transference", "Countertransference", "Sympathy", "Empathy"],
+          answer: 1,
+          rationale: "Countertransference occurs when the nurse transfers feelings to the patient.",
+        },
+        {
+          id: "q86",
+          question: "Which food should a patient avoid when instructed to reduce sodium intake?",
+          choices: ["Pickled foods", "Banana", "Fresh apple", "Steamed rice"],
+          answer: 0,
+          rationale: "Pickled foods are high in sodium and should be avoided.",
+        },
+        {
+          id: "q87",
+          question:
+            "Under the Philippine Nursing Act of 2002 (RA 9173), after a nurse's certificate of registration/professional license has been revoked, after what period may the Board consider issuing another certificate?",
+          choices: ["2 years", "3 years", "4 years", "5 years"],
+          answer: 2,
+          rationale: "RA 9173 allows reissuance after a maximum of 4 years from revocation.",
+        },
+        {
+          id: "q88",
+          question:
+            "What dietary instruction may be given before a guaiac-based fecal occult blood test (gFOBT)?",
+          choices: [
+            "Avoid red meat",
+            "Eat high-fiber foods",
+            "Increase iron intake",
+            "Avoid fluids",
+          ],
+          answer: 0,
+          rationale: "Red meat should be avoided before a gFOBT as it may cause false positives.",
+        },
+        {
+          id: "q89",
+          question:
+            "What IV catheter size is commonly used for routine IV fluids and medications in an adult?",
+          choices: ["18-20 gauge", "20-22 gauge", "14-16 gauge", "24-26 gauge"],
+          answer: 1,
+          rationale: "20-22 gauge is commonly used for routine IV therapy in adults.",
+        },
+        {
+          id: "q90",
+          question: "Which foods should a patient with Meniere's disease avoid or limit?",
+          choices: [
+            "High-sodium foods",
+            "High-protein foods",
+            "High-fat foods",
+            "High-carbohydrate foods",
+          ],
+          answer: 0,
+          rationale: "High-sodium foods should be avoided or limited in Meniere's disease.",
+        },
+        {
+          id: "q91",
+          question: "What is splitting as a defense mechanism?",
+          choices: [
+            "Viewing others as 'all good' or 'all bad'",
+            "Separating emotions from thoughts",
+            "Blaming others for problems",
+            "Avoiding conflict",
+          ],
+          answer: 0,
+          rationale: "Splitting involves seeing people as either all good or all bad.",
+        },
+        {
+          id: "q92",
+          question:
+            "Which foods may increase the risk of stoma obstruction/blockage in a patient with an ileostomy?",
+          choices: [
+            "Popcorn, nuts, seeds",
+            "Rice, pasta, bread",
+            "Well-cooked vegetables",
+            "Soft fruits",
+          ],
+          answer: 0,
+          rationale: "Popcorn, nuts, and seeds can cause stoma obstruction.",
+        },
+        {
+          id: "q93",
+          question: "Which task is most appropriate for the RN to delegate to a nursing aide/UAP?",
+          choices: [
+            "Perform the initial assessment of a newly admitted patient",
+            "Teach a newly diagnosed diabetic how to inject insulin",
+            "Assist a stable patient with bathing and hygiene",
+            "Evaluate a patient's response to pain medication",
+          ],
+          answer: 2,
+          rationale: "Bathing and hygiene are routine, low-risk tasks appropriate for delegation.",
+        },
+        {
+          id: "q94",
+          question:
+            "The nurse is instructing a patient about postoperative care following cataract removal. Which position is most appropriate?",
+          choices: [
+            "Assume a prone position",
+            "Position the feet elevated",
+            "Remain in Semi-Fowler's position",
+            "Lie on the operative side",
+          ],
+          answer: 2,
+          rationale: "Semi-Fowler's position is appropriate after cataract surgery.",
+        },
+        {
+          id: "q95",
+          question: "How long should medico-legal health records be retained?",
+          choices: ["25 years", "30 years", "50 years", "Lifetime"],
+          answer: 3,
+          rationale: "Medico-legal health records should be retained for lifetime.",
+        },
+        {
+          id: "q96",
+          question: "Which neurotransmitter is decreased in a patient with Alzheimer's disease?",
+          choices: ["Serotonin", "Norepinephrine", "Acetylcholine", "Dopamine"],
+          answer: 2,
+          rationale: "Acetylcholine is decreased in Alzheimer's disease.",
+        },
+        {
+          id: "q97",
+          question:
+            "Which manifestation would the nurse expect in a patient with Generalized Anxiety Disorder (GAD)?",
+          choices: [
+            "Excessive, difficult-to-control worry",
+            "Hallucinations",
+            "Obsessive-compulsive behaviors",
+            "Panic attacks",
+          ],
+          answer: 0,
+          rationale: "GAD is characterized by excessive, difficult-to-control worry.",
+        },
+        {
+          id: "q98",
+          question:
+            "Which medication is commonly used as first-line pharmacologic treatment for ADHD with hyperactivity?",
+          choices: ["Methylphenidate", "Fluoxetine", "Haloperidol", "Lorazepam"],
+          answer: 0,
+          rationale: "Methylphenidate is a first-line treatment for ADHD.",
+        },
+        {
+          id: "q99",
+          question: "Which defense mechanism is commonly associated with depression?",
+          choices: ["Projection", "Rationalization", "Displacement", "Introjection"],
+          answer: 3,
+          rationale: "Introjection is a defense mechanism associated with depression.",
+        },
+        {
+          id: "q100",
+          question:
+            "Which neurotransmitters are classically associated with major depressive disorder?",
+          choices: [
+            "Serotonin and norepinephrine",
+            "Dopamine and acetylcholine",
+            "GABA and glutamate",
+            "Histamine and serotonin",
+          ],
+          answer: 0,
+          rationale: "Depression is associated with decreased serotonin and norepinephrine.",
+        },
+        {
+          id: "q101",
+          question:
+            "A family member reports that an older adult has recently developed significant anxiety and personality changes. Which statement regarding GAD onset is most accurate?",
+          choices: [
+            "It always begins early in life",
+            "It can develop at different ages",
+            "It occurs only during adolescence",
+            "It occurs only during old age",
+          ],
+          answer: 1,
+          rationale: "GAD can develop at different ages, including late onset.",
+        },
+        {
+          id: "q102",
+          question:
+            "A client with Borderline Personality Disorder (BPD) demonstrates 'splitting.' What does this behavior indicate?",
+          choices: [
+            "Viewing people as all good or all bad",
+            "Having memory lapses",
+            "Experiencing hallucinations",
+            "Having identity confusion",
+          ],
+          answer: 0,
+          rationale: "Splitting in BPD involves viewing people in extremes.",
+        },
+        {
+          id: "q103",
+          question:
+            "A patient is immediately postoperative following a total laryngectomy. What is the PRIORITY nursing diagnosis?",
+          choices: [
+            "Ineffective Airway Clearance",
+            "Impaired Verbal Communication",
+            "Risk for Infection",
+            "Disturbed Body Image",
+          ],
+          answer: 0,
+          rationale: "Airway clearance is the priority following total laryngectomy.",
+        },
+        {
+          id: "q104",
+          question: "At what point in the research process is a hypothesis generally formulated?",
+          choices: [
+            "Before analyzing the collected data",
+            "After formulation of the research problem",
+            "Before deciding the research problem",
+            "After choosing the study design",
+          ],
+          answer: 1,
+          rationale: "A hypothesis is formulated after the research problem is identified.",
+        },
+        {
+          id: "q105",
+          question:
+            "Which action best protects the confidentiality of electronic patient information?",
+          choices: [
+            "Use one password for all computers in the ward",
+            "The nurse keeps their password private and does not share it",
+            "Give the nurse manager the password for emergency use",
+            "Write the password on a note near the computer",
+          ],
+          answer: 1,
+          rationale: "Keeping passwords private protects patient information confidentiality.",
+        },
+        {
+          id: "q106",
+          question: "Which laboratory finding would be expected in a patient with malaria?",
+          choices: [
+            "Elevated white blood cells",
+            "Plasmodium parasites in the blood smear",
+            "Decreased hemoglobin",
+            "Increased platelets",
+          ],
+          answer: 1,
+          rationale: "Malaria diagnosis is confirmed by Plasmodium parasites in the blood smear.",
+        },
+        {
+          id: "q107",
+          question: "Malaria can be transmitted through the following routes EXCEPT:",
+          choices: [
+            "Blood transfusion",
+            "Ordinary human-to-human contact",
+            "Contaminated needle exposure",
+            "Bite of an infected mosquito",
+          ],
+          answer: 1,
+          rationale: "Malaria is not transmitted through ordinary human-to-human contact.",
+        },
+        {
+          id: "q108",
+          question:
+            "A patient with gastric ulceration undergoes surgery under general anesthesia. What is the nurse's priority immediately following the procedure?",
+          choices: [
+            "Maintain a patent airway",
+            "Monitor vital signs",
+            "Check the surgical site",
+            "Administer pain medication",
+          ],
+          answer: 0,
+          rationale: "Maintaining a patent airway is the priority immediately after surgery.",
+        },
+        {
+          id: "q109",
+          question:
+            "Which concept is fundamental to establishing an effective therapeutic nurse-client relationship?",
+          choices: ["Sympathy", "Respect", "Pity", "Control"],
+          answer: 1,
+          rationale: "Respect is fundamental to establishing a therapeutic relationship.",
+        },
+        {
+          id: "q110",
+          question:
+            "During multiple home visits, which sequence helps reduce the risk of transmitting infection between households?",
+          choices: [
+            "Visit clients without communicable disease before clients with known/suspected infectious disease",
+            "Always visit elderly clients first",
+            "Always visit children first",
+            "Visit infectious clients first",
+          ],
+          answer: 0,
+          rationale: "Prioritize well/noninfectious clients before infectious clients.",
+        },
+        {
+          id: "q111",
+          question:
+            "What is the most basic and important measure for preventing transmission of healthcare-associated infections (HAIs)?",
+          choices: ["Wearing a mask", "Wearing gloves", "Hand hygiene", "Wearing a gown"],
+          answer: 2,
+          rationale: "Hand hygiene is the most basic and important measure to prevent HAls.",
+        },
+        {
+          id: "q112",
+          question:
+            "Which patient should be assigned to the registered nurse (RN) rather than to assistive personnel?",
+          choices: [
+            "A child experiencing an acute asthma attack in the emergency department",
+            "A stable patient with diabetes scheduled for discharge later",
+            "A stable patient requiring a routine dressing change",
+            "A patient needing assistance with bathing",
+          ],
+          answer: 0,
+          rationale: "An unstable patient (acute asthma attack) should be assigned to an RN.",
+        },
+        {
+          id: "q113",
+          question:
+            "Following a lumbar puncture, the cerebrospinal fluid (CSF) is observed to be clear and colorless. How should this finding be interpreted?",
+          choices: ["Infection", "Normal finding", "Severe infection", "Traumatic tap"],
+          answer: 1,
+          rationale: "Clear and colorless CSF is a normal finding.",
+        },
+        {
+          id: "q114",
+          question:
+            "The nurse is caring for a patient immediately after a tracheostomy. Which finding represents the greatest immediate concern?",
+          choices: [
+            "Slight displacement of an NGT during feeding",
+            "A mucus plug obstructing the tracheostomy",
+            "Excessive oral and nasal secretions",
+            "Skin irritation around the stoma",
+          ],
+          answer: 1,
+          rationale: "A mucus plug obstructing the tracheostomy is an immediate airway concern.",
+        },
+        {
+          id: "q115",
+          question:
+            "What is the most important information to emphasize to the family of a patient with a tracheostomy?",
+          choices: [
+            "The tracheostomy provides the patient's airway for breathing",
+            "How to clean the tracheostomy",
+            "How to suction the tracheostomy",
+            "How to change the tracheostomy ties",
+          ],
+          answer: 0,
+          rationale: "The family must understand that the tracheostomy is the patient's airway.",
+        },
+        {
+          id: "q116",
+          question:
+            "A postoperative patient's dressing becomes saturated with serosanguineous drainage. What should the nurse do first?",
+          choices: [
+            "Assess the patient and notify the surgeon/provider",
+            "Ask the resident to reinforce the dressing without assessment",
+            "Remove the dressing, wipe the wound, and apply a new dressing",
+            "Document the finding and monitor",
+          ],
+          answer: 0,
+          rationale: "Excessive drainage should be assessed and reported to the provider.",
+        },
+        {
+          id: "q117",
+          question:
+            "Following a total laryngectomy, which finding is NOT necessarily an expected permanent consequence?",
+          choices: [
+            "The patient cannot breathe through the nose",
+            "The patient cannot produce normal laryngeal speech",
+            "The patient cannot eat",
+            "The patient cannot breathe through the mouth",
+          ],
+          answer: 2,
+          rationale:
+            "Patients can eat after a total laryngectomy, though swallowing may be affected.",
+        },
+        {
+          id: "q118",
+          question:
+            "Which toxic gas is a major cause of death in victims of smoke inhalation during fires?",
+          choices: ["Carbon monoxide", "Cyanide", "Sulfur dioxide", "Nitrogen dioxide"],
+          answer: 0,
+          rationale: "Carbon monoxide poisoning is a major cause of death in smoke inhalation.",
+        },
+        {
+          id: "q119",
+          question:
+            "A patient is admitted following a CVA. Which part of the brain contains the primary respiratory rhythm-generating centers?",
+          choices: ["Medulla oblongata", "Cerebellum", "Cerebrum", "Hypothalamus"],
+          answer: 0,
+          rationale: "The medulla oblongata contains the primary respiratory centers.",
+        },
+        {
+          id: "q120",
+          question:
+            "A patient develops hemiplegia following an acute stroke. Which finding should receive the highest priority during the first 24 hours?",
+          choices: ["Unequal pupil size", "Loss of appetite", "Fatigue", "Insomnia"],
+          answer: 0,
+          rationale:
+            "Unequal pupil size indicates increased intracranial pressure and requires immediate attention.",
+        },
+        {
+          id: "q121",
+          question:
+            "The nurse is providing oral care to an unconscious patient. Which action indicates a need for further teaching?",
+          choices: [
+            "Uses a tongue depressor to force/open the patient's mouth",
+            "Uses a toothbrush to clean the teeth carefully",
+            "Performs oral care with the patient in Semi-Fowler's position",
+            "Uses suction to prevent aspiration",
+          ],
+          answer: 0,
+          rationale: "Forcing the mouth open with a tongue depressor can cause oral trauma.",
+        },
+        {
+          id: "q122",
+          question:
+            "Which drug has a long historical role in the treatment of malaria and remains useful for selected malaria infections today?",
+          choices: ["Artemisinin", "Quinine", "Mefloquine", "Doxycycline"],
+          answer: 1,
+          rationale: "Quinine remains useful for selected malaria infections.",
+        },
+        {
+          id: "q123",
+          question:
+            "A nurse becomes so emotionally involved with a crying patient that the nurse spends a day off specifically listening to and comforting the patient. What does this behavior most likely demonstrate?",
+          choices: ["Transference", "Empathy", "Sympathy", "Countertransference"],
+          answer: 3,
+          rationale:
+            "Countertransference is when a nurse becomes excessively emotionally involved with a patient.",
+        },
+        {
+          id: "q124",
+          question:
+            "A nurse consistently spends considerably more time with a young, attractive patient while neglecting the needs of other patients. Which ethical principle is primarily violated?",
+          choices: ["Autonomy", "Beneficence", "Justice", "Nonmaleficence"],
+          answer: 2,
+          rationale: "Justice is violated when patients are not treated fairly and equally.",
+        },
+        {
+          id: "q125",
+          question:
+            "Which specimen can be used to determine a patient's current/recent blood alcohol concentration?",
+          choices: ["Urine", "Blood/serum", "Saliva", "Hair"],
+          answer: 1,
+          rationale: "Blood/serum is used to determine current blood alcohol concentration.",
+        },
+        {
+          id: "q126",
+          question:
+            "A patient develops sudden severe/sharp eye pain after cataract surgery. What should the nurse conclude?",
+          choices: [
+            "Possible serious postoperative ocular complication — report immediately",
+            "Normal postoperative pain",
+            "Migraine headache",
+            "Sinusitis",
+          ],
+          answer: 0,
+          rationale: "Sudden severe eye pain after cataract surgery requires immediate reporting.",
+        },
+        {
+          id: "q127",
+          question:
+            "Which nursing intervention is appropriate when positioning a patient after a laminectomy?",
+          choices: [
+            "Keep flat for only 1-2 hours regardless of orders",
+            "Maintain supine position for 6-8 hours in all patients",
+            "Place routinely in Semi-Fowler's",
+            "Maintain spinal alignment and reposition using logrolling as prescribed",
+          ],
+          answer: 3,
+          rationale: "Maintain spinal alignment and use logrolling after laminectomy.",
+        },
+        {
+          id: "q128",
+          question: "Which of the following does NOT promote edema formation?",
+          choices: [
+            "Decreased capillary permeability",
+            "Increased capillary hydrostatic pressure",
+            "Decreased plasma oncotic pressure",
+            "Lymphatic obstruction",
+          ],
+          answer: 0,
+          rationale: "Decreased capillary permeability reduces edema formation.",
+        },
+        {
+          id: "q129",
+          question: "Which burn depth is generally considered the most painful?",
+          choices: [
+            "First-degree",
+            "Second-degree (partial-thickness)",
+            "Third-degree",
+            "Fourth-degree",
+          ],
+          answer: 1,
+          rationale: "Second-degree burns are the most painful due to nerve exposure.",
+        },
+        {
+          id: "q130",
+          question: "Which description best characterizes a third-degree (full-thickness) burn?",
+          choices: [
+            "Destroys only the epidermis",
+            "Destroys the epidermis and part of the dermis",
+            "Involves only the outermost layer",
+            "Destroys the entire epidermis and dermis",
+          ],
+          answer: 3,
+          rationale: "Third-degree burns destroy the entire epidermis and dermis.",
+        },
+        {
+          id: "q131",
+          question:
+            "Which medication is commonly considered a first-line pharmacologic treatment for a child with ADHD?",
+          choices: ["Methylphenidate", "Fluoxetine", "Haloperidol", "Carbamazepine"],
+          answer: 0,
+          rationale: "Methylphenidate is a first-line treatment for ADHD in children.",
+        },
+        {
+          id: "q132",
+          question: "Which skin finding would the nurse expect in a patient with hyperthyroidism?",
+          choices: ["Dry, scaly skin", "Warm, moist skin", "Cyanotic skin", "Jaundiced skin"],
+          answer: 1,
+          rationale: "Hyperthyroidism causes warm, moist skin.",
+        },
+        {
+          id: "q133",
+          question:
+            "Which finding correctly describes the tonic neck ('fencing') reflex in an infant?",
+          choices: [
+            "Infant extends both arms when head is turned",
+            "Arm and leg on face side extend, opposite side flexes",
+            "Both arms and legs flex",
+            "No movement occurs",
+          ],
+          answer: 1,
+          rationale: "In the tonic neck reflex, the arm and leg on the face side extend.",
+        },
+        {
+          id: "q134",
+          question: "Which finding is least expected in a postpartum mother?",
+          choices: [
+            "Early morning sickness",
+            "Ambivalent feelings regarding the baby",
+            "Fatigue",
+            "Afterpains",
+          ],
+          answer: 0,
+          rationale: "Early morning sickness is a sign of pregnancy, not postpartum.",
+        },
+        {
+          id: "q135",
+          question:
+            "Severe, uncontrolled hypertension can cause target-organ damage to all of the following EXCEPT:",
+          choices: ["Eyes", "Heart", "Liver", "Brain"],
+          answer: 2,
+          rationale: "The liver is not a primary target organ of hypertension.",
+        },
+        {
+          id: "q136",
+          question:
+            "A patient is scheduled for a colonoscopy. Which intervention is most important to ensure adequate visualization of the colon?",
+          choices: ["NPO status", "Bowel cleansing", "Antibiotic prophylaxis", "Sedation"],
+          answer: 1,
+          rationale: "Adequate bowel cleansing is essential for colonoscopy visualization.",
+        },
+        {
+          id: "q137",
+          question:
+            "Which is the most important modifiable risk factor for developing laryngeal cancer?",
+          choices: [
+            "Alcohol consumption",
+            "Asbestos exposure",
+            "Cigarette smoking",
+            "Poor nutrition",
+          ],
+          answer: 2,
+          rationale:
+            "Cigarette smoking is the most important modifiable risk factor for laryngeal cancer.",
+        },
+        {
+          id: "q138",
+          question:
+            "Which is a common early manifestation of laryngeal cancer, particularly cancer involving the vocal cords?",
+          choices: [
+            "Persistent hoarseness/change in voice",
+            "Lump in the throat/neck",
+            "Difficulty swallowing",
+            "Ear pain",
+          ],
+          answer: 0,
+          rationale:
+            "Persistent hoarseness is an early sign of laryngeal cancer involving the vocal cords.",
+        },
+        {
+          id: "q139",
+          question:
+            "Which clinical manifestations would the nurse most likely observe in a patient experiencing a manic episode?",
+          choices: [
+            "Hyperactivity and euphoria",
+            "Alternating extreme happiness and sadness",
+            "Withdrawal and sadness",
+            "Anxiety and fear",
+          ],
+          answer: 0,
+          rationale: "Manic episodes are characterized by hyperactivity and euphoria.",
+        },
+        {
+          id: "q140",
+          question:
+            "Which medication is a first-generation antipsychotic used to control severe psychotic symptoms such as hallucinations, delusions, and severe agitation?",
+          choices: ["Haloperidol (Haldol)", "Risperidone", "Olanzapine", "Quetiapine"],
+          answer: 0,
+          rationale: "Haloperidol is a first-generation antipsychotic.",
+        },
+        {
+          id: "q141",
+          question:
+            "Which finding is most characteristic of a peripheral arterial aneurysm, such as a popliteal aneurysm?",
+          choices: [
+            "Diminished peripheral pulses",
+            "Strong pulsation over the femoral area",
+            "Intermittent claudication",
+            "Pale, cold extremities",
+          ],
+          answer: 1,
+          rationale: "A localized pulsatile mass is characteristic of an arterial aneurysm.",
+        },
+        {
+          id: "q142",
+          question: "What IV catheter gauge is commonly used for routine IV therapy in an adult?",
+          choices: ["18-20 gauge", "20-22 gauge", "14-16 gauge", "24-26 gauge"],
+          answer: 1,
+          rationale: "20-22 gauge is commonly used for routine IV therapy in adults.",
+        },
+        {
+          id: "q143",
+          question:
+            "Which site should generally be avoided for routine peripheral IV insertion in an adult because of greater complication concerns?",
+          choices: ["Hand", "Foot/lower extremity", "Arm", "Forearm"],
+          answer: 1,
+          rationale:
+            "The foot/lower extremity should be avoided due to higher risk of complications.",
+        },
+        {
+          id: "q144",
+          question:
+            "At approximately what angle should a peripheral IV catheter initially be inserted?",
+          choices: ["5-10 degrees", "10-30 degrees", "40-60 degrees", "90 degrees"],
+          answer: 1,
+          rationale: "A peripheral IV catheter should be inserted at 10-30 degrees, bevel up.",
+        },
+        {
+          id: "q145",
+          question:
+            "A healthcare professional sells glutathione to clients at an unreasonably excessive price, taking advantage of them. Which ethical principle is most directly violated?",
+          choices: ["Autonomy", "Justice", "Beneficence", "Nonmaleficence"],
+          answer: 1,
+          rationale: "Justice is violated when clients are taken advantage of financially.",
+        },
+        {
+          id: "q146",
+          question:
+            "A newborn was delivered at 5:00 PM. The following morning, the nurse observes yellow discoloration of the sclera. What is the PRIORITY nursing action?",
+          choices: [
+            "Document the finding only",
+            "Observe for clay-colored stools",
+            "Prepare immediately for phototherapy",
+            "Report the finding immediately to the physician",
+          ],
+          answer: 3,
+          rationale:
+            "Jaundice in the first 24 hours is pathological and requires immediate reporting.",
+        },
+        {
+          id: "q147",
+          question:
+            "According to Patricia Benner's Novice-to-Expert Model, which characteristic best describes a proficient nurse?",
+          choices: [
+            "Perceives clinical situations as a whole",
+            "Uses rules and guidelines",
+            "Has limited clinical experience",
+            "Relies on textbooks for decisions",
+          ],
+          answer: 0,
+          rationale: "The proficient nurse perceives situations holistically.",
+        },
+        {
+          id: "q148",
+          question: "What is the primary purpose of Continuing Professional Development (CPD)?",
+          choices: [
+            "To accumulate units for PRC license renewal",
+            "To continuously improve professional knowledge, skills, competence, and practice",
+            "To increase salary",
+            "To meet hospital requirements",
+          ],
+          answer: 1,
+          rationale: "CPD aims to improve professional competence and practice.",
+        },
+        {
+          id: "q149",
+          question:
+            "Which type of wound drainage is least expected during normal early wound healing?",
+          choices: ["Serous", "Sanguineous", "Seropurulent", "Serosanguineous"],
+          answer: 2,
+          rationale:
+            "Seropurulent drainage indicates infection and is not expected in normal healing.",
+        },
+        {
+          id: "q150",
+          question:
+            "Which finding is least characteristic of classic Fetal Alcohol Syndrome (FAS)?",
+          choices: [
+            "Characteristic abnormal facial features",
+            "Jitteriness",
+            "Small for gestational age/growth restriction",
+            "Developmental delays",
+          ],
+          answer: 1,
+          rationale: "Jitteriness is not a classic feature of FAS.",
+        },
+      ],
+    },
+    {
+      id: "set-6",
+      title: "SET 6",
+      description:
+        "Comprehensive nursing review covering psychiatric, medical-surgical, maternal and child health, and community health nursing concepts.",
+      questions: [
+        {
+          id: "q1",
+          question: "Priority Nursing Concern in Parkinson's disease:",
+          choices: ["Safety and security", "Mobility", "Communication", "Nutrition"],
+          answer: 0,
+          rationale: "Safety and security is the priority concern in Parkinson's disease.",
+        },
+        {
+          id: "q2",
+          question:
+            "A child is restless and experiencing difficulty breathing following a traumatic event. What level of anxiety is most likely?",
+          choices: ["Mild", "Moderate", "Severe", "Panic"],
+          answer: 2,
+          rationale: "Dyspnea and restlessness indicate severe anxiety.",
+        },
+        {
+          id: "q3",
+          question:
+            "After witnessing a traumatic event, a child stays alone in a room, remains quiet, and withdraws from others. Which behavior is being demonstrated?",
+          choices: ["Isolation", "Reaction formation", "Denial", "Projection"],
+          answer: 0,
+          rationale: "Withdrawal and staying alone indicates isolation.",
+        },
+        {
+          id: "q4",
+          question:
+            "A child who witnessed a traumatic event is continuously pacing, wandering around the room, and moaning and appears unable to function purposefully. What level of anxiety is most likely?",
+          choices: ["Mild", "Moderate", "Severe", "Panic"],
+          answer: 3,
+          rationale: "Inability to function purposefully and pacing indicates panic level anxiety.",
+        },
+        {
+          id: "q5",
+          question:
+            "A physician selectively provides services only in a preferred department while comparable needs exist elsewhere. Which ethical principle may be violated if this results in unfair allocation of healthcare services?",
+          choices: ["Distributive justice", "Justice", "Nonmaleficence", "Autonomy"],
+          answer: 0,
+          rationale: "Distributive justice concerns fair allocation of resources.",
+        },
+        {
+          id: "q6",
+          question:
+            "A community health nurse is well-liked and trusted by community members, who encourage the nurse to run for barangay captain and offer their support. What type of influence/power is demonstrated?",
+          choices: ["Political", "Social", "Economic", "Coercive"],
+          answer: 1,
+          rationale: "Being liked and trusted by community members demonstrates social power.",
+        },
+        {
+          id: "q7",
+          question:
+            "Which instruction is appropriate for a patient being discharged following treatment/repair of a retinal detachment?",
+          choices: [
+            "Wear sunglasses in bright light",
+            "Increase the intensity of lights throughout the home",
+            "Avoid all light exercise indefinitely",
+            "Restrict fluid intake",
+          ],
+          answer: 0,
+          rationale:
+            "Wearing sunglasses in bright light protects the eye after retinal detachment repair.",
+        },
+        {
+          id: "q8",
+          question:
+            "During an actual flood, a woman repeatedly states, 'I will die in this flood! Please help me!' Which nursing diagnosis is most appropriate?",
+          choices: [
+            "Fear related to an actual/immediate threat",
+            "Anxiety related to an upcoming flood",
+            "Ineffective coping",
+            "Powerlessness",
+          ],
+          answer: 0,
+          rationale: "The woman is expressing fear of an actual, immediate threat.",
+        },
+        {
+          id: "q9",
+          question:
+            "Which defense mechanism is classically associated with major depression in traditional psychodynamic nursing theory?",
+          choices: ["Introjection", "Splitting", "Projection", "Displacement"],
+          answer: 0,
+          rationale: "Introjection is the defense mechanism associated with depression.",
+        },
+        {
+          id: "q10",
+          question:
+            "A patient is prescribed a benzodiazepine for anxiety. Which instruction should the nurse emphasize?",
+          choices: [
+            "Antianxiety drugs treat the underlying cause of anxiety.",
+            "Avoid alcohol because it can potentiate the CNS-depressant effects",
+            "The medication may be discontinued abruptly without a physician's order",
+            "Driving is safe despite delayed reaction time",
+          ],
+          answer: 1,
+          rationale: "Alcohol potentiates the CNS-depressant effects of benzodiazepines.",
+        },
+        {
+          id: "q11",
+          question:
+            "A patient taking lithium is scheduled for serum lithium-level monitoring. Which teaching is most appropriate?",
+          choices: [
+            "The exact time of the last lithium dose should be documented",
+            "Lithium should always be taken on an empty stomach",
+            "Polyuria and polydipsia cannot occur with lithium therapy",
+            "Constipation is the primary adverse effect",
+          ],
+          answer: 0,
+          rationale:
+            "Documenting the time of the last dose is essential for accurate interpretation.",
+        },
+        {
+          id: "q12",
+          question:
+            "Which finding is NOT an extrapyramidal adverse effect associated with haloperidol?",
+          choices: ["Acute dystonia", "Akathisia", "Pseudoparkinsonism", "Increased libido"],
+          answer: 3,
+          rationale:
+            "Increased libido is not an extrapyramidal side effect. EPS includes dystonia, akathisia, parkinsonism, and tardive dyskinesia.",
+        },
+        {
+          id: "q13",
+          question:
+            "A patient receiving an antipsychotic appears restless, anxious, and agitated and reports an intense need to keep moving. Which adverse effect is the patient experiencing?",
+          choices: ["Withdrawal", "Dyskinesia", "Dystonia", "Akathisia"],
+          answer: 3,
+          rationale:
+            "Akathisia is characterized by restlessness and an intense need to keep moving.",
+        },
+        {
+          id: "q14",
+          question: "A patient is prescribed an SSRI. Which dietary instruction is appropriate?",
+          choices: [
+            "Aged cheese may be eaten as part of the usual diet",
+            "The medication must always be taken first thing in the morning",
+            "Peanuts are absolutely contraindicated",
+            "A tyramine-free diet is required to prevent hypertension",
+          ],
+          answer: 0,
+          rationale: "SSRIs do not require tyramine restriction unlike MAOIs.",
+        },
+        {
+          id: "q15",
+          question:
+            "During a clinic visit, a patient reports early symptoms suggestive of rheumatoid arthritis. Which finding should the nurse particularly assess for during the interview?",
+          choices: [
+            "Enlarged rheumatoid nodules",
+            "Early-morning joint stiffness",
+            "Markedly limited range of motion",
+            "Established deformities of the hands",
+          ],
+          answer: 1,
+          rationale: "Early-morning joint stiffness is an early symptom of rheumatoid arthritis.",
+        },
+        {
+          id: "q16",
+          question:
+            "During the acute inflammatory phase of rheumatoid arthritis, which intervention is the LOWEST priority?",
+          choices: [
+            "Preserving joint function",
+            "Preventing joint deformity",
+            "Relieving pain",
+            "Maintaining usual tasks",
+          ],
+          answer: 3,
+          rationale: "Maintaining usual tasks is the lowest priority during acute inflammation.",
+        },
+        {
+          id: "q17",
+          question:
+            "A patient develops an increased tendency to bleed after prolonged NSAID use. Which mechanism most likely contributes to this effect?",
+          choices: [
+            "Decreased platelet adhesiveness/function",
+            "Blocked conversion of prothrombin",
+            "Impaired vitamin K synthesis",
+            "Destruction of factor VIII",
+          ],
+          answer: 0,
+          rationale: "NSAIDs decrease platelet adhesiveness/function.",
+        },
+        {
+          id: "q18",
+          question:
+            "A nurse teaches a patient with osteoarthritis about lifestyle modifications. Which statement indicates correct understanding?",
+          choices: [
+            '"I will completely abstain from alcohol"',
+            '"I will avoid exercise"',
+            '"I will lose weight if I am overweight"',
+            '"I will restrict all caffeine"',
+          ],
+          answer: 2,
+          rationale: "Weight loss is important in managing osteoarthritis.",
+        },
+        {
+          id: "q19",
+          question:
+            "Which intervention is most important in preventing relapse in a patient with chronic schizophrenia?",
+          choices: [
+            "Adherence to antipsychotic medication",
+            "Regular exercise",
+            "Dietary modifications",
+            "Social media use",
+          ],
+          answer: 0,
+          rationale: "Adherence to antipsychotic medication is crucial for preventing relapse.",
+        },
+        {
+          id: "q20",
+          question:
+            "Teresa demonstrates splitting. Which statement best defines this characteristic?",
+          choices: [
+            "Viewing people and situations as either good or bad",
+            "Having two separate personalities",
+            "Talking about other people behind their backs",
+            "Literally spitting at other people",
+          ],
+          answer: 0,
+          rationale:
+            "Splitting is viewing people and situations in extremes as all good or all bad.",
+        },
+        {
+          id: "q21",
+          question:
+            "When assessing a patient with Borderline Personality Disorder, which information is most important to explore?",
+          choices: [
+            "Ability to get people on her side",
+            "Disruption/impairment in important areas of her life",
+            "Desire for an intimate relationship",
+            "Increased acceptance from other people",
+          ],
+          answer: 1,
+          rationale: "Assessing functional impairment is most important.",
+        },
+        {
+          id: "q22",
+          question:
+            "Teresa acknowledges that she frequently manipulates others. What is the MOST appropriate short-term therapeutic goal?",
+          choices: [
+            "Develop an intimate relationship",
+            "Acknowledge her own manipulative behavior",
+            "Stop arguing with other people completely",
+            "Express her feelings verbally",
+          ],
+          answer: 1,
+          rationale: "Acknowledging manipulative behavior is a realistic short-term goal.",
+        },
+        {
+          id: "q23",
+          question:
+            "A patient with BPD develops transient psychotic symptoms. Which class of medication may be used to target these symptoms?",
+          choices: ["Mood stabilizer", "Benzodiazepines", "Lithium", "Antipsychotics"],
+          answer: 3,
+          rationale: "Antipsychotics are used to treat psychotic symptoms in BPD.",
+        },
+        {
+          id: "q24",
+          question:
+            "Lorenz has alcohol use disorder and is prescribed disulfiram (Antabuse). Which of the following is a common adverse effect?",
+          choices: ["Hypertension", "Bradycardia", "Depression", "Elation"],
+          answer: 2,
+          rationale: "Depression is a common adverse effect of disulfiram.",
+        },
+        {
+          id: "q25",
+          question:
+            "Which of the following is NOT an appropriate intervention/program for improving feeding and nutrition?",
+          choices: [
+            "Deworming",
+            "Salt substitute",
+            "Food fortification",
+            "Micronutrient supplementation",
+          ],
+          answer: 1,
+          rationale: "Salt substitute is not a nutrition program intervention.",
+        },
+        {
+          id: "q26",
+          question:
+            "During interaction with a family, which topic can the nurse discuss without unnecessarily intruding into highly private or sensitive family matters?",
+          choices: [
+            "Vacation getaway",
+            "Extramarital relationship",
+            "Socioeconomic status",
+            "Inheritance",
+          ],
+          answer: 0,
+          rationale: "Vacation getaway is a neutral topic that does not intrude on privacy.",
+        },
+        {
+          id: "q27",
+          question: "Which activity is the best example of informal learning?",
+          choices: [
+            "Attending a webinar",
+            "Presenting/discussing research with colleagues",
+            "Enrolling in graduate school",
+            "Participating in a workshop",
+          ],
+          answer: 1,
+          rationale: "Presenting and discussing research with colleagues is informal learning.",
+        },
+        {
+          id: "q28",
+          question: "Which is an example of formal learning?",
+          choices: [
+            "Attending a webinar",
+            "Presenting research",
+            "Enrolling in graduate school",
+            "Reading journal articles",
+          ],
+          answer: 2,
+          rationale: "Enrolling in graduate school is formal learning.",
+        },
+        {
+          id: "q29",
+          question: "Which intervention is the most effective primary prevention for pertussis?",
+          choices: ["Immunization", "Isolation", "Antibiotics", "Hand hygiene"],
+          answer: 0,
+          rationale: "Immunization is the most effective primary prevention for pertussis.",
+        },
+        {
+          id: "q30",
+          question:
+            "Which intervention is most appropriate when developing a weight-management plan for a 16-year-old adolescent with obesity?",
+          choices: [
+            "Instruct the mother to lose weight",
+            "Tell the adolescent to exercise independently",
+            "None of the above",
+            "Collaborate with a dietitian",
+          ],
+          answer: 3,
+          rationale:
+            "Collaborating with a dietitian provides individualized nutritional management.",
+        },
+        {
+          id: "q31",
+          question:
+            "Which finding represents the best outcome indicator of a community dengue prevention and control program?",
+          choices: [
+            "Reduction in the number of people bitten by mosquitoes",
+            "Reduction in the number/incidence of dengue cases",
+            "Increased recovery among patients with dengue",
+            "Increased community compliance with vector-control activities",
+          ],
+          answer: 1,
+          rationale: "Reduced incidence of dengue cases is the best outcome indicator.",
+        },
+        {
+          id: "q32",
+          question: "When should rehabilitation of a hospitalized patient begin?",
+          choices: [
+            "As soon as the patient can ambulate",
+            "Upon admission to the healthcare institution",
+            "When a physical therapist becomes available",
+            "After discharge",
+          ],
+          answer: 1,
+          rationale: "Rehabilitation should begin upon admission.",
+        },
+        {
+          id: "q33",
+          question:
+            "After approaching the sink and preparing to perform routine handwashing with soap and water, what is the first step in the actual handwashing procedure?",
+          choices: ["Apply soap", "Wet the hands with water", "Rub hands together", "Rinse hands"],
+          answer: 1,
+          rationale: "The first step is to wet the hands with clean running water.",
+        },
+        {
+          id: "q34",
+          question:
+            "According to the WHO/ISH traditional blood-pressure classification, how is a BP of 150/90 mmHg classified?",
+          choices: [
+            "Grade/Stage 2 hypertension",
+            "Grade/Stage 1 hypertension",
+            "Prehypertension",
+            "Normal",
+          ],
+          answer: 1,
+          rationale: "Grade 1 hypertension is 140-159 systolic and/or 90-99 diastolic.",
+        },
+        {
+          id: "q35",
+          question:
+            "Upon arriving at a family's home for a scheduled community health nursing visit, what should the nurse do first?",
+          choices: [
+            "Assess the patient",
+            "Explain the purpose of the visit",
+            "Greet the family and establish rapport",
+            "Perform the nursing procedure",
+          ],
+          answer: 2,
+          rationale: "The first step is to greet the family and establish rapport.",
+        },
+        {
+          id: "q36",
+          question:
+            "Which record is considered the fundamental building block or foundation of the Field Health Services Information System (FHSIS)?",
+          choices: ["Treatment Record", "Target Client List", "Reporting Form", "Output Report"],
+          answer: 0,
+          rationale: "The Treatment Record is the foundation of FHSIS.",
+        },
+        {
+          id: "q37",
+          question:
+            "HIV may be present in several body fluids. Which of the following is NOT considered a usual vehicle for HIV transmission?",
+          choices: ["Synovial fluid", "Blood", "Urine", "Semen"],
+          answer: 2,
+          rationale: "Urine is not a usual vehicle for HIV transmission.",
+        },
+        {
+          id: "q38",
+          question:
+            "According to the traditional WHO analgesic-ladder concept, which medication is appropriate for severe pain?",
+          choices: ["Strong opioids", "Moderate/weak opioids", "Non-opioid analgesics", "NSAIDs"],
+          answer: 0,
+          rationale:
+            "Strong opioids are used for severe pain according to the WHO analgesic ladder.",
+        },
+        {
+          id: "q39",
+          question:
+            "At approximately what age does a child have most of the permanent teeth, excluding third molars (wisdom teeth)?",
+          choices: ["8-9 years", "6-7 years", "4-5 years", "12-13 years"],
+          answer: 3,
+          rationale: "Permanent teeth, excluding wisdom teeth, are usually present by 12-13 years.",
+        },
+        {
+          id: "q40",
+          question: "When do permanent teeth BEGIN to erupt?",
+          choices: ["4-5 years", "6-7 years", "8-9 years", "10-12 years"],
+          answer: 1,
+          rationale: "Permanent teeth begin to erupt around 6-7 years of age.",
+        },
+        {
+          id: "q41",
+          question:
+            "What is the appropriate maximum amount of milk that may be given to an infant per feeding?",
+          choices: ["30-80 mL", "40-100 mL", "10-20 mL", "5-10 mL"],
+          answer: 0,
+          rationale: "An infant's stomach capacity is approximately 30-80 mL per feeding.",
+        },
+        {
+          id: "q42",
+          question:
+            "During a uterine contraction, the nurse notes a decrease in the fetal heart rate. What should the nurse do FIRST?",
+          choices: [
+            "Reassess the fetal heart rate/pattern",
+            "Notify the physician immediately",
+            "Assess and differentiate the maternal pulse",
+            "Administer/increase oxytocin",
+          ],
+          answer: 0,
+          rationale: "The first action is to reassess the fetal heart rate/pattern.",
+        },
+        {
+          id: "q43",
+          question:
+            "Which action should the nurse NOT perform when administering medications to a patient with an acute condition?",
+          choices: [
+            "Advise an ambulatory patient to obtain prescribed outpatient medication",
+            "Verify the patient's name and date of birth before administering",
+            "Ask a relative to administer the patient's hospital medications",
+            "Administer the medication accurately according to the prescription",
+          ],
+          answer: 2,
+          rationale: "A relative should not administer hospital medications.",
+        },
+        {
+          id: "q44",
+          question:
+            "A nurse prioritizes a child with a high-grade fever over another patient with a mild laceration. Which ethical principle is best demonstrated?",
+          choices: ["Veracity", "Beneficence", "Nonmaleficence", "Justice"],
+          answer: 3,
+          rationale: "Justice is demonstrated by prioritizing patients based on severity.",
+        },
+        {
+          id: "q45",
+          question:
+            "During community health teaching about prevention of HIV transmission, which instruction is most appropriate?",
+          choices: [
+            "Avoid having multiple sexual partners and practice safer sex",
+            "Share needles if cleaned properly",
+            "Avoid all physical contact",
+            "Practice universal precautions only in hospitals",
+          ],
+          answer: 0,
+          rationale:
+            "Avoiding multiple partners and practicing safer sex is appropriate HIV prevention.",
+        },
+        {
+          id: "q46",
+          question:
+            "Which record reflects the essential treatment and care rendered to an individual patient/client?",
+          choices: ["Treatment Record", "Target Client List", "Reporting Form", "Output Report"],
+          answer: 0,
+          rationale: "The Treatment Record reflects essential treatment and care rendered.",
+        },
+        {
+          id: "q47",
+          question: "Which is NOT a major complication of a duodenal/peptic ulcer?",
+          choices: ["Hemorrhage", "Perforation", "Gastritis", "Gastric outlet obstruction"],
+          answer: 2,
+          rationale: "Gastritis is not a major complication of peptic ulcer disease.",
+        },
+        {
+          id: "q48",
+          question: "Which is a rapid-acting insulin?",
+          choices: ["Regular insulin", "Lispro", "Glargine", "NPH"],
+          answer: 1,
+          rationale: "Lispro is a rapid-acting insulin.",
+        },
+        {
+          id: "q49",
+          question: "Which is a short-acting insulin?",
+          choices: ["Lispro", "Regular insulin", "Glargine", "NPH"],
+          answer: 1,
+          rationale: "Regular insulin is a short-acting insulin.",
+        },
+        {
+          id: "q50",
+          question: "What position is appropriate after an appendectomy?",
+          choices: ["Semi-Fowler's", "Supine", "Prone", "Side-lying"],
+          answer: 0,
+          rationale: "Semi-Fowler's position is appropriate after appendectomy.",
+        },
+        {
+          id: "q51",
+          question: "Which intercostal space is used for liver biopsy?",
+          choices: ["10th", "6th-7th", "8th-9th", "11th"],
+          answer: 2,
+          rationale: "Liver biopsy is usually performed at the 8th-9th intercostal space.",
+        },
+        {
+          id: "q52",
+          question:
+            "Which finding in a patient with a chest tube is least necessary to report as an abnormal finding?",
+          choices: [
+            "Fluctuation/tidaling of fluid in the water-seal chamber",
+            "Significant bleeding",
+            "Increasing/excessive amount of drainage",
+            "Continuous bubbling",
+          ],
+          answer: 0,
+          rationale: "Tidaling (fluctuation) in the water-seal chamber is often normal.",
+        },
+        {
+          id: "q53",
+          question:
+            "A patient reports severe pain rated 8/10. Which prescribed medication is most appropriate among the following?",
+          choices: ["Ibuprofen", "Acetaminophen", "Meperidine HCl", "Mefenamic acid"],
+          answer: 2,
+          rationale: "Meperidine HCl is a strong opioid appropriate for severe pain.",
+        },
+        {
+          id: "q54",
+          question:
+            "Which medication is NOT used as a rapid-relief/rescue bronchodilator during an acute asthma attack?",
+          choices: ["Albuterol", "Prednisone", "Salbutamol", "Proventil"],
+          answer: 1,
+          rationale: "Prednisone is a steroid for inflammation, not a rapid-relief bronchodilator.",
+        },
+        {
+          id: "q55",
+          question:
+            "Which assessment technique should the nurse AVOID in a patient with a suspected abdominal aortic aneurysm?",
+          choices: [
+            "Inspect the abdomen",
+            "Palpate the pulsating abdominal mass",
+            "Perform deep palpation of the lower abdomen",
+            "Auscultate the abdomen",
+          ],
+          answer: 1,
+          rationale: "Palpating a pulsating mass in AAA can cause rupture.",
+        },
+        {
+          id: "q56",
+          question: "Which is a complication of uncontrolled diabetes?",
+          choices: ["Arteriopathy", "Cardiomyopathy", "Neuropathy", "Myopathy"],
+          answer: 2,
+          rationale: "Neuropathy is a common chronic complication of diabetes.",
+        },
+        {
+          id: "q57",
+          question:
+            "Which laboratory finding would the nurse most likely expect in a patient with acute appendicitis?",
+          choices: [
+            "Decreased eosinophils",
+            "Decreased lymphocytes",
+            "Increased basophils",
+            "Increased neutrophils",
+          ],
+          answer: 3,
+          rationale: "Increased neutrophils indicate bacterial infection like appendicitis.",
+        },
+        {
+          id: "q58",
+          question:
+            "A postoperative patient will return to the province before the scheduled removal of sutures. Who may appropriately remove the sutures when ordered and within the professional's scope of practice?",
+          choices: [
+            "Rural Health Physician",
+            "Rural Health Nurse",
+            "Surgeon",
+            "General Practitioner",
+          ],
+          answer: 1,
+          rationale: "Rural Health Nurses are authorized to remove sutures.",
+        },
+        {
+          id: "q59",
+          question:
+            "Which procedure can directly visualize the entire colon and is widely used for colorectal cancer screening?",
+          choices: ["Colonoscopy", "CEA", "CT scan", "Sigmoidoscopy"],
+          answer: 0,
+          rationale:
+            "Colonoscopy can visualize the entire colon and is used for colorectal cancer screening.",
+        },
+        {
+          id: "q60",
+          question:
+            "What mechanisms allow hemodialysis to remove waste products and excess fluid from the blood?",
+          choices: [
+            "Diffusion and ultrafiltration",
+            "Active transport and osmosis",
+            "Filtration and absorption",
+            "Osmosis and dialysis",
+          ],
+          answer: 0,
+          rationale:
+            "Hemodialysis removes waste through diffusion and excess fluid through ultrafiltration.",
+        },
+        {
+          id: "q61",
+          question:
+            "What is the mechanism responsible for FILTRATION/removal of excess fluid in hemodialysis?",
+          choices: ["Diffusion", "Osmosis", "Ultrafiltration", "Active transport"],
+          answer: 2,
+          rationale: "Ultrafiltration is responsible for removal of excess fluid.",
+        },
+        {
+          id: "q62",
+          question: "How are metabolic wastes removed in hemodialysis?",
+          choices: ["Diffusion", "Osmosis", "Ultrafiltration", "Active transport"],
+          answer: 0,
+          rationale: "Metabolic wastes are removed through diffusion.",
+        },
+        {
+          id: "q63",
+          question:
+            "A patient with acute myocardial infarction has persistent severe chest pain and anxiety despite initial appropriate therapy. Which medication may relieve both pain and associated anxiety/distress?",
+          choices: ["Oxygen", "Nitroglycerin", "Morphine", "Aspirin"],
+          answer: 2,
+          rationale: "Morphine relieves both pain and anxiety in MI.",
+        },
+        {
+          id: "q64",
+          question:
+            "Which action should the nurse avoid in the arm containing an arteriovenous (AV) fistula?",
+          choices: [
+            "Blood pressure measurement",
+            "Venipuncture/phlebotomy",
+            "IV insertion",
+            "All of the above",
+          ],
+          answer: 3,
+          rationale: "All of these actions should be avoided in the arm with an AV fistula.",
+        },
+        {
+          id: "q65",
+          question: "Which site is appropriate for administration of the MMR vaccine?",
+          choices: ["Deltoid/upper arm", "Dorsogluteal", "Vastus lateralis", "Subcutaneous"],
+          answer: 0,
+          rationale: "MMR vaccine is given intramuscularly in the deltoid/upper arm.",
+        },
+        {
+          id: "q66",
+          question: "Which is a characteristic manifestation of acute glomerulonephritis?",
+          choices: ["Tea/cola-colored urine", "Copious urine output", "Pale urine", "Frothy urine"],
+          answer: 0,
+          rationale: "Tea/cola-colored urine is characteristic of acute glomerulonephritis.",
+        },
+        {
+          id: "q67",
+          question: "When can post-streptococcal acute glomerulonephritis occur?",
+          choices: [
+            "During a streptococcal infection",
+            "Following a streptococcal infection",
+            "After viral infection",
+            "After parasitic infection",
+          ],
+          answer: 1,
+          rationale: "APSGN occurs 1-2 weeks following a streptococcal infection.",
+        },
+        {
+          id: "q68",
+          question:
+            "When prescribed as a preanesthetic medication by the subcutaneous route, when is atropine traditionally administered before surgery?",
+          choices: ["20-30 minutes", "5-10 minutes", "45-60 minutes", "Immediately before"],
+          answer: 0,
+          rationale: "Atropine is traditionally administered 20-30 minutes before surgery.",
+        },
+        {
+          id: "q69",
+          question:
+            "Which medication can be used to treat both hypertension and certain cardiac arrhythmias?",
+          choices: ["Verapamil", "Metoprolol", "Amiodarone", "Lidocaine"],
+          answer: 0,
+          rationale: "Verapamil treats both hypertension and certain arrhythmias.",
+        },
+        {
+          id: "q70",
+          question: "Which finding is NOT characteristic of the paroxysmal stage of pertussis?",
+          choices: [
+            "Fever and runny nose/coryza",
+            "Severe paroxysmal coughing",
+            "Inspiratory 'whoop'",
+            "Vomiting following coughing episodes",
+          ],
+          answer: 0,
+          rationale:
+            "Fever and runny nose are characteristic of the catarrhal stage, not the paroxysmal stage.",
+        },
+        {
+          id: "q71",
+          question: "What organism causes pertussis (whooping cough)?",
+          choices: [
+            "Bordetella pertussis",
+            "Streptococcus pneumoniae",
+            "Haemophilus influenzae",
+            "Mycobacterium tuberculosis",
+          ],
+          answer: 0,
+          rationale: "Bordetella pertussis is the causative organism of whooping cough.",
+        },
+        {
+          id: "q72",
+          question:
+            "A patient suddenly develops hematemesis (vomiting blood). Which nursing action should receive priority?",
+          choices: [
+            "Give ice chips",
+            "Notify the physician",
+            "Establish/maintain IV access",
+            "Administer antiemetics",
+          ],
+          answer: 2,
+          rationale:
+            "Establishing IV access for fluid resuscitation is a priority in active bleeding.",
+        },
+        {
+          id: "q73",
+          question:
+            "Which description best characterizes a second-degree (partial-thickness) burn?",
+          choices: [
+            "Damage involves epidermis and part of dermis with blisters",
+            "Damage involves only epidermis",
+            "Damage destroys entire epidermis and dermis",
+            "Damage extends to bone",
+          ],
+          answer: 0,
+          rationale:
+            "Second-degree burns involve the epidermis and part of the dermis with blister formation.",
+        },
+        {
+          id: "q74",
+          question:
+            "Which laboratory/urinary finding is most characteristic of acute glomerulonephritis?",
+          choices: [
+            "Elevated RBC and WBC counts",
+            "Proteinuria and tea-colored urine",
+            "Elevated RBC and platelet counts",
+            "Elevated WBC and platelet counts",
+          ],
+          answer: 1,
+          rationale: "Proteinuria and tea-colored urine are characteristic of AGN.",
+        },
+        {
+          id: "q75",
+          question: "In which part of a research paper are all sources cited in the study listed?",
+          choices: ["References/Reference List", "Abstract", "Introduction", "Methodology"],
+          answer: 0,
+          rationale: "The Reference List contains all sources cited in the study.",
+        },
+        {
+          id: "q76",
+          question:
+            "A patient experiences extreme, persistent fear of elevators and, upon entering one, develops intense fear and a sense of impending doom. Which disorder best describes this condition?",
+          choices: [
+            "Specific phobia (phobic disorder)",
+            "Generalized anxiety",
+            "Panic disorder",
+            "Social anxiety disorder",
+          ],
+          answer: 0,
+          rationale:
+            "Extreme fear of a specific object/situation (elevators) is a specific phobia.",
+        },
+        {
+          id: "q77",
+          question:
+            "A nurse restrains a competent patient without appropriate clinical justification or legal authorization, preventing the patient from leaving. Which intentional tort may have occurred?",
+          choices: ["Assault", "False imprisonment", "Battery", "Negligence"],
+          answer: 1,
+          rationale: "Unauthorized restraint/confinement constitutes false imprisonment.",
+        },
+        {
+          id: "q78",
+          question:
+            "Which adverse effects should the nurse teach a patient taking amitriptyline to expect/report?",
+          choices: [
+            "Dry mouth and blurred vision",
+            "Hypertension",
+            "Hyperglycemia",
+            "Increased appetite",
+          ],
+          answer: 0,
+          rationale:
+            "Amitriptyline causes anticholinergic effects including dry mouth and blurred vision.",
+        },
+        {
+          id: "q79",
+          question:
+            "Which physical finding is commonly associated with recent cannabis/marijuana use?",
+          choices: ["Hypertension", "Red conjunctiva", "Hallucinations", "Mydriasis"],
+          answer: 1,
+          rationale: "Red conjunctiva (bloodshot eyes) is associated with cannabis use.",
+        },
+        {
+          id: "q80",
+          question: "Which manifestation is commonly associated with schizophrenia?",
+          choices: [
+            "Auditory hallucinations",
+            "Visual hallucinations",
+            "Tactile hallucinations",
+            "Olfactory hallucinations",
+          ],
+          answer: 0,
+          rationale: "Auditory hallucinations are the most common type in schizophrenia.",
+        },
+        {
+          id: "q81",
+          question: "The Z-track technique is used with which route of medication administration?",
+          choices: ["Intramuscular", "Subcutaneous", "Intravenous", "Intradermal"],
+          answer: 0,
+          rationale: "Z-track technique is used for intramuscular injections.",
+        },
+        {
+          id: "q82",
+          question:
+            "Which electrolyte finding is NOT typically associated with recurrent self-induced vomiting in bulimia nervosa?",
+          choices: ["Hypokalemia", "Metabolic alkalosis", "Hyperkalemia", "Dehydration"],
+          answer: 2,
+          rationale: "Hyperkalemia is not associated with bulimia; hypokalemia is common.",
+        },
+        {
+          id: "q83",
+          question:
+            "Which finding is an early indicator that a patient with major depression is beginning to improve?",
+          choices: [
+            "Increased appetite",
+            "Improved self-concept",
+            "Increased interest in the environment",
+            "Increased energy level",
+          ],
+          answer: 3,
+          rationale: "An increased energy level is an early indicator of improvement.",
+        },
+        {
+          id: "q84",
+          question:
+            "A nurse begins a therapeutic conversation by asking, 'What do you want to know more about?' Which communication technique is being used?",
+          choices: ["Broad opening", "Synthesizing", "Clarifying", "Restating"],
+          answer: 0,
+          rationale: "Broad opening gives the patient freedom to choose where to start.",
+        },
+        {
+          id: "q85",
+          question: "Which is an example of an ACE Inhibitor?",
+          choices: ["Captopril", "Metoprolol", "Amlodipine", "Losartan"],
+          answer: 0,
+          rationale: "Captopril is an ACE inhibitor (-pril).",
+        },
+        {
+          id: "q86",
+          question:
+            "A patient is encouraged to identify negative automatic thoughts and challenge them by examining evidence and developing more realistic alternatives. Which therapy is being used?",
+          choices: [
+            "Cognitive Behavioral Therapy",
+            "Psychodynamic therapy",
+            "Client-centered therapy",
+            "Gestalt therapy",
+          ],
+          answer: 0,
+          rationale: "CBT focuses on identifying and challenging maladaptive thoughts.",
+        },
+        {
+          id: "q87",
+          question:
+            "Which medication may be prescribed for long-term reduction of uric acid in a patient with recurrent gout?",
+          choices: ["Allopurinol", "Colchicine", "Indomethacin", "Prednisone"],
+          answer: 0,
+          rationale: "Allopurinol is used for long-term uric acid reduction.",
+        },
+        {
+          id: "q88",
+          question: "What condition is suggested by euphoria and excessive talking?",
+          choices: ["Mania", "Depression", "Schizophrenia", "Anxiety"],
+          answer: 0,
+          rationale: "Euphoria and excessive talking are characteristic of mania.",
+        },
+        {
+          id: "q89",
+          question:
+            "Marijuana/cannabis is best classified as which type of psychoactive substance among the following?",
+          choices: ["Hallucinogen", "Depressant", "Sedative", "Stimulant"],
+          answer: 0,
+          rationale: "Marijuana is classified as a hallucinogen.",
+        },
+        {
+          id: "q90",
+          question: "A suppository is commonly inserted into which body cavity?",
+          choices: ["Oral", "Rectal", "Vaginal", "Nasal"],
+          answer: 1,
+          rationale: "Suppositories are inserted rectally.",
+        },
+        {
+          id: "q91",
+          question:
+            "A hypertensive patient develops premature ventricular contractions (PVCs). Which medication can help control blood pressure and suppress adrenergically mediated ventricular ectopy?",
+          choices: ["Amiodarone", "Lidocaine", "Verapamil", "Metoprolol"],
+          answer: 3,
+          rationale: "Metoprolol treats both hypertension and ventricular ectopy.",
+        },
+        {
+          id: "q92",
+          question:
+            "Which vein is generally the preferred site for temporary hemodialysis catheter placement among the following?",
+          choices: [
+            "Internal jugular vein",
+            "Subclavian vein",
+            "Femoral artery",
+            "Brachial artery",
+          ],
+          answer: 0,
+          rationale: "The internal jugular vein is preferred for temporary hemodialysis access.",
+        },
+        {
+          id: "q93",
+          question: "Which anticoagulant is commonly used during hemodialysis?",
+          choices: ["Warfarin", "Heparin", "Enoxaparin", "Aspirin"],
+          answer: 1,
+          rationale: "Heparin is the anticoagulant commonly used during hemodialysis.",
+        },
+        {
+          id: "q94",
+          question: "Which is an oral anticoagulant?",
+          choices: ["Heparin", "Enoxaparin", "Warfarin", "Aspirin"],
+          answer: 2,
+          rationale: "Warfarin is an oral anticoagulant.",
+        },
+        {
+          id: "q95",
+          question:
+            "Following mastectomy, exercises are generally directed toward maintaining mobility and function of which areas, EXCEPT:",
+          choices: ["Head/neck", "Shoulder", "Arm", "Lower back"],
+          answer: 3,
+          rationale: "Lower back is not typically affected by mastectomy.",
+        },
+        {
+          id: "q96",
+          question:
+            "A patient who recently underwent mastectomy tells the nurse that she feels sad and worries that her husband will no longer accept her because of the changes to her body. Which referral is most appropriate if additional psychosocial support is needed?",
+          choices: ["Psychiatrist", "Psychologist", "Guidance counselor", "Surgeon"],
+          answer: 1,
+          rationale: "A psychologist provides psychosocial support and counseling.",
+        },
+        {
+          id: "q97",
+          question: "Which of the following is NOT one of the basic processes of pharmacokinetics?",
+          choices: ["Absorption", "Distribution", "Metabolism", "Interaction"],
+          answer: 3,
+          rationale: "Interaction is not one of the basic pharmacokinetic processes (ADME).",
+        },
+        {
+          id: "q98",
+          question:
+            "Which vaccine should be recommended to adolescents to help prevent cervical cancer and other HPV-related diseases?",
+          choices: [
+            "Human papillomavirus (HPV) vaccine",
+            "Hepatitis B vaccine",
+            "Herpes zoster vaccine",
+            "Varicella vaccine",
+          ],
+          answer: 0,
+          rationale: "HPV vaccine prevents cervical cancer and other HPV-related diseases.",
+        },
+        {
+          id: "q99",
+          question:
+            "A nurse assesses a patient's AV fistula before hemodialysis and cannot palpate a thrill or auscultate a bruit. What does this finding most likely indicate?",
+          choices: [
+            "Possible thrombosis/clot or occlusion",
+            "Mechanical error of the dialysis machine",
+            "Normal finding",
+            "Patient movement",
+          ],
+          answer: 0,
+          rationale: "Absence of thrill/bruit indicates possible thrombosis or occlusion.",
+        },
+        {
+          id: "q100",
+          question:
+            "During/after hemodialysis, an air embolism is suspected. In which position should the patient traditionally be placed?",
+          choices: ["Semi-Fowler's", "Left lateral", "Right lateral", "Trendelenburg"],
+          answer: 1,
+          rationale: "Left lateral position is the traditional position for air embolism.",
+        },
+        {
+          id: "q101",
+          question:
+            "Which factor is most important in promoting continuity and success of a patient's rehabilitation after discharge?",
+          choices: [
+            "Active involvement and support of the family",
+            "Schedule for hourly visit",
+            "Frequent follow-up visits alone",
+            "Presence of a nursing aide/caregiver",
+          ],
+          answer: 0,
+          rationale: "Family involvement is most important for successful rehabilitation.",
+        },
+        {
+          id: "q102",
+          question:
+            "The head nurse is assigning patients to a newly hired/inexperienced registered nurse. Which patient is most appropriate to assign?",
+          choices: [
+            "A patient recently transferred from the ICU",
+            "A patient with a stable uncomplicated fracture",
+            "A patient with an acute/unstable condition",
+            "An older stable patient preparing for discharge",
+          ],
+          answer: 1,
+          rationale: "A stable patient with predictable care is appropriate for a new RN.",
+        },
+        {
+          id: "q103",
+          question: "Which finding is most characteristic of rheumatoid arthritis?",
+          choices: [
+            "Joint stiffness relieved by exercise",
+            "Early-morning stiffness of the hands",
+            "Deformity of the fingers/hands",
+            "Pain relieved primarily by rest",
+          ],
+          answer: 1,
+          rationale: "Early-morning stiffness of the hands is characteristic of RA.",
+        },
+        {
+          id: "q104",
+          question: "In osteoarthritis, Heberden's nodes develop at which joint?",
+          choices: [
+            "Proximal interphalangeal",
+            "Metacarpophalangeal",
+            "Distal interphalangeal",
+            "Wrist",
+          ],
+          answer: 2,
+          rationale: "Heberden's nodes develop at the distal interphalangeal (DIP) joints.",
+        },
+        {
+          id: "q105",
+          question:
+            "A nurse removes an indwelling urinary catheter without first deflating the retention balloon. The patient experiences severe pain, urethral trauma, and bleeding. What legal claim most appropriately applies to the nurse's action?",
+          choices: ["Tort", "Negligence", "Misdemeanor", "Assault"],
+          answer: 1,
+          rationale: "This constitutes negligence - failure to follow proper procedure.",
+        },
+        {
+          id: "q106",
+          question:
+            "Which condition is LEAST likely to develop in a patient with bulimia nervosa who frequently induces vomiting?",
+          choices: [
+            "Hyperkalemia",
+            "Tooth decay/dental erosion",
+            "Gastric irritation/ulceration",
+            "Rectal bleeding",
+          ],
+          answer: 0,
+          rationale: "Hyperkalemia is not a complication; hypokalemia is common.",
+        },
+        {
+          id: "q107",
+          question:
+            "Which complication poses the greatest risk for sudden death in a patient with severe bulimia nervosa?",
+          choices: [
+            "Hypokalemia leading to cardiac dysrhythmias",
+            "Metabolic acidosis leading to renal failure",
+            "Hyponatremia and circulatory changes",
+            "Hypernatremia and congestive heart failure",
+          ],
+          answer: 0,
+          rationale: "Hypokalemia can cause fatal cardiac dysrhythmias.",
+        },
+        {
+          id: "q108",
+          question: "The nurse knows that, by nature, osteoarthritis is best described as:",
+          choices: [
+            "A local inflammatory disease of the joints",
+            "A systemic and widespread inflammation",
+            "Degenerative and non-inflammatory breakdown",
+            "Idiopathic in etiology",
+          ],
+          answer: 2,
+          rationale: "Osteoarthritis is a degenerative, non-inflammatory joint disease.",
+        },
+        {
+          id: "q109",
+          question: "What is the primary goal during the acute phase of rheumatoid arthritis?",
+          choices: [
+            "Prevention of contractures and deformities",
+            "Maintenance of optimum function",
+            "Relief from pain",
+            "Maintenance of body image",
+          ],
+          answer: 2,
+          rationale: "Pain relief is the primary goal during the acute phase of RA.",
+        },
+        {
+          id: "q110",
+          question:
+            "Heberden's nodes are a characteristic manifestation of osteoarthritis. Where are they located?",
+          choices: [
+            "Proximal interphalangeal joints",
+            "Distal interphalangeal joints",
+            "Large weight-bearing joints",
+            "Metacarpophalangeal joints",
+          ],
+          answer: 1,
+          rationale: "Heberden's nodes are located at the distal interphalangeal joints.",
+        },
+        {
+          id: "q111",
+          question: "The manifestations of severe dengue include the following, EXCEPT:",
+          choices: [
+            "Narrowed pulse pressure, pale and cool skin",
+            "Bleeding, decreased blood pressure",
+            "Extreme fever, vomiting",
+            "Decreased level of consciousness, abdominal pain",
+          ],
+          answer: 2,
+          rationale: "Extreme fever and vomiting are not specific to severe dengue.",
+        },
+        {
+          id: "q112",
+          question:
+            "Following a motor-vehicle accident, the client develops acute kidney injury. Which type of renal injury is most likely to precipitate the condition?",
+          choices: ["Pre-renal", "Intrarenal", "Post-renal", "All of the above"],
+          answer: 0,
+          rationale: "Trauma with blood loss causes pre-renal AKI.",
+        },
+        {
+          id: "q113",
+          question:
+            "The client asks how hemodialysis removes waste products and excess fluid. Which explanation is BEST?",
+          choices: [
+            "Through active transport and osmosis",
+            "Through a semipermeable membrane",
+            "Through the use of purifying reagents",
+            "Through filtration and absorption",
+          ],
+          answer: 1,
+          rationale: "Hemodialysis uses a semipermeable membrane.",
+        },
+        {
+          id: "q114",
+          question:
+            "Which is the most common/preferred location for creation of an AV fistula for hemodialysis?",
+          choices: ["Forearm", "Neck", "Abdomen", "Femur"],
+          answer: 0,
+          rationale: "The forearm is the preferred location for AV fistula creation.",
+        },
+        {
+          id: "q115",
+          question:
+            "During hemodialysis, a patient develops signs suggesting a venous air embolism. Which position is the traditional emergency position?",
+          choices: [
+            "Semi-Fowler's",
+            "High-Fowler's",
+            "Left side-lying with head lowered",
+            "Right side-lying with head lowered",
+          ],
+          answer: 2,
+          rationale: "Left side-lying with head lowered is the position for air embolism.",
+        },
+        {
+          id: "q116",
+          question:
+            "Which statement by the client with a left-arm AV fistula indicates a need for further teaching?",
+          choices: [
+            '"The nurse will use this site for administration of my erythropoietin"',
+            '"I will ask that my blood pressure be taken on my right arm"',
+            '"I should be careful when lifting objects"',
+            '"I should clean the site daily with soap and water"',
+          ],
+          answer: 0,
+          rationale: "The AV fistula site should never be used for injections or blood draws.",
+        },
+        {
+          id: "q117",
+          question:
+            "Which Philippine law provides special protection to children against abuse, exploitation, and discrimination?",
+          choices: ["RA 9173", "RA 7610", "RA 9255", "RA 8353"],
+          answer: 1,
+          rationale:
+            "RA 7610 is the Special Protection of Children Against Abuse, Exploitation and Discrimination Act.",
+        },
+        {
+          id: "q118",
+          question: "Bulimia is best defined as a/an:",
+          choices: [
+            "Disorder of unknown origin associated with starvation",
+            "Pathological disorder characterized by binge eating and vomiting",
+            "Phobic disorder involving fear of obesity",
+            "Eating disorder associated with vomiting only",
+          ],
+          answer: 1,
+          rationale: "Bulimia is characterized by binge eating followed by purging behaviors.",
+        },
+        {
+          id: "q119",
+          question: "Which condition is NOT likely to develop in a patient with bulimia?",
+          choices: ["Hyperkalemia", "Tooth decay", "Gastric ulcer", "Rectal bleeding"],
+          answer: 0,
+          rationale: "Hyperkalemia is not a typical complication of bulimia.",
+        },
+        {
+          id: "q120",
+          question: "Which condition may lead to death in a patient with bulimia?",
+          choices: [
+            "Hypokalemia → cardiac arrest",
+            "Metabolic acidosis → renal failure",
+            "Hyponatremia → circulatory collapse",
+            "Hypernatremia → congestive heart failure",
+          ],
+          answer: 0,
+          rationale: "Hypokalemia can lead to fatal cardiac dysrhythmias.",
+        },
+        {
+          id: "q121",
+          question:
+            "Endocrine abnormalities may occur in patients with eating disorders. Which finding would be expected?",
+          choices: [
+            "Delayed TSH response to stimulation",
+            "Increased FSH production",
+            "Hypopituitarism",
+            "Decreased ACTH response to cortisone",
+          ],
+          answer: 0,
+          rationale: "Delayed TSH response is an endocrine abnormality in eating disorders.",
+        },
+        {
+          id: "q122",
+          question:
+            "A client with cardiogenic shock is receiving a continuous IV infusion of dobutamine. Which finding requires the nurse's MOST immediate attention?",
+          choices: [
+            "Heart rate of 124 with frequent PVCs",
+            "Urine output of 40 mL/hr",
+            "Blood pressure of 118/76 mmHg",
+            "Warm extremities",
+          ],
+          answer: 0,
+          rationale: "Tachycardia with PVCs indicates arrhythmia requiring immediate attention.",
+        },
+        {
+          id: "q123",
+          question:
+            "A patient's heart rate is 80 beats/min and stroke volume is 70 mL/beat. What is the patient's cardiac output?",
+          choices: ["4,800 mL/min", "5,600 mL/min", "6,400 mL/min", "7,000 mL/min"],
+          answer: 1,
+          rationale: "CO = HR × SV = 80 × 70 = 5,600 mL/min.",
+        },
+        {
+          id: "q124",
+          question:
+            "During a psychiatric interview, a client states, 'I prefer being alone. I don't really want close relationships, even with my family.' The client shows little emotional expression. Which personality disorder is MOST consistent with these findings?",
+          choices: ["Avoidant", "Schizotypal", "Schizoid", "Paranoid"],
+          answer: 2,
+          rationale:
+            "Schizoid personality disorder is characterized by detachment and limited emotional expression.",
+        },
+        {
+          id: "q125",
+          question:
+            "Which finding would make the nurse suspect schizotypal rather than schizoid personality disorder?",
+          choices: [
+            "Preference for solitary activities",
+            "Lack of close friends",
+            "Magical thinking and unusual perceptions",
+            "Limited emotional expression",
+          ],
+          answer: 2,
+          rationale:
+            "Magical thinking and unusual perceptual experiences are features of schizotypal disorder.",
+        },
+        {
+          id: "q126",
+          question:
+            "A client with bipolar disorder is prescribed lithium. Which statement indicates a NEED for further teaching?",
+          choices: [
+            '"I will maintain a consistent amount of salt in my diet"',
+            '"I will drink adequate amounts of fluid"',
+            '"I can drastically reduce my sodium intake"',
+            '"I need regular blood tests"',
+          ],
+          answer: 2,
+          rationale:
+            "Sodium intake should be consistent; drastic reduction can cause lithium toxicity.",
+        },
+        {
+          id: "q127",
+          question:
+            "Which finding in a client taking lithium should the nurse recognize as suggestive of toxicity?",
+          choices: [
+            "Mild thirst",
+            "Fine hand tremor",
+            "Ataxia and slurred speech",
+            "Mild nausea during initial therapy",
+          ],
+          answer: 2,
+          rationale: "Ataxia and slurred speech are signs of lithium toxicity.",
+        },
+        {
+          id: "q128",
+          question:
+            "A nurse observes fluctuation of fluid in the water-seal chamber of a client's chest drainage system during respiration. What is the BEST action?",
+          choices: [
+            "Clamp the chest tube",
+            "Notify the physician immediately",
+            "Continue monitoring the system",
+            "Increase wall suction",
+          ],
+          answer: 2,
+          rationale: "Tidaling (fluctuation) is normal and should be monitored.",
+        },
+        {
+          id: "q129",
+          question:
+            "Continuous bubbling is observed in the water-seal chamber of a chest drainage system. What should the nurse suspect?",
+          choices: ["Normal lung expansion", "Air leak", "Excessive suction", "Pleural hemorrhage"],
+          answer: 1,
+          rationale: "Continuous bubbling in the water-seal chamber indicates an air leak.",
+        },
+        {
+          id: "q130",
+          question:
+            "The nurse accidentally finds the chest tube disconnected from the drainage tubing. What is the priority?",
+          choices: [
+            "Clamp the chest tube",
+            "Rapidly re-establish closed drainage",
+            "Place the client flat",
+            "Remove the chest tube",
+          ],
+          answer: 1,
+          rationale: "The priority is to rapidly re-establish a closed drainage system.",
+        },
+        {
+          id: "q131",
+          question: "Which nursing action is appropriate for a client with a chest tube?",
+          choices: [
+            "Keep the drainage unit at chest level",
+            "Routinely clamp the tube during ambulation",
+            "Keep the drainage unit below chest level",
+            "Routinely milk the tubing every hour",
+          ],
+          answer: 2,
+          rationale: "The drainage unit should be kept below chest level for gravity drainage.",
+        },
+        {
+          id: "q132",
+          question: "Which Philippine law is known as the Mental Health Act?",
+          choices: ["RA 7610", "RA 9173", "RA 11036", "RA 11310"],
+          answer: 2,
+          rationale: "RA 11036 is the Philippine Mental Health Act.",
+        },
+        {
+          id: "q133",
+          question:
+            "A psychiatric client refuses to disclose details of therapy to relatives. Which right protected under the Mental Health Act is most relevant?",
+          choices: ["Confidentiality", "Justice", "Beneficence", "Fidelity"],
+          answer: 0,
+          rationale: "Confidentiality protects the client's right to privacy.",
+        },
+        {
+          id: "q134",
+          question:
+            "A client experiencing hypomania is excessively talkative and moves rapidly from one activity to another. Which nursing intervention is MOST appropriate?",
+          choices: [
+            "Encourage competitive group activities",
+            "Provide a structured environment with decreased stimulation",
+            "Confront the client when excessive talking occurs",
+            "Encourage prolonged group discussions",
+          ],
+          answer: 1,
+          rationale:
+            "A structured environment with decreased stimulation is appropriate for hypomania.",
+        },
+        {
+          id: "q135",
+          question:
+            "A client with hypomania has difficulty sitting long enough to finish meals. Which intervention is MOST appropriate?",
+          choices: [
+            "Require the client to remain seated",
+            "Offer nutritious, easy-to-consume foods",
+            "Restrict snacks between meals",
+            "Provide three large meals daily",
+          ],
+          answer: 1,
+          rationale: "Easy-to-consume foods help ensure adequate nutrition.",
+        },
+        {
+          id: "q136",
+          question:
+            "A hospitalized client develops a generalized tonic-clonic seizure lasting longer than 5 minutes. Which prescribed medication should the nurse anticipate as an initial emergency medication?",
+          choices: ["Lithium", "Lorazepam IV", "Haloperidol IM", "Fluoxetine PO"],
+          answer: 1,
+          rationale: "IV Lorazepam is a first-line treatment for prolonged seizures.",
+        },
+        {
+          id: "q137",
+          question:
+            "During a generalized tonic-clonic seizure, which nursing action is CONTRAINDICATED?",
+          choices: [
+            "Protecting the client's head",
+            "Removing nearby dangerous objects",
+            "Forcing a tongue blade between the teeth",
+            "Timing the seizure",
+          ],
+          answer: 2,
+          rationale: "Forcing anything into the mouth during a seizure is contraindicated.",
+        },
+        {
+          id: "q138",
+          question:
+            "According to Aaron Beck's cognitive theory of depression, which statement demonstrates a negative cognition about the future?",
+          choices: [
+            '"I\'m a worthless person"',
+            '"Nobody cares about me"',
+            '"Nothing will ever get better"',
+            '"My family doesn\'t understand me"',
+          ],
+          answer: 2,
+          rationale: '"Nothing will ever get better" reflects a negative view of the future.',
+        },
+        {
+          id: "q139",
+          question:
+            "During cognitive behavioral therapy, a depressed client says, 'I failed one examination, so I am a complete failure.' Which intervention BEST demonstrates cognitive restructuring?",
+          choices: [
+            '"Don\'t worry about the examination"',
+            '"Why do you always think negatively?"',
+            '"What evidence supports the belief that failing one exam makes you a complete failure?"',
+            '"You should think positively instead"',
+          ],
+          answer: 2,
+          rationale: "This question helps challenge the client's cognitive distortion.",
+        },
+        {
+          id: "q140",
+          question:
+            "A client states, 'If I make one mistake, everything I've done is worthless.' Which cognitive distortion is demonstrated?",
+          choices: ["Projection", "All-or-nothing thinking", "Displacement", "Sublimation"],
+          answer: 1,
+          rationale: "All-or-nothing thinking is the cognitive distortion demonstrated.",
+        },
+        {
+          id: "q141",
+          question:
+            "A client with bipolar disorder becomes increasingly energetic, sleeps only 3 hours each night, talks rapidly, and begins making impulsive purchases. Which finding should receive the nurse's highest priority?",
+          choices: ["Rapid speech", "Decreased sleep", "Impulsive purchases", "Increased energy"],
+          answer: 2,
+          rationale: "Impulsive purchases indicate poor judgment and potential harm.",
+        },
+        {
+          id: "q142",
+          question:
+            "Which drug is classically associated with treatment/control of lymphatic filariasis?",
+          choices: ["Diethylcarbamazine (DEC)", "Ivermectin", "Albendazole", "Praziquantel"],
+          answer: 0,
+          rationale: "Diethylcarbamazine (DEC) is used to treat lymphatic filariasis.",
+        },
+        {
+          id: "q143",
+          question:
+            "A client with acute viral hepatitis develops jaundice. Which stool characteristic may be observed when bile flow into the intestine is reduced?",
+          choices: [
+            "Black, tarry stool",
+            "Clay-colored/pale stool",
+            "Bright-red stool",
+            "Green watery stool",
+          ],
+          answer: 1,
+          rationale: "Biliary obstruction causes clay-colored/pale stool.",
+        },
+        {
+          id: "q144",
+          question:
+            "Which finding is most consistent with the early/preicteric phase of acute hepatitis B?",
+          choices: [
+            "Fatigue, anorexia, nausea and malaise",
+            "Massive hematemesis",
+            "Severe generalized edema",
+            "Ascites with esophageal varices",
+          ],
+          answer: 0,
+          rationale:
+            "The preicteric phase is characterized by fatigue, anorexia, nausea, and malaise.",
+        },
+        {
+          id: "q145",
+          question: "Which is an important mode of transmission of hepatitis B?",
+          choices: [
+            "Fecal-oral route only",
+            "Blood and infected body fluids",
+            "Mosquito bites",
+            "Airborne transmission",
+          ],
+          answer: 1,
+          rationale: "Hepatitis B is transmitted through blood and infected body fluids.",
+        },
+        {
+          id: "q146",
+          question: "When should the first Hepatitis B vaccine be given?",
+          choices: [
+            "Within 24 hours after birth",
+            "3 hours only",
+            "Exactly 4 hours after birth",
+            "After 48 hours",
+          ],
+          answer: 0,
+          rationale: "Hepatitis B vaccine should be given within 24 hours after birth.",
+        },
+        {
+          id: "q147",
+          question:
+            "An infant born to a mother living with HIV requires testing for HIV infection. Which test is most appropriate for early diagnosis in an infant younger than 18 months?",
+          choices: [
+            "HIV antibody rapid test",
+            "HIV nucleic acid test",
+            "Western blot antibody test",
+            "CD4 count",
+          ],
+          answer: 1,
+          rationale: "HIV nucleic acid test (NAT/PCR) is used for early diagnosis in infants.",
+        },
+        {
+          id: "q148",
+          question:
+            "A registered nurse asks about Continuing Professional Development (CPD) when renewing a Professional Identification Card. Which statement BEST describes the purpose of CPD?",
+          choices: [
+            "It is primarily a requirement for collecting units for license renewal",
+            "It promotes lifelong learning and maintenance of professional competence",
+            "It replaces professional licensure examinations",
+            "It is required only for nurses employed in government hospitals",
+          ],
+          answer: 1,
+          rationale: "CPD promotes lifelong learning and maintenance of professional competence.",
+        },
+        {
+          id: "q149",
+          question:
+            "A newborn is delivered vaginally and remains covered with amniotic fluid. The nurse immediately dries the newborn to prevent heat loss through:",
+          choices: ["Conduction", "Convection", "Radiation", "Evaporation"],
+          answer: 3,
+          rationale: "Drying prevents heat loss through evaporation.",
+        },
+        {
+          id: "q150",
+          question:
+            "A 32-year-old woman with two children asks the nurse about bilateral tubal ligation but states, 'I'm not sure because I may still want another child in the future.' Which response by the nurse is MOST appropriate?",
+          choices: [
+            '"Tubal ligation is appropriate because it can easily be reversed"',
+            '"You should consider a reversible contraceptive method if you are uncertain"',
+            '"Your husband should decide"',
+            '"You should undergo tubal ligation now and consider IVF later"',
+          ],
+          answer: 1,
+          rationale: "A reversible method is recommended when future fertility is uncertain.",
+        },
+        {
+          id: "q151",
+          question:
+            "A 27-year-old woman reports recurrent, mild-to-moderate lower abdominal pain occurring approximately midway between menstrual periods. The pain usually occurs on one side and resolves spontaneously. Which condition does the nurse suspect?",
+          choices: [
+            "Dysmenorrhea",
+            "Mittelschmerz",
+            "Endometriosis",
+            "Pelvic inflammatory disease",
+          ],
+          answer: 1,
+          rationale: "Mittelschmerz is mid-cycle pain associated with ovulation.",
+        },
+        {
+          id: "q152",
+          question:
+            "Which maternal condition has historically been associated with an increased risk of hydatidiform mole?",
+          choices: [
+            "Adequate protein intake",
+            "Nutritional deficiency associated with poor socioeconomic conditions",
+            "High-calcium diet",
+            "Excessive fluid intake",
+          ],
+          answer: 1,
+          rationale:
+            "Nutritional deficiency is associated with increased risk of hydatidiform mole.",
+        },
+        {
+          id: "q153",
+          question:
+            "An infant with a cleft palate is being fed. Which nursing intervention is MOST appropriate?",
+          choices: [
+            "Feed the infant in a flat supine position",
+            "Hold the infant in an upright or semi-upright position",
+            "Place the infant prone throughout feeding",
+            "Feed rapidly to minimize fatigue",
+          ],
+          answer: 1,
+          rationale: "Upright or semi-upright position prevents aspiration in cleft palate.",
+        },
+        {
+          id: "q154",
+          question:
+            "Following surgical repair of a cleft palate, which intervention is MOST important?",
+          choices: [
+            "Allow the infant to suck vigorously",
+            "Protect the operative site from trauma",
+            "Place hard feeding utensils",
+            "Encourage the infant to place toys in mouth",
+          ],
+          answer: 1,
+          rationale: "Protecting the operative site from trauma is most important.",
+        },
+        {
+          id: "q155",
+          question:
+            "Which site is generally preferred for an intramuscular injection in an infant?",
+          choices: ["Dorsogluteal", "Vastus lateralis", "Deltoid", "Abdominal muscle"],
+          answer: 1,
+          rationale: "The vastus lateralis is the preferred IM site for infants.",
+        },
+        {
+          id: "q156",
+          question: "Which finding is considered a positive sign of pregnancy?",
+          choices: [
+            "Amenorrhea",
+            "Breast tenderness",
+            "Positive pregnancy test",
+            "Fetal heart tones detected by examiner",
+          ],
+          answer: 3,
+          rationale: "Fetal heart tones detected by an examiner is a positive sign of pregnancy.",
+        },
+        {
+          id: "q157",
+          question:
+            "What is the primary purpose of screening mammography in an asymptomatic woman?",
+          choices: [
+            "Prevent breast cancer",
+            "Detect breast cancer at an early stage",
+            "Confirm all breast cancers",
+            "Prevent breast masses from becoming malignant",
+          ],
+          answer: 1,
+          rationale: "Screening mammography aims for early detection of breast cancer.",
+        },
+        {
+          id: "q158",
+          question:
+            "Following a mastectomy with axillary lymph-node surgery, how should the nurse position the affected arm during the immediate postoperative period?",
+          choices: [
+            "Dependent below heart level",
+            "Elevated on pillows",
+            "Restrained against the patient's side",
+            "Hanging over the bed edge",
+          ],
+          answer: 1,
+          rationale: "Elevation on pillows helps prevent lymphedema.",
+        },
+        {
+          id: "q159",
+          question:
+            "Following mastectomy with axillary lymph-node surgery, the nurse elevates the affected arm primarily to help prevent:",
+          choices: ["Pneumonia", "Lymphedema", "Hemorrhage", "Wound dehiscence"],
+          answer: 1,
+          rationale: "Elevation helps prevent lymphedema.",
+        },
+        {
+          id: "q160",
+          question:
+            "After being denied a vacation request, a nurse angrily makes a false and defamatory spoken statement about the nurse manager in front of coworkers. Which term BEST describes the act?",
+          choices: ["Assault", "Slander", "Libel", "Battery"],
+          answer: 1,
+          rationale: "Slander is spoken defamation.",
+        },
+      ],
+    },
+    {
+      id: "set-7",
+      title: "SET 7",
+      description:
+        "Comprehensive nursing review covering medical-surgical, pharmacology, legal, and psychiatric nursing concepts.",
+      questions: [
+        {
+          id: "q1",
+          question:
+            "A patient requires gastric lavage after a potentially life-threatening ingestion, and the procedure has been specifically ordered. Which solution is most appropriate for lavage when a fluid is required?",
+          choices: ["Normal saline", "Tap water", "Sterile water", "Dextrose 5% in water"],
+          answer: 0,
+          rationale: "Normal saline is the most appropriate solution for gastric lavage.",
+        },
+        {
+          id: "q2",
+          question:
+            "A patient is diagnosed with an acute DVT of the left leg. Which nursing intervention is appropriate?",
+          choices: [
+            "Massage the affected calf",
+            "Elevate the affected extremity as appropriate and administer prescribed anticoagulation",
+            "Encourage vigorous leg exercises immediately",
+            "Apply vigorous compression to the affected leg without an order",
+          ],
+          answer: 1,
+          rationale:
+            "Elevation and anticoagulation are appropriate for DVT. Massage and vigorous exercise are contraindicated.",
+        },
+        {
+          id: "q3",
+          question: "Why is vitamin K routinely administered to a newborn shortly after birth?",
+          choices: [
+            "Prevent physiologic jaundice",
+            "Prevent vitamin K deficiency bleeding",
+            "Increase production of RBCs",
+            "Prevent neonatal infection",
+          ],
+          answer: 1,
+          rationale:
+            "Vitamin K is given to prevent hemorrhagic disease of the newborn (vitamin K deficiency bleeding).",
+        },
+        {
+          id: "q4",
+          question:
+            "A 19-year-old woman reports recurrent cramping lower abdominal pain occurring during menstruation without evidence of pelvic disease. What is this condition called?",
+          choices: ["Mittelschmerz", "Dysmenorrhea", "Amenorrhea", "Menorrhagia"],
+          answer: 1,
+          rationale: "Primary dysmenorrhea is painful menstruation without pelvic pathology.",
+        },
+        {
+          id: "q5",
+          question: "Which statement BEST defines research?",
+          choices: [
+            "Collection of information based primarily on personal opinion",
+            "A systematic investigation designed to develop, refine, or contribute to knowledge",
+            "A method of proving that an investigator's assumptions are correct",
+            "Informal collection of information without predetermined methods",
+          ],
+          answer: 1,
+          rationale:
+            "Research is a systematic investigation designed to develop or contribute to knowledge.",
+        },
+        {
+          id: "q6",
+          question:
+            "While changing the tubing of a central venous catheter used for total parenteral nutrition (TPN), the nurse fails to properly secure/clamp the catheter. Which potentially life-threatening complication may occur?",
+          choices: ["Air embolism", "Hypokalemia", "Constipation", "Hypertension"],
+          answer: 0,
+          rationale:
+            "Failure to secure/clamp a central line can allow air to enter, causing an air embolism.",
+        },
+        {
+          id: "q7",
+          question:
+            "A patient with a hiatal hernia most commonly reports discomfort in which location?",
+          choices: [
+            "Retrosternal/substernal or epigastric region",
+            "Right lower quadrant",
+            "Suprapubic region",
+            "Left lower quadrant",
+          ],
+          answer: 0,
+          rationale: "Hiatal hernia causes reflux, leading to substernal or epigastric discomfort.",
+        },
+        {
+          id: "q8",
+          question:
+            "Which surgical procedure corrects a hiatal hernia/reflux by reinforcing the lower esophageal sphincter?",
+          choices: [
+            "Fundoplication (Nissen fundoplication)",
+            "Gastrectomy",
+            "Esophagectomy",
+            "Vagotomy",
+          ],
+          answer: 0,
+          rationale:
+            "Nissen fundoplication wraps the stomach around the esophagus to reinforce the LES.",
+        },
+        {
+          id: "q9",
+          question:
+            "Which stool color would the nurse expect in a patient with significant biliary obstruction?",
+          choices: ["Dark yellow", "Light yellow", "Pale or clay-colored", "Black and tarry"],
+          answer: 2,
+          rationale:
+            "Biliary obstruction prevents bile from reaching the intestine, resulting in clay-colored stool.",
+        },
+        {
+          id: "q10",
+          question:
+            "A client is scheduled for an ultrasound of the gallbladder and upper abdomen. Which instruction should the nurse give?",
+          choices: [
+            "Remain NPO as instructed before the examination",
+            "Eat a high-fat meal before the procedure",
+            "Take a laxative immediately before the procedure",
+            "Drink milk before arriving",
+          ],
+          answer: 0,
+          rationale: "NPO status is required for gallbladder ultrasound.",
+        },
+        {
+          id: "q11",
+          question:
+            "Following laparoscopic abdominal surgery, which postoperative complaint is commonly associated with the carbon dioxide used for insufflation?",
+          choices: ["Shoulder-tip pain", "Severe calf pain", "Hematemesis", "Hematuria"],
+          answer: 0,
+          rationale:
+            "Carbon dioxide used in laparoscopy can irritate the phrenic nerve, causing referred shoulder pain.",
+        },
+        {
+          id: "q12",
+          question:
+            "One hour after nasogastric tube insertion, the nurse observes a small amount of fresh blood in the drainage. Which complication should the nurse initially consider?",
+          choices: [
+            "Mucosal trauma from NGT insertion",
+            "Bronchial hemorrhage",
+            "Renal bleeding",
+            "Intracranial hemorrhage",
+          ],
+          answer: 0,
+          rationale:
+            "Small amounts of fresh blood are common due to mucosal trauma during NGT insertion.",
+        },
+        {
+          id: "q13",
+          question:
+            "A hospitalized patient suddenly develops dyspnea, tachypnea, chest pain, anxiety, and decreased oxygen saturation. The nurse suspects pulmonary embolism. Which action should receive priority?",
+          choices: [
+            "Administer supplemental oxygen/support airway and breathing",
+            "Stop enteral feeding",
+            "Call the physician before providing any intervention",
+            "Encourage the patient to ambulate",
+          ],
+          answer: 0,
+          rationale:
+            "Airway and breathing are the priority; supplemental oxygen should be administered immediately.",
+        },
+        {
+          id: "q14",
+          question:
+            "Which medication is an example of a thioamide used to decrease thyroid hormone synthesis in hyperthyroidism?",
+          choices: ["Propylthiouracil (PTU)", "Levothyroxine", "Methimazole", "Metformin"],
+          answer: 0,
+          rationale: "PTU is a thioamide used to treat hyperthyroidism.",
+        },
+        {
+          id: "q15",
+          question:
+            "A client has severe constipation with hard, impacted stool. Which enema is most appropriate to soften and lubricate the hardened fecal mass before removal?",
+          choices: [
+            "PNSS enema",
+            "Mineral oil retention enema",
+            "Tap-water enema",
+            "Hypertonic enema",
+          ],
+          answer: 1,
+          rationale: "Mineral oil retention enema softens and lubricates hard, impacted stool.",
+        },
+        {
+          id: "q16",
+          question:
+            "A patient with significant thrombocytopenia is being discharged. Which recreational activity is MOST appropriate?",
+          choices: ["Table tennis", "Basketball", "Bowling", "Chess"],
+          answer: 3,
+          rationale:
+            "Chess is a low-risk activity. Contact sports like basketball increase bleeding risk.",
+        },
+        {
+          id: "q17",
+          question:
+            "During surgery, which responsibility is primarily performed by the scrub nurse?",
+          choices: [
+            "Obtaining informed consent from the patient",
+            "Maintaining the sterile field and passing sterile instruments to the surgeon",
+            "Documenting all events outside the sterile field",
+            "Transporting specimens to the laboratory",
+          ],
+          answer: 1,
+          rationale:
+            "The scrub nurse maintains the sterile field and passes instruments to the surgeon.",
+        },
+        {
+          id: "q18",
+          question:
+            "The nurse performs routine tracheostomy care that includes cleaning around the stoma and changing the sterile tracheostomy dressing. Which gloves are appropriate when performing the sterile portions of the procedure?",
+          choices: ["Clean gloves", "Sterile gloves", "Utility gloves", "Double gloves"],
+          answer: 1,
+          rationale: "Sterile gloves are required for sterile portions of tracheostomy care.",
+        },
+        {
+          id: "q19",
+          question:
+            "A student nurse asks about the duration of tracheostomy use. Which statement is correct?",
+          choices: [
+            "A tracheostomy can only be used long-term.",
+            "A tracheostomy can only be used short-term.",
+            "A tracheostomy may be used either temporarily or long-term.",
+            "A tracheostomy is always permanent.",
+          ],
+          answer: 2,
+          rationale: "A tracheostomy can be temporary or permanent.",
+        },
+        {
+          id: "q20",
+          question:
+            "Which layer of an arterial wall provides most of its muscular and elastic structural support and is importantly involved in aneurysm formation when weakened?",
+          choices: ["Tunica intima", "Tunica media", "Tunica externa/adventitia", "Endothelium"],
+          answer: 1,
+          rationale:
+            "The tunica media provides structural support; weakening can lead to aneurysm formation.",
+        },
+        {
+          id: "q21",
+          question:
+            "Which assessment finding is MOST characteristic of an abdominal aortic aneurysm (AAA)?",
+          choices: [
+            "Pulsatile abdominal mass, possibly with a bruit",
+            "Absent bowel sounds with rigid abdomen",
+            "Bilateral crackles with jugular venous distention",
+            "Rebound tenderness at McBurney's point",
+          ],
+          answer: 0,
+          rationale: "A pulsatile abdominal mass with a bruit is classic for AAA.",
+        },
+        {
+          id: "q22",
+          question:
+            "Which environmental pressure should be maintained inside a conventional operating room to reduce contamination from adjacent areas?",
+          choices: [
+            "Negative pressure",
+            "Positive pressure",
+            "Neutral pressure",
+            "Alternating positive and negative pressure",
+          ],
+          answer: 1,
+          rationale: "Positive pressure in the OR keeps contaminants out.",
+        },
+        {
+          id: "q23",
+          question:
+            "A child is noted to have recurrent fractures and a bluish discoloration of the sclera. Which disorder should the nurse suspect?",
+          choices: ["Osteogenesis imperfecta", "Glaucoma", "Cataract", "Retinal detachment"],
+          answer: 0,
+          rationale: "Osteogenesis imperfecta is characterized by fragile bones and blue sclera.",
+        },
+        {
+          id: "q24",
+          question:
+            "A patient sustains significant injury affecting the L3 spinal nerve/root. Which movement would be MOST likely to be impaired?",
+          choices: [
+            "Extending the knee",
+            "Shrugging the shoulders",
+            "Abducting the shoulder",
+            "Flexing the elbow",
+          ],
+          answer: 0,
+          rationale: "L3 nerve root innervates the quadriceps, which extends the knee.",
+        },
+        {
+          id: "q25",
+          question:
+            "A client accidentally splashes a chemical into the eye while cleaning at home. What should the client do FIRST?",
+          choices: [
+            "Wait for sterile normal saline before irrigating",
+            "Cover the eye and immediately travel to the hospital",
+            "Immediately flush the eye continuously with copious clean tap water",
+            "Attempt to neutralize the chemical with another chemical",
+          ],
+          answer: 2,
+          rationale:
+            "Immediate continuous flushing with clean water is the first step for chemical eye exposure.",
+        },
+        {
+          id: "q26",
+          question:
+            "A patient with anaphylaxis has already received IM epinephrine. Diphenhydramine is subsequently prescribed. What is the purpose of diphenhydramine?",
+          choices: [
+            "Replace epinephrine as the primary treatment",
+            "Relieve histamine-mediated cutaneous symptoms as an adjunct",
+            "Immediately reverse severe hypotension",
+            "Provide rapid bronchodilation",
+          ],
+          answer: 1,
+          rationale:
+            "Diphenhydramine is an antihistamine that relieves histamine-mediated symptoms.",
+        },
+        {
+          id: "q27",
+          question:
+            "The nurse observes that a patient's respirations gradually become deeper and faster, then progressively become slower and shallower, followed by a period of apnea. This cycle repeatedly occurs. How should the nurse document this respiratory pattern?",
+          choices: [
+            "Biot's respiration",
+            "Kussmaul respiration",
+            "Cheyne-Stokes respiration",
+            "Apneustic respiration",
+          ],
+          answer: 2,
+          rationale:
+            "Cheyne-Stokes respiration has a pattern of crescendo-decrescendo breaths followed by apnea.",
+        },
+        {
+          id: "q28",
+          question:
+            "A client with severe head trauma develops increased intracranial pressure. Which group of findings represents Cushing's triad?",
+          choices: [
+            "Hypotension, tachycardia, tachypnea",
+            "Hypertension with widened pulse pressure, bradycardia, and irregular respirations",
+            "Hypertension, tachycardia, and bronchospasm",
+            "Hypotension, bradycardia, and bronchodilation",
+          ],
+          answer: 1,
+          rationale:
+            "Cushing's triad consists of hypertension, bradycardia, and irregular respirations.",
+        },
+        {
+          id: "q29",
+          question:
+            "A hospital implementing Total Quality Management conducts a SWOT analysis to identify its strengths, weaknesses, opportunities, and threats. In which phase of quality management is SWOT analysis MOST appropriately used?",
+          choices: ["Strategic planning", "Implementation", "Evaluation", "Controlling"],
+          answer: 0,
+          rationale: "SWOT analysis is a strategic planning tool.",
+        },
+        {
+          id: "q30",
+          question: "During adult CPR, how deeply should the nurse compress the chest?",
+          choices: [
+            "About 1 inch",
+            "At least 2 inches (5cm) while avoiding excessive depth",
+            "3 inches",
+            "4 inches",
+          ],
+          answer: 1,
+          rationale:
+            "The recommended compression depth for an adult is at least 2 inches (5 cm), but no more than 2.4 inches (6 cm).",
+        },
+        {
+          id: "q31",
+          question:
+            "During the first hemodialysis treatment, a client develops headache, nausea, restlessness, confusion, and muscle twitching. Which complication should the nurse suspect?",
+          choices: [
+            "Air embolism",
+            "Dialysis disequilibrium syndrome",
+            "Hyperkalemia",
+            "Peritonitis",
+          ],
+          answer: 1,
+          rationale:
+            "Dialysis disequilibrium syndrome is a complication of rapid dialysis, causing neurological symptoms.",
+        },
+        {
+          id: "q32",
+          question:
+            "Which instruction is MOST important for preventing recurrence of calcium-containing kidney stones in a patient without a fluid restriction?",
+          choices: [
+            "Increase fluid intake to maintain high urine output",
+            "Eliminate all dietary calcium",
+            "Drink large amounts of milk",
+            "Deliberately acidify the urine",
+          ],
+          answer: 0,
+          rationale: "High fluid intake dilutes urine and prevents stone formation.",
+        },
+        {
+          id: "q33",
+          question:
+            "A client with a renal calculus is scheduled for extracorporeal shock-wave lithotripsy (ESWL). How should the nurse explain the procedure?",
+          choices: [
+            "An open incision is made to remove the stone",
+            "Shock waves generated outside the body fragment the stone into smaller pieces",
+            "A catheter dissolves the stone chemically",
+            "The kidney is surgically opened and the stone extracted",
+          ],
+          answer: 1,
+          rationale: "ESWL uses external shock waves to fragment kidney stones.",
+        },
+        {
+          id: "q34",
+          question: "Which histologic finding is characteristic of Hodgkin lymphoma?",
+          choices: [
+            "Reed-Sternberg cells",
+            "Philadelphia chromosome",
+            "Auer rods",
+            "Bence Jones proteins",
+          ],
+          answer: 0,
+          rationale: "Reed-Sternberg cells are characteristic of Hodgkin lymphoma.",
+        },
+        {
+          id: "q35",
+          question: "Morphine produces analgesia primarily through which mechanism?",
+          choices: [
+            "Blocking acetylcholine receptors",
+            "Activating opioid receptors in the central nervous system",
+            "Blocking histamine receptors",
+            "Increasing prostaglandin synthesis",
+          ],
+          answer: 1,
+          rationale: "Morphine acts on opioid receptors in the CNS to produce analgesia.",
+        },
+        {
+          id: "q36",
+          question: "Which finding is LEAST consistent with severe anaphylaxis?",
+          choices: ["Hypotension", "Hypertension", "Bronchospasm", "Urticaria"],
+          answer: 1,
+          rationale: "Anaphylaxis causes hypotension, not hypertension.",
+        },
+        {
+          id: "q37",
+          question: "Which statement regarding gonorrhea is correct?",
+          choices: [
+            "Women are always severely symptomatic",
+            "Men commonly develop urethral discharge and dysuria, while women may have no symptoms",
+            "Gonorrhea causes painless genital vesicles",
+            "Gonorrhea is caused by a virus",
+          ],
+          answer: 1,
+          rationale:
+            "Men with gonorrhea typically have urethral discharge; women may be asymptomatic.",
+        },
+        {
+          id: "q38",
+          question:
+            "After exposure to N. gonorrhoeae, symptoms commonly appear within approximately what period?",
+          choices: ["2-7 days", "2-3 months", "6 months", "1 year"],
+          answer: 0,
+          rationale: "Gonorrhea symptoms typically appear 2-7 days after exposure.",
+        },
+        {
+          id: "q39",
+          question:
+            "Following blunt trauma to the eye, the nurse observes visible blood collecting in front of the iris. Which condition does this finding indicate?",
+          choices: ["Hyphema", "Cataract", "Glaucoma", "Retinal detachment"],
+          answer: 0,
+          rationale: "Hyphema is blood in the anterior chamber of the eye.",
+        },
+        {
+          id: "q40",
+          question:
+            "A patient with hypernatremia is being taught dietary modification. Which food should the nurse instruct the patient to AVOID?",
+          choices: [
+            "Fresh apple",
+            "Unsalted fresh vegetables",
+            "Canned luncheon meat",
+            "Fresh rice",
+          ],
+          answer: 2,
+          rationale: "Canned meats are high in sodium and should be avoided in hypernatremia.",
+        },
+        {
+          id: "q41",
+          question:
+            "A client receiving haloperidol develops severe neck muscle spasms, upward deviation of the eyes, and difficulty swallowing. Which adverse effect should the nurse suspect?",
+          choices: [
+            "Akathisia",
+            "Acute dystonia",
+            "Tardive dyskinesia",
+            "Neuroleptic malignant syndrome",
+          ],
+          answer: 1,
+          rationale:
+            "Acute dystonia is characterized by muscle spasms, oculogyric crisis, and difficulty swallowing.",
+        },
+        {
+          id: "q42",
+          question:
+            "A nurse realizes that an incorrect entry was written in a patient's paper medical record. Which action is appropriate?",
+          choices: [
+            "Erase the incorrect entry completely",
+            "Use correction fluid to cover the entry",
+            "Draw a single line through the error so it remains readable, identify the correction according to policy, and enter the correct information",
+            "Tear out the page and rewrite it",
+          ],
+          answer: 2,
+          rationale:
+            "The correct method is to draw a line through the error and document the correction.",
+        },
+        {
+          id: "q43",
+          question:
+            "A physician gives the nurse a medication order by telephone. Which action is MOST important to ensure accuracy?",
+          choices: [
+            "Ask another nurse to interpret the order",
+            "Write the order and immediately administer it",
+            "Write the order and read it back to the physician for verification",
+            "Ask the pharmacist to approve the order",
+          ],
+          answer: 2,
+          rationale: "Reading back a verbal order verifies accuracy.",
+        },
+        {
+          id: "q44",
+          question:
+            "A hospitalized client falls while walking to the bathroom. After assessing the client and providing appropriate care, the nurse completes an incident report. Which action is correct?",
+          choices: [
+            "Document in the medical record that an incident report was completed",
+            "Place the incident report in the patient's chart",
+            "Complete the incident report according to institutional policy without referring to it in the patient's clinical record",
+            "Give the report to the patient's family",
+          ],
+          answer: 2,
+          rationale: "Incident reports are not part of the patient's clinical record.",
+        },
+        {
+          id: "q45",
+          question:
+            "The nurse cannot read a medication order because the physician's handwriting is illegible. What should the nurse do FIRST?",
+          choices: [
+            "Ask the pharmacist to interpret it",
+            "Contact the prescribing physician to clarify the order",
+            "Ask another physician to guess the intended medication",
+            "Ask another nurse to interpret the handwriting",
+          ],
+          answer: 1,
+          rationale: "The nurse should contact the prescribing physician for clarification.",
+        },
+        {
+          id: "q46",
+          question:
+            "A researcher examines the relationship between cigarette-smoking history and development of cardiovascular disease. The independent variable cannot ethically or practically be manipulated by the researcher. Which research design is MOST appropriate?",
+          choices: [
+            "Quasi-experimental",
+            "Phenomenological",
+            "Nonexperimental",
+            "True experimental",
+          ],
+          answer: 2,
+          rationale: "Nonexperimental design is used when variables cannot be manipulated.",
+        },
+        {
+          id: "q47",
+          question:
+            "A client asks the nurse to explain extracorporeal shock-wave lithotripsy (ESWL). Which response is correct?",
+          choices: [
+            '"An incision is made directly into your kidney to remove the stone."',
+            '"Shock waves generated outside your body are focused on the stone to break it into smaller fragments."',
+            '"A chemical is injected to dissolve your kidney."',
+            '"The kidney stone is removed through open abdominal surgery."',
+          ],
+          answer: 1,
+          rationale: "ESWL uses external shock waves to fragment stones.",
+        },
+        {
+          id: "q48",
+          question:
+            "Which cardiac biomarker is preferred for detecting myocardial injury in a client with suspected acute myocardial infarction?",
+          choices: ["CK-MB", "Total CK", "Myoglobin", "Cardiac troponin"],
+          answer: 3,
+          rationale: "Cardiac troponin is the preferred biomarker for detecting myocardial injury.",
+        },
+        {
+          id: "q49",
+          question:
+            "During a surgical operation, the surgeon is traditionally described under the 'captain of the ship' doctrine as primarily responsible for:",
+          choices: [
+            "Every hospital employee's actions throughout hospitalization",
+            "Directing and controlling activities of the surgical team that are under the surgeon's supervision during the operation",
+            "Writing all nursing documentation",
+            "Personally performing the sponge count",
+          ],
+          answer: 1,
+          rationale:
+            "The captain of the ship doctrine holds the surgeon responsible for the surgical team's actions during the procedure.",
+        },
+        {
+          id: "q50",
+          question: "Which statement BEST distinguishes an endotracheal tube from a tracheostomy?",
+          choices: [
+            "Both always require a surgical opening in the neck",
+            "An endotracheal tube enters through the mouth/nose into the trachea, whereas a tracheostomy provides an airway through a surgically created opening in the neck into the trachea",
+            "A tracheostomy is always temporary",
+            "An endotracheal tube is intended for permanent airway management",
+          ],
+          answer: 1,
+          rationale:
+            "ETT enters through the mouth/nose; tracheostomy is a surgical opening in the neck.",
+        },
+        {
+          id: "q51",
+          question:
+            "Which is an important advantage of peritoneal dialysis compared with conventional intermittent hemodialysis for an appropriate patient?",
+          choices: [
+            "It always removes fluid more rapidly",
+            "It can provide gradual fluid/solute removal and may be performed at home",
+            "It eliminates the risk of infection",
+            "It requires vascular access through an AV fistula",
+          ],
+          answer: 1,
+          rationale: "Peritoneal dialysis can be done at home and provides gradual removal.",
+        },
+        {
+          id: "q52",
+          question:
+            "The nurse explains that brown adipose tissue helps a newborn maintain body temperature through non-shivering thermogenesis. Where is brown fat primarily located?",
+          choices: [
+            "Abdomen and lower legs only",
+            "Interscapular area, around the neck, and around major organs",
+            "Palms and soles",
+            "Forehead and scalp",
+          ],
+          answer: 1,
+          rationale:
+            "Brown fat is located in the interscapular area, around the neck, and around major organs.",
+        },
+        {
+          id: "q53",
+          question: "When should a newborn receive the first dose of hepatitis B vaccine?",
+          choices: [
+            "Within 4 hours only",
+            "Within 6 hours only",
+            "Within 12 hours for every newborn",
+            "As soon as possible after birth, preferably within 24 hours",
+          ],
+          answer: 3,
+          rationale: "Hepatitis B vaccine is ideally given within 24 hours of birth.",
+        },
+        {
+          id: "q54",
+          question:
+            "Which medications are commonly used as potent oral antiviral therapy for chronic hepatitis B when treatment is indicated?",
+          choices: [
+            "Tenofovir or entecavir",
+            "Amoxicillin or azithromycin",
+            "Oseltamivir or acyclovir",
+            "Isoniazid or rifampicin",
+          ],
+          answer: 0,
+          rationale: "Tenofovir and entecavir are antiviral medications for chronic hepatitis B.",
+        },
+        {
+          id: "q55",
+          question: "What is the primary mode of transmission of hepatitis A virus?",
+          choices: [
+            "Blood transfusion",
+            "Fecal-oral route",
+            "Airborne transmission",
+            "Mosquito bite",
+          ],
+          answer: 1,
+          rationale: "Hepatitis A is transmitted via the fecal-oral route.",
+        },
+        {
+          id: "q56",
+          question:
+            "Which manifestation is most consistent with the early, preicteric phase of acute hepatitis A?",
+          choices: [
+            "Malaise, anorexia, nausea, and low-grade fever",
+            "Massive gastrointestinal bleeding",
+            "Severe ascites",
+            "Esophageal varices",
+          ],
+          answer: 0,
+          rationale:
+            "The preicteric phase is characterized by malaise, anorexia, nausea, and fever.",
+        },
+        {
+          id: "q57",
+          question:
+            "A patient with acute hepatitis develops reduced bile pigment reaching the intestine. Which stool characteristic may be observed?",
+          choices: [
+            "Clay-colored/pale stool",
+            "Dark-red stool",
+            "Coffee-ground stool",
+            "Black tarry stool",
+          ],
+          answer: 0,
+          rationale: "Bile obstruction leads to clay-colored stool.",
+        },
+        {
+          id: "q58",
+          question:
+            "A researcher conducts an in-depth case study to explore a patient's experiences of living with a rare chronic illness. Which data-collection method would be MOST appropriate for obtaining rich, detailed first-person information?",
+          choices: [
+            "Structured questionnaire only",
+            "In-depth interview",
+            "Population census",
+            "Experimental manipulation",
+          ],
+          answer: 1,
+          rationale: "In-depth interviews are used to obtain rich, detailed qualitative data.",
+        },
+        {
+          id: "q59",
+          question: "Which is a research TOOL?",
+          choices: ["Questionnaire", "Field observation", "Survey", "Interview"],
+          answer: 0,
+          rationale: "A questionnaire is a research tool used to collect data.",
+        },
+        {
+          id: "q60",
+          question:
+            "A patient suddenly develops generalized urticaria, wheezing, facial swelling, and hypotension after receiving an antibiotic. Which medication should the nurse anticipate administering FIRST?",
+          choices: ["Norepinephrine", "Epinephrine", "Amiodarone", "Atropine"],
+          answer: 1,
+          rationale: "Epinephrine is the first-line treatment for anaphylaxis.",
+        },
+        {
+          id: "q61",
+          question:
+            "A healthy adult asks how often influenza vaccination is recommended. Which response by the nurse is correct?",
+          choices: ["Every 5 years", "Every 2 years", "Every year", "Only once during adulthood"],
+          answer: 2,
+          rationale: "Annual influenza vaccination is recommended.",
+        },
+        {
+          id: "q62",
+          question:
+            "At what minimum age can routine influenza vaccination generally begin in children?",
+          choices: ["1 year", "2 years", "6 months", "5 years"],
+          answer: 2,
+          rationale: "Influenza vaccination can begin at 6 months of age.",
+        },
+        {
+          id: "q63",
+          question:
+            "A conscious, mentally competent adult male requires surgery. The physician explains the procedure, and the patient voluntarily consents. His wife strongly objects and refuses to allow the surgery. Whose decision should be respected?",
+          choices: [
+            "The wife's decision",
+            "The patient's decision",
+            "The surgeon's decision",
+            "The family's majority decision",
+          ],
+          answer: 1,
+          rationale: "A competent adult patient's decision is respected.",
+        },
+        {
+          id: "q64",
+          question:
+            "The nurse receives a medication order but believes the prescribed dose may be outside the recommended therapeutic range. What should the nurse do FIRST?",
+          choices: [
+            "Administer the medication because the physician prescribed",
+            "Immediately call the pharmacist without checking the order",
+            "Verify the usual dosage using a reliable drug reference",
+            "Confront the physician angrily",
+          ],
+          answer: 2,
+          rationale: "The nurse should verify the dosage using a reliable drug reference first.",
+        },
+        {
+          id: "q65",
+          question:
+            "You are a staff nurse in a government hospital. An administrative case is filed against you in relation to your government employment. Which government agency prescribes the rules and mechanisms governing administrative discipline in the civil service?",
+          choices: [
+            "Office of the Ombudsman",
+            "Civil court",
+            "Civil Service Commission",
+            "Professional Regulation Commission",
+          ],
+          answer: 2,
+          rationale:
+            "The Civil Service Commission governs administrative discipline in the civil service.",
+        },
+        {
+          id: "q66",
+          question:
+            "A registered nurse employed in a private hospital deliberately spreads malicious rumors about a fellow nurse. The conduct is alleged to constitute unprofessional conduct under the standards governing the nursing profession. Which body has jurisdiction over a complaint seeking professional disciplinary action against the nurse?",
+          choices: [
+            "Philippine Nurses Association",
+            "Civil Service Commission",
+            "Department of Labor and Employment",
+            "Professional Regulatory Board of Nursing",
+          ],
+          answer: 3,
+          rationale:
+            "The Professional Regulatory Board of Nursing has jurisdiction over professional misconduct.",
+        },
+        {
+          id: "q67",
+          question: "Which guideline is MOST important regarding an incident report?",
+          choices: [
+            "It is placed in the nurse's 201 personnel file.",
+            "It is filed at the nurses' station.",
+            "It is filed in the hospital's patient medical-record section.",
+            "It is not made part of the patient's medical record/chart.",
+          ],
+          answer: 3,
+          rationale: "Incident reports are not part of the patient's medical record.",
+        },
+        {
+          id: "q68",
+          question:
+            "Triage is the process of determining the priority of patients for treatment based on the severity of their condition and the availability of resources. In a mass-casualty situation, the purpose of reverse triage is to:",
+          choices: [
+            "Save those persons who are in the most critical condition first",
+            "Save scarce resources for future use",
+            "Achieve the greatest good for the greatest number using limited resources",
+            "Prioritize first responders over all other casualties",
+          ],
+          answer: 2,
+          rationale: "Disaster triage aims for the greatest good for the greatest number.",
+        },
+        {
+          id: "q69",
+          question:
+            "Ms. Simon takes a patient's temperature and obtains a reading of 38°C (100.4°F). Which physiologic response is the patient MOST likely to demonstrate?",
+          choices: [
+            "Increased pulse rate",
+            "Precordial pain",
+            "Dyspnea",
+            "Elevated blood pressure",
+          ],
+          answer: 0,
+          rationale: "Fever increases heart rate.",
+        },
+        {
+          id: "q70",
+          question:
+            "Which statement BEST describes the difference between an emergency and a disaster?",
+          choices: [
+            "An emergency can generally be managed using available local emergency resources.",
+            "A disaster is always caused by human error.",
+            "A disaster requires only local emergency services.",
+            "An emergency is always completely controlled.",
+          ],
+          answer: 0,
+          rationale: "An emergency is manageable with local resources; a disaster overwhelms them.",
+        },
+        {
+          id: "q71",
+          question:
+            "Lino, a 45-year-old house painter, is brought to the hospital with blurred vision, slurred speech, and hallucinations. Further assessment suggests volatile substance intoxication. Which factor MOST likely predisposed Lino to exposure to volatile substances?",
+          choices: ["Community", "Occupation", "Home environment", "Age"],
+          answer: 1,
+          rationale:
+            "His occupation as a house painter predisposes him to volatile substance exposure.",
+        },
+        {
+          id: "q72",
+          question:
+            "Volatile substance abuse is particularly dangerous because chronic exposure may result in:",
+          choices: [
+            "Development of schizophrenia in all users",
+            "Violence as the primary complication",
+            "Serious and potentially irreversible damage to the brain and other organs",
+            "Malnutrition as the primary cause of death",
+          ],
+          answer: 2,
+          rationale:
+            "Volatile substance abuse can cause irreversible organ damage, especially to the brain.",
+        },
+        {
+          id: "q73",
+          question:
+            "Lino points toward an empty chair and says, 'My mother visited me last night. I saw her sitting right there,' although his mother was not present. Which perceptual disturbance is Lino experiencing?",
+          choices: [
+            "Reaction formation",
+            "Auditory hallucination",
+            "Visual hallucination",
+            "Delusion",
+          ],
+          answer: 2,
+          rationale: "Seeing something that is not there is a visual hallucination.",
+        },
+        {
+          id: "q74",
+          question:
+            "A patient with severe volatile substance intoxication becomes unconscious. What is the nurse's PRIORITY action?",
+          choices: [
+            "Assess mental status",
+            "Perform a detailed neurologic examination",
+            "Assess and maintain airway, breathing, and circulation",
+            "Assess nutritional status",
+          ],
+          answer: 2,
+          rationale: "ABCs are the priority for an unconscious patient.",
+        },
+        {
+          id: "q75",
+          question:
+            "A patient's chronic substance use has significantly disrupted communication, roles, and relationships among members of the household. Which nursing diagnosis is MOST appropriate?",
+          choices: [
+            "Dysfunctional family processes",
+            "Impaired physical mobility",
+            "Disturbed sensory perception",
+            "Impaired skin integrity",
+          ],
+          answer: 0,
+          rationale:
+            "Disruption in family communication and roles is defined as Dysfunctional family processes.",
+        },
+        {
+          id: "q76",
+          question:
+            "Teresa, a 30-year-old bank teller, is admitted to the psychiatric unit with severe depression and suicidal ideation. The nurse identifies risk for self-directed violence. Which nursing intervention is the PRIORITY?",
+          choices: [
+            "Ask Teresa to sign a no-harm contract",
+            "Remove potentially harmful objects and institute appropriate suicide precautions",
+            "Assign Teresa to a room with another patient",
+            "Tell Teresa to call the nurse whenever she thinks about suicide",
+          ],
+          answer: 1,
+          rationale: "Suicide precautions are the priority for a patient with suicidal ideation.",
+        },
+        {
+          id: "q77",
+          question:
+            "Maintaining a therapeutic relationship with a severely depressed patient can sometimes be challenging because the patient may demonstrate:",
+          choices: [
+            "Laziness and unwillingness to recover",
+            "Excessive independence",
+            "Persistent pessimism and hopelessness",
+            "Poor grooming intended to gain attention",
+          ],
+          answer: 2,
+          rationale: "Depressed patients often exhibit persistent pessimism and hopelessness.",
+        },
+        {
+          id: "q78",
+          question:
+            "The nurse should recognize that Teresa's risk for attempting suicide may become particularly concerning when she:",
+          choices: [
+            "Agrees to visit an estranged sister",
+            "Demonstrates increased energy while suicidal thoughts or hopelessness persist",
+            "Is crying and expressing profound sadness",
+            "Begins participating in normal activities and denies suicidal thoughts",
+          ],
+          answer: 1,
+          rationale: "A sudden increase in energy while still suicidal is a high-risk sign.",
+        },
+        {
+          id: "q79",
+          question:
+            "A nurse is unable to report for duty because a catastrophic typhoon has destroyed roads and made transportation impossible. Which legal concept may apply to the nurse's inability to fulfill the obligation?",
+          choices: ["Captain of the ship", "Force majeure", "Justice", "Respect for persons"],
+          answer: 1,
+          rationale:
+            "Force majeure is an unforeseeable circumstance that prevents someone from fulfilling a contract.",
+        },
+        {
+          id: "q80",
+          question:
+            "A physician orders one-to-one nursing care for a critically ill patient. Which action is appropriate for the nurse assigned to provide this care?",
+          choices: [
+            "Leave the bedside for up to 10 minutes without relief",
+            "Maintain the required continuous observation until appropriately relieved",
+            "Leave the patient temporarily to attend to personal matters",
+            "Leave the patient to restock unit supplies",
+          ],
+          answer: 1,
+          rationale: "One-to-one observation must be maintained continuously.",
+        },
+        {
+          id: "q81",
+          question:
+            "A serious adverse event occurs during surgery involving personnel working under the surgeon's direct supervision. Which traditional legal doctrine may be associated with the surgeon's responsibility in the operating room?",
+          choices: [
+            "Respondeat superior",
+            "Force majeure",
+            "Captain of the ship",
+            "In flagrante delicto",
+          ],
+          answer: 2,
+          rationale:
+            "The Captain of the ship doctrine holds the surgeon responsible for the team's actions.",
+        },
+        {
+          id: "q82",
+          question:
+            "You are a staff nurse in a government hospital. An administrative case related to your government employment is filed against you. Which government agency establishes the rules and mechanisms governing administrative discipline in the civil service?",
+          choices: [
+            "Professional Regulation Commission",
+            "Office of the Ombudsman",
+            "Civil court",
+            "Civil Service Commission",
+          ],
+          answer: 3,
+          rationale:
+            "The Civil Service Commission governs administrative discipline in the civil service.",
+        },
+        {
+          id: "q83",
+          question:
+            "A patient with delirium appears frightened and confused. Which statement by the nurse BEST provides realistic reassurance?",
+          choices: [
+            '"Stop crying. Crying will not make you better."',
+            '"I know things seem confusing and upsetting right now. We are here with you and are treating what is causing the confusion."',
+            '"Don\'t worry. Confusion is normal at your age."',
+            '"Just wait for your medication to take effect."',
+          ],
+          answer: 1,
+          rationale:
+            "This response provides realistic reassurance and acknowledges the patient's feelings.",
+        },
+        {
+          id: "q84",
+          question:
+            "A cardiac patient whose youngest son died three months ago begins crying and says to the nurse, 'How could you possibly understand what I'm going through?' Which response is MOST therapeutic?",
+          choices: [
+            '"You should spend more time with friends and watch movies to help you relax."',
+            "\"You're right that I cannot fully know what this feels like for you. Perhaps you can tell me more about what you're feeling.\"",
+            '"It takes time to forget, but God will always guide you."',
+            '"You don\'t need to cry because you still have your other children."',
+          ],
+          answer: 1,
+          rationale: "This response validates the patient's feelings and encourages expression.",
+        },
+        {
+          id: "q85",
+          question:
+            "Which of the following is LEAST likely to be considered a major common food allergen compared with the other choices?",
+          choices: ["Shellfish", "Eggs", "Apple", "Peanut"],
+          answer: 2,
+          rationale: "Apples are not one of the most common food allergens.",
+        },
+        {
+          id: "q86",
+          question:
+            "Nurse Cordova, a newly hired nurse assigned to a mental health clinic, cares for clients experiencing disturbances in thoughts, perceptions, mood, and anxiety. Mary is pacing and repeatedly verbalizing concerns about her financial problems. When Nurse Cordova asks whether something upsetting has happened, Mary gives vague responses and has difficulty focusing on the question. Which level of anxiety is Mary MOST likely experiencing?",
+          choices: ["Panic", "Severe", "Moderate", "Mild"],
+          answer: 2,
+          rationale: "Moderate anxiety involves difficulty focusing and pacing.",
+        },
+        {
+          id: "q87",
+          question:
+            "Nurse Cordova observes Mary pacing repeatedly in the hallway. Which statement by the nurse would BEST help Mary recognize and explore her anxiety?",
+          choices: [
+            '"Have you been pacing for a long time?"',
+            "\"I guess you're worried about something, aren't you?\"",
+            '"I notice that you\'re pacing. How are you feeling?"',
+            '"Can I get you some medication to help calm you?"',
+          ],
+          answer: 2,
+          rationale:
+            "This response helps the patient explore their anxiety by connecting the behavior to feelings.",
+        },
+        {
+          id: "q88",
+          question:
+            "Emilio, an 83-year-old resident of an extended-care facility, is anxious most of the time and frequently complains of numerous vague physical symptoms that interfere with his ability to eat. Which disorder is MOST consistent with this presentation?",
+          choices: ["Hypochondriasis", "Sublimation", "Conversion disorder", "Severe anxiety"],
+          answer: 0,
+          rationale:
+            "Hypochondriasis is characterized by excessive worry about having a serious illness.",
+        },
+        {
+          id: "q89",
+          question:
+            "Mark, who has generalized anxiety disorder, tells Nurse Cordova that he wants to stop taking lorazepam (Ativan). Which information is MOST important for the nurse to provide?",
+          choices: [
+            "Increases cognitive abilities",
+            "Decreases sleeping difficulties",
+            "Can cause withdrawal symptoms",
+            "Usually causes major depression",
+          ],
+          answer: 2,
+          rationale: "Benzodiazepines can cause withdrawal symptoms if stopped abruptly.",
+        },
+        {
+          id: "q90",
+          question:
+            "Nurse Cordova is talking with a depressed client in an inpatient psychiatric unit. The client states: 'Things would be so much better for everyone if I just weren't around.' Which response by the nurse is MOST appropriate?",
+          choices: [
+            '"You sound very unhappy. Are you thinking about harming or killing yourself?"',
+            '"Those feelings will go away once your medication really takes effect."',
+            '"Have you talked to anyone specifically about what is bothering you?"',
+            '"I know what you mean. Everyone gets that way when they are depressed."',
+          ],
+          answer: 0,
+          rationale: "This response directly assesses suicidal ideation, which is the priority.",
         },
       ],
     },
