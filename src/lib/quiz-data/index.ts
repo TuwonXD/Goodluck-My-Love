@@ -5,6 +5,7 @@ import { psychSubject } from "./psych";
 import { chnSubject } from "./chn";
 import { fonSubject } from "./fon";
 import { pharmaSubject } from "./pharma";
+import { supplaSubject } from "./suppla";
 
 export * from "./types";
 export { msnSubject } from "./msn";
@@ -13,6 +14,7 @@ export { psychSubject } from "./psych";
 export { chnSubject } from "./chn";
 export { fonSubject } from "./fon";
 export { pharmaSubject } from "./pharma";
+export { supplaSubject } from "./suppla";
 
 export const subjects: Subject[] = [
   msnSubject,
@@ -21,6 +23,7 @@ export const subjects: Subject[] = [
   chnSubject,
   fonSubject,
   pharmaSubject,
+  supplaSubject,
 ];
 
 export function findSubject(id: string) {
