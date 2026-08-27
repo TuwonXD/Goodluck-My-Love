@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, BookOpen } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { Skeleton } from "@/components/ui/skeleton";
 import { subjects } from "@/lib/quiz-data";
 
 export const Route = createFileRoute("/")({
@@ -15,6 +16,7 @@ export const Route = createFileRoute("/")({
     ],
   }),
   component: Index,
+  pendingComponent: IndexSkeleton,
 });
 
 function Index() {
@@ -76,6 +78,43 @@ function Index() {
         <footer className="mt-16 text-center text-xs text-muted-foreground">
           HIII LOVEEE!! MWA MWA MWA
         </footer>
+      </main>
+    </div>
+  );
+}
+
+function IndexSkeleton() {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <SiteHeader />
+      <main className="mx-auto max-w-3xl px-5 pb-24 pt-10 sm:pt-16">
+        <section className="mb-12">
+          <Skeleton className="mb-3 h-3 w-40" />
+          <Skeleton className="h-10 w-3/4" />
+          <Skeleton className="mt-2 h-10 w-1/2" />
+          <Skeleton className="mt-5 h-4 w-full max-w-xl" />
+        </section>
+
+        <section>
+          <div className="mb-4 flex items-baseline justify-between">
+            <Skeleton className="h-6 w-24" />
+            <Skeleton className="h-3 w-16" />
+          </div>
+          <ul className="space-y-3">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <li
+                key={i}
+                className="flex items-center gap-4 rounded-2xl border border-border bg-card p-4"
+              >
+                <Skeleton className="h-11 w-11 shrink-0 rounded-xl" />
+                <div className="min-w-0 flex-1 space-y-2">
+                  <Skeleton className="h-4 w-1/2" />
+                  <Skeleton className="h-3 w-1/3" />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
       </main>
     </div>
   );

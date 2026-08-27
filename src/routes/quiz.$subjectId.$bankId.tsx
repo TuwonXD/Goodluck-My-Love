@@ -1,8 +1,10 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import { ArrowLeft, Check, X, RotateCcw, Sparkles } from "lucide-react";
+import { ArrowLeft, Check, X, RotateCcw, Sparkles, Shuffle } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
-import { findBank, findSubject } from "@/lib/quiz-data";
+import { Skeleton } from "@/components/ui/skeleton";
+import { findBank, findSubject, type Question } from "@/lib/quiz-data";
+import { shuffle } from "@/lib/utils";
 import { CorrectAnswerVideoModal } from "@/components/correct-answer-video-modal";
 
 export const Route = createFileRoute("/quiz/$subjectId/$bankId")({
@@ -21,16 +23,34 @@ export const Route = createFileRoute("/quiz/$subjectId/$bankId")({
       },
       {
         name: "description",
-        content: loaderData?.bank.description ?? "Answer questions and learn from each rationale.",
+        content:
+          loaderData?.bank.description ?? "Answer questions and learn from each rationale.",
       },
       { name: "robots", content: "noindex" },
     ],
   }),
   component: QuizPage,
+  pendingComponent: QuizSkeleton,
 });
+
+// Preset question-count choices offered on the setup screen, besides "All".
+const COUNT_PRESETS = [10, 20, 30, 50, 75, 100];
 
 function QuizPage() {
   const { subject, bank } = Route.useLoaderData();
+  const bankTotal = bank.questions.length;
+
+  const countOptions = useMemo(() => {
+    const opts = COUNT_PRESETS.filter((n) => n < bankTotal);
+    return opts;
+  }, [bankTotal]);
+
+  const [started, setStarted] = useState(false);
+  const [selectedCount, setSelectedCount] = useState<number>(
+    countOptions[0] ?? bankTotal,
+  );
+  const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
+
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
@@ -38,12 +58,24 @@ function QuizPage() {
   const [done, setDone] = useState(false);
   const [showCorrectVideo, setShowCorrectVideo] = useState(false);
 
-  const q = bank.questions[index];
-  const total = bank.questions.length;
+  const q = activeQuestions[index];
+  const total = activeQuestions.length;
   const progress = useMemo(
-    () => Math.round(((index + (revealed ? 1 : 0)) / total) * 100),
+    () => Math.round(((index + (revealed ? 1 : 0)) / Math.max(total, 1)) * 100),
     [index, revealed, total],
   );
+
+  function startQuiz(count: number) {
+    const picked = shuffle(bank.questions).slice(0, count);
+    setActiveQuestions(picked);
+    setIndex(0);
+    setSelected(null);
+    setRevealed(false);
+    setCorrectCount(0);
+    setDone(false);
+    setShowCorrectVideo(false);
+    setStarted(true);
+  }
 
   function choose(i: number) {
     if (revealed) return;
@@ -66,13 +98,11 @@ function QuizPage() {
     setShowCorrectVideo(false);
   }
 
-  function restart() {
-    setIndex(0);
-    setSelected(null);
-    setRevealed(false);
-    setCorrectCount(0);
+  // Returning to setup re-randomizes the bank the next time the user starts,
+  // and lets them pick a (possibly different) number of questions.
+  function backToSetup() {
+    setStarted(false);
     setDone(false);
-    setShowCorrectVideo(false);
   }
 
   return (
@@ -88,23 +118,37 @@ function QuizPage() {
             <ArrowLeft className="h-4 w-4" />
             {subject.short}
           </Link>
-          <span className="text-xs text-muted-foreground">
-            {done ? "Done" : `Question ${index + 1} of ${total}`}
-          </span>
+          {started && (
+            <span className="text-xs text-muted-foreground">
+              {done ? "Done" : `Question ${index + 1} of ${total}`}
+            </span>
+          )}
         </div>
 
-        <div className="mt-3 h-1 w-full overflow-hidden rounded-full bg-muted">
-          <div
-            className="h-full bg-primary transition-[width] duration-500"
-            style={{ width: `${done ? 100 : progress}%` }}
+        {started && (
+          <div className="mt-3 h-1 w-full overflow-hidden rounded-full bg-muted">
+            <div
+              className="h-full bg-primary transition-[width] duration-500"
+              style={{ width: `${done ? 100 : progress}%` }}
+            />
+          </div>
+        )}
+
+        {!started ? (
+          <SetupCard
+            bankTitle={bank.title}
+            bankDescription={bank.description}
+            bankTotal={bankTotal}
+            countOptions={countOptions}
+            selectedCount={selectedCount}
+            onSelectCount={setSelectedCount}
+            onStart={() => startQuiz(selectedCount)}
           />
-        </div>
-
-        {done ? (
+        ) : done ? (
           <ResultCard
             correct={correctCount}
             total={total}
-            onRestart={restart}
+            onRestart={backToSetup}
             subjectId={subject.id}
           />
         ) : (
@@ -137,10 +181,12 @@ function QuizPage() {
                         "flex w-full items-center gap-3 rounded-xl border p-4 text-left text-[15px] transition-all",
                         state === "idle" &&
                           "border-border bg-card hover:border-primary/50 hover:bg-accent/40",
-                        state === "correct" && "border-success/60 bg-success/10 text-foreground",
+                        state === "correct" &&
+                          "border-success/60 bg-success/10 text-foreground",
                         state === "wrong" &&
                           "border-destructive/60 bg-destructive/10 text-foreground",
-                        state === "muted" && "border-border bg-card text-muted-foreground",
+                        state === "muted" &&
+                          "border-border bg-card text-muted-foreground",
                       ]
                         .filter(Boolean)
                         .join(" ")}
@@ -181,7 +227,7 @@ function QuizPage() {
                 </div>
                 <p className="text-[15px] leading-relaxed text-foreground/90">
                   {selected === q.answer
-                    ? "WOW YOU GOT IT RIGHT, ETO KISS MWA MWA MWA"
+                    ? "Nice — you got it."
                     : `The correct answer is ${String.fromCharCode(65 + q.answer)}. ${q.choices[q.answer]}`}
                 </p>
                 {q.rationale && (
@@ -208,6 +254,103 @@ function QuizPage() {
   );
 }
 
+function QuizSkeleton() {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <SiteHeader />
+      <main className="mx-auto max-w-2xl px-5 pb-24 pt-6">
+        <div className="flex items-center justify-between">
+          <Skeleton className="h-4 w-20" />
+        </div>
+
+        <section className="mt-8 rounded-3xl border border-border bg-card p-6 sm:p-8">
+          <Skeleton className="mb-1.5 h-3 w-40" />
+          <Skeleton className="h-7 w-2/3" />
+          <Skeleton className="mt-2 h-4 w-full" />
+
+          <div className="mt-6 flex flex-wrap gap-2">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Skeleton key={i} className="h-10 w-16 rounded-xl" />
+            ))}
+          </div>
+
+          <Skeleton className="mt-7 h-11 w-32 rounded-xl" />
+        </section>
+      </main>
+    </div>
+  );
+}
+
+function SetupCard({
+  bankTitle,
+  bankDescription,
+  bankTotal,
+  countOptions,
+  selectedCount,
+  onSelectCount,
+  onStart,
+}: {
+  bankTitle: string;
+  bankDescription: string;
+  bankTotal: number;
+  countOptions: number[];
+  selectedCount: number;
+  onSelectCount: (n: number) => void;
+  onStart: () => void;
+}) {
+  return (
+    <section className="mt-8 rounded-3xl border border-border bg-card p-6 sm:p-8">
+      <p className="mb-1.5 text-xs font-medium uppercase tracking-[0.18em] text-primary">
+        {bankTitle}
+      </p>
+      <h1 className="font-display text-2xl font-semibold tracking-tight">
+        How many questions?
+      </h1>
+      <p className="mt-2 text-sm text-muted-foreground">{bankDescription}</p>
+
+      <div className="mt-6 flex flex-wrap gap-2">
+        {countOptions.map((n) => (
+          <button
+            key={n}
+            onClick={() => onSelectCount(n)}
+            className={[
+              "rounded-xl border px-4 py-2.5 text-sm font-semibold transition-colors",
+              selectedCount === n
+                ? "border-primary bg-primary text-primary-foreground"
+                : "border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent/40",
+            ].join(" ")}
+          >
+            {n}
+          </button>
+        ))}
+        <button
+          onClick={() => onSelectCount(bankTotal)}
+          className={[
+            "rounded-xl border px-4 py-2.5 text-sm font-semibold transition-colors",
+            selectedCount === bankTotal
+              ? "border-primary bg-primary text-primary-foreground"
+              : "border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent/40",
+          ].join(" ")}
+        >
+          All {bankTotal}
+        </button>
+      </div>
+
+      <p className="mt-4 flex items-center gap-1.5 text-xs text-muted-foreground">
+        <Shuffle className="h-3.5 w-3.5" />
+        Questions are shuffled into a new order every time you start.
+      </p>
+
+      <button
+        onClick={onStart}
+        className="mt-7 inline-flex w-full items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:opacity-90 sm:w-auto"
+      >
+        Start quiz
+      </button>
+    </section>
+  );
+}
+
 function ResultCard({
   correct,
   total,
@@ -222,7 +365,7 @@ function ResultCard({
   const pct = Math.round((correct / total) * 100);
   const msg =
     pct >= 80
-      ? "Ang galing mo lovee, Keep going."
+      ? "Ang galing mo, mahal. Keep going."
       : pct >= 60
         ? "Solid effort. Review the misses and go again."
         : "Every miss is a lesson. You're closer than you think.";
