@@ -6,6 +6,8 @@ import { chnSubject } from "./chn";
 import { fonSubject } from "./fon";
 import { pharmaSubject } from "./pharma";
 import { supplaSubject } from "./suppla";
+import { rconeSubject } from "./rc-one";
+import { rcfiveSubject } from "./rc-five";
 
 export * from "./types";
 export { msnSubject } from "./msn";
@@ -15,6 +17,8 @@ export { chnSubject } from "./chn";
 export { fonSubject } from "./fon";
 export { pharmaSubject } from "./pharma";
 export { supplaSubject } from "./suppla";
+export { rconeSubject } from "./rc-one";
+export { rcfiveSubject } from "./rc-five";
 
 export const subjects: Subject[] = [
   msnSubject,
@@ -24,6 +28,8 @@ export const subjects: Subject[] = [
   fonSubject,
   pharmaSubject,
   supplaSubject,
+  rconeSubject,
+  rcfiveSubject,
 ];
 
 export function findSubject(id: string) {
