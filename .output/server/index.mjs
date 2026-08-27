@@ -16,48 +16,6 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
-	"/assets/arrow-left-BdVY8twR.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"a0-rE5q90EKMS6P9peyx68nEcWa4aY\"",
-		"mtime": "2026-08-27T09:24:35.177Z",
-		"size": 160,
-		"path": "../public/assets/arrow-left-BdVY8twR.js"
-	},
-	"/assets/arrow-right-9Cr-Auoq.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"a0-cHju4Gu+6acz2tvqXHoSPO0wiAs\"",
-		"mtime": "2026-08-27T09:24:35.182Z",
-		"size": 160,
-		"path": "../public/assets/arrow-right-9Cr-Auoq.js"
-	},
-	"/assets/index-BUtuylYB.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"4c18c-WK6SV6GLBxs2Rd9lPuz+x+GhuXU\"",
-		"mtime": "2026-08-27T09:24:35.176Z",
-		"size": 311692,
-		"path": "../public/assets/index-BUtuylYB.js"
-	},
-	"/assets/quiz._subjectId._bankId-DlrFDEpa.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"29f2-szqRadmzt4pyjwTAHElMeIO/kdw\"",
-		"mtime": "2026-08-27T09:24:35.189Z",
-		"size": 10738,
-		"path": "../public/assets/quiz._subjectId._bankId-DlrFDEpa.js"
-	},
-	"/assets/routes-IUrdgrn4.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"acc-kjEJwz/wXloj769wAAigGbELQh8\"",
-		"mtime": "2026-08-27T09:24:35.206Z",
-		"size": 2764,
-		"path": "../public/assets/routes-IUrdgrn4.js"
-	},
-	"/assets/site-header-BmtBp_pC.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"b90-CHZrpW2gcHxCRZsv/ngz92/1pa8\"",
-		"mtime": "2026-08-27T09:24:35.207Z",
-		"size": 2960,
-		"path": "../public/assets/site-header-BmtBp_pC.js"
-	},
 	"/stetheshearticon.png": {
 		"type": "image/png",
 		"etag": "\"1e17f-AdXtGNxINokh6eTcBizfF25wsO0\"",
@@ -65,24 +23,66 @@ var public_assets_data_default = {
 		"size": 123263,
 		"path": "../public/stetheshearticon.png"
 	},
-	"/assets/subject._subjectId-CZqUtt6t.js": {
+	"/assets/arrow-left-BdVY8twR.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"8e1-TC87dwv0mPPSG7T7hOZhBFqd0cg\"",
-		"mtime": "2026-08-27T09:24:35.209Z",
-		"size": 2273,
-		"path": "../public/assets/subject._subjectId-CZqUtt6t.js"
+		"etag": "\"a0-rE5q90EKMS6P9peyx68nEcWa4aY\"",
+		"mtime": "2026-08-27T10:36:43.649Z",
+		"size": 160,
+		"path": "../public/assets/arrow-left-BdVY8twR.js"
 	},
-	"/assets/styles-B1VoRhVK.css": {
+	"/assets/arrow-right-9Cr-Auoq.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"a0-cHju4Gu+6acz2tvqXHoSPO0wiAs\"",
+		"mtime": "2026-08-27T10:36:43.651Z",
+		"size": 160,
+		"path": "../public/assets/arrow-right-9Cr-Auoq.js"
+	},
+	"/assets/quiz._subjectId._bankId-DX_ykz57.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"29f2-uDtBrIe3DN073FC4avpPlCJ2JDQ\"",
+		"mtime": "2026-08-27T10:36:43.655Z",
+		"size": 10738,
+		"path": "../public/assets/quiz._subjectId._bankId-DX_ykz57.js"
+	},
+	"/assets/site-header-BmtBp_pC.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"b90-CHZrpW2gcHxCRZsv/ngz92/1pa8\"",
+		"mtime": "2026-08-27T10:36:43.658Z",
+		"size": 2960,
+		"path": "../public/assets/site-header-BmtBp_pC.js"
+	},
+	"/assets/routes-IUrdgrn4.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"acc-kjEJwz/wXloj769wAAigGbELQh8\"",
+		"mtime": "2026-08-27T10:36:43.658Z",
+		"size": 2764,
+		"path": "../public/assets/routes-IUrdgrn4.js"
+	},
+	"/assets/subject._subjectId-BtHG_9xT.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"8e1-/NygONKdutqqt0o73skkBe3j8H8\"",
+		"mtime": "2026-08-27T10:36:43.670Z",
+		"size": 2273,
+		"path": "../public/assets/subject._subjectId-BtHG_9xT.js"
+	},
+	"/assets/styles-BF0g7b5Q.css": {
 		"type": "text/css; charset=utf-8",
-		"etag": "\"12ebd-qCPiV3JnyZ329EaeYuHOwwKLn5o\"",
-		"mtime": "2026-08-27T09:24:35.211Z",
-		"size": 77501,
-		"path": "../public/assets/styles-B1VoRhVK.css"
+		"etag": "\"12e9d-OzOIYY43bGiT4bWQIScNJaaACpw\"",
+		"mtime": "2026-08-27T10:36:43.674Z",
+		"size": 77469,
+		"path": "../public/assets/styles-BF0g7b5Q.css"
+	},
+	"/assets/index-C4HWd-9J.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"4bf6e-/32Z94ettyq8ho4DV0EhvQEIuFM\"",
+		"mtime": "2026-08-27T10:36:43.649Z",
+		"size": 311150,
+		"path": "../public/assets/index-C4HWd-9J.js"
 	},
 	"/assets/quiz-data-CLJbJZz_.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"9b0ae-6sDIDQSlgaIFalnkvMZ1IYEE0V8\"",
-		"mtime": "2026-08-27T09:24:35.186Z",
+		"mtime": "2026-08-27T10:36:43.653Z",
 		"size": 635054,
 		"path": "../public/assets/quiz-data-CLJbJZz_.js"
 	},
