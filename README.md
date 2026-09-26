@@ -1,118 +1,147 @@
-# 🩺 Goodluck, Lovie - A PNLE Reviewer
+# 🩺 VeeRN — A PNLE Reviewer (Goodluck, Lovie!)
 
-A web-based **Philippine Nurse Licensure Examination (PNLE) Reviewer** built to help nursing students prepare for the board exam through interactive practice quizzes, detailed rationales, and organized test banks.
+> *"To Pass and Top the Boards — First Take, Last Take, No Retakes!"* 🎓✨
 
-Originally created as a passion project to help **my girlfriend prepare for the PNLE**, this application aims to provide an accessible, distraction-free, and effective review experience for anyone taking the Philippine Nursing Licensure Examination.
+A modern, distraction-free **Philippine Nurse Licensure Examination (PNLE) Reviewer** built to empower nursing students and future Registered Nurses with interactive practice quizzes, detailed rationales, customizable question sets, and real-time performance review.
 
----
-
-## ✨ Features
-
-- 📚 Multiple test banks organized by nursing subject
-- 📝 Interactive multiple-choice quizzes
-- 💡 Instant answer feedback with detailed rationales
-- 🔄 Unlimited quiz retakes
-- 📊 Progress tracking within each quiz
-- 📱 Fully responsive design for desktop and mobile
-- ⚡ Fast and lightweight interface
-- 🗂 Easily expandable question bank
-- 🛠 Admin-ready architecture for managing questions and test banks
+Originally built with love as a dedicated passion project to **help my girlfriend review for and conquer the PNLE**, this application is designed to make reviewing calm, engaging, and deeply effective.
 
 ---
 
-## 📂 Project Structure
+## ✨ Key Features
+
+- 📚 **Organized Subject Areas & Test Banks**: Comprehensive coverage across core nursing competency areas.
+- 🎨 **Custom Theme Customization**: 5 customizable aesthetic themes (**Pink** [default], **Red**, **Blue**, **Green**, and **White**) powered by centralized OKLCH design tokens.
+- 🌓 **Light & Dark Modes**: Seamless display mode switching with zero-flash SSR initialization.
+- 🎬 **Celebration Video Popup**: Optional celebration video that triggers on correct answers (can be toggled On/Off or previewed in Settings).
+- ⚙️ **Dedicated Settings Dashboard**: Real-time theme picker, display mode switcher, interactive live preview, and one-click default reset.
+- 🗂 **Question Navigator Matrix**: Collapsible table matrix to inspect answered, wrong, and current questions with instant navigation.
+- 🔀 **Custom Session Setup & Shuffle**: Choose question counts (5, 10, 15, 20... or All available) with randomized Fisher-Yates shuffle.
+- 💡 **Instant Answers & Comprehensive Rationales**: Immediate feedback explaining the core clinical concept behind every option.
+- 📊 **Filterable Results Table**: Post-quiz review table allowing students to filter questions (All, Mistakes, Correct) and expand detailed rationales.
+- 📱 **Responsive 3-Column Grid Layouts**: Clean, modern cards that adapt seamlessly across mobile, tablet, and desktop.
+
+---
+
+## 📂 Subject Areas
 
 ```
-Subjects
-├── Fundamentals of Nursing
-├── Medical-Surgical Nursing
-├── Maternal & Child Nursing
-├── Pediatric Nursing
-├── Psychiatric Nursing
-├── Community Health Nursing
-├── Pharmacology
-├── Leadership & Management
-└── Professional Adjustment
+VeeRN Review Subjects
+├── 🏥 Medical-Surgical Nursing (MSN)
+├── 👶 Maternal & Child Nursing (MATERN)
+├── 🧠 Psychiatric Nursing (PSYCH)
+├── 🏘️ Community Health Nursing (CHN)
+├── 🩺 Fundamentals of Nursing (FON)
+├── 💊 Pharmacology (PHARMA)
+├── 📖 Supplementary Practice (SUPPLA)
+├── 📝 Comprehensive Pre-Boards / Recall 1 (RCONE)
+└── 🎯 Comprehensive Pre-Boards / Recall 5 (RCFIVE)
 ```
-
-Each subject contains multiple test banks composed of multiple-choice questions with complete rationales.
 
 ---
 
 ## 🚀 Tech Stack
 
-- TanStack Start
-- React
-- TypeScript
-- Tailwind CSS
-- TanStack Router
-- TanStack Query
-- Vite
+- **Framework**: [TanStack Start](https://tanstack.com/start) (Fullstack React SSR)
+- **UI & Components**: [React 19](https://react.dev/), [Radix UI](https://www.radix-ui.com/), [Lucide Icons](https://lucide.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with OKLCH CSS design tokens
+- **Routing**: [TanStack Router](https://tanstack.com/router)
+- **Deployment & Server**: [Nitro](https://nitro.unjs.io/) (`cloudflare-module` preset) / [Vite](https://vitejs.dev/)
 
 ---
 
-## 🎯 Goal
+## 🛠️ Getting Started
 
-The goal of this project is to make reviewing for the PNLE as straightforward and effective as possible.
+### Prerequisites
 
-Instead of overwhelming users with unnecessary features, the application focuses on what matters most:
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/)
 
-- Answer questions
-- Learn from detailed explanations
-- Repeat until concepts are mastered
+### Installation & Development
 
----
+```bash
+# 1. Clone the repository
+git clone https://github.com/TuwonXD/study-buddy-pnle.git
 
-## 📖 Quiz Flow
+# 2. Navigate to project directory
+cd study-buddy-pnle
 
-```
-Home
-   ↓
-Select Subject
-   ↓
-Choose Test Bank
-   ↓
-Answer Question
-   ↓
-View Correct Answer & Rationale
-   ↓
-Next Question
-   ↓
-Quiz Results
+# 3. Install dependencies
+npm install
+
+# 4. Start local development server
+npm run dev
 ```
 
+The application will run locally at `http://localhost:3000`.
+
+### Production Build
+
+```bash
+# Typecheck & build for production
+npm run build
+
+# Preview production build locally
+npx vite preview
+```
+
 ---
 
-## 🔮 Planned Features
+## 📖 Review Workflow
 
-- User accounts
-- Bookmark difficult questions
-- Randomized quizzes
-- Timed mock board exams
-- Search by topic or keyword
-- Import questions via CSV/Excel
-- Performance analytics
-- Dark mode
-- Offline support (PWA)
+```
+       [ Home ]
+          ↓
+  Select Subject Area
+ (MSN, MATERN, PSYCH...)
+          ↓
+   Choose Test Bank
+          ↓
+  Customize Question Count
+    (Presets / All Qs)
+          ↓
+     Take Quiz
+  (Instant Rationales,
+ Video Celebrations, Matrix)
+          ↓
+   Results Dashboard
+(Mistakes Review Table & Rationales)
+```
+
+---
+
+## ⚙️ Settings & Customization
+
+The **Settings Page** (`/settings`) allows full personalization:
+1. **Theme Color**: Switch between Pink, Red, Blue, Green, or White.
+2. **Display Mode**: Toggle between Light and Dark mode.
+3. **Gameplay / Video Popup**: Enable or disable the correct answer celebration video, and preview the video directly with the in-settings player.
+4. **Live Preview**: See how cards, buttons, badges, and rationales look live in your selected theme before continuing.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are always welcome.
+Contributions, additional question banks, corrections to rationales, and feature enhancements are warmly welcomed!
 
-If you'd like to improve the reviewer or add more question banks, feel free to fork the repository and submit a pull request.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewQuestionBank`)
+3. Commit your Changes (`git commit -m 'Add new PNLE question bank'`)
+4. Push to the Branch (`git push origin feature/NewQuestionBank`)
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## ❤️ Acknowledgements
+## ❤️ Dedication & Acknowledgements
 
-Inspired by online PNLE review platforms and created with the hope of making nursing review more engaging, accessible, and effective for future Filipino nurses.
+Created with love for **my girlfriend**, and dedicated to every future Filipino Registered Nurse working hard to achieve their nursing license.
 
-> "Success isn't about answering every question correctly the first time—it's about learning from every mistake until you no longer make it."
+> *"Success isn't about answering every question correctly the first time — it's about learning from every mistake until you no longer make it."*
+
+**Made with ❤️ by Tuwon**

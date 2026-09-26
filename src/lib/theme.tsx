@@ -24,7 +24,7 @@ const SettingsContext = createContext<SettingsContextType>({
   displayMode: "light",
   setDisplayMode: () => {},
   toggleDisplayMode: () => {},
-  correctAnswerVideo: true,
+  correctAnswerVideo: false,
   setCorrectAnswerVideo: () => {},
   resetToDefaults: () => {},
   theme: "light",
@@ -34,7 +34,7 @@ const SettingsContext = createContext<SettingsContextType>({
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [themeColor, setThemeColorState] = useState<ThemeColor>("pink");
   const [displayMode, setDisplayModeState] = useState<DisplayMode>("light");
-  const [correctAnswerVideo, setCorrectAnswerVideoState] = useState<boolean>(true);
+  const [correctAnswerVideo, setCorrectAnswerVideoState] = useState<boolean>(false);
 
   useEffect(() => {
     try {
@@ -95,7 +95,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const resetToDefaults = () => {
     setThemeColorState("pink");
     setDisplayModeState("light");
-    setCorrectAnswerVideoState(true);
+    setCorrectAnswerVideoState(false);
   };
 
   return (

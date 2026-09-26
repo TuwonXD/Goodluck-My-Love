@@ -1,5 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, BookOpen, Layers } from "lucide-react";
+import {
+  ArrowRight,
+  BookOpen,
+  Sparkles,
+  CheckCircle2,
+  Heart,
+  Palette,
+  GraduationCap,
+  ShieldCheck,
+} from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { subjects } from "@/lib/quiz-data";
 
@@ -10,88 +19,159 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A calm, focused PNLE review companion. Pick a subject, choose a test bank, and study.",
+          "A calm, distraction-free PNLE review companion built with love. Practice test questions, learn from rationales, and master the board exam.",
       },
     ],
   }),
-  component: Index,
+  component: LandingPage,
 });
 
-function Index() {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteHeader />
-      <main className="mx-auto max-w-4xl px-4 sm:px-6 pb-24 pt-10 sm:pt-16">
-        <section className="mb-10">
-          <p className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-primary">
-            VeeRN — A PNLE Reviewer
-          </p>
-          <h1 className="font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">
-            To Pass and
-            <br />
-            <span className="text-primary">Top the Board Exams</span>
-          </h1>
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
-            First Take, Last Take, No Retakes!
-          </p>
-        </section>
+function LandingPage() {
+  const totalQuestions = subjects.reduce(
+    (acc, s) => acc + s.banks.reduce((n, b) => n + b.questions.length, 0),
+    0,
+  );
 
-        <section>
-          <div className="mb-5 flex items-baseline justify-between border-b border-border/60 pb-3">
-            <div>
-              <h2 className="font-display text-xl font-semibold tracking-tight">Review Subjects</h2>
-              <p className="text-xs text-muted-foreground">
-                Select a nursing competency area to practice
+  return (
+    <div className="min-h-screen bg-background text-foreground flex flex-col justify-between">
+      <div>
+        <SiteHeader />
+        <main className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8 py-8 sm:py-12">
+          {/* Hero Section */}
+          <section className="text-center flex flex-col items-center max-w-3xl mx-auto">
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-bold text-primary shadow-xs mb-6">
+              <Heart className="h-3.5 w-3.5 fill-current" />
+              <span>VeeRN PNLE Reviewer</span>
+            </div>
+
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.15]">
+              To Top & <span className="text-primary">Pass the Board Exam</span>
+            </h1>
+
+            <p className="mt-4 text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl">
+              A distraction-free study companion built to help you master the{" "}
+              <strong className="text-foreground font-semibold">
+                Philippine Nurse Licensure Examination (PNLE)
+              </strong>
+              . Practice high-yield questions, explore in-depth rationales, and build unwavering confidence.
+            </p>
+
+            <div className="mt-4 inline-flex items-center gap-2 rounded-xl bg-muted/60 px-3.5 py-1.5 text-xs sm:text-sm font-semibold text-muted-foreground">
+              <GraduationCap className="h-4 w-4 text-primary" />
+              <span>First Take, Last Take, No Retakes!</span>
+            </div>
+
+            {/* Main Action Buttons */}
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-3.5 sm:gap-4 w-full sm:w-auto">
+              <Link
+                to="/subjects"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-2xl bg-primary px-8 py-4 text-base font-bold text-primary-foreground shadow-sm transition-all hover:opacity-95 hover:shadow-md cursor-pointer group"
+              >
+                <span>Start Reviewing</span>
+                <ArrowRight className="h-4.5 w-4.5 transition-transform group-hover:translate-x-1" />
+              </Link>
+
+              <Link
+                to="/settings"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-2xl border border-border bg-card px-6 py-4 text-base font-semibold text-foreground transition-colors hover:border-primary/50 hover:bg-accent/40 shadow-xs cursor-pointer"
+              >
+                <Palette className="h-4.5 w-4.5 text-primary" />
+                <span>Customize Theme</span>
+              </Link>
+            </div>
+          </section>
+
+          {/* Key Feature Cards Grid */}
+          <section className="mt-14 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+            {/* Feature 1 */}
+            <div className="rounded-3xl border border-border bg-card p-5 sm:p-6 shadow-xs flex flex-col justify-between">
+              <div>
+                <span className="grid h-11 w-11 place-items-center rounded-2xl bg-primary/10 text-primary mb-4">
+                  <BookOpen className="h-5 w-5" />
+                </span>
+                <h3 className="font-display text-base sm:text-lg font-bold text-foreground">
+                  9 Core Subjects
+                </h3>
+                <p className="mt-2 text-xs sm:text-sm text-muted-foreground leading-relaxed">
+                  Comprehensive coverage across Medical-Surgical, Maternal & Child, Psychiatric, CHN, Fundamentals, Pharmacology, and Recall Banks ({totalQuestions}+ questions).
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t border-border/50 text-xs font-semibold text-primary flex items-center gap-1">
+                <CheckCircle2 className="h-3.5 w-3.5" />
+                <span>Organized Test Banks</span>
+              </div>
+            </div>
+
+            {/* Feature 2 */}
+            <div className="rounded-3xl border border-border bg-card p-5 sm:p-6 shadow-xs flex flex-col justify-between">
+              <div>
+                <span className="grid h-11 w-11 place-items-center rounded-2xl bg-primary/10 text-primary mb-4">
+                  <Sparkles className="h-5 w-5" />
+                </span>
+                <h3 className="font-display text-base sm:text-lg font-bold text-foreground">
+                  Detailed Rationales
+                </h3>
+                <p className="mt-2 text-xs sm:text-sm text-muted-foreground leading-relaxed">
+                  Instant answer keys with clinical explanations for every option, plus a post-quiz Mistakes Review Table to focus on growth areas.
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t border-border/50 text-xs font-semibold text-primary flex items-center gap-1">
+                <CheckCircle2 className="h-3.5 w-3.5" />
+                <span>Mistakes Review Table</span>
+              </div>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="rounded-3xl border border-border bg-card p-5 sm:p-6 shadow-xs flex flex-col justify-between">
+              <div>
+                <span className="grid h-11 w-11 place-items-center rounded-2xl bg-primary/10 text-primary mb-4">
+                  <Palette className="h-5 w-5" />
+                </span>
+                <h3 className="font-display text-base sm:text-lg font-bold text-foreground">
+                  Customizable Aesthetics
+                </h3>
+                <p className="mt-2 text-xs sm:text-sm text-muted-foreground leading-relaxed">
+                  Personalize your review environment with 5 color themes (Pink, Red, Blue, Green, White), dark mode, question count pickers, and video popup controls.
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t border-border/50 text-xs font-semibold text-primary flex items-center gap-1">
+                <CheckCircle2 className="h-3.5 w-3.5" />
+                <span>Light & Dark Mode</span>
+              </div>
+            </div>
+          </section>
+
+          {/* Quick CTA Banner */}
+          <section className="mt-12 rounded-3xl border border-primary/30 bg-primary/5 p-6 sm:p-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xs">
+            <div className="max-w-xl">
+              <div className="flex items-center justify-center sm:justify-start gap-2 mb-1.5">
+                <ShieldCheck className="h-5 w-5 text-primary" />
+                <span className="text-xs font-bold uppercase tracking-wider text-primary">
+                  Ready to Practice?
+                </span>
+              </div>
+              <h2 className="font-display text-xl sm:text-2xl font-bold tracking-tight">
+                Jump right into the test banks
+              </h2>
+              <p className="mt-1 text-xs sm:text-sm text-muted-foreground">
+                Choose a subject, select your question batch size, and start answering.
               </p>
             </div>
-            <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
-              {subjects.length} Subjects
-            </span>
-          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-            {subjects.map((s) => {
-              const qCount = s.banks.reduce((n, b) => n + b.questions.length, 0);
-              return (
-                <Link
-                  key={s.id}
-                  to="/subject/$subjectId"
-                  params={{ subjectId: s.id }}
-                  className="group flex flex-col justify-between rounded-2xl border border-border bg-card p-5 transition-all hover:border-primary/50 hover:bg-accent/40 shadow-2xs hover:shadow-sm"
-                >
-                  <div className="flex items-start gap-3.5">
-                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-primary/10 text-primary transition-transform group-hover:scale-105">
-                      <BookOpen className="h-5 w-5" />
-                    </span>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-center gap-2">
-                        <h3 className="truncate font-display text-base font-semibold text-foreground group-hover:text-primary transition-colors">
-                          {s.name}
-                        </h3>
-                      </div>
-                      <span className="inline-block mt-0.5 rounded-md bg-muted px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
-                        {s.short}
-                      </span>
-                    </div>
-                  </div>
+            <Link
+              to="/subjects"
+              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-2xl bg-primary px-7 py-3.5 text-sm sm:text-base font-bold text-primary-foreground shadow-xs transition-opacity hover:opacity-90 cursor-pointer"
+            >
+              <span>View Subjects</span>
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </section>
+        </main>
+      </div>
 
-                  <div className="mt-4 flex items-center justify-between border-t border-border/50 pt-3 text-xs text-muted-foreground">
-                    <span className="flex items-center gap-1.5">
-                      <Layers className="h-3.5 w-3.5 text-primary" />
-                      {s.banks.length} test bank{s.banks.length === 1 ? "" : "s"} · {qCount} Qs
-                    </span>
-                    <span className="inline-flex items-center gap-1 font-semibold text-primary group-hover:translate-x-0.5 transition-transform">
-                      Practice <ArrowRight className="h-3.5 w-3.5" />
-                    </span>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-
-        <footer className="mt-16 text-center text-xs text-muted-foreground">by Tuwon</footer>
-      </main>
+      <footer className="py-4 text-center text-xs text-muted-foreground border-t border-border/40">
+        Built with ❤️ for my favorite nurse-to-be · by Tuwon
+      </footer>
     </div>
   );
 }

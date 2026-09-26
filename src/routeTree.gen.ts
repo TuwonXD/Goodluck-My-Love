@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SettingsRouteImport } from './routes/settings'
+import { Route as SubjectsRouteImport } from './routes/subjects'
 import { Route as SubjectSubjectIdRouteImport } from './routes/subject.$subjectId'
 import { Route as QuizSubjectIdBankIdRouteImport } from './routes/quiz.$subjectId.$bankId'
 
@@ -22,6 +23,11 @@ const IndexRoute = IndexRouteImport.update({
 const SettingsRoute = SettingsRouteImport.update({
   id: '/settings',
   path: '/settings',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SubjectsRoute = SubjectsRouteImport.update({
+  id: '/subjects',
+  path: '/subjects',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SubjectSubjectIdRoute = SubjectSubjectIdRouteImport.update({
@@ -38,12 +44,14 @@ const QuizSubjectIdBankIdRoute = QuizSubjectIdBankIdRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/settings': typeof SettingsRoute
+  '/subjects': typeof SubjectsRoute
   '/subject/$subjectId': typeof SubjectSubjectIdRoute
   '/quiz/$subjectId/$bankId': typeof QuizSubjectIdBankIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/settings': typeof SettingsRoute
+  '/subjects': typeof SubjectsRoute
   '/subject/$subjectId': typeof SubjectSubjectIdRoute
   '/quiz/$subjectId/$bankId': typeof QuizSubjectIdBankIdRoute
 }
@@ -51,19 +59,30 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/settings': typeof SettingsRoute
+  '/subjects': typeof SubjectsRoute
   '/subject/$subjectId': typeof SubjectSubjectIdRoute
   '/quiz/$subjectId/$bankId': typeof QuizSubjectIdBankIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/settings' | '/subject/$subjectId' | '/quiz/$subjectId/$bankId'
+    | '/'
+    | '/settings'
+    | '/subjects'
+    | '/subject/$subjectId'
+    | '/quiz/$subjectId/$bankId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/settings' | '/subject/$subjectId' | '/quiz/$subjectId/$bankId'
+  to:
+    | '/'
+    | '/settings'
+    | '/subjects'
+    | '/subject/$subjectId'
+    | '/quiz/$subjectId/$bankId'
   id:
     | '__root__'
     | '/'
     | '/settings'
+    | '/subjects'
     | '/subject/$subjectId'
     | '/quiz/$subjectId/$bankId'
   fileRoutesById: FileRoutesById
@@ -71,6 +90,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SettingsRoute: typeof SettingsRoute
+  SubjectsRoute: typeof SubjectsRoute
   SubjectSubjectIdRoute: typeof SubjectSubjectIdRoute
   QuizSubjectIdBankIdRoute: typeof QuizSubjectIdBankIdRoute
 }
@@ -89,6 +109,13 @@ declare module '@tanstack/react-router' {
       path: '/settings'
       fullPath: '/settings'
       preLoaderRoute: typeof SettingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/subjects': {
+      id: '/subjects'
+      path: '/subjects'
+      fullPath: '/subjects'
+      preLoaderRoute: typeof SubjectsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/subject/$subjectId': {
@@ -111,6 +138,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SettingsRoute: SettingsRoute,
+  SubjectsRoute: SubjectsRoute,
   SubjectSubjectIdRoute: SubjectSubjectIdRoute,
   QuizSubjectIdBankIdRoute: QuizSubjectIdBankIdRoute,
 }
