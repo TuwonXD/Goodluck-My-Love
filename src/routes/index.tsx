@@ -44,7 +44,7 @@ function LandingPage() {
               <span>VeeRN PNLE Reviewer</span>
             </div>
 
-            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.15]">
+            <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight whitespace-nowrap">
               To Top & <span className="text-primary">Pass the Board Exam</span>
             </h1>
 
@@ -140,37 +140,11 @@ function LandingPage() {
               </div>
             </div>
           </section>
-
-          {/* Quick CTA Banner */}
-          <section className="mt-12 rounded-3xl border border-primary/30 bg-primary/5 p-6 sm:p-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xs">
-            <div className="max-w-xl">
-              <div className="flex items-center justify-center sm:justify-start gap-2 mb-1.5">
-                <ShieldCheck className="h-5 w-5 text-primary" />
-                <span className="text-xs font-bold uppercase tracking-wider text-primary">
-                  Ready to Practice?
-                </span>
-              </div>
-              <h2 className="font-display text-xl sm:text-2xl font-bold tracking-tight">
-                Jump right into the test banks
-              </h2>
-              <p className="mt-1 text-xs sm:text-sm text-muted-foreground">
-                Choose a subject, select your question batch size, and start answering.
-              </p>
-            </div>
-
-            <Link
-              to="/subjects"
-              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-2xl bg-primary px-7 py-3.5 text-sm sm:text-base font-bold text-primary-foreground shadow-xs transition-opacity hover:opacity-90 cursor-pointer"
-            >
-              <span>View Subjects</span>
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </section>
         </main>
       </div>
 
       <footer className="py-4 text-center text-xs text-muted-foreground border-t border-border/40">
-        Built with ❤️ for my favorite nurse-to-be · by Tuwon
+        by Tuwon
       </footer>
     </div>
   );

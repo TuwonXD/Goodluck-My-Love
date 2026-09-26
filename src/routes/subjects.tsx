@@ -45,8 +45,8 @@ function SubjectsPage() {
               <p className="text-xs sm:text-sm font-bold uppercase tracking-[0.18em] text-primary">
                 PNLE Board Exam Review
               </p>
-              <h1 className="mt-1 font-display text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
-                To Rop & <span className="text-primary">Pass the Board Exam</span>
+              <h1 className="mt-1 font-display text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight whitespace-nowrap">
+                To Top & <span className="text-primary">Pass the Board Exam</span>
               </h1>
             </div>
             <p className="text-xs sm:text-sm text-muted-foreground font-medium">

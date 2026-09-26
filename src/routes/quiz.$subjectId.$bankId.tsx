@@ -670,71 +670,83 @@ function ResultCard({
         : "Keep practicing! Every rationale is an opportunity to strengthen your knowledge.";
 
   return (
-    <section className="mt-8 space-y-6">
-      {/* Top Results Card */}
-      <div className="rounded-3xl border border-border bg-card p-6 sm:p-8 text-center shadow-xs">
-        <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/15 px-3 py-1 text-xs font-semibold text-primary uppercase tracking-wider">
-          Session Complete
-        </span>
+    <section className="mt-4 space-y-4">
+      {/* Top Results KPI Header Banner */}
+      <div className="rounded-3xl border border-border bg-card p-4 sm:p-5 shadow-xs">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          {/* Left: Score & Badges */}
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-full bg-primary/15 px-2.5 py-0.5 text-[11px] font-bold text-primary uppercase tracking-wider">
+                  Session Complete
+                </span>
+                <span className="text-xs text-muted-foreground font-medium">• Score Overview</span>
+              </div>
+              <div className="mt-1 flex items-baseline gap-2.5">
+                <h2 className="font-display text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
+                  {correct}
+                  <span className="text-muted-foreground font-normal text-xl sm:text-2xl">/{total}</span>
+                </h2>
+                <span className="rounded-xl bg-primary/10 px-2.5 py-1 text-xs font-bold text-primary">
+                  {pct}% Score
+                </span>
+              </div>
+              <p className="mt-1 text-xs text-muted-foreground max-w-md line-clamp-1">{msg}</p>
+            </div>
 
-        <h2 className="mt-4 font-display text-4xl sm:text-5xl font-semibold tracking-tight">
-          {correct}
-          <span className="text-muted-foreground font-normal text-3xl"> / {total}</span>
-        </h2>
-
-        <p className="mt-2 text-base font-semibold text-primary">{pct}% Score</p>
-        <p className="mx-auto mt-3 max-w-md text-sm text-muted-foreground">{msg}</p>
-
-        {/* Quick KPI Table Cards */}
-        <div className="mx-auto mt-6 grid max-w-lg grid-cols-3 gap-3">
-          <div className="rounded-2xl border border-border bg-background/60 p-3">
-            <span className="text-xs text-muted-foreground">Total</span>
-            <p className="mt-0.5 text-lg font-bold text-foreground">{total}</p>
+            {/* Quick KPI Badges */}
+            <div className="flex items-center gap-2">
+              <div className="rounded-xl border border-border bg-background/60 px-3 py-1.5 text-center min-w-[70px]">
+                <span className="text-[10px] uppercase font-bold text-muted-foreground block">Total</span>
+                <span className="text-sm font-bold text-foreground">{total}</span>
+              </div>
+              <div className="rounded-xl border border-success/30 bg-success/5 px-3 py-1.5 text-center min-w-[70px]">
+                <span className="text-[10px] uppercase font-bold text-success block">Correct</span>
+                <span className="text-sm font-bold text-success">{correct}</span>
+              </div>
+              <div className="rounded-xl border border-destructive/30 bg-destructive/5 px-3 py-1.5 text-center min-w-[70px]">
+                <span className="text-[10px] uppercase font-bold text-destructive block">Incorrect</span>
+                <span className="text-sm font-bold text-destructive">{incorrectCount}</span>
+              </div>
+            </div>
           </div>
-          <div className="rounded-2xl border border-success/30 bg-success/5 p-3">
-            <span className="text-xs text-success">Correct</span>
-            <p className="mt-0.5 text-lg font-bold text-success">{correct}</p>
-          </div>
-          <div className="rounded-2xl border border-destructive/30 bg-destructive/5 p-3">
-            <span className="text-xs text-destructive">Incorrect</span>
-            <p className="mt-0.5 text-lg font-bold text-destructive">{incorrectCount}</p>
-          </div>
-        </div>
 
-        {/* Action Buttons */}
-        <div className="mt-7 flex flex-wrap justify-center gap-2.5">
-          <button
-            onClick={onRestart}
-            className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-5 py-3 text-xs font-semibold text-primary-foreground shadow-xs transition-colors hover:opacity-90 cursor-pointer"
-          >
-            <RotateCcw className="h-4 w-4" />
-            Try Again
-          </button>
-          <button
-            onClick={onChangeSettings}
-            className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-5 py-3 text-xs font-semibold text-foreground transition-colors hover:bg-accent cursor-pointer"
-          >
-            Change Question Count
-          </button>
-          <Link
-            to="/subject/$subjectId"
-            params={{ subjectId }}
-            className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-5 py-3 text-xs font-semibold text-foreground transition-colors hover:bg-accent"
-          >
-            Back to Banks
-          </Link>
+          {/* Right: Action Buttons */}
+          <div className="flex flex-wrap items-center gap-2 shrink-0">
+            <button
+              onClick={onRestart}
+              className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-primary px-4 py-2.5 text-xs sm:text-sm font-semibold text-primary-foreground shadow-xs transition-colors hover:opacity-90 cursor-pointer"
+            >
+              <RotateCcw className="h-4 w-4" />
+              <span>Try Again</span>
+            </button>
+            <button
+              onClick={onChangeSettings}
+              className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-3.5 py-2.5 text-xs sm:text-sm font-semibold text-foreground transition-colors hover:bg-accent cursor-pointer"
+            >
+              Change Count
+            </button>
+            <Link
+              to="/subject/$subjectId"
+              params={{ subjectId }}
+              className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-3.5 py-2.5 text-xs sm:text-sm font-semibold text-foreground transition-colors hover:bg-accent"
+            >
+              Back to Banks
+            </Link>
+          </div>
         </div>
       </div>
 
-      {/* Comprehensive Questions Review Table */}
-      <div className="rounded-3xl border border-border bg-card p-6 sm:p-7 shadow-xs">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border/60 pb-4 mb-4">
+      {/* Comprehensive Questions Review Table with Internal Scroll */}
+      <div className="rounded-3xl border border-border bg-card p-4 sm:p-5 shadow-xs flex flex-col">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border/60 pb-3 mb-3">
           <div>
-            <h3 className="font-display text-lg font-semibold tracking-tight">
+            <h3 className="font-display text-sm sm:text-base font-bold tracking-tight text-foreground">
               Question Breakdown & Review Table
             </h3>
             <p className="text-xs text-muted-foreground">
-              Review every answered question, choices, and rationales in a table format.
+              Review every answered question, choices, and clinical rationales.
             </p>
           </div>
 
@@ -744,7 +756,7 @@ function ResultCard({
               type="button"
               onClick={() => setFilter("all")}
               className={[
-                "rounded-lg px-3 py-1 text-xs font-medium transition-colors cursor-pointer",
+                "rounded-lg px-2.5 py-1 text-xs font-medium transition-colors cursor-pointer",
                 filter === "all"
                   ? "bg-primary text-primary-foreground font-semibold"
                   : "text-muted-foreground hover:text-foreground",
@@ -756,7 +768,7 @@ function ResultCard({
               type="button"
               onClick={() => setFilter("incorrect")}
               className={[
-                "rounded-lg px-3 py-1 text-xs font-medium transition-colors cursor-pointer",
+                "rounded-lg px-2.5 py-1 text-xs font-medium transition-colors cursor-pointer",
                 filter === "incorrect"
                   ? "bg-destructive text-destructive-foreground font-semibold"
                   : "text-muted-foreground hover:text-foreground",
@@ -768,7 +780,7 @@ function ResultCard({
               type="button"
               onClick={() => setFilter("correct")}
               className={[
-                "rounded-lg px-3 py-1 text-xs font-medium transition-colors cursor-pointer",
+                "rounded-lg px-2.5 py-1 text-xs font-medium transition-colors cursor-pointer",
                 filter === "correct"
                   ? "bg-success text-success-foreground font-semibold"
                   : "text-muted-foreground hover:text-foreground",
@@ -779,21 +791,21 @@ function ResultCard({
           </div>
         </div>
 
-        {/* Review Table */}
-        <div className="overflow-hidden rounded-2xl border border-border">
+        {/* Scrollable Table View Container */}
+        <div className="max-h-[360px] sm:max-h-[400px] md:max-h-[440px] overflow-y-auto rounded-2xl border border-border scrollbar-thin">
           <Table>
-            <TableHeader className="bg-muted/40">
+            <TableHeader className="sticky top-0 bg-card/95 backdrop-blur-xs z-10 border-b border-border/80 shadow-2xs">
               <TableRow>
-                <TableHead className="w-12 text-center text-xs">#</TableHead>
-                <TableHead className="min-w-[200px] text-xs">Question</TableHead>
-                <TableHead className="hidden md:table-cell min-w-[120px] text-xs">
+                <TableHead className="w-12 text-center text-xs py-2.5 font-bold">#</TableHead>
+                <TableHead className="min-w-[200px] text-xs py-2.5 font-bold">Question</TableHead>
+                <TableHead className="hidden md:table-cell min-w-[130px] text-xs py-2.5 font-bold">
                   Your Choice
                 </TableHead>
-                <TableHead className="hidden md:table-cell min-w-[120px] text-xs">
+                <TableHead className="hidden md:table-cell min-w-[130px] text-xs py-2.5 font-bold">
                   Correct Answer
                 </TableHead>
-                <TableHead className="w-24 text-center text-xs">Status</TableHead>
-                <TableHead className="w-24 text-right text-xs">Rationale</TableHead>
+                <TableHead className="w-24 text-center text-xs py-2.5 font-bold">Status</TableHead>
+                <TableHead className="w-24 text-right text-xs py-2.5 font-bold">Rationale</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -810,22 +822,22 @@ function ResultCard({
 
                   return (
                     <Fragment key={idx}>
-                      <TableRow className="hover:bg-accent/30">
+                      <TableRow className="hover:bg-accent/30 text-xs sm:text-sm">
                         {/* Number */}
-                        <TableCell className="text-center font-semibold text-xs py-3">
+                        <TableCell className="text-center font-bold text-xs py-2.5">
                           {idx + 1}
                         </TableCell>
 
                         {/* Question Text */}
-                        <TableCell className="text-xs font-medium text-foreground py-3">
-                          <p className="line-clamp-2">{q.question}</p>
+                        <TableCell className="text-xs sm:text-sm font-medium text-foreground py-2.5">
+                          <p className="line-clamp-2 leading-relaxed">{q.question}</p>
                         </TableCell>
 
                         {/* Your Choice */}
-                        <TableCell className="hidden md:table-cell text-xs py-3">
+                        <TableCell className="hidden md:table-cell text-xs py-2.5">
                           {userAns !== undefined ? (
                             <span
-                              className={`inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px] font-medium ${
+                              className={`inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-xs font-medium ${
                                 isCorrect
                                   ? "bg-success/15 text-success"
                                   : "bg-destructive/15 text-destructive"
@@ -839,27 +851,27 @@ function ResultCard({
                         </TableCell>
 
                         {/* Correct Answer */}
-                        <TableCell className="hidden md:table-cell text-xs py-3">
-                          <span className="inline-flex items-center gap-1 rounded-md bg-muted px-2 py-0.5 text-[11px] font-medium text-foreground">
+                        <TableCell className="hidden md:table-cell text-xs py-2.5">
+                          <span className="inline-flex items-center gap-1 rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-foreground">
                             {String.fromCharCode(65 + q.answer)}. {q.choices[q.answer]}
                           </span>
                         </TableCell>
 
                         {/* Status */}
-                        <TableCell className="text-center py-3">
+                        <TableCell className="text-center py-2.5">
                           {isCorrect ? (
-                            <span className="inline-flex items-center gap-1 rounded-full bg-success/15 px-2 py-0.5 text-[11px] font-semibold text-success">
+                            <span className="inline-flex items-center gap-1 rounded-full bg-success/15 px-2.5 py-0.5 text-xs font-semibold text-success">
                               <Check className="h-3 w-3" /> Correct
                             </span>
                           ) : (
-                            <span className="inline-flex items-center gap-1 rounded-full bg-destructive/15 px-2 py-0.5 text-[11px] font-semibold text-destructive">
+                            <span className="inline-flex items-center gap-1 rounded-full bg-destructive/15 px-2.5 py-0.5 text-xs font-semibold text-destructive">
                               <X className="h-3 w-3" /> Wrong
                             </span>
                           )}
                         </TableCell>
 
                         {/* Rationale Toggle */}
-                        <TableCell className="text-right py-3">
+                        <TableCell className="text-right py-2.5">
                           <button
                             type="button"
                             onClick={() => toggleRationale(idx)}
@@ -878,19 +890,19 @@ function ResultCard({
                       {/* Expandable Rationale Details Row */}
                       {isExpanded && (
                         <TableRow className="bg-muted/20">
-                          <TableCell colSpan={6} className="p-4">
-                            <div className="rounded-xl border border-primary/25 bg-background p-4 text-xs space-y-2.5">
-                              <div className="flex items-center gap-2 text-primary font-semibold">
-                                <Sparkles className="h-3.5 w-3.5" />
+                          <TableCell colSpan={6} className="p-3.5 sm:p-4">
+                            <div className="rounded-xl border border-primary/25 bg-background p-3.5 sm:p-4 text-xs sm:text-sm space-y-2.5">
+                              <div className="flex items-center gap-2 text-primary font-bold">
+                                <Sparkles className="h-4 w-4" />
                                 <span>Question {idx + 1} Detailed Breakdown</span>
                               </div>
-                              <p className="text-foreground font-medium">{q.question}</p>
+                              <p className="text-foreground font-semibold leading-relaxed">{q.question}</p>
 
                               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                                 {q.choices.map((c, cIdx) => (
                                   <div
                                     key={cIdx}
-                                    className={`rounded-lg border p-2 text-xs flex items-center gap-2 ${
+                                    className={`rounded-lg border p-2.5 text-xs flex items-center gap-2 ${
                                       cIdx === q.answer
                                         ? "border-success/60 bg-success/10 font-semibold text-success"
                                         : cIdx === userAns
@@ -901,20 +913,20 @@ function ResultCard({
                                     <span className="font-bold">
                                       {String.fromCharCode(65 + cIdx)}.
                                     </span>
-                                    <span>{c}</span>
+                                    <span className="flex-1">{c}</span>
                                     {cIdx === q.answer && (
-                                      <CheckCircle2 className="h-3.5 w-3.5 ml-auto shrink-0" />
+                                      <CheckCircle2 className="h-4 w-4 text-success ml-auto shrink-0" />
                                     )}
                                     {cIdx === userAns && cIdx !== q.answer && (
-                                      <XCircle className="h-3.5 w-3.5 ml-auto shrink-0" />
+                                      <XCircle className="h-4 w-4 text-destructive ml-auto shrink-0" />
                                     )}
                                   </div>
                                 ))}
                               </div>
 
                               {q.rationale && (
-                                <div className="mt-2 rounded-lg bg-muted/40 p-3 text-muted-foreground leading-relaxed">
-                                  <span className="font-semibold text-foreground">Rationale: </span>
+                                <div className="mt-2 rounded-lg bg-muted/40 p-3 text-muted-foreground text-xs sm:text-sm leading-relaxed">
+                                  <span className="font-bold text-foreground">Rationale: </span>
                                   {q.rationale}
                                 </div>
                               )}
