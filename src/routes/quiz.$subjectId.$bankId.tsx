@@ -1,10 +1,33 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
-import { ArrowLeft, Check, X, RotateCcw, Sparkles, Play } from "lucide-react";
+import { Fragment, useMemo, useState } from "react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Check,
+  X,
+  RotateCcw,
+  Sparkles,
+  Play,
+  LayoutGrid,
+  CheckCircle2,
+  XCircle,
+  BookOpen,
+  ListChecks,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { findBank, findSubject, type Question } from "@/lib/quiz-data";
 import { CorrectAnswerVideoModal } from "@/components/correct-answer-video-modal";
 import { useSettings } from "@/lib/theme";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
 /** Fisher-Yates shuffle — returns a new array, doesn't mutate the input. */
 function shuffle<T>(arr: T[]): T[] {
@@ -42,49 +65,56 @@ function QuizPage() {
   const { subject, bank } = Route.useLoaderData();
   const bankTotal = bank.questions.length;
 
-  // Setup step: pick how many questions to answer before the session starts.
   const [started, setStarted] = useState(false);
   const [questionCount, setQuestionCount] = useState(Math.min(10, bankTotal));
   const [sessionQuestions, setSessionQuestions] = useState<Question[]>([]);
 
   const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
-  const [revealed, setRevealed] = useState(false);
-  const [correctCount, setCorrectCount] = useState(0);
+  const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
+  const [revealedQuestions, setRevealedQuestions] = useState<Record<number, boolean>>({});
   const [done, setDone] = useState(false);
+  const [showPalette, setShowPalette] = useState(false);
+
   const { correctAnswerVideo } = useSettings();
   const [showCorrectVideo, setShowCorrectVideo] = useState(false);
 
   const q = sessionQuestions[index];
   const total = sessionQuestions.length;
+
+  const selected = userAnswers[index] ?? null;
+  const revealed = revealedQuestions[index] ?? false;
+
+  const answeredCount = Object.keys(userAnswers).length;
+  const correctCount = useMemo(() => {
+    return Object.entries(userAnswers).filter(
+      ([idx, ans]) => sessionQuestions[Number(idx)]?.answer === ans,
+    ).length;
+  }, [userAnswers, sessionQuestions]);
+
   const progress = useMemo(
-    () => (total ? Math.round(((index + (revealed ? 1 : 0)) / total) * 100) : 0),
-    [index, revealed, total],
+    () => (total ? Math.round((answeredCount / total) * 100) : 0),
+    [answeredCount, total],
   );
 
   function beginSession(count: number) {
-    // Randomize question order every time a session is started, and only
-    // take the number of questions the user asked for.
     const shuffled = shuffle(bank.questions).slice(0, count);
     setSessionQuestions(shuffled);
     setIndex(0);
-    setSelected(null);
-    setRevealed(false);
-    setCorrectCount(0);
+    setUserAnswers({});
+    setRevealedQuestions({});
     setDone(false);
     setShowCorrectVideo(false);
+    setShowPalette(false);
     setStarted(true);
   }
 
   function choose(i: number) {
     if (revealed) return;
-    setSelected(i);
-    setRevealed(true);
-    if (i === q.answer) {
-      setCorrectCount((c) => c + 1);
-      if (correctAnswerVideo) {
-        setShowCorrectVideo(true);
-      }
+    setUserAnswers((prev) => ({ ...prev, [index]: i }));
+    setRevealedQuestions((prev) => ({ ...prev, [index]: true }));
+
+    if (i === q.answer && correctAnswerVideo) {
+      setShowCorrectVideo(true);
     }
   }
 
@@ -94,13 +124,22 @@ function QuizPage() {
       return;
     }
     setIndex((i) => i + 1);
-    setSelected(null);
-    setRevealed(false);
+    setShowCorrectVideo(false);
+  }
+
+  function prev() {
+    if (index > 0) {
+      setIndex((i) => i - 1);
+      setShowCorrectVideo(false);
+    }
+  }
+
+  function goToQuestion(i: number) {
+    setIndex(i);
     setShowCorrectVideo(false);
   }
 
   function restart() {
-    // Start over with a fresh shuffle of the same question count.
     beginSession(questionCount);
   }
 
@@ -112,34 +151,121 @@ function QuizPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
-      <main className="mx-auto max-w-2xl px-5 pb-24 pt-6">
-        <div className="flex items-center justify-between">
+      <main className="mx-auto max-w-4xl px-4 sm:px-6 pb-24 pt-6">
+        {/* Navigation Bar */}
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/60 pb-4">
           <Link
             to="/subject/$subjectId"
             params={{ subjectId: subject.id }}
-            className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-primary"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
           >
             <ArrowLeft className="h-4 w-4" />
-            {subject.short}
+            <span>{subject.name}</span>
+            <span className="text-xs text-muted-foreground/60">({subject.short})</span>
           </Link>
-          {started && (
-            <span className="text-xs text-muted-foreground">
-              {done ? "Done" : `Question ${index + 1} of ${total}`}
-            </span>
+
+          {started && !done && (
+            <div className="flex items-center gap-2.5">
+              <button
+                type="button"
+                onClick={() => setShowPalette((p) => !p)}
+                className="inline-flex items-center gap-1.5 rounded-xl border border-border bg-card px-3 py-1.5 text-xs font-semibold text-foreground transition-colors hover:border-primary/40 hover:bg-accent cursor-pointer"
+                title="Toggle Question Table Navigator"
+              >
+                <LayoutGrid className="h-3.5 w-3.5 text-primary" />
+                <span>Question Matrix</span>
+                <span className="rounded-full bg-primary/15 px-1.5 py-0.2 text-[11px] text-primary">
+                  {index + 1}/{total}
+                </span>
+              </button>
+
+              <div className="hidden sm:flex items-center gap-2 rounded-xl bg-card border border-border px-3 py-1.5 text-xs">
+                <span className="text-muted-foreground">Score:</span>
+                <span className="font-semibold text-primary">{correctCount}</span>
+                <span className="text-muted-foreground">/ {answeredCount}</span>
+              </div>
+            </div>
           )}
         </div>
 
-        {started && (
-          <div className="mt-3 h-1 w-full overflow-hidden rounded-full bg-muted">
-            <div
-              className="h-full bg-primary transition-[width] duration-500"
-              style={{ width: `${done ? 100 : progress}%` }}
-            />
+        {/* Progress Bar */}
+        {started && !done && (
+          <div className="mt-4">
+            <div className="flex items-center justify-between text-xs text-muted-foreground mb-1.5">
+              <span>Progress: {progress}% completed</span>
+              <span>
+                {answeredCount} of {total} answered
+              </span>
+            </div>
+            <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
+              <div
+                className="h-full bg-primary transition-[width] duration-500 ease-out"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
           </div>
         )}
 
+        {/* Question Palette / Matrix Table */}
+        {started && !done && showPalette && (
+          <section className="mt-4 rounded-2xl border border-border bg-card p-4 sm:p-5 shadow-xs animate-in fade-in-50">
+            <div className="flex items-center justify-between border-b border-border/60 pb-3 mb-3">
+              <div className="flex items-center gap-2">
+                <LayoutGrid className="h-4 w-4 text-primary" />
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-foreground">
+                  Question Table Navigator
+                </h3>
+              </div>
+              <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
+                <span className="flex items-center gap-1">
+                  <span className="h-2.5 w-2.5 rounded-full bg-success/80" /> Correct
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="h-2.5 w-2.5 rounded-full bg-destructive/80" /> Wrong
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="h-2.5 w-2.5 rounded-full bg-primary" /> Current
+                </span>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-5 sm:grid-cols-10 md:grid-cols-15 gap-1.5">
+              {sessionQuestions.map((_, i) => {
+                const isCurrent = index === i;
+                const isAnswered = userAnswers[i] !== undefined;
+                const isCorrect = userAnswers[i] === sessionQuestions[i].answer;
+
+                let btnClass =
+                  "border-border bg-background text-muted-foreground hover:border-primary/50";
+                if (isCurrent) {
+                  btnClass =
+                    "border-primary bg-primary text-primary-foreground font-bold shadow-xs ring-2 ring-primary/30";
+                } else if (isAnswered) {
+                  btnClass = isCorrect
+                    ? "border-success/60 bg-success/15 text-success font-semibold"
+                    : "border-destructive/60 bg-destructive/15 text-destructive font-semibold";
+                }
+
+                return (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => goToQuestion(i)}
+                    className={`grid h-8 w-full place-items-center rounded-lg border text-xs transition-all cursor-pointer ${btnClass}`}
+                    title={`Question ${i + 1}`}
+                  >
+                    {i + 1}
+                  </button>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* Content Stages */}
         {!started ? (
           <SetupCard
+            subjectName={subject.name}
             bankTitle={bank.title}
             bankDescription={bank.description}
             bankTotal={bankTotal}
@@ -151,101 +277,208 @@ function QuizPage() {
           <ResultCard
             correct={correctCount}
             total={total}
+            sessionQuestions={sessionQuestions}
+            userAnswers={userAnswers}
             onRestart={restart}
             onChangeSettings={backToSetup}
             subjectId={subject.id}
           />
         ) : (
-          <>
-            <header className="mt-8 mb-6">
-              <p className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-primary">
-                {bank.title}
-              </p>
-              <h1 className="font-display text-2xl font-semibold leading-snug tracking-tight sm:text-[28px]">
-                {q.question}
-              </h1>
-            </header>
+          <div className="mt-6 space-y-6">
+            {/* Question Card */}
+            <section className="rounded-3xl border border-border bg-card p-6 sm:p-8 shadow-xs">
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border/60 pb-3 mb-5">
+                <div className="flex items-center gap-2">
+                  <span className="rounded-full bg-primary/15 px-2.5 py-0.5 text-xs font-semibold text-primary">
+                    Question {index + 1} of {total}
+                  </span>
+                  <span className="text-xs text-muted-foreground truncate max-w-[200px] sm:max-w-xs">
+                    {bank.title}
+                  </span>
+                </div>
 
-            <ul className="space-y-2.5">
-              {q.choices.map((c: string, i: number) => {
-                const isSelected = selected === i;
-                const isAnswer = q.answer === i;
-                let state = "idle";
-                if (revealed) {
-                  if (isAnswer) state = "correct";
-                  else if (isSelected) state = "wrong";
-                  else state = "muted";
-                }
-                return (
-                  <li key={i}>
-                    <button
-                      onClick={() => choose(i)}
-                      disabled={revealed}
-                      className={[
-                        "flex w-full items-center gap-3 rounded-xl border p-4 text-left text-[15px] transition-all",
-                        state === "idle" &&
-                          "border-border bg-card hover:border-primary/50 hover:bg-accent/40",
-                        state === "correct" && "border-success/60 bg-success/10 text-foreground",
-                        state === "wrong" &&
-                          "border-destructive/60 bg-destructive/10 text-foreground",
-                        state === "muted" && "border-border bg-card text-muted-foreground",
-                      ]
-                        .filter(Boolean)
-                        .join(" ")}
-                    >
-                      <span
+                <div className="flex items-center gap-1">
+                  <button
+                    type="button"
+                    onClick={prev}
+                    disabled={index === 0}
+                    className="inline-flex items-center gap-1 rounded-lg border border-border bg-background px-2.5 py-1 text-xs font-medium text-foreground transition-colors hover:bg-accent disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                  >
+                    <ArrowLeft className="h-3.5 w-3.5" />
+                    <span className="hidden sm:inline">Previous</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={next}
+                    disabled={!revealed && userAnswers[index] === undefined}
+                    className="inline-flex items-center gap-1 rounded-lg border border-border bg-background px-2.5 py-1 text-xs font-medium text-foreground transition-colors hover:bg-accent disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                  >
+                    <span className="hidden sm:inline">
+                      {index + 1 >= total ? "Results" : "Next"}
+                    </span>
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </button>
+                </div>
+              </div>
+
+              {/* Question Text */}
+              <h2 className="font-display text-xl font-semibold leading-relaxed tracking-tight sm:text-2xl text-foreground">
+                {q.question}
+              </h2>
+
+              {/* Choices: 2-Column Table Grid */}
+              <div className="mt-6">
+                <div className="mb-2.5 flex items-center justify-between">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                    Select Your Answer
+                  </span>
+                  <span className="text-xs text-muted-foreground">4 Choices</span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {q.choices.map((c: string, i: number) => {
+                    const isSelected = selected === i;
+                    const isAnswer = q.answer === i;
+                    let state = "idle";
+                    if (revealed) {
+                      if (isAnswer) state = "correct";
+                      else if (isSelected) state = "wrong";
+                      else state = "muted";
+                    }
+
+                    return (
+                      <button
+                        key={i}
+                        type="button"
+                        onClick={() => choose(i)}
+                        disabled={revealed}
                         className={[
-                          "grid h-7 w-7 shrink-0 place-items-center rounded-full border text-xs font-semibold",
+                          "group relative flex items-start gap-3.5 rounded-2xl border p-4 text-left text-sm transition-all cursor-pointer",
+                          state === "idle" &&
+                            "border-border bg-background/60 hover:border-primary/50 hover:bg-accent/40 shadow-2xs",
                           state === "correct" &&
-                            "border-success bg-success text-success-foreground",
+                            "border-success/60 bg-success/10 text-foreground ring-2 ring-success/20",
                           state === "wrong" &&
-                            "border-destructive bg-destructive text-destructive-foreground",
-                          (state === "idle" || state === "muted") &&
-                            "border-border bg-background text-muted-foreground",
+                            "border-destructive/60 bg-destructive/10 text-foreground ring-2 ring-destructive/20",
+                          state === "muted" &&
+                            "border-border bg-card/60 text-muted-foreground opacity-60",
                         ]
                           .filter(Boolean)
                           .join(" ")}
                       >
-                        {state === "correct" ? (
-                          <Check className="h-3.5 w-3.5" />
-                        ) : state === "wrong" ? (
-                          <X className="h-3.5 w-3.5" />
-                        ) : (
-                          String.fromCharCode(65 + i)
-                        )}
-                      </span>
-                      <span className="min-w-0 flex-1">{c}</span>
-                    </button>
-                  </li>
-                );
-              })}
-            </ul>
+                        {/* Choice Letter Cell */}
+                        <span
+                          className={[
+                            "grid h-7 w-7 shrink-0 place-items-center rounded-xl border text-xs font-bold transition-colors",
+                            state === "correct" &&
+                              "border-success bg-success text-success-foreground",
+                            state === "wrong" &&
+                              "border-destructive bg-destructive text-destructive-foreground",
+                            state === "idle" &&
+                              "border-border bg-card text-foreground group-hover:border-primary/50 group-hover:bg-primary group-hover:text-primary-foreground",
+                            state === "muted" && "border-border bg-muted text-muted-foreground",
+                          ]
+                            .filter(Boolean)
+                            .join(" ")}
+                        >
+                          {state === "correct" ? (
+                            <Check className="h-3.5 w-3.5 stroke-[3]" />
+                          ) : state === "wrong" ? (
+                            <X className="h-3.5 w-3.5 stroke-[3]" />
+                          ) : (
+                            String.fromCharCode(65 + i)
+                          )}
+                        </span>
 
-            {revealed && (
-              <div className="mt-6 rounded-2xl border border-primary/25 bg-primary/5 p-5">
-                <div className="mb-1.5 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-primary">
-                  <Sparkles className="h-3.5 w-3.5" />
-                  {selected === q.answer ? "Correct" : "Not quite"}
+                        {/* Choice Text Content */}
+                        <span className="min-w-0 flex-1 text-[14px] leading-relaxed pt-0.5">
+                          {c}
+                        </span>
+
+                        {/* Status Icon */}
+                        {state === "correct" && (
+                          <CheckCircle2 className="h-5 w-5 shrink-0 text-success self-center" />
+                        )}
+                        {state === "wrong" && (
+                          <XCircle className="h-5 w-5 shrink-0 text-destructive self-center" />
+                        )}
+                      </button>
+                    );
+                  })}
                 </div>
-                <p className="text-[15px] leading-relaxed text-foreground/90">
-                  {selected === q.answer
-                    ? "WOW YOU GOT IT RIGHT! Keep going!"
-                    : `The correct answer is ${String.fromCharCode(65 + q.answer)}. ${q.choices[q.answer]}`}
-                </p>
-                {q.rationale && (
-                  <p className="mt-3 text-[14px] leading-relaxed text-muted-foreground">
-                    {q.rationale}
-                  </p>
-                )}
-                <button
-                  onClick={next}
-                  className="mt-5 inline-flex w-full items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:opacity-90 sm:w-auto"
-                >
-                  {index + 1 >= total ? "See results" : "Next question"}
-                </button>
               </div>
-            )}
-          </>
+
+              {/* Rationale & Next Box */}
+              {revealed && (
+                <div
+                  className={[
+                    "mt-6 rounded-2xl border p-5 sm:p-6 transition-all animate-in fade-in-50",
+                    selected === q.answer
+                      ? "border-success/40 bg-success/5"
+                      : "border-primary/30 bg-primary/5",
+                  ].join(" ")}
+                >
+                  <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/50 pb-3 mb-3">
+                    <div className="flex items-center gap-2">
+                      <Sparkles
+                        className={`h-4 w-4 ${
+                          selected === q.answer ? "text-success" : "text-primary"
+                        }`}
+                      />
+                      <span
+                        className={`text-xs font-bold uppercase tracking-wider ${
+                          selected === q.answer ? "text-success" : "text-primary"
+                        }`}
+                      >
+                        {selected === q.answer ? "Correct Answer!" : "Answer Rationale"}
+                      </span>
+                    </div>
+
+                    <span className="text-xs text-muted-foreground">
+                      Correct Key:{" "}
+                      <strong className="text-foreground">
+                        {String.fromCharCode(65 + q.answer)}
+                      </strong>
+                    </span>
+                  </div>
+
+                  <p className="text-sm font-medium text-foreground">
+                    {selected === q.answer
+                      ? "Great job! You answered this correctly."
+                      : `The correct answer is Option ${String.fromCharCode(65 + q.answer)}: ${q.choices[q.answer]}`}
+                  </p>
+
+                  {q.rationale && (
+                    <div className="mt-3 rounded-xl bg-background/80 border border-border/60 p-4 text-xs sm:text-sm leading-relaxed text-foreground/90">
+                      <p className="font-semibold text-primary mb-1">Detailed Explanation:</p>
+                      {q.rationale}
+                    </div>
+                  )}
+
+                  <div className="mt-5 flex flex-wrap items-center justify-between gap-3 pt-2">
+                    <button
+                      type="button"
+                      onClick={prev}
+                      disabled={index === 0}
+                      className="inline-flex items-center gap-1.5 rounded-xl border border-border bg-card px-4 py-2 text-xs font-semibold transition-colors hover:bg-accent disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                    >
+                      <ArrowLeft className="h-3.5 w-3.5" />
+                      Previous Question
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={next}
+                      className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-2.5 text-xs font-semibold text-primary-foreground shadow-xs transition-colors hover:opacity-90 cursor-pointer"
+                    >
+                      <span>{index + 1 >= total ? "View Final Results" : "Next Question"}</span>
+                      <ArrowRight className="h-4 w-4" />
+                    </button>
+                  </div>
+                </div>
+              )}
+            </section>
+          </div>
         )}
       </main>
 
@@ -257,6 +490,7 @@ function QuizPage() {
 }
 
 function SetupCard({
+  subjectName,
   bankTitle,
   bankDescription,
   bankTotal,
@@ -264,6 +498,7 @@ function SetupCard({
   onChangeCount,
   onStart,
 }: {
+  subjectName: string;
   bankTitle: string;
   bankDescription: string;
   bankTotal: number;
@@ -274,33 +509,74 @@ function SetupCard({
   const presets = [5, 10, 15, 20, 25, 30, 40, 50].filter((n) => n < bankTotal);
 
   return (
-    <section className="mt-8 rounded-3xl border border-border bg-card p-6 sm:p-8">
-      <p className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-primary">
-        {bankTitle}
-      </p>
-      <h1 className="font-display text-2xl font-semibold leading-snug tracking-tight sm:text-[28px]">
-        Ready to start?
-      </h1>
-      <p className="mt-2 text-sm text-muted-foreground">{bankDescription}</p>
+    <section className="mt-8 rounded-3xl border border-border bg-card p-6 sm:p-8 shadow-xs">
+      <div className="border-b border-border/60 pb-4 mb-6">
+        <div className="flex items-center gap-2 mb-2">
+          <span className="rounded-full bg-primary/15 px-2.5 py-0.5 text-xs font-semibold text-primary uppercase tracking-wider">
+            {subjectName}
+          </span>
+          <span className="text-xs text-muted-foreground">• Test Bank Setup</span>
+        </div>
+        <h1 className="font-display text-2xl font-semibold leading-snug tracking-tight sm:text-3xl">
+          {bankTitle}
+        </h1>
+        <p className="mt-2 text-sm text-muted-foreground">{bankDescription}</p>
+      </div>
 
-      <div className="mt-6">
+      {/* Summary Table Overview */}
+      <div className="mb-6 rounded-2xl border border-border bg-background/60 p-4">
+        <h2 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+          Bank Overview Table
+        </h2>
+        <Table>
+          <TableBody>
+            <TableRow>
+              <TableCell className="font-medium text-xs text-muted-foreground py-2.5">
+                Total Available Pool
+              </TableCell>
+              <TableCell className="font-semibold text-foreground text-right py-2.5">
+                {bankTotal} Questions
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell className="font-medium text-xs text-muted-foreground py-2.5">
+                Questions Selected
+              </TableCell>
+              <TableCell className="font-semibold text-primary text-right py-2.5">
+                {questionCount} Questions
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell className="font-medium text-xs text-muted-foreground py-2.5">
+                Order
+              </TableCell>
+              <TableCell className="text-muted-foreground text-right py-2.5">
+                Randomized Shuffle
+              </TableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
+      </div>
+
+      {/* Question Count Matrix */}
+      <div>
         <label
           htmlFor="question-count"
           className="text-xs font-semibold uppercase tracking-wider text-muted-foreground"
         >
-          How many questions?
+          Select Number of Questions
         </label>
 
-        <div className="mt-3 flex flex-wrap gap-2">
+        <div className="mt-3 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-9 gap-2">
           {presets.map((n) => (
             <button
               key={n}
               type="button"
               onClick={() => onChangeCount(n)}
               className={[
-                "rounded-full border px-4 py-2 text-sm font-medium transition-colors",
+                "rounded-xl border py-2.5 text-xs font-semibold transition-all cursor-pointer",
                 questionCount === n
-                  ? "border-primary bg-primary text-primary-foreground"
+                  ? "border-primary bg-primary text-primary-foreground shadow-xs ring-2 ring-primary/20"
                   : "border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent/40",
               ].join(" ")}
             >
@@ -311,9 +587,9 @@ function SetupCard({
             type="button"
             onClick={() => onChangeCount(bankTotal)}
             className={[
-              "rounded-full border px-4 py-2 text-sm font-medium transition-colors",
+              "col-span-3 sm:col-span-2 md:col-span-1 rounded-xl border py-2.5 text-xs font-semibold transition-all cursor-pointer",
               questionCount === bankTotal
-                ? "border-primary bg-primary text-primary-foreground"
+                ? "border-primary bg-primary text-primary-foreground shadow-xs ring-2 ring-primary/20"
                 : "border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent/40",
             ].join(" ")}
           >
@@ -321,7 +597,7 @@ function SetupCard({
           </button>
         </div>
 
-        <div className="mt-5 flex items-center gap-3">
+        <div className="mt-5 flex items-center gap-4 rounded-xl border border-border bg-background/50 p-3">
           <input
             id="question-count"
             type="range"
@@ -332,23 +608,19 @@ function SetupCard({
             onChange={(e) => onChangeCount(Number(e.target.value))}
             className="h-1.5 w-full flex-1 cursor-pointer appearance-none rounded-full bg-muted accent-primary"
           />
-          <span className="w-14 shrink-0 text-right text-sm font-semibold tabular-nums">
-            {questionCount}
+          <span className="w-16 shrink-0 rounded-lg bg-primary/10 py-1 text-center text-xs font-bold text-primary tabular-nums">
+            {questionCount} Qs
           </span>
         </div>
-        <p className="mt-1.5 text-xs text-muted-foreground">
-          This bank has {bankTotal} question{bankTotal === 1 ? "" : "s"}. Pick how many you want in
-          this session — questions are shuffled into a new random order every time.
-        </p>
       </div>
 
       <button
         onClick={onStart}
         disabled={questionCount < 1}
-        className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+        className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-xs transition-colors hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer sm:w-auto"
       >
-        <Play className="h-4 w-4" />
-        Start session
+        <Play className="h-4 w-4 fill-current" />
+        Start Review Session
       </button>
     </section>
   );
@@ -357,56 +629,306 @@ function SetupCard({
 function ResultCard({
   correct,
   total,
+  sessionQuestions,
+  userAnswers,
   onRestart,
   onChangeSettings,
   subjectId,
 }: {
   correct: number;
   total: number;
+  sessionQuestions: Question[];
+  userAnswers: Record<number, number>;
   onRestart: () => void;
   onChangeSettings: () => void;
   subjectId: string;
 }) {
+  const [filter, setFilter] = useState<"all" | "incorrect" | "correct">("all");
+  const [expandedRationale, setExpandedRationale] = useState<Record<number, boolean>>({});
+
   const pct = Math.round((correct / total) * 100);
+  const incorrectCount = total - correct;
+
+  const toggleRationale = (idx: number) => {
+    setExpandedRationale((prev) => ({ ...prev, [idx]: !prev[idx] }));
+  };
+
+  const filteredQuestions = sessionQuestions
+    .map((q, idx) => ({ q, idx, userAns: userAnswers[idx] }))
+    .filter((item) => {
+      const isCorrect = item.userAns === item.q.answer;
+      if (filter === "correct") return isCorrect;
+      if (filter === "incorrect") return !isCorrect;
+      return true;
+    });
+
   const msg =
     pct >= 80
-      ? "Great job! You know your stuff."
+      ? "Outstanding score! You have solid mastery in this topic."
       : pct >= 60
-        ? "Solid effort. Review the misses and go again."
-        : "Every miss is a lesson. You're closer than you think.";
+        ? "Good effort! Review the questions you missed below to master the concepts."
+        : "Keep practicing! Every rationale is an opportunity to strengthen your knowledge.";
 
   return (
-    <section className="mt-10 rounded-3xl border border-border bg-card p-8 text-center">
-      <p className="text-xs font-medium uppercase tracking-[0.18em] text-primary">
-        Session complete
-      </p>
-      <h2 className="mt-2 font-display text-4xl font-semibold tracking-tight">
-        {correct}
-        <span className="text-muted-foreground">/{total}</span>
-      </h2>
-      <p className="mt-1 text-sm text-muted-foreground">{pct}% correct</p>
-      <p className="mx-auto mt-5 max-w-sm text-[15px] text-foreground/85">{msg}</p>
-      <div className="mt-7 flex flex-col justify-center gap-2 sm:flex-row">
-        <button
-          onClick={onRestart}
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:opacity-90"
-        >
-          <RotateCcw className="h-4 w-4" />
-          Try again
-        </button>
-        <button
-          onClick={onChangeSettings}
-          className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-5 py-3 text-sm font-semibold transition-colors hover:bg-accent"
-        >
-          Change question count
-        </button>
-        <Link
-          to="/subject/$subjectId"
-          params={{ subjectId }}
-          className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-5 py-3 text-sm font-semibold transition-colors hover:bg-accent"
-        >
-          Back to banks
-        </Link>
+    <section className="mt-8 space-y-6">
+      {/* Top Results Card */}
+      <div className="rounded-3xl border border-border bg-card p-6 sm:p-8 text-center shadow-xs">
+        <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/15 px-3 py-1 text-xs font-semibold text-primary uppercase tracking-wider">
+          Session Complete
+        </span>
+
+        <h2 className="mt-4 font-display text-4xl sm:text-5xl font-semibold tracking-tight">
+          {correct}
+          <span className="text-muted-foreground font-normal text-3xl"> / {total}</span>
+        </h2>
+
+        <p className="mt-2 text-base font-semibold text-primary">{pct}% Score</p>
+        <p className="mx-auto mt-3 max-w-md text-sm text-muted-foreground">{msg}</p>
+
+        {/* Quick KPI Table Cards */}
+        <div className="mx-auto mt-6 grid max-w-lg grid-cols-3 gap-3">
+          <div className="rounded-2xl border border-border bg-background/60 p-3">
+            <span className="text-xs text-muted-foreground">Total</span>
+            <p className="mt-0.5 text-lg font-bold text-foreground">{total}</p>
+          </div>
+          <div className="rounded-2xl border border-success/30 bg-success/5 p-3">
+            <span className="text-xs text-success">Correct</span>
+            <p className="mt-0.5 text-lg font-bold text-success">{correct}</p>
+          </div>
+          <div className="rounded-2xl border border-destructive/30 bg-destructive/5 p-3">
+            <span className="text-xs text-destructive">Incorrect</span>
+            <p className="mt-0.5 text-lg font-bold text-destructive">{incorrectCount}</p>
+          </div>
+        </div>
+
+        {/* Action Buttons */}
+        <div className="mt-7 flex flex-wrap justify-center gap-2.5">
+          <button
+            onClick={onRestart}
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-5 py-3 text-xs font-semibold text-primary-foreground shadow-xs transition-colors hover:opacity-90 cursor-pointer"
+          >
+            <RotateCcw className="h-4 w-4" />
+            Try Again
+          </button>
+          <button
+            onClick={onChangeSettings}
+            className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-5 py-3 text-xs font-semibold text-foreground transition-colors hover:bg-accent cursor-pointer"
+          >
+            Change Question Count
+          </button>
+          <Link
+            to="/subject/$subjectId"
+            params={{ subjectId }}
+            className="inline-flex items-center justify-center rounded-xl border border-border bg-background px-5 py-3 text-xs font-semibold text-foreground transition-colors hover:bg-accent"
+          >
+            Back to Banks
+          </Link>
+        </div>
+      </div>
+
+      {/* Comprehensive Questions Review Table */}
+      <div className="rounded-3xl border border-border bg-card p-6 sm:p-7 shadow-xs">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border/60 pb-4 mb-4">
+          <div>
+            <h3 className="font-display text-lg font-semibold tracking-tight">
+              Question Breakdown & Review Table
+            </h3>
+            <p className="text-xs text-muted-foreground">
+              Review every answered question, choices, and rationales in a table format.
+            </p>
+          </div>
+
+          {/* Filter Pills */}
+          <div className="flex items-center gap-1.5 rounded-xl border border-border bg-background/60 p-1 self-start sm:self-auto">
+            <button
+              type="button"
+              onClick={() => setFilter("all")}
+              className={[
+                "rounded-lg px-3 py-1 text-xs font-medium transition-colors cursor-pointer",
+                filter === "all"
+                  ? "bg-primary text-primary-foreground font-semibold"
+                  : "text-muted-foreground hover:text-foreground",
+              ].join(" ")}
+            >
+              All ({total})
+            </button>
+            <button
+              type="button"
+              onClick={() => setFilter("incorrect")}
+              className={[
+                "rounded-lg px-3 py-1 text-xs font-medium transition-colors cursor-pointer",
+                filter === "incorrect"
+                  ? "bg-destructive text-destructive-foreground font-semibold"
+                  : "text-muted-foreground hover:text-foreground",
+              ].join(" ")}
+            >
+              Mistakes ({incorrectCount})
+            </button>
+            <button
+              type="button"
+              onClick={() => setFilter("correct")}
+              className={[
+                "rounded-lg px-3 py-1 text-xs font-medium transition-colors cursor-pointer",
+                filter === "correct"
+                  ? "bg-success text-success-foreground font-semibold"
+                  : "text-muted-foreground hover:text-foreground",
+              ].join(" ")}
+            >
+              Correct ({correct})
+            </button>
+          </div>
+        </div>
+
+        {/* Review Table */}
+        <div className="overflow-hidden rounded-2xl border border-border">
+          <Table>
+            <TableHeader className="bg-muted/40">
+              <TableRow>
+                <TableHead className="w-12 text-center text-xs">#</TableHead>
+                <TableHead className="min-w-[200px] text-xs">Question</TableHead>
+                <TableHead className="hidden md:table-cell min-w-[120px] text-xs">
+                  Your Choice
+                </TableHead>
+                <TableHead className="hidden md:table-cell min-w-[120px] text-xs">
+                  Correct Answer
+                </TableHead>
+                <TableHead className="w-24 text-center text-xs">Status</TableHead>
+                <TableHead className="w-24 text-right text-xs">Rationale</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {filteredQuestions.length === 0 ? (
+                <TableRow>
+                  <TableCell colSpan={6} className="h-24 text-center text-xs text-muted-foreground">
+                    No questions match the selected filter.
+                  </TableCell>
+                </TableRow>
+              ) : (
+                filteredQuestions.map(({ q, idx, userAns }) => {
+                  const isCorrect = userAns === q.answer;
+                  const isExpanded = !!expandedRationale[idx];
+
+                  return (
+                    <Fragment key={idx}>
+                      <TableRow className="hover:bg-accent/30">
+                        {/* Number */}
+                        <TableCell className="text-center font-semibold text-xs py-3">
+                          {idx + 1}
+                        </TableCell>
+
+                        {/* Question Text */}
+                        <TableCell className="text-xs font-medium text-foreground py-3">
+                          <p className="line-clamp-2">{q.question}</p>
+                        </TableCell>
+
+                        {/* Your Choice */}
+                        <TableCell className="hidden md:table-cell text-xs py-3">
+                          {userAns !== undefined ? (
+                            <span
+                              className={`inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px] font-medium ${
+                                isCorrect
+                                  ? "bg-success/15 text-success"
+                                  : "bg-destructive/15 text-destructive"
+                              }`}
+                            >
+                              {String.fromCharCode(65 + userAns)}. {q.choices[userAns]}
+                            </span>
+                          ) : (
+                            <span className="text-muted-foreground italic">Skipped</span>
+                          )}
+                        </TableCell>
+
+                        {/* Correct Answer */}
+                        <TableCell className="hidden md:table-cell text-xs py-3">
+                          <span className="inline-flex items-center gap-1 rounded-md bg-muted px-2 py-0.5 text-[11px] font-medium text-foreground">
+                            {String.fromCharCode(65 + q.answer)}. {q.choices[q.answer]}
+                          </span>
+                        </TableCell>
+
+                        {/* Status */}
+                        <TableCell className="text-center py-3">
+                          {isCorrect ? (
+                            <span className="inline-flex items-center gap-1 rounded-full bg-success/15 px-2 py-0.5 text-[11px] font-semibold text-success">
+                              <Check className="h-3 w-3" /> Correct
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center gap-1 rounded-full bg-destructive/15 px-2 py-0.5 text-[11px] font-semibold text-destructive">
+                              <X className="h-3 w-3" /> Wrong
+                            </span>
+                          )}
+                        </TableCell>
+
+                        {/* Rationale Toggle */}
+                        <TableCell className="text-right py-3">
+                          <button
+                            type="button"
+                            onClick={() => toggleRationale(idx)}
+                            className="inline-flex items-center gap-1 rounded-lg border border-border bg-background px-2.5 py-1 text-xs font-medium text-primary hover:bg-accent transition-colors cursor-pointer"
+                          >
+                            <span>{isExpanded ? "Hide" : "View"}</span>
+                            {isExpanded ? (
+                              <ChevronUp className="h-3.5 w-3.5" />
+                            ) : (
+                              <ChevronDown className="h-3.5 w-3.5" />
+                            )}
+                          </button>
+                        </TableCell>
+                      </TableRow>
+
+                      {/* Expandable Rationale Details Row */}
+                      {isExpanded && (
+                        <TableRow className="bg-muted/20">
+                          <TableCell colSpan={6} className="p-4">
+                            <div className="rounded-xl border border-primary/25 bg-background p-4 text-xs space-y-2.5">
+                              <div className="flex items-center gap-2 text-primary font-semibold">
+                                <Sparkles className="h-3.5 w-3.5" />
+                                <span>Question {idx + 1} Detailed Breakdown</span>
+                              </div>
+                              <p className="text-foreground font-medium">{q.question}</p>
+
+                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                                {q.choices.map((c, cIdx) => (
+                                  <div
+                                    key={cIdx}
+                                    className={`rounded-lg border p-2 text-xs flex items-center gap-2 ${
+                                      cIdx === q.answer
+                                        ? "border-success/60 bg-success/10 font-semibold text-success"
+                                        : cIdx === userAns
+                                          ? "border-destructive/60 bg-destructive/10 text-destructive"
+                                          : "border-border/60 bg-muted/30 text-muted-foreground"
+                                    }`}
+                                  >
+                                    <span className="font-bold">
+                                      {String.fromCharCode(65 + cIdx)}.
+                                    </span>
+                                    <span>{c}</span>
+                                    {cIdx === q.answer && (
+                                      <CheckCircle2 className="h-3.5 w-3.5 ml-auto shrink-0" />
+                                    )}
+                                    {cIdx === userAns && cIdx !== q.answer && (
+                                      <XCircle className="h-3.5 w-3.5 ml-auto shrink-0" />
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+
+                              {q.rationale && (
+                                <div className="mt-2 rounded-lg bg-muted/40 p-3 text-muted-foreground leading-relaxed">
+                                  <span className="font-semibold text-foreground">Rationale: </span>
+                                  {q.rationale}
+                                </div>
+                              )}
+                            </div>
+                          </TableCell>
+                        </TableRow>
+                      )}
+                    </Fragment>
+                  );
+                })
+              )}
+            </TableBody>
+          </Table>
+        </div>
       </div>
     </section>
   );

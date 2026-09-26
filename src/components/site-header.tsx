@@ -12,9 +12,7 @@ export function SiteHeader() {
           <span className="grid h-8 w-8 place-items-center rounded-full bg-primary/15 text-primary transition-colors group-hover:bg-primary/25">
             <Heart className="h-4 w-4 fill-current" />
           </span>
-          <span className="font-display text-lg font-semibold tracking-tight">
-            Goodluck, my Love
-          </span>
+          <span className="font-display text-lg font-semibold tracking-tight">VeeRN</span>
         </Link>
         <div className="flex items-center gap-2">
           <Link

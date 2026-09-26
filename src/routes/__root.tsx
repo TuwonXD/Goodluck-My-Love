@@ -74,13 +74,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Goodluck, RNs — PNLE Review" },
+      { title: "KalingaRN — A PNLE Reviewer" },
       {
         name: "description",
         content:
           "A clean, focused PNLE review companion. Browse subjects, pick a test bank, and learn from every question.",
       },
-      { property: "og:title", content: "Goodluck, RNs — PNLE Review" },
+      { property: "og:title", content: "KalingaRN — A PNLE Reviewer" },
       {
         property: "og:description",
         content: "Clean, mobile-first PNLE review. Subjects, test banks, instant rationales.",

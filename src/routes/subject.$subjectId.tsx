@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { ArrowLeft, ArrowRight, ListChecks } from "lucide-react";
+import { ArrowLeft, ArrowRight, ListChecks, HelpCircle } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { findSubject, type TestBank } from "@/lib/quiz-data";
 
@@ -31,48 +31,72 @@ function SubjectPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
-      <main className="mx-auto max-w-3xl px-5 pb-24 pt-8">
+      <main className="mx-auto max-w-4xl px-4 sm:px-6 pb-24 pt-8">
         <Link
           to="/"
-          className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-primary"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
         >
           <ArrowLeft className="h-4 w-4" />
-          All subjects
+          Back to all subjects
         </Link>
 
-        <header className="mt-6 mb-8">
-          <p className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-primary">
-            {subject.short}
+        <header className="mt-6 mb-8 border-b border-border/60 pb-6">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-primary">
+            {subject.short} Area
           </p>
           <h1 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
             {subject.name}
           </h1>
-          <p className="mt-3 text-muted-foreground">{subject.description}</p>
+          <p className="mt-2.5 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+            {subject.description}
+          </p>
         </header>
 
-        <h2 className="mb-3 font-display text-lg font-semibold">Test banks</h2>
-        <ul className="space-y-3">
-          {subject.banks.map((b: TestBank) => (
-            <li key={b.id}>
+        <section>
+          <div className="mb-4 flex items-center justify-between">
+            <h2 className="font-display text-xl font-semibold tracking-tight">
+              Available Test Banks
+            </h2>
+            <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
+              {subject.banks.length} Banks
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            {subject.banks.map((b: TestBank) => (
               <Link
+                key={b.id}
                 to="/quiz/$subjectId/$bankId"
                 params={{ subjectId: subject.id, bankId: b.id }}
-                className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-4 transition-all hover:border-primary/40 hover:bg-accent/40"
+                className="group flex flex-col justify-between rounded-2xl border border-border bg-card p-5 transition-all hover:border-primary/50 hover:bg-accent/40 shadow-2xs hover:shadow-sm"
               >
-                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-primary/10 text-primary">
-                  <ListChecks className="h-5 w-5" />
-                </span>
-                <div className="min-w-0 flex-1">
-                  <h3 className="truncate font-display text-base font-semibold">{b.title}</h3>
-                  <p className="mt-0.5 truncate text-sm text-muted-foreground">
-                    {b.questions.length} questions · {b.description}
-                  </p>
+                <div className="flex items-start gap-3.5">
+                  <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-primary/10 text-primary transition-transform group-hover:scale-105">
+                    <ListChecks className="h-5 w-5" />
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <h3 className="truncate font-display text-base font-semibold text-foreground group-hover:text-primary transition-colors">
+                      {b.title}
+                    </h3>
+                    <p className="mt-1 text-xs leading-relaxed text-muted-foreground line-clamp-2">
+                      {b.description}
+                    </p>
+                  </div>
                 </div>
-                <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:text-primary" />
+
+                <div className="mt-4 flex items-center justify-between border-t border-border/50 pt-3 text-xs text-muted-foreground">
+                  <span className="flex items-center gap-1">
+                    <HelpCircle className="h-3.5 w-3.5 text-primary" />
+                    {b.questions.length} questions
+                  </span>
+                  <span className="inline-flex items-center gap-1 font-semibold text-primary group-hover:translate-x-0.5 transition-transform">
+                    Start Quiz <ArrowRight className="h-3.5 w-3.5" />
+                  </span>
+                </div>
               </Link>
-            </li>
-          ))}
-        </ul>
+            ))}
+          </div>
+        </section>
       </main>
     </div>
   );
