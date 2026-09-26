@@ -74,13 +74,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Goodluck, my Love — PNLE Review" },
+      { title: "Goodluck, RNs — PNLE Review" },
       {
         name: "description",
         content:
           "A clean, focused PNLE review companion. Browse subjects, pick a test bank, and learn from every question.",
       },
-      { property: "og:title", content: "Goodluck, my Love — PNLE Review" },
+      { property: "og:title", content: "Goodluck, RNs — PNLE Review" },
       {
         property: "og:description",
         content: "Clean, mobile-first PNLE review. Subjects, test banks, instant rationales.",
@@ -111,8 +111,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var color = localStorage.getItem('gml-theme-color') || 'pink';
+                  var mode = localStorage.getItem('gml-display-mode') || localStorage.getItem('gml-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                  document.documentElement.setAttribute('data-theme', color);
+                  if (mode === 'dark') {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
         <HeadContent />
       </head>
       <body>

@@ -6,7 +6,7 @@ import { subjects } from "@/lib/quiz-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Goodluck, my Love — PNLE Review" },
+      { title: "Goodluck, RNs — PNLE Review" },
       {
         name: "description",
         content:
@@ -24,7 +24,7 @@ function Index() {
       <main className="mx-auto max-w-3xl px-5 pb-24 pt-10 sm:pt-16">
         <section className="mb-12">
           <p className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-primary">
-            PNLE Review · Made with love
+            PNLE Review
           </p>
           <h1 className="font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">
             To Pass and
@@ -32,7 +32,7 @@ function Index() {
             <span className="text-primary">Top the Board Exams</span>
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground">
-            Hope this helps and mareach mo ang goal mo na maging RN. Goodluck, my love. 💗
+            First Take, Last Take, No Retakes!
           </p>
         </section>
 
@@ -73,9 +73,7 @@ function Index() {
           </ul>
         </section>
 
-        <footer className="mt-16 text-center text-xs text-muted-foreground">
-          HIII LOVEEE!! MWA MWA MWA
-        </footer>
+        <footer className="mt-16 text-center text-xs text-muted-foreground">by Tuwon</footer>
       </main>
     </div>
   );

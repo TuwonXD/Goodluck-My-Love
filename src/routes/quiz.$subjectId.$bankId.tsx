@@ -4,6 +4,7 @@ import { ArrowLeft, Check, X, RotateCcw, Sparkles, Play } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { findBank, findSubject, type Question } from "@/lib/quiz-data";
 import { CorrectAnswerVideoModal } from "@/components/correct-answer-video-modal";
+import { useSettings } from "@/lib/theme";
 
 /** Fisher-Yates shuffle — returns a new array, doesn't mutate the input. */
 function shuffle<T>(arr: T[]): T[] {
@@ -25,9 +26,7 @@ export const Route = createFileRoute("/quiz/$subjectId/$bankId")({
   head: ({ loaderData }) => ({
     meta: [
       {
-        title: loaderData
-          ? `${loaderData.bank.title} — Goodluck, my Love`
-          : "Quiz — Goodluck, my Love",
+        title: loaderData ? `${loaderData.bank.title} — Goodluck, RNs` : "Quiz",
       },
       {
         name: "description",
@@ -53,6 +52,7 @@ function QuizPage() {
   const [revealed, setRevealed] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [done, setDone] = useState(false);
+  const { correctAnswerVideo } = useSettings();
   const [showCorrectVideo, setShowCorrectVideo] = useState(false);
 
   const q = sessionQuestions[index];
@@ -82,7 +82,9 @@ function QuizPage() {
     setRevealed(true);
     if (i === q.answer) {
       setCorrectCount((c) => c + 1);
-      setShowCorrectVideo(true);
+      if (correctAnswerVideo) {
+        setShowCorrectVideo(true);
+      }
     }
   }
 
@@ -227,7 +229,7 @@ function QuizPage() {
                 </div>
                 <p className="text-[15px] leading-relaxed text-foreground/90">
                   {selected === q.answer
-                    ? "WOW YOU GOT IT RIGHT, ETO KISS MWA MWA MWA"
+                    ? "WOW YOU GOT IT RIGHT! Keep going!"
                     : `The correct answer is ${String.fromCharCode(65 + q.answer)}. ${q.choices[q.answer]}`}
                 </p>
                 {q.rationale && (
@@ -368,7 +370,7 @@ function ResultCard({
   const pct = Math.round((correct / total) * 100);
   const msg =
     pct >= 80
-      ? "Ang galing mo lovee, Keep going."
+      ? "Great job! You know your stuff."
       : pct >= 60
         ? "Solid effort. Review the misses and go again."
         : "Every miss is a lesson. You're closer than you think.";
