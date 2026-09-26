@@ -120,24 +120,6 @@ The **Settings Page** (`/settings`) allows full personalization:
 
 ---
 
-## 🤝 Contributing
-
-Contributions, additional question banks, corrections to rationales, and feature enhancements are warmly welcomed!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/NewQuestionBank`)
-3. Commit your Changes (`git commit -m 'Add new PNLE question bank'`)
-4. Push to the Branch (`git push origin feature/NewQuestionBank`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 ## ❤️ Dedication & Acknowledgements
 
 Created with love for **my girlfriend**, and dedicated to every future Filipino Registered Nurse working hard to achieve their nursing license.
