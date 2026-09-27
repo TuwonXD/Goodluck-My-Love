@@ -13,11 +13,13 @@ import {
   CheckCircle2,
   HelpCircle,
   Eye,
+  Lock,
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { Switch } from "@/components/ui/switch";
 import { THEME_OPTIONS, useSettings } from "@/lib/theme";
 import { CorrectAnswerVideoModal } from "@/components/correct-answer-video-modal";
+import { VideoPasscodeModal } from "@/components/video-passcode-modal";
 
 export const Route = createFileRoute("/settings")({
   head: () => ({
@@ -44,7 +46,30 @@ function SettingsPage() {
   } = useSettings();
 
   const [showVideoModal, setShowVideoModal] = useState(false);
+  const [showPasscodeModal, setShowPasscodeModal] = useState(false);
+  const [pendingPreview, setPendingPreview] = useState(false);
   const currentTheme = THEME_OPTIONS.find((t) => t.id === themeColor) ?? THEME_OPTIONS[0];
+
+  const handleToggleVideo = (checked: boolean) => {
+    if (checked) {
+      // Prompt for passcode before turning on
+      setPendingPreview(false);
+      setShowPasscodeModal(true);
+    } else {
+      // Allow turning off directly
+      setCorrectAnswerVideo(false);
+    }
+  };
+
+  const handlePreviewClick = () => {
+    if (correctAnswerVideo) {
+      setShowVideoModal(true);
+    } else {
+      // Prompt for passcode before opening preview
+      setPendingPreview(true);
+      setShowPasscodeModal(true);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col justify-between">
@@ -252,11 +277,17 @@ function SettingsPage() {
                         <Video className="h-5 w-5" />
                       </span>
                       <div>
-                        <h3 className="font-bold text-sm sm:text-base text-foreground">
-                          Correct Answer Video Popup
-                        </h3>
+                        <div className="flex flex-wrap items-center gap-2">
+                          <h3 className="font-bold text-sm sm:text-base text-foreground">
+                            Correct Answer Video Popup
+                          </h3>
+                          <span className="inline-flex items-center gap-1 rounded-md bg-primary/10 border border-primary/20 px-2 py-0.5 text-[10px] font-bold text-primary">
+                            <Lock className="h-3 w-3" />
+                            Passcode Protected
+                          </span>
+                        </div>
                         <p className="mt-0.5 text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                          Play celebration video popup when you answer a question correctly
+                          Kung gusto nyo makiss bawat tamang sagot, open nyo to (baby ko na RN lang nakakaalam ng password)
                         </p>
                       </div>
                     </div>
@@ -267,7 +298,7 @@ function SettingsPage() {
                       </span>
                       <Switch
                         checked={correctAnswerVideo}
-                        onCheckedChange={setCorrectAnswerVideo}
+                        onCheckedChange={handleToggleVideo}
                         aria-label="Toggle correct answer video popup"
                       />
                     </div>
@@ -276,15 +307,31 @@ function SettingsPage() {
                   {/* Video Showcase / Preview Button */}
                   <div className="flex flex-wrap items-center justify-between gap-2.5 border-t border-border/50 pt-3">
                     <span className="text-xs text-muted-foreground">
-                      Want to see what video appears on correct answers?
+                      {correctAnswerVideo
+                        ? "Watch the celebration video in full:"
+                        : "Previewing requires entering the 6-digit passcode:"}
                     </span>
                     <button
                       type="button"
-                      onClick={() => setShowVideoModal(true)}
-                      className="inline-flex items-center gap-2 rounded-xl bg-primary/15 border border-primary/40 px-3.5 py-2 text-xs sm:text-sm font-bold text-primary transition-all hover:bg-primary hover:text-primary-foreground hover:border-primary shadow-2xs cursor-pointer"
+                      onClick={handlePreviewClick}
+                      className={[
+                        "inline-flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs sm:text-sm font-bold transition-all shadow-2xs cursor-pointer",
+                        correctAnswerVideo
+                          ? "bg-primary/15 border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground hover:border-primary"
+                          : "bg-muted/80 border-border text-muted-foreground hover:border-primary/40 hover:text-foreground hover:bg-card",
+                      ].join(" ")}
                     >
-                      <Play className="h-3.5 w-3.5 fill-current" />
-                      <span>Preview Video</span>
+                      {correctAnswerVideo ? (
+                        <>
+                          <Play className="h-3.5 w-3.5 fill-current" />
+                          <span>Preview Video</span>
+                        </>
+                      ) : (
+                        <>
+                          <Lock className="h-3.5 w-3.5" />
+                          <span>Unlock to Preview</span>
+                        </>
+                      )}
                     </button>
                   </div>
                 </div>
@@ -385,6 +432,24 @@ function SettingsPage() {
       {/* Video Preview Modal */}
       {showVideoModal && (
         <CorrectAnswerVideoModal onContinue={() => setShowVideoModal(false)} />
+      )}
+
+      {/* Video Passcode Security Modal */}
+      {showPasscodeModal && (
+        <VideoPasscodeModal
+          onSuccess={() => {
+            setCorrectAnswerVideo(true);
+            setShowPasscodeModal(false);
+            if (pendingPreview) {
+              setShowVideoModal(true);
+              setPendingPreview(false);
+            }
+          }}
+          onCancel={() => {
+            setShowPasscodeModal(false);
+            setPendingPreview(false);
+          }}
+        />
       )}
     </div>
   );
