@@ -144,7 +144,7 @@ function LandingPage() {
       </div>
 
       <footer className="py-4 text-center text-xs text-muted-foreground border-t border-border/40">
-        by Tuwon
+        for Vien, RN. from Tuwon
       </footer>
     </div>
   );
