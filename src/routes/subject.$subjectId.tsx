@@ -1,6 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, ListChecks, HelpCircle } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { findSubject, type TestBank } from "@/lib/quiz-data";
 
 export const Route = createFileRoute("/subject/$subjectId")({
@@ -32,7 +33,7 @@ function SubjectPage() {
     <div className="min-h-screen bg-background text-foreground flex flex-col justify-between">
       <div>
         <SiteHeader />
-        <main className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8 pt-5 sm:pt-7 pb-8">
+        <main className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8 pt-5 sm:pt-7 pb-12">
           <Link
             to="/subjects"
             className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
@@ -106,9 +107,7 @@ function SubjectPage() {
         </main>
       </div>
 
-      <footer className="py-4 text-center text-xs text-muted-foreground border-t border-border/40">
-        by Tuwon
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

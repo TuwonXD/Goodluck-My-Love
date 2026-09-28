@@ -10,6 +10,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { subjects } from "@/lib/quiz-data";
 
 export const Route = createFileRoute("/")({
@@ -143,9 +144,7 @@ function LandingPage() {
         </main>
       </div>
 
-      <footer className="py-4 text-center text-xs text-muted-foreground border-t border-border/40">
-        for Vien, RN. from Tuwon
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

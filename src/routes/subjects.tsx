@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, BookOpen, Layers } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { subjects } from "@/lib/quiz-data";
 
 export const Route = createFileRoute("/subjects")({
@@ -27,7 +28,7 @@ function SubjectsPage() {
     <div className="min-h-screen bg-background text-foreground flex flex-col justify-between">
       <div>
         <SiteHeader />
-        <main className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8 pt-5 sm:pt-7 pb-8">
+        <main className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8 pt-5 sm:pt-7 pb-12">
           {/* Back to Landing Link */}
           <div className="mb-3">
             <Link
@@ -112,9 +113,7 @@ function SubjectsPage() {
         </main>
       </div>
 
-      <footer className="py-4 text-center text-xs text-muted-foreground border-t border-border/40">
-        by Tuwon
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

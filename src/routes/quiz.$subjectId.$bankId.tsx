@@ -17,6 +17,7 @@ import {
   ChevronUp,
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { findBank, findSubject, type Question } from "@/lib/quiz-data";
 import { CorrectAnswerVideoModal } from "@/components/correct-answer-video-modal";
 import { useSettings } from "@/lib/theme";
@@ -149,9 +150,10 @@ function QuizPage() {
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SiteHeader />
-      <main className="mx-auto max-w-4xl px-4 sm:px-6 pb-24 pt-6">
+    <div className="min-h-screen bg-background text-foreground flex flex-col justify-between">
+      <div>
+        <SiteHeader />
+        <main className="mx-auto max-w-4xl px-4 sm:px-6 pb-16 pt-6">
         {/* Navigation Bar */}
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/60 pb-4">
           <Link
@@ -481,6 +483,9 @@ function QuizPage() {
           </div>
         )}
       </main>
+      </div>
+
+      <SiteFooter />
 
       {showCorrectVideo && (
         <CorrectAnswerVideoModal onContinue={() => setShowCorrectVideo(false)} />

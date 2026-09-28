@@ -16,6 +16,7 @@ import {
   Lock,
 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { Switch } from "@/components/ui/switch";
 import { THEME_OPTIONS, useSettings } from "@/lib/theme";
 import { CorrectAnswerVideoModal } from "@/components/correct-answer-video-modal";
@@ -75,7 +76,7 @@ function SettingsPage() {
     <div className="min-h-screen bg-background text-foreground flex flex-col justify-between">
       <div>
         <SiteHeader />
-        <main className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8 py-5 sm:py-6">
+        <main className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8 pt-5 sm:pt-6 pb-12">
           {/* Top Bar Navigation & Header */}
           <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border-b border-border/60 pb-3.5">
             <div className="flex items-center gap-3">
@@ -425,9 +426,7 @@ function SettingsPage() {
         </main>
       </div>
 
-      <footer className="py-4 text-center text-xs text-muted-foreground border-t border-border/40">
-        by Tuwon
-      </footer>
+      <SiteFooter />
 
       {/* Video Preview Modal */}
       {showVideoModal && (
